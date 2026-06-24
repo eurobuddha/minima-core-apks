@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-24 · minima-utxo-wallet 0.1.4 — Review round 2: node checkaddress validation on send; form-agnostic change-coin match; Distribute reservation closes double-start window; bounded image LruCache + off-thread QR/icon decode; NodeApi cancels pending timeouts on destroy; release.sh fails closed when GitHub is unreachable
 - 2026-06-24 · minima-utxo-wallet 0.1.3 — Code-review fixes: validate recipient address (no command injection); Distribute tracks exact change coinid + retries mid-chain failures (no stranded jobs); clamp amounts to token decimals; non-destructive history DB upgrades; debounced reloads; guard callbacks against destroyed activity
 - 2026-06-23 · minima-faucet 0.1.1 — Native Faucet companion app (getaddress over IPC + faucet backend request)
 - 2026-06-23 · minima-utxo-wallet 0.1.2 — Wallet tab: list addresses with coins first, empty addresses below (match the MiniDapp UX)
