@@ -1,0 +1,84 @@
+{
+  "name": "PandaApps",
+  "description": "Native Android companion apps for Minima — eurobuddha's apps plus the official Minima app.",
+  "version": "1.0",
+  "apps": [
+    {
+      "name": "Zero Edge Casino",
+      "packageId": "org.minimarex.casino",
+      "version": "0.5.2",
+      "versionCode": 502,
+      "description": "Provably-fair on-chain casino — coin flip, dice and roulette via a 3-phase commit-reveal contract. Zero house edge.",
+      "category": "Games",
+      "source": "PandaApps",
+      "icon": "",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-native-v0.5.2.apk"
+    },
+    {
+      "name": "Minima UTXO Wallet",
+      "packageId": "org.minimarex.utxo",
+      "version": "0.3.6",
+      "versionCode": 306,
+      "description": "Full UTXO wallet — send & receive, split/consolidate coins, token balances and transaction history.",
+      "category": "Wallet",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.3.6.apk"
+    },
+    {
+      "name": "Minima History",
+      "packageId": "org.minimarex.history",
+      "version": "0.2.1",
+      "versionCode": 201,
+      "description": "Browse and export your node's full transaction history, with on-chain verification.",
+      "category": "Tools",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.2.1.apk"
+    },
+    {
+      "name": "Minima Vestr",
+      "packageId": "org.minimarex.vestr",
+      "version": "0.3.1",
+      "versionCode": 301,
+      "description": "Token-vesting contract manager — create and track scheduled token releases on Minima.",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/vestr.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.3.1.apk"
+    },
+    {
+      "name": "Minima Expert",
+      "packageId": "org.minimarex.expert",
+      "version": "0.4.0",
+      "versionCode": 400,
+      "description": "Offline, on-device Minima knowledge expert — ask about the protocol, TxPoW, MiniDapps and node commands, with citations.",
+      "category": "Tools",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/expert.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.4.0.apk"
+    },
+    {
+      "name": "Minima Faucet",
+      "packageId": "org.minimarex.faucet",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Request test funds from the Minima faucet to your node's wallet address.",
+      "category": "Tools",
+      "source": "PandaApps",
+      "icon": "",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.1.1.apk"
+    },
+    {
+      "name": "Minima",
+      "packageId": "com.minima.android",
+      "version": "1.0.45",
+      "versionCode": 386,
+      "description": "The official Minima node + wallet for Android — run a full Minima node on your phone.",
+      "category": "Core",
+      "source": "Official",
+      "icon": "",
+      "file": "https://github.com/minima-global/Minima/releases/download/v1.0.45/minima.apk"
+    }
+  ]
+}
