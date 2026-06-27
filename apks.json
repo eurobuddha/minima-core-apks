@@ -12,7 +12,8 @@
       "category": "Games",
       "source": "PandaApps",
       "icon": "",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-native-v0.5.2.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-native-v0.5.2.apk",
+      "sha256": "21070f34e96f2ddc2e54cbcfee02a0cee0f219028515d50814e9c4baa33d00a4"
     },
     {
       "name": "Minima UTXO Wallet",
@@ -23,7 +24,8 @@
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.3.6.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.3.6.apk",
+      "sha256": "56711fefd29ffb4853c22a04a4f85c0d69d5996662709be03a491933da539d6c"
     },
     {
       "name": "Minima History",
@@ -34,7 +36,8 @@
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.2.1.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.2.1.apk",
+      "sha256": "053b05a3f8640af1d9d1fd3c3a8c81ec47fbc1918868180d1363434c024633a8"
     },
     {
       "name": "Minima Vestr",
@@ -45,7 +48,8 @@
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/vestr.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.3.1.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.3.1.apk",
+      "sha256": "c6d7fe044051402671f663e321778b969972e42a040d0993b7444e7ebe101778"
     },
     {
       "name": "Minima Expert",
@@ -56,7 +60,8 @@
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/expert.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.4.0.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.4.0.apk",
+      "sha256": "3ab6e6ae7fc80ceaceefe994bece361b4bc47976269ca9f03241c512cd00ffaa"
     },
     {
       "name": "Minima Faucet",
@@ -67,7 +72,8 @@
       "category": "Tools",
       "source": "PandaApps",
       "icon": "",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.1.1.apk"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.1.1.apk",
+      "sha256": "2b1d6292a6774715fd49a875db53a4c7006fa145f0139816130370ac621bdc29"
     },
     {
       "name": "Minima",
@@ -78,7 +84,8 @@
       "category": "Core",
       "source": "Official",
       "icon": "",
-      "file": "https://github.com/minima-global/Minima/releases/download/v1.0.45/minima.apk"
+      "file": "https://github.com/minima-global/Minima/releases/download/v1.0.45/minima.apk",
+      "sha256": "c7c7ebc66e0f1fe3bd2fd3ed3f7aff2addfe744a7af72b5c5f3ed8d077462042"
     }
   ]
 }
