@@ -11,7 +11,7 @@
       "description": "Provably-fair on-chain casino — coin flip, dice and roulette via a 3-phase commit-reveal contract. Zero house edge.",
       "category": "Games",
       "source": "PandaApps",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-native-v0.5.2.apk",
       "sha256": "21070f34e96f2ddc2e54cbcfee02a0cee0f219028515d50814e9c4baa33d00a4"
     },
@@ -71,7 +71,7 @@
       "description": "Request test funds from the Minima faucet to your node's wallet address.",
       "category": "Tools",
       "source": "PandaApps",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/faucet.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.1.1.apk",
       "sha256": "2b1d6292a6774715fd49a875db53a4c7006fa145f0139816130370ac621bdc29"
     },
@@ -83,7 +83,7 @@
       "description": "The official Minima node + wallet for Android — run a full Minima node on your phone.",
       "category": "Core",
       "source": "Official",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
       "file": "https://github.com/minima-global/Minima/releases/download/v1.0.45/minima.apk",
       "sha256": "c7c7ebc66e0f1fe3bd2fd3ed3f7aff2addfe744a7af72b5c5f3ed8d077462042"
     },
@@ -95,7 +95,7 @@
       "description": "Run Minima Core node commands from a full on-device terminal, backed by your local node.",
       "category": "Tools",
       "source": "Official",
-      "icon": "",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
       "file": "https://raw.githubusercontent.com/spartacusrex-minima/minima-core-android-terminal/master/dist/terminal-1.0.apk",
       "sha256": "eef62065910753b7b954d9a62b77f43897fe18de3d1a39a11d4a2b61c0914430"
     }
