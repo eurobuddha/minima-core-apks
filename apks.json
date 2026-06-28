@@ -64,6 +64,18 @@
       "sha256": "c6d7fe044051402671f663e321778b969972e42a040d0993b7444e7ebe101778"
     },
     {
+      "name": "FutureCash",
+      "packageId": "org.minimarex.futurecash",
+      "version": "0.1.3",
+      "versionCode": 103,
+      "description": "Send Minima or tokens to the future — lock funds until a block you choose; the recipient collects when it matures. Interoperable with the FutureCash MiniDapp.",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecash.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.1.3.apk",
+      "sha256": "cc355fd3fb15dd04e9669aa9d37d97b9a1271da417de3f374533ca35de115a27"
+    },
+    {
       "name": "Minima Expert",
       "packageId": "org.minimarex.expert",
       "version": "0.4.0",
