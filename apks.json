@@ -100,18 +100,6 @@
       "sha256": "2b1d6292a6774715fd49a875db53a4c7006fa145f0139816130370ac621bdc29"
     },
     {
-      "name": "Minima Core",
-      "packageId": "org.minimarex.minimacore",
-      "version": "1.2.4",
-      "versionCode": 18,
-      "description": "Run a full Minima Core node on Android. This is the node the companion apps connect to.",
-      "category": "Core",
-      "source": "Official",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
-      "file": "https://raw.githubusercontent.com/spartacusrex-minima/minima-core-android/main/dist/minima-1.2.4.apk",
-      "sha256": "4d22a8f1eec6dfeb4c94dd8f0825c30acc1c0b71873816116b55e76a6ff8a438"
-    },
-    {
       "name": "Minima Terminal",
       "packageId": "org.minimarex.terminal",
       "version": "1.0",
