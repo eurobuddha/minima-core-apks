@@ -147,6 +147,28 @@
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.1.1-mac.dmg"
     },
     {
+      "name": "miniMall Studio (Windows installer)",
+      "packageId": "org.minimarex.merchstudio.win",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Desktop build of miniMall Studio for Windows — downloads a one-click installer (.exe). Run it on Windows to install (a download, not an Android install).",
+      "category": "Desktop",
+      "source": "Windows",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
+      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1-Setup.exe"
+    },
+    {
+      "name": "miniMall Studio (Windows portable)",
+      "packageId": "org.minimarex.merchstudio.win-portable",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Portable Windows build — downloads a standalone .exe (no install). Run it on Windows and the studio opens in your browser.",
+      "category": "Desktop",
+      "source": "Windows",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
+      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1.exe"
+    },
+    {
       "name": "Minima Core",
       "packageId": "org.minimarex.minimacore",
       "version": "1.2.4",
