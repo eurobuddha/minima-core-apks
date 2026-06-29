@@ -100,6 +100,53 @@
       "sha256": "2b1d6292a6774715fd49a875db53a4c7006fa145f0139816130370ac621bdc29"
     },
     {
+      "name": "miniMall",
+      "packageId": "org.minimarex.merchshop",
+      "version": "0.2.1",
+      "versionCode": 201,
+      "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free.",
+      "category": "Shopping",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.2.1.apk",
+      "sha256": "ae22ffd6aa5d0e6b2e491f209b2ec6178f99ba1ac2247afcf74525176f89a395"
+    },
+    {
+      "name": "miniMall Inbox",
+      "packageId": "org.minimarex.merchinbox",
+      "version": "0.2.1",
+      "versionCode": 201,
+      "description": "Vendor order manager — receive and manage orders across all your shops (PAID → CONFIRMED → SHIPPED), tagged by shop, with order chat + CSV export.",
+      "category": "Shopping",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.2.1.apk",
+      "sha256": "8ba6318d1c1ff39d96a98217c48033c00b32c8145f2ea92c14145e3f60d9b7c9"
+    },
+    {
+      "name": "miniMall Studio",
+      "packageId": "org.minimarex.merchstudio",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Build a shop on your phone — products, photos, shipping — keyed to your node, then export a .shop bundle to share with customers.",
+      "category": "Shopping",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.1.1.apk",
+      "sha256": "94a76417c326bcfb9febf78f194aeccc479f1391ec199bf3c36136fefe8cdb88"
+    },
+    {
+      "name": "miniMall Studio (Mac)",
+      "packageId": "org.minimarex.merchstudio.mac",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Desktop build of miniMall Studio for macOS — downloads a .dmg (a download, not an Android install). Open it on a Mac to install.",
+      "category": "Desktop",
+      "source": "Mac",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-mac.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.1.1-mac.dmg"
+    },
+    {
       "name": "Minima Core",
       "packageId": "org.minimarex.minimacore",
       "version": "1.2.4",
