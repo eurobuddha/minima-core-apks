@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.2.6 — Fix MINIMA/USDT market convention: prices are USDT per MINIMA (MINIMA's USD price); you Buy/Sell MINIMA — buy at the higher (ask), sell at the lower (bid). Order editor, order book display, take-order flow and the two fund-safety order-match guards all rewritten to this convention (was inverted: USDT-as-base, MINIMA-per-USDT). Re-set + re-publish your order on this build.
 - 2026-06-30 · minimaSwap 0.2.5 — ETH/Minima balances now auto-refresh every ~90s + a manual Refresh button on the wallet — balances were only fetched once at pairing, so funding after open required an app restart to show
 - 2026-06-30 · minimaSwap 0.2.4 — Fix order book always empty: the shared MINIMASWAP address returns 0 coins with relevant:false until tracked, so scan now coinnotify-adds the address then queries bare (depth-bounded) — verified the published order is now read. Order book shows all makers' orders.
 - 2026-06-30 · minimaSwap 0.2.3 — Fix Samsung-keyboard input scramble (0.0054->0.0045 / cursor jump): decimal fields now use a non-composing input mode (visible-password text variation) + a digit/dot InputFilter, so the IME can't reorder keystrokes. Also suppress background render() while a dialog is open.
