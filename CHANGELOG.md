@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.3.7 — Order book redesign: centred per-maker two-sided rows — bidSize · bidPrice │ askPrice · askSize, maker tag above, best bid/ask highlighted, spread + legend on top. Tap the bid (left, green) half to Sell MINIMA, the ask (right, red) half to Buy MINIMA. Replaces the split two-column layout.
 - 2026-06-30 · minimaSwap 0.3.6 — Diagnostic: long-press the Minima card to dump every coin the node counts as relevant (amount + address, tagged for swap HTLC / order book) so balance discrepancies are explainable — likely the shared order-book/HTLC/casino coins inflating confirmed vs a plain wallet.
 - 2026-06-30 · minimaSwap 0.3.5 — Show full Minima balance breakdown so it's not a black box: card now shows tradeable (sendable), confirmed, locked (~confirmed-sendable), unconfirmed, coin count, and an 'updated Ns ago' stamp (so you can tell the balance is actually re-fetching). Note: the node's 'total' field is the coin SUPPLY (1bn), not your holdings — your real total is confirmed+unconfirmed.
 - 2026-06-30 · minimaSwap 0.3.4 — Periodic auto-republish: once you Publish, your order is re-broadcast every ~30 min with a fresh sendable balance (foreground AND via the background service), so it stays live in the book and its advertised size never goes stale. Opt-in on first Publish; stops if you disable all pairs.
