@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minima-limit 0.1.3 — Faithful UI clone of the web dapp (light theme, Inter/JetBrains, all 4 tabs); self-fill BUY/SELL on every order; V1-V4 book read; foreground+background fill alerts & service survival; order-form decimal + no-rebuild input fixes
 - 2026-06-29 · miniMall-Studio 0.1.1 — miniMall studio — build a shop on your phone (products, photos, shipping), keyed to your node, and export a .shop bundle to share with customers.
 - 2026-06-29 · miniMall-Inbox 0.2.1 — miniMall vendor inbox — receive + manage orders across all your shops (PAID→SHIPPED), tagged by shop, with order chat + CSV export.
 - 2026-06-29 · miniMall-Shop 0.2.1 — miniMall storefront — add shops a vendor shares (.shop bundles), browse, and order with Minima or mxUSDT (Maxima-free, on-chain encrypted).
