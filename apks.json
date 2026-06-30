@@ -78,14 +78,14 @@
     {
       "name": "Minima Limit",
       "packageId": "org.minimarex.limit",
-      "version": "0.1.8",
-      "versionCode": 108,
-      "description": "On-chain limit-order DEX for MINIMA/USDT — place buy & sell orders at your price; trustless full-fill swaps via a VERIFYOUT smart contract. Shares the same order book as the Limit MiniDapp.",
+      "version": "0.2.0",
+      "versionCode": 200,
+      "description": "On-chain limit-order DEX for MINIMA/USDT — place buy & sell orders at your price; trustless full-fill swaps via a VERIFYOUT smart contract. Good-till-cancelled orders auto-renew so they never expire. Shares the same order book as the Limit MiniDapp.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/limit.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-limit-0.1.8.apk",
-      "sha256": "b4cf27e96ee961bb3bc1d23f54bd2cc08a909fa8f91c4076e24919d47f0bd60f"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-limit-0.2.0.apk",
+      "sha256": "b0f7d6aaf9b669504db7db9ce2de9f504c3e4e95ee2239235892a75f808c4e9b"
     },
     {
       "name": "Minima Expert",
