@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.3.9 — Balance breakdown readability: the confirmed/locked/unconfirmed/coins/updated line is now the brighter DIM grey (matching the swaps pane) at a slightly larger size, instead of the hard-to-read dim-on-dark.
 - 2026-06-30 · minimaSwap 0.3.8 — Refresh the wallet balance immediately when a swap claims or refunds (onSwapsChanged now also re-fetches balances), instead of waiting for the next 90s tick — so returned/received funds show right away (the refunded coin appears in 'unconfirmed' first, then 'sendable' after a few blocks).
 - 2026-06-30 · minimaSwap 0.3.7 — Order book redesign: centred per-maker two-sided rows — bidSize · bidPrice │ askPrice · askSize, maker tag above, best bid/ask highlighted, spread + legend on top. Tap the bid (left, green) half to Sell MINIMA, the ask (right, red) half to Buy MINIMA. Replaces the split two-column layout.
 - 2026-06-30 · minimaSwap 0.3.6 — Diagnostic: long-press the Minima card to dump every coin the node counts as relevant (amount + address, tagged for swap HTLC / order book) so balance discrepancies are explainable — likely the shared order-book/HTLC/casino coins inflating confirmed vs a plain wallet.
