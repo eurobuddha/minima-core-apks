@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minima-limit 0.1.6 — Fix price entry: add configChanges so the soft keyboard no longer recreates the Activity and wipes the field; suspend reload loop while typing (with stuck-flag guards); price hint 0.00000
 - 2026-06-30 · minima-limit 0.1.5 — Footer shows real BuildConfig version; prices display 5 decimals everywhere; price-entry refresh-freeze fix carried forward
 - 2026-06-30 · minimaSwap 0.2.0 — Native MINIMA<->USDT cross-chain HTLC atomic swaps (mainnet): end-to-end swap engine + chain watcher/resume both directions; on-chain peer discovery; stable 64-key Minima identity; ETH receive QR + private-key export
 - 2026-06-30 · minima-limit 0.1.4 — Fix price/amount entry scrambling: skip view-tree refresh while a field is focused (was disrupting the keyboard); drop DigitsKeyListener; tolerate locale comma decimal
