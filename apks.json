@@ -102,14 +102,14 @@
     {
       "name": "Minima ETH Wallet",
       "packageId": "org.minimarex.ethwallet",
-      "version": "0.1.0",
-      "versionCode": 100,
+      "version": "0.1.2",
+      "versionCode": 102,
       "description": "Standalone Ethereum/ERC20 wallet sharing minimaSwap's address \u2014 manage tokens, send/receive (QR), add any ERC20 by contract address, live gas preview, view activity on Etherscan. Same address via node-pair or one-time key import.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/ethwallet.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ethwallet-0.1.0.apk",
-      "sha256": "0ae4de3f09ed274b9a369bc74010bf2fb00bc7b2bed8f17738efb9f30fcbb089"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ethwallet-0.1.2.apk",
+      "sha256": "aab5f31287556834e88b538c3fd3c1af1a34eb7e8fd79a85cdaa2feac0fc767a"
     },
     {
       "name": "Minima Expert",
