@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.2.0 — Native MINIMA<->USDT cross-chain HTLC atomic swaps (mainnet): end-to-end swap engine + chain watcher/resume both directions; on-chain peer discovery; stable 64-key Minima identity; ETH receive QR + private-key export
 - 2026-06-30 · minima-limit 0.1.4 — Fix price/amount entry scrambling: skip view-tree refresh while a field is focused (was disrupting the keyboard); drop DigitsKeyListener; tolerate locale comma decimal
 - 2026-06-30 · minima-limit 0.1.3 — Faithful UI clone of the web dapp (light theme, Inter/JetBrains, all 4 tabs); self-fill BUY/SELL on every order; V1-V4 book read; foreground+background fill alerts & service survival; order-form decimal + no-rebuild input fixes
 - 2026-06-29 · miniMall-Studio 0.1.1 — miniMall studio — build a shop on your phone (products, photos, shipping), keyed to your node, and export a .shop bundle to share with customers.
