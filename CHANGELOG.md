@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.3.11 — Hidden finished swaps are now viewable (tap 'N finished swaps hidden' → history list); current Minima block height shown in the header (v… · block N · MINIMA↔USDT) for sync/timing checks.
 - 2026-06-30 · minimaSwap 0.3.10 — Finished swaps clear from Your swaps: complete/refunded/error cards auto-hide ~10 min after they finish, plus a ✕ to dismiss immediately (a 'N finished swaps hidden' note remains; DB history kept). Stops old terminal cards cluttering the pane.
 - 2026-06-30 · minimaSwap 0.3.9 — Balance breakdown readability: the confirmed/locked/unconfirmed/coins/updated line is now the brighter DIM grey (matching the swaps pane) at a slightly larger size, instead of the hard-to-read dim-on-dark.
 - 2026-06-30 · minimaSwap 0.3.8 — Refresh the wallet balance immediately when a swap claims or refunds (onSwapsChanged now also re-fetches balances), instead of waiting for the next 90s tick — so returned/received funds show right away (the refunded coin appears in 'unconfirmed' first, then 'sendable' after a few blocks).
