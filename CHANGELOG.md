@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minima-limit 0.1.7 — Apply remaining code-review fixes: Util.dec preserves grouping comma (only swaps a lone comma decimal); reload() re-checks inputFocused at fire-time so a blur-posted reload can't run mid-typing when hopping fields
 - 2026-06-30 · minimaSwap 0.2.1 — Fix mainnet ETH RPC failure (eth_getBalance parse error): default endpoint eth.llamarpc.com was returning HTTP 521; switch default to publicnode + add automatic keyless-endpoint fallback (publicnode->drpc->1rpc) so one down/rate-limited node can't block reads or broadcasts
 - 2026-06-30 · minima-limit 0.1.6 — Fix price entry: add configChanges so the soft keyboard no longer recreates the Activity and wipes the field; suspend reload loop while typing (with stuck-flag guards); price hint 0.00000
 - 2026-06-30 · minima-limit 0.1.5 — Footer shows real BuildConfig version; prices display 5 decimals everywhere; price-entry refresh-freeze fix carried forward
