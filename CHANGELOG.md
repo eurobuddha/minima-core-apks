@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.2.3 — Fix Samsung-keyboard input scramble (0.0054->0.0045 / cursor jump): decimal fields now use a non-composing input mode (visible-password text variation) + a digit/dot InputFilter, so the IME can't reorder keystrokes. Also suppress background render() while a dialog is open.
 - 2026-06-30 · minima-limit 0.1.8 — Debounce the order total so no per-keystroke setText runs during typing — fixes Samsung-keyboard fast-typing cursor scramble in the price field (field verified correct via direct injection)
 - 2026-06-30 · minimaSwap 0.2.2 — Diagnose RPC failures: show app version on-screen (confirm installed build) + RPC errors now report host+HTTP status+body snippet for each endpoint tried, instead of a generic parse error
 - 2026-06-30 · minima-limit 0.1.7 — Apply remaining code-review fixes: Util.dec preserves grouping comma (only swaps a lone comma decimal); reload() re-checks inputFocused at fire-time so a blur-posted reload can't run mid-typing when hopping fields
