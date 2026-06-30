@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-06-30 · minimaSwap 0.4.0 — Keyless Buy-MINIMA: after the buyer locks USDT it seals its hashlock to the maker over a new take-request channel; the maker discovers the USDT lock via getContract(sha256(hash)) (eth_call, free-RPC-safe) instead of eth_getLogs, then runs the existing buy-responder code to lock MINIMA. Roles/timelocks/secret-holder unchanged. New: SwapTake channel, CommsScanner on the take address in MainActivity + SwapService (service now builds its crypto provider), persisted incoming hashlocks, engine.addIncomingHashlock + getContract discovery loop.
 - 2026-06-30 · minimaSwap 0.3.11 — Hidden finished swaps are now viewable (tap 'N finished swaps hidden' → history list); current Minima block height shown in the header (v… · block N · MINIMA↔USDT) for sync/timing checks.
 - 2026-06-30 · minimaSwap 0.3.10 — Finished swaps clear from Your swaps: complete/refunded/error cards auto-hide ~10 min after they finish, plus a ✕ to dismiss immediately (a 'N finished swaps hidden' note remains; DB history kept). Stops old terminal cards cluttering the pane.
 - 2026-06-30 · minimaSwap 0.3.9 — Balance breakdown readability: the confirmed/locked/unconfirmed/coins/updated line is now the brighter DIM grey (matching the swaps pane) at a slightly larger size, instead of the hard-to-read dim-on-dark.
