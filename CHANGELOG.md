@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-01 · minima-utxo-wallet 0.3.15 — Minima coin icon now matches the latest official wallet (dark square, white M) rather than the older orange version that shipped on the node app.
 - 2026-07-01 · minima-utxo-wallet 0.3.14 — Minima coin now shows the OFFICIAL Minima coin icon (taken from the official Minima wallet itself, since the native coin carries no on-chain icon and even the utxo dapp drew it wrong), and carries the verified checkmark as the native coin. Correct icon, verified render.
 - 2026-07-01 · minima-utxo-wallet 0.3.13 — Minima coin shows the real Minima logo (the native 0x00 coin carries no icon in its own data — verified — so it's the official Minima mark, like every wallet). History: fixed the light-mode background (it was dark), and transactions are green for incoming / red for outgoing. Web-validation checkmark confirmed on USDT, WOTS, WUSD Test, Winiwa Test.
 - 2026-07-01 · minima-utxo-wallet 0.3.12 — SVG token icons now render (USDT + other SVG tokens showed only the identicon before — Android can't rasterise SVG without a library). Plus: a blue web-validation checkmark badge on tokens whose webvalidate URL hosts their tokenid (domain-ownership proof), like the official wallet. (Minima coin still on the M glyph pending the real logo.)
