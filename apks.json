@@ -30,14 +30,14 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "org.minimarex.utxo",
-      "version": "0.3.11",
-      "versionCode": 311,
+      "version": "0.3.12",
+      "versionCode": 312,
       "description": "Full UTXO wallet \u2014 send & receive, split/consolidate coins, token balances and transaction history.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.3.11.apk",
-      "sha256": "e93a47add09278fbfa2c116802976580b6b5714a10138c0dd9e2d0d4a0b5d310"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.3.12.apk",
+      "sha256": "7969858a0cf70a9d3354c37bca491f303a29bd93a703cb9b3610e2adc1acdbfe"
     },
     {
       "name": "Minima History",
