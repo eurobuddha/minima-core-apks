@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-01 · minima-utxo-wallet 0.3.19 — Two fixes: (1) the on-screen keyboard no longer covers the Send fields — they now sit above it and scroll. (2) Switching dark/light no longer resets a populated Send form or your coin selection — selection, typed fields, and the open tab are preserved across the theme change.
 - 2026-07-01 · minima-utxo-wallet 0.3.18 — Wallet tab is now a faithful clone of the utxo dapp's coin selection: each address is a bordered card (grey header strip, total/count meta row, CONTRACT badge for script addresses), coins are brutalist square accent checkboxes with bold monospace amounts, per-row dividers, and accent-soft selected rows. Selection + sending logic unchanged. Plus the Minima coin now shows the official MediaKit M (brand-black) on a white tile.
 - 2026-07-01 · minima-utxo-wallet 0.3.17 — Minima coin now uses the official Minima logo mark loaded verbatim from the Minima brand MediaKit (the three-bar M), shown on the themed icon tile — no longer a built or recoloured icon.
 - 2026-07-01 · minima-utxo-wallet 0.3.16 — Send confirm modal is now readable in light mode (its content background was fixed-dark while the text adapted). Wallet tab: monospace coin amounts + correct accent checkbox tint.
