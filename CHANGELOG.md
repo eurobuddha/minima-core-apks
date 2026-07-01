@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-01 · minima-utxo-wallet 0.3.17 — Minima coin now uses the official Minima logo mark loaded verbatim from the Minima brand MediaKit (the three-bar M), shown on the themed icon tile — no longer a built or recoloured icon.
 - 2026-07-01 · minima-utxo-wallet 0.3.16 — Send confirm modal is now readable in light mode (its content background was fixed-dark while the text adapted). Wallet tab: monospace coin amounts + correct accent checkbox tint.
 - 2026-07-01 · minima-utxo-wallet 0.3.15 — Minima coin icon now matches the latest official wallet (dark square, white M) rather than the older orange version that shipped on the node app.
 - 2026-07-01 · minima-utxo-wallet 0.3.14 — Minima coin now shows the OFFICIAL Minima coin icon (taken from the official Minima wallet itself, since the native coin carries no on-chain icon and even the utxo dapp drew it wrong), and carries the verified checkmark as the native coin. Correct icon, verified render.
