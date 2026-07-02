@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-03 · minimaSwap 0.9.2 — Order-book layout for the ladder editor: ASKS now stack with the best (lowest) ask at the bottom next to the bids (A6 top -> A1 bottom), spread in the middle. Carries the 0.9.1 clean-number formatting.
 - 2026-07-03 · minimaSwap 0.9.1 — Ladder editor polish: round quick-generate and prefilled amounts to clean values (no more binary float noise like 0.005979999999).
 - 2026-07-03 · minimaSwap 0.9.0 — Maker DEPTH LADDER: publish up to 6 bid + 6 ask tranches, each with its own price and size, for a deeper, more liquid pool. Per-take cap matching, aggregated depth order book, quick-generate ladder editor. Fully back-compatible with 0.8.2 single-price orders.
 - 2026-07-02 · minimaSwap 0.8.2 — Swap: enter EITHER the MINIMA or the USDT amount — both fields are editable now (bidirectional). Wallet: token balances (USDT) shown as full-size cards, as prominent as MINIMA and ETH.
