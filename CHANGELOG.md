@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-03 · minimaSwap 0.9.1 — Ladder editor polish: round quick-generate and prefilled amounts to clean values (no more binary float noise like 0.005979999999).
 - 2026-07-03 · minimaSwap 0.9.0 — Maker DEPTH LADDER: publish up to 6 bid + 6 ask tranches, each with its own price and size, for a deeper, more liquid pool. Per-take cap matching, aggregated depth order book, quick-generate ladder editor. Fully back-compatible with 0.8.2 single-price orders.
 - 2026-07-02 · minimaSwap 0.8.2 — Swap: enter EITHER the MINIMA or the USDT amount — both fields are editable now (bidirectional). Wallet: token balances (USDT) shown as full-size cards, as prominent as MINIMA and ETH.
 - 2026-07-02 · ethwallet 0.1.4 — ETH + every ERC20 token now render as identical big accent balance cards, each with a currency icon (Trust Wallet logos by EIP-55 address; lettered-disc fallback). New IconLoader (cached, size-capped, bounded pool). No send/fund change.
