@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-02 · minima-limit 0.2.3 — Code-review fix: GTC renewal re-post guard now waits by BLOCK height, not by process()-scan count (NEWBALANCE bursts could elapse the scan-based wait before a recreate mined and post a duplicate → double-locked funds). RENEW_AT=500's more frequent renewals made this more likely.
 - 2026-07-02 · minima-limit 0.2.2 — GTC reliability: renew at age 500 (was 1300) so the renewal window is ~14h not ~2.7h — any foreground open or background scan in that window keeps the order alive. Pairs with the 0.2.1 service-crash fix (the background renewer is what died on Android 14).
 - 2026-07-01 · minima-utxo-wallet 0.3.21 — Follow-up to the review hardening: the theme-toggle state restore now repaints only the tab you were on instead of refreshing every view.
 - 2026-07-01 · minima-utxo-wallet 0.3.20 — Hardening from a code review: token-icon downloads are now size-capped (a hostile token url can no longer OOM the app), icon/web-validation fetches can't be pointed at your device's loopback/LAN (e.g. the node's own RPC), network loads use bounded thread pools, stale callbacks after a theme switch are dropped, and the balances list no longer re-renders once per icon (much smoother with many tokens).
