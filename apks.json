@@ -219,14 +219,14 @@
     {
       "name": "Minima Terminal",
       "packageId": "org.minimarex.terminal",
-      "version": "1.0",
-      "versionCode": 1,
+      "version": "1.1",
+      "versionCode": 2,
       "description": "Run Minima Core node commands from a full on-device terminal, backed by your local node.",
       "category": "Tools",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
-      "file": "https://raw.githubusercontent.com/spartacusrex-minima/minima-core-android-terminal/master/dist/terminal-1.0.apk",
-      "sha256": "eef62065910753b7b954d9a62b77f43897fe18de3d1a39a11d4a2b61c0914430"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.1.apk",
+      "sha256": "c5f8e854e11e0d63002364c4f16f02cf9e3d7cd9acc49441974dcafac3507e21"
     }
   ]
 }
