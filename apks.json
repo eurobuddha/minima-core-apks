@@ -231,14 +231,14 @@
     {
       "name": "Minima Wallet",
       "packageId": "org.minimarex.wallet",
-      "version": "0.1.2",
-      "versionCode": 102,
+      "version": "0.1.3",
+      "versionCode": 103,
       "description": "Self-custodial Minima wallet \u2014 signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.1.2.apk",
-      "sha256": "0c5745a82d529f063d3a042eef714f5483fa99b86b9702fab35920ce82dd1c70"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.1.3.apk",
+      "sha256": "8b14f2954805e306db2626e8b314faf1160f966e83cbf496e643c91d5e4922f1"
     }
   ]
 }
