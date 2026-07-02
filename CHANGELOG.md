@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-02 · ethwallet 0.1.3 — Fix: native ETH sends failed with a NullPointerException (null tx data passed to web3j). Coerce dataless transfers to empty data. ERC20 token sends were unaffected.
 - 2026-07-02 · minimaSwap 0.8.1 — Fix: Swap-tab status/stages froze on a prior render (stuck typing-guard) so live swap progress didn't update; now clears on every Swap action and refreshes live. Also shows the swap you just started (by created time) + a '+N more in flight' hint and a which-swap header. Presentation only.
 - 2026-07-02 · minima-wallet 0.1.5 — Restore historic coins: Settings screen to recover coins funded BEFORE the wallet started tracking its address. Paste a coinexport blob from a MegaMMR node -> the wallet runs coincheck (validate against local MMR) then coinimport track:true (insert + mark relevant/spendable), then refreshes balances. All non-admin, keys never leave the device. Also shows the advanced whole-node 'megammrsync action:resync' command (display/copy only - the wallet never runs it).
 - 2026-07-02 · minimaSwap 0.8.0 — Faithful Swap screen: inline You-send/⇅/You-receive card with live cross-currency conversion, plus live swap-leg stage stepper (node/funds ready → locked → counterparty → claim → complete). No engine change.
