@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-02 · minimaSwap 0.8.0 — Faithful Swap screen: inline You-send/⇅/You-receive card with live cross-currency conversion, plus live swap-leg stage stepper (node/funds ready → locked → counterparty → claim → complete). No engine change.
 - 2026-07-02 · minima-wallet 0.1.4 — Node-layer fix — the wallet now TRACKS its own address on the node (newscript trackall:true) so a regular (non-MegaMMR) node indexes its coins, reads them via 'coins relevant:true', and publishes locally-signed spends via txnimport -> txnbasics -> txnpost (no auto:true, which silently fails for script-address coins). Fixes the empty balance (fresh receives now appear) and a latent spend bug. Self-custody unchanged (own seed, local signing, keys never leave the device). Historic coins funded BEFORE tracking need a one-time restore (megammrsync resync, or coinimport).
 - 2026-07-02 · minimaSwap 0.7.1 — Code-review polish on the visual overhaul: tab cross-fade now only on tab switches (no per-refresh flicker), CTA shadow no longer clipped, pairing-banner recolor hardened.
 - 2026-07-02 · minimaSwap 0.7.0 — Slick visual overhaul: Onyx (dark) + Daylight (light) themes with a toggle, bundled Inter/JetBrains Mono fonts, vector-icon bottom tab bar, hairline cards, gradient CTA and subtle motion. Presentation-only, no engine change.
