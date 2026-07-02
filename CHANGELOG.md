@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-02 · minimaSwap 0.8.2 — Swap: enter EITHER the MINIMA or the USDT amount — both fields are editable now (bidirectional). Wallet: token balances (USDT) shown as full-size cards, as prominent as MINIMA and ETH.
 - 2026-07-02 · ethwallet 0.1.4 — ETH + every ERC20 token now render as identical big accent balance cards, each with a currency icon (Trust Wallet logos by EIP-55 address; lettered-disc fallback). New IconLoader (cached, size-capped, bounded pool). No send/fund change.
 - 2026-07-02 · ethwallet 0.1.3 — Fix: native ETH sends failed with a NullPointerException (null tx data passed to web3j). Coerce dataless transfers to empty data. ERC20 token sends were unaffected.
 - 2026-07-02 · minimaSwap 0.8.1 — Fix: Swap-tab status/stages froze on a prior render (stuck typing-guard) so live swap progress didn't update; now clears on every Swap action and refreshes live. Also shows the swap you just started (by created time) + a '+N more in flight' hint and a which-swap header. Presentation only.
