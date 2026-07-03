@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-03 · minimaSwap 0.11.0 — Buy slippage tolerance: buying is now target-driven — enter the MINIMA you want and it fills across ask levels up to best+slippage (2% / 4.2% / Custom, default 4.2%), so 350 delivers 350 instead of 347. USDT spend floats to actual cost, shown in review; won't pay beyond your slippage.
 - 2026-07-03 · minimaSwap 0.10.2 — Front-page cleanup: the YOUR SWAP panel and status line now clear once swaps finish (no more lingering completed/old swap); mid-sweep it tracks the still-active leg. Stuck/never-locked swaps can be hidden with a warning (UI-only; on-chain funds still auto-refund).
 - 2026-07-03 · minimaSwap 0.10.1 — Sweep fix: take the best price first and CONFIRM each leg on-chain before starting the next (a leg whose lock is dropped now HALTS the sweep instead of executing the worse-priced leg). Fixes the ETH nonce collision that dropped the best leg; adds sweep teardown on exit + confirm-phase watchdog.
 - 2026-07-03 · minimaSwap 0.10.0 — Market SWEEP: a swap larger than the best level now fills best-price-first across multiple order-book levels/makers, each as its own atomic swap, run sequentially. Transparent review (avg/worst price, per-leg breakdown, partial-fill note). Budget-driven buys; per-maker balance clamp; sweep-safe nonce/coin guards.
