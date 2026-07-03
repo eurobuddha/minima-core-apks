@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-03 · minimaSwap 0.10.0 — Market SWEEP: a swap larger than the best level now fills best-price-first across multiple order-book levels/makers, each as its own atomic swap, run sequentially. Transparent review (avg/worst price, per-leg breakdown, partial-fill note). Budget-driven buys; per-maker balance clamp; sweep-safe nonce/coin guards.
 - 2026-07-03 · minimaSwap 0.9.3 — Ladder editor: each bid/ask row now has an X clear button on the right that wipes that level's price and amount in one tap.
 - 2026-07-03 · minimaSwap 0.9.2 — Order-book layout for the ladder editor: ASKS now stack with the best (lowest) ask at the bottom next to the bids (A6 top -> A1 bottom), spread in the middle. Carries the 0.9.1 clean-number formatting.
 - 2026-07-03 · minimaSwap 0.9.1 — Ladder editor polish: round quick-generate and prefilled amounts to clean values (no more binary float noise like 0.005979999999).
