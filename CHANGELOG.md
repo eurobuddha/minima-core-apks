@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-04 · minimaSwap 0.13.6 — Faster buy discovery (~3min -> ~1min): act on a buyer's handshake the instant it's scanned via checkBuyNow (no waiting for the next 90s poll), plus a lightweight ~30s handshake-scan tick while the heavy poll stays 90s. Same responder guards; stands down mid-sell-sweep.
 - 2026-07-04 · minimaSwap 0.13.5 — Instant order withdraw: disabling/emptying a live ladder now publishes a tombstone (freshest-per-signer + empty effective levels) so peers drop it next block instead of ~1h age-out, and the maker's own view drops it immediately. Also pushes any live-order edit to the book on Save.
 - 2026-07-04 · minimaSwap 0.13.4 — Responder-leg fund-safety hardening: persistent record-before-broadcast dedup (survives restart + lost txnpost response) via a build/post split so pre-broadcast failures retry but a maybe-broadcast never re-locks; CP_LOCKING pruning + single-monitor consolidation. Adversarially reviewed fund-safe.
 - 2026-07-04 · minimaSwap 0.13.3 — Bounded-burst responder locking: up to 2 coin-pinned counter-leg locks in flight (~2x faster multi-leg sweeps) with a cross-engine same-hash guard; lockFromCoin state-parity verified on live node
