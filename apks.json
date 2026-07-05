@@ -239,6 +239,18 @@
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.1.5.apk",
       "sha256": "ee8486fd0af4189eecf3acdf27f5757e3a14b6aafb4967537d64c68b5ef2854a"
+    },
+    {
+      "name": "MaxLite Demo",
+      "packageId": "org.minimarex.maxlitedemo",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "description": "TEST BUILD — off-chain, end-to-end sealed messaging demo for the MaxLite relay. Generates a local identity on first launch; share your ID, paste a peer's, and message them (or use the loopback self-test). Not a released product — for on-device testing of the MaxLite mailbox.",
+      "category": "Tools",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxlite-demo.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxlite-demo-0.1.0.apk",
+      "sha256": "1bd44be8aceb006de8ebbdf7c07dfe87cc55749794cc3cd1d979a512c63fabc2"
     }
   ]
 }
