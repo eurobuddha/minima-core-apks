@@ -243,14 +243,14 @@
     {
       "name": "MaxLite Demo",
       "packageId": "com.eurobuddha.maxlitedemo",
-      "version": "0.3.0",
-      "versionCode": 3,
-      "description": "TEST BUILD (v0.3.0) — off-chain, end-to-end sealed messaging demo for the MaxLite relay (now under the com.eurobuddha namespace). Private mailboxes (read-auth). Generates a local identity; share your ID, paste a peer's, and message them (or use the loopback self-test).",
+      "version": "0.4.0",
+      "versionCode": 4,
+      "description": "TEST BUILD (v0.4.0) — off-chain, end-to-end sealed messaging demo for the MaxLite relay (com.eurobuddha namespace). Private mailboxes (read-auth) + chunked media store (image/video path). Text + media loopback self-tests; share your ID and message a peer.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxlite-demo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxlite-demo-0.3.0.apk",
-      "sha256": "db744b0446148185567054eb6c71c615600d5d19f74103d83e52ad7d633d64ea"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxlite-demo-0.4.0.apk",
+      "sha256": "1b03db89b7a2fa9c50c5e3d42496270fe2db52cb2b8692ecfab0285aa149f93d"
     }
   ]
 }
