@@ -251,6 +251,18 @@
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxlite-demo.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxlite-demo-0.5.0.apk",
       "sha256": "48cf72846cc321690eadb45a2cdd2967a26071e0fd980456dc4526fffe16fd5f"
+    },
+    {
+      "name": "FreezePeach",
+      "packageId": "com.eurobuddha.freezepeach",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — with end-to-end sealed messages, no phone number, no account, and no server that can read or block you. EARLY BUILD (v0.1.0): seed setup, contacts, and text conversations; rich media and more to come.",
+      "category": "Social",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.1.0.apk",
+      "sha256": "b8b85dc98b9005b8719d329a62c9437ca49c234262c62635d0286661d898fdfd"
     }
   ]
 }
