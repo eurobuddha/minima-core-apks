@@ -90,14 +90,14 @@
     {
       "name": "minimaSwap",
       "packageId": "org.minimarex.minimaswap",
-      "version": "0.14.1",
-      "versionCode": 1401,
+      "version": "0.14.2",
+      "versionCode": 1402,
       "description": "Trustless cross-chain atomic swaps between native MINIMA and Ethereum USDT — HTLC hash-locked, no custodian. Makers publish a DEPTH LADDER (up to 6 bid + 6 ask tranches, each its own price and size) and takers can MARKET-SWEEP — a large order fills best-price-first across multiple levels/makers as sequential atomic swaps, with a transparent avg/worst-price review. Aggregated on-chain order book, per-take cap matching, embedded ETH wallet, both directions, background swap watcher, and a network-wide trade history. Interoperable with the miniSwap/bridge MiniDapp. NEW: an OTC tab for negotiated peer-to-peer deals — LPs advertise side+size, an instigator proposes/counters/accepts over a sealed channel, and the deal settles as a trustless HTLC swap.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaswap.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.14.1.apk",
-      "sha256": "7afb908dc8b1abdcd7ac12172f87dda6b472633affcb516e9aff5c80b85ec8b2"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.14.2.apk",
+      "sha256": "d35a19736bf2543143d37b2ae8e65152a7f055d5684c4c560d1b0f71d2cb1248"
     },
     {
       "name": "Minima ETH Wallet",
