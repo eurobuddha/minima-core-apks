@@ -255,14 +255,14 @@
     {
       "name": "FreezePeach",
       "packageId": "com.eurobuddha.freezepeach",
-      "version": "0.1.0",
-      "versionCode": 1,
-      "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — with end-to-end sealed messages, no phone number, no account, and no server that can read or block you. EARLY BUILD (v0.1.0): seed setup, contacts, and text conversations; rich media and more to come.",
+      "version": "0.2.0",
+      "versionCode": 2,
+      "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — with end-to-end sealed messages, no phone number, no account, and no server that can read or block you. Slick two-theme design (Onyx Electric / Ink), short scannable IDs, and text chat; images, video, groups and in-app editing coming next.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.1.0.apk",
-      "sha256": "b8b85dc98b9005b8719d329a62c9437ca49c234262c62635d0286661d898fdfd"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.2.0.apk",
+      "sha256": "501806ca3a31e58c11e5d650a2ed29277847112f5d67875f9477f91f621e5968"
     }
   ]
 }
