@@ -17,15 +17,15 @@
     },
     {
       "name": "Zero Edge Casino",
-      "packageId": "org.minimarex.casino",
-      "version": "0.5.2",
-      "versionCode": 502,
+      "packageId": "com.eurobuddha.casino",
+      "version": "0.6.0",
+      "versionCode": 600,
       "description": "Provably-fair on-chain casino — coin flip, dice and roulette via a 3-phase commit-reveal contract. Zero house edge.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-native-v0.5.2.apk",
-      "sha256": "21070f34e96f2ddc2e54cbcfee02a0cee0f219028515d50814e9c4baa33d00a4"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.0.apk",
+      "sha256": "ac85ba85c1df26beb1410902d2752fd7a407c9bc3ccfe0691a96d1f5ab06f06f"
     },
     {
       "name": "Minima UTXO Wallet",
