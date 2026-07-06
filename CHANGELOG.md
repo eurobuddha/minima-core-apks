@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · ethwallet 0.2.0 — namespace → com.eurobuddha.ethwallet (rename release)
 - 2026-07-06 · minima-limit 0.3.0 — namespace → com.eurobuddha.limit (rename release)
 - 2026-07-06 · ZeroEdgeCasino 0.6.0 — namespace → com.eurobuddha.casino (rename release)
 - 2026-07-06 · minima-mail 0.4.0 — namespace → com.eurobuddha.mail (rename release; not store-listed)
