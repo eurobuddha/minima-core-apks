@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · minima-limit 0.3.1 — Bulletproof order ownership (always see/cancel your GTC orders) + Edit order price
 - 2026-07-06 · minima-wallet 0.2.0 — namespace → com.eurobuddha.wallet (rename release; balance emptied pre-migration)
 - 2026-07-06 · ethwallet 0.2.0 — namespace → com.eurobuddha.ethwallet (rename release)
 - 2026-07-06 · minima-limit 0.3.0 — namespace → com.eurobuddha.limit (rename release)
