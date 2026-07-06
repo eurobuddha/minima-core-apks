@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · minima-mail 0.4.0 — namespace → com.eurobuddha.mail (rename release; not store-listed)
 - 2026-07-06 · miniMall-Studio 0.2.0 — namespace → com.eurobuddha.merchstudio (rename release; Android app only — desktop builds unchanged)
 - 2026-07-06 · freezepeach 0.3.12 — icon revamp: all 27 icons redrawn as one crisp-geometric family (2px, miter joins, 24px grid), no more stock/Material look
 - 2026-07-06 · miniMall-Inbox 0.3.0 — namespace → com.eurobuddha.merchinbox (rename release)
