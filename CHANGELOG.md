@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · minima-faucet 0.2.0 — namespace → com.eurobuddha.faucet (rename release)
 - 2026-07-06 · minima-futurecash 0.2.0 — namespace → com.eurobuddha.futurecash (rename release)
 - 2026-07-06 · minima-vestr 0.4.0 — namespace → com.eurobuddha.vestr (rename release)
 - 2026-07-06 · freezepeach 0.3.11 — code-review fixes: group-roster auth check (no takeover), group msgs only from current members, serialized+cached GLES effect engine (no EGL race), config guard
