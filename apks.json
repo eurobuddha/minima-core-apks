@@ -173,7 +173,7 @@
     },
     {
       "name": "miniMall Studio (Mac)",
-      "packageId": "org.minimarex.merchstudio.mac",
+      "packageId": "com.eurobuddha.merchstudio.mac",
       "version": "0.1.1",
       "versionCode": 101,
       "description": "Desktop build of miniMall Studio for macOS — downloads a .dmg (a download, not an Android install). Open it on a Mac to install.",
@@ -184,7 +184,7 @@
     },
     {
       "name": "miniMall Studio (Windows installer)",
-      "packageId": "org.minimarex.merchstudio.win",
+      "packageId": "com.eurobuddha.merchstudio.win",
       "version": "0.1.1",
       "versionCode": 101,
       "description": "Desktop build of miniMall Studio for Windows — downloads a one-click installer (.exe). Run it on Windows to install (a download, not an Android install).",
@@ -195,7 +195,7 @@
     },
     {
       "name": "miniMall Studio (Windows portable)",
-      "packageId": "org.minimarex.merchstudio.win-portable",
+      "packageId": "com.eurobuddha.merchstudio.win-portable",
       "version": "0.1.1",
       "versionCode": 101,
       "description": "Portable Windows build — downloads a standalone .exe (no install). Run it on Windows and the studio opens in your browser.",
