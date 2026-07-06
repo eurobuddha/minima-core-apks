@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · freezepeach 0.3.7 — group admins + add/remove members (roster broadcast); fixed off-centre avatar monogram in sheets
 - 2026-07-06 · freezepeach 0.3.6 — editor crop (draggable frame + rule-of-thirds); editor now Filters/Adjust/Crop/Rotate/Draw
 - 2026-07-06 · freezepeach 0.3.5 — group media (photos & video in group chats, via the editor; MediaTransport.upload + fan-out)
 - 2026-07-06 · freezepeach 0.3.4 — in-app photo editor (filters, adjust, rotate, freehand markup); photos route through the editor before sending
