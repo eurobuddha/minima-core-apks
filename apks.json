@@ -149,15 +149,15 @@
     },
     {
       "name": "miniMall Inbox",
-      "packageId": "org.minimarex.merchinbox",
-      "version": "0.2.1",
-      "versionCode": 201,
+      "packageId": "com.eurobuddha.merchinbox",
+      "version": "0.3.0",
+      "versionCode": 300,
       "description": "Vendor order manager — receive and manage orders across all your shops (PAID → CONFIRMED → SHIPPED), tagged by shop, with order chat + CSV export.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.2.1.apk",
-      "sha256": "8ba6318d1c1ff39d96a98217c48033c00b32c8145f2ea92c14145e3f60d9b7c9"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.3.0.apk",
+      "sha256": "b02b832d1687cbd19eb2dc672d7a4b3aaf6bcafb82fac15af7f7310c52e596e2"
     },
     {
       "name": "miniMall Studio",
