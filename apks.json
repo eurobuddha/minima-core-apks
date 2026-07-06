@@ -41,15 +41,15 @@
     },
     {
       "name": "Minima History",
-      "packageId": "org.minimarex.history",
-      "version": "0.2.1",
-      "versionCode": 201,
+      "packageId": "com.eurobuddha.history",
+      "version": "0.3.0",
+      "versionCode": 300,
       "description": "Browse and export your node's full transaction history, with on-chain verification.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.2.1.apk",
-      "sha256": "053b05a3f8640af1d9d1fd3c3a8c81ec47fbc1918868180d1363434c024633a8"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.0.apk",
+      "sha256": "97db8ab6845fe2cffde2c23df07e389dde94995c2f47108d8bc62c69e2452a01"
     },
     {
       "name": "Minima Vestr",
