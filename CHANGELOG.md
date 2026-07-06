@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · freezepeach 0.3.2 — rich media (EXIF-correct photos, pinch-zoom viewer, video send + in-app playback, camera capture), curated avatar palette, header day/night toggle
 - 2026-07-06 · minimaSwap 0.15.2 — ladder auto-generates from params as you type — Generate button removed
 - 2026-07-05 · minimaSwap 0.15.1 — miniSwap dapp icon; welcome modal covers OTC; readable white dialog buttons on dark
 - 2026-07-05 · minimaSwap 0.15.0 — MEXC MINIMA/USDT price oracle + auto-MM peg for LP ladders; namespace → com.eurobuddha.minimaswap; fund-safety review fixes
