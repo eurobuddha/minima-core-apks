@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · miniMall-Shop 0.3.0 — namespace → com.eurobuddha.merchshop (rename release)
 - 2026-07-06 · minima-expert 0.5.0 — namespace → com.eurobuddha.expert (rename release)
 - 2026-07-06 · minima-utxo-wallet 0.4.0 — namespace → com.eurobuddha.utxo (rename release)
 - 2026-07-06 · minima-history 0.3.0 — namespace → com.eurobuddha.history (rename release)
