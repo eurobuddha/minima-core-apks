@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · pandaapps 0.2.0 — namespace → com.eurobuddha.pandaapps (store rename release)
 - 2026-07-06 · freezepeach 0.3.8 — multiple group admins (promote/demote members via a member-actions sheet)
 - 2026-07-06 · freezepeach 0.3.7 — group admins + add/remove members (roster broadcast); fixed off-centre avatar monogram in sheets
 - 2026-07-06 · freezepeach 0.3.6 — editor crop (draggable frame + rule-of-thirds); editor now Filters/Adjust/Crop/Rotate/Draw
