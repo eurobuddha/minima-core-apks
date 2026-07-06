@@ -90,14 +90,14 @@
     {
       "name": "minimaSwap",
       "packageId": "com.eurobuddha.minimaswap",
-      "version": "0.15.1",
-      "versionCode": 1501,
+      "version": "0.15.2",
+      "versionCode": 1502,
       "description": "Trustless cross-chain atomic swaps between native MINIMA and Ethereum USDT — HTLC hash-locked, no custodian. Makers publish a DEPTH LADDER (up to 6 bid + 6 ask tranches, each its own price and size) and takers can MARKET-SWEEP — a large order fills best-price-first across multiple levels/makers as sequential atomic swaps, with a transparent avg/worst-price review. Aggregated on-chain order book, per-take cap matching, embedded ETH wallet, both directions, background swap watcher, and a network-wide trade history. Interoperable with the miniSwap/bridge MiniDapp. An OTC tab for negotiated peer-to-peer deals — LPs advertise side+size, an instigator proposes/counters/accepts over a sealed channel, and the deal settles as a trustless HTLC swap. NEW (0.15.0): AUTO MARKET-MAKE — peg your maker ladder to the live MEXC MINIMA/USDT market (depth-based mid, step %, skew): it auto-reprices when the market moves and auto-withdraws for safety if the feed goes down, restoring on recovery. Now under the com.eurobuddha namespace — this is a NEW app id, so uninstall any old minimaSwap install first (finish open swaps before switching).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaswap-0151.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.15.1.apk",
-      "sha256": "413eeed89277f75ae0816aa932c124a3647a7cf38c08ef002ce532dba7418f5b"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.15.2.apk",
+      "sha256": "c9646eab3580b0eb013d39b3a40fb370dadfb073950e34ab8ae97679223a4262"
     },
     {
       "name": "Minima ETH Wallet",
