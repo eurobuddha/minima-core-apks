@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · freezepeach 0.3.11 — code-review fixes: group-roster auth check (no takeover), group msgs only from current members, serialized+cached GLES effect engine (no EGL race), config guard
 - 2026-07-06 · freezepeach 0.3.10 — filtr fully ported to native GLES (Stage 2: halftone, edge-detect, ASCII; Stage 3: CRT, scanlines, RGB-split, bloom, grain, vignette). 18 effects.
 - 2026-07-06 · freezepeach 0.3.9 — native GLES filtr effects (Stage 1: dithering + retro palettes), ported from filtr GLSL to Android OpenGL ES 3.0
 - 2026-07-06 · pandaapps 0.2.0 — namespace → com.eurobuddha.pandaapps (store rename release)

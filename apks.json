@@ -255,14 +255,14 @@
     {
       "name": "FreezePeach",
       "packageId": "com.eurobuddha.freezepeach",
-      "version": "0.3.10",
-      "versionCode": 310,
+      "version": "0.3.11",
+      "versionCode": 311,
       "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — end-to-end sealed, no phone number, no account, no server that can read or block you. Premium two-theme design, scan/paste contacts, short IDs, group chats with media + admins, rich sealed photos/video, and a full photo editor: filters, adjust, crop, rotate, markup, plus a native retro-effects studio (filtr, ported to OpenGL ES): dithering & palettes, halftone, edge-detect, ASCII art, CRT, scanlines, RGB-split, bloom, grain.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.10.apk",
-      "sha256": "ca1387e17a8daafdebdd24adfb62ae7300e15d7bee18c2007b3b1148f50d1410"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.11.apk",
+      "sha256": "00d4a76c5e40b3f7af598f0a787dfcf4a1cbf6b48bfe70d37e9ac636d1958b32"
     }
   ]
 }
