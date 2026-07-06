@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · freezepeach 0.3.12 — icon revamp: all 27 icons redrawn as one crisp-geometric family (2px, miter joins, 24px grid), no more stock/Material look
 - 2026-07-06 · miniMall-Inbox 0.3.0 — namespace → com.eurobuddha.merchinbox (rename release)
 - 2026-07-06 · miniMall-Shop 0.3.0 — namespace → com.eurobuddha.merchshop (rename release)
 - 2026-07-06 · minima-expert 0.5.0 — namespace → com.eurobuddha.expert (rename release)
