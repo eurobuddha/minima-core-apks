@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-06 · minimaSwap 0.15.2 — ladder auto-generates from params as you type — Generate button removed
 - 2026-07-05 · minimaSwap 0.15.1 — miniSwap dapp icon; welcome modal covers OTC; readable white dialog buttons on dark
 - 2026-07-05 · minimaSwap 0.15.0 — MEXC MINIMA/USDT price oracle + auto-MM peg for LP ladders; namespace → com.eurobuddha.minimaswap; fund-safety review fixes
 - 2026-07-05 · minimaSwap 0.14.5 — Ladder now advertises by TOTAL balance (multi-UTXO), not single coins. The published ask ladder was clamped to how many single coins were >= the tranche size, hiding tranches the responder could actually fill by combining coins (0.14.3). Now it advertises every ask tranche whose cumulative amount your total free MINIMA covers — e.g. 18.98k backs all 6 of a 6x1000 ladder. Also removes the obsolete coin-splitting (no more 'Splitting coins...' — the responder combines whatever coins exist). Fund-safe: an over-advertised tranche declines + refunds if unfillable, and each republish re-clamps to current balance.
