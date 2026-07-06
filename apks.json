@@ -53,15 +53,15 @@
     },
     {
       "name": "Minima Vestr",
-      "packageId": "org.minimarex.vestr",
-      "version": "0.3.1",
-      "versionCode": 301,
+      "packageId": "com.eurobuddha.vestr",
+      "version": "0.4.0",
+      "versionCode": 400,
       "description": "Token-vesting contract manager — create and track scheduled token releases on Minima.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/vestr.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.3.1.apk",
-      "sha256": "c6d7fe044051402671f663e321778b969972e42a040d0993b7444e7ebe101778"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.4.0.apk",
+      "sha256": "31b5063f58631c2fc5c7bb6417e5b641f4de8759b511fe5d61c6107700eab47e"
     },
     {
       "name": "FutureCash",
