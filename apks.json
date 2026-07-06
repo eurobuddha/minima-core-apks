@@ -137,15 +137,15 @@
     },
     {
       "name": "miniMall",
-      "packageId": "org.minimarex.merchshop",
-      "version": "0.2.1",
-      "versionCode": 201,
+      "packageId": "com.eurobuddha.merchshop",
+      "version": "0.3.0",
+      "versionCode": 300,
       "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.2.1.apk",
-      "sha256": "ae22ffd6aa5d0e6b2e491f209b2ec6178f99ba1ac2247afcf74525176f89a395"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.0.apk",
+      "sha256": "2b78e57476583655f400c17ebb89544c181862ebd1d831c070d4c76fb0f6434f"
     },
     {
       "name": "miniMall Inbox",
