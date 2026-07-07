@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-07 · freezepeach 0.3.20 — Non-custodial wallet: send-to-contact + payment bubbles, full token UI (icons/names/tickers/web-validation/NFT), megammr spend backfill fix, smooth balance refresh
 - 2026-07-07 · minimaSwap 0.16.0 — Pegged market stays live overnight (defensive widening) + background-service hardening
 - 2026-07-07 · freezepeach 0.3.13 — in-app Minima wallet (Phase 1): non-custodial local-signing engine, Receive (address+QR), live Balance via a hosted megammr node, seed now AES-GCM encrypted at rest (Android Keystore) + auto-migrated
 - 2026-07-06 · minima-limit 0.3.1 — Bulletproof order ownership (always see/cancel your GTC orders) + Edit order price
