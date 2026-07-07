@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-07 · freezepeach 0.3.22 — Wallet history (sent/received/change, endless scroll), token sending with token picker, message notifications + toggleable receive tone; first-send WOTS-safety gate + two rounds of review fixes
 - 2026-07-07 · freezepeach 0.3.21 — Balance fix: show CONFIRMED balance (not sendable, which is 0 on an untracked megammr address) with 5+ decimals — small USDT/token balances no longer read as 0
 - 2026-07-07 · freezepeach 0.3.20 — Non-custodial wallet: send-to-contact + payment bubbles, full token UI (icons/names/tickers/web-validation/NFT), megammr spend backfill fix, smooth balance refresh
 - 2026-07-07 · minimaSwap 0.16.0 — Pegged market stays live overnight (defensive widening) + background-service hardening
