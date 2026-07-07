@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-08 · minimaSwap 0.17.0 — Market stays live until cancelled — pairing self-heal, publish reconciliation, Doze heartbeat, boot receiver, offline alerts
 - 2026-07-07 · freezepeach 0.3.24 — Token-send fix: input coin token descriptor sourced byte-exact from the binary coinexport CoinProof (not the reformatted coins JSON) — fixes on-chain 'TokenID in Coin input doesn't match token' rejection for tokens with JSON-object names (USDT etc.); reviewed correct, MINIMA path unchanged
 - 2026-07-07 · freezepeach 0.3.23 — Always-on foreground service: background message notifications + receive tone survive app close / Activity destruction; review fix — service fetches media blobs itself (drain acks unconditionally, so a deferred return would have lost photos/videos)
 - 2026-07-07 · freezepeach 0.3.22 — Wallet history (sent/received/change, endless scroll), token sending with token picker, message notifications + toggleable receive tone; first-send WOTS-safety gate + two rounds of review fixes
