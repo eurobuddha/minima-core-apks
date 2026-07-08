@@ -30,26 +30,26 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.0",
-      "versionCode": 400,
+      "version": "0.4.1",
+      "versionCode": 401,
       "description": "Full UTXO wallet — send & receive, split/consolidate coins, token balances and transaction history.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.0.apk",
-      "sha256": "13629d70e51d0c1b10c731d914d04e0f65158501602dbfcac3dda42d7024ac7f"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.1.apk",
+      "sha256": "e4ccdb966d12bfaa5f7ccf913c3f5b9fae11c7783da5902a237686cef7291748"
     },
     {
       "name": "Minima History",
       "packageId": "com.eurobuddha.history",
-      "version": "0.3.0",
-      "versionCode": 300,
+      "version": "0.3.1",
+      "versionCode": 301,
       "description": "Browse and export your node's full transaction history, with on-chain verification.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.0.apk",
-      "sha256": "97db8ab6845fe2cffde2c23df07e389dde94995c2f47108d8bc62c69e2452a01"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.1.apk",
+      "sha256": "0dca1c31a18ab0a16320083e41138817136d7ae3bba50ba3637399ce277cca0e"
     },
     {
       "name": "Minima Vestr",
