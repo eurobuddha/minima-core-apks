@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-09 · freezepeach 0.3.30 — Pre-seed shared wallet-node URL + token — wallet works out of the box; editable
 - 2026-07-08 · minima-history 0.3.1 — History: label self-only coin reshuffles as 'Split · N coins' / 'Consolidation · N coins' and show the gross amount moved instead of a bare '0' (render-time from stored per-coin outputs; no DB change). Also pin the build JDK to Android Studio's JBR. Amounts were already correct — native reads the node's difference, unlike the explorer-based dapp.
 - 2026-07-08 · minima-utxo-wallet 0.4.1 — History: label self-only coin reshuffles as 'Split · N coins' / 'Consolidation · N coins' and show the gross amount moved instead of a bare '0' (computed at render time from the stored per-coin outputs; no DB change). Amounts were already correct — native reads the node's difference, unlike the explorer-based dapp.
 - 2026-07-08 · minimaSwap 0.17.0 — Market stays live until cancelled — pairing self-heal, publish reconciliation, Doze heartbeat, boot receiver, offline alerts
