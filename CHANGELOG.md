@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-11 · minima-wallet 0.2.6 — Enlarge Wallet launcher mark to fill the tile
 - 2026-07-11 · minima-wallet 0.2.5 — Official Minima Wallet mark (black on orange) launcher icon
 - 2026-07-11 · freezepeach 0.3.31 — Rotation-safe QR scanning + full copyable id (fp: fingerprint removed)
 - 2026-07-11 · minima-wallet 0.2.4 — Launcher icon: solid black M on white
