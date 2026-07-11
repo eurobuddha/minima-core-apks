@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-11 · pandapools 0.8.4 — first store release: native AMM (swap/pools/LP/wallet/activity), 0.5% fee, GTC pool discovery; shares pools with the MiniDapp
 - 2026-07-11 · pandaapps 0.2.1 — Fresh installs of Official apps (e.g. Minima Core) install directly again; manual Downloads path only for foreign-signed in-place updates
 - 2026-07-09 · freezepeach 0.3.30 — Pre-seed shared wallet-node URL + token — wallet works out of the box; editable
 - 2026-07-08 · minima-history 0.3.1 — History: label self-only coin reshuffles as 'Split · N coins' / 'Consolidation · N coins' and show the gross amount moved instead of a bare '0' (render-time from stored per-coin outputs; no DB change). Also pin the build JDK to Android Studio's JBR. Amounts were already correct — native reads the node's difference, unlike the explorer-based dapp.

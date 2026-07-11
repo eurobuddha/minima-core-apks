@@ -217,6 +217,18 @@
       "sha256": "71507a87abbd743c7176b05d367b1756c6f52cec925bb78f1094eda85bf003fa"
     },
     {
+      "name": "Minima Core UI (Preview)",
+      "packageId": "org.minimarex.minimacore.uipreview",
+      "version": "1.2.5-ui",
+      "versionCode": 19,
+      "description": "Brand-native dark-first UI restyle of Minima Core — resources only, no functionality change. Installs alongside the official app so you can preview the new look. Debug-signed.",
+      "category": "Core",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.2.5.apk",
+      "sha256": "fe04d93eca6b2f15d6284f9bf6314c8dfc46390cc5268323ef68aaa3fa755b30"
+    },
+    {
       "name": "Minima Terminal",
       "packageId": "org.minimarex.terminal",
       "version": "1.1",
@@ -251,6 +263,18 @@
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.30.apk",
       "sha256": "d2bce3f29d581a580a078cea21dd9c7cc23223d13d5e1613d9bed8fca78599c5"
+    },
+    {
+      "name": "PandaPools",
+      "packageId": "com.eurobuddha.pandapools",
+      "version": "0.8.4",
+      "versionCode": 804,
+      "description": "Constant-product AMM liquidity pools on Minima — swap MINIMA/token across aggregated micro-pools, provide liquidity and earn the 0.5% swap fee. Trustless VERIFYOUT covenant; pools are good-till-cancelled and discovered from a shared on-chain registry. Interoperable with the PandaPools MiniDapp (same pools).",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.8.4.apk",
+      "sha256": "dffa56ed5fc64c96a7eaa61705bc7e42dbba6c147724abf04d15ce0745632d3a"
     }
   ]
 }
