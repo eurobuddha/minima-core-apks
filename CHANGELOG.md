@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-11 · minima-wallet 0.2.4 — Launcher icon: solid black M on white
 - 2026-07-11 · minima-wallet 0.2.3 — Monotone Minima M launcher icon; remove redundant biometrics unlock button
 - 2026-07-11 · minima-wallet 0.2.2 — Import/restore: enter WOTS key-uses count (fixes misleading brand-new checkbox); biometric prompt fix
 - 2026-07-11 · pandapools 0.8.4 — first store release: native AMM (swap/pools/LP/wallet/activity), 0.5% fee, GTC pool discovery; shares pools with the MiniDapp
