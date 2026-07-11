@@ -243,14 +243,14 @@
     {
       "name": "Minima Wallet",
       "packageId": "com.eurobuddha.wallet",
-      "version": "0.2.4",
-      "versionCode": 204,
+      "version": "0.2.5",
+      "versionCode": 205,
       "description": "Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed. When importing a seed, enter how many signatures it has already used (over-estimate if unsure) — this protects against reusing a one-time key.",
       "category": "Wallet",
       "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-black.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.2.4.apk",
-      "sha256": "eac803995f0e9bcdd0505c1553097694a0cc1bbbaab727cbcbd6f525287f9b1a"
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-mmm.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.2.5.apk",
+      "sha256": "0bde6422b91cd098ba4c34695f2138ac1fde3f3db27fd569d8a58dd651b17f65"
     },
     {
       "name": "FreezePeach",
