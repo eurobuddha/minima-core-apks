@@ -248,7 +248,7 @@
       "description": "Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed.",
       "category": "Wallet",
       "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet.png",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-white.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.2.0.apk",
       "sha256": "64051fba074560b78dc0614d3e7d372dd204241747f85eb46e5a51544f1210cc"
     },
