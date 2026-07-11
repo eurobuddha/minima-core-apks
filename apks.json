@@ -217,16 +217,16 @@
       "sha256": "71507a87abbd743c7176b05d367b1756c6f52cec925bb78f1094eda85bf003fa"
     },
     {
-      "name": "Minima Core UI (Preview)",
-      "packageId": "org.minimarex.minimacore.uipreview",
+      "name": "Minima Core — New UI (Preview)",
+      "packageId": "org.minimarex.minimacore",
       "version": "1.2.5-ui",
-      "versionCode": 19,
-      "description": "Brand-native dark-first UI restyle of Minima Core — resources only, no functionality change. Installs alongside the official app so you can preview the new look. Debug-signed.",
+      "versionCode": 20,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle — resources only, no functionality change. Debug-signed preview: downloads to your Downloads to install manually over the official build (back up your seed first).",
       "category": "Core",
-      "source": "PandaApps",
+      "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.2.5.apk",
-      "sha256": "fe04d93eca6b2f15d6284f9bf6314c8dfc46390cc5268323ef68aaa3fa755b30"
+      "sha256": "3de72d844266b9b3c80bac1e9accec8ea697e453aab6602e557f626940bd4e4c"
     },
     {
       "name": "Minima Terminal",
