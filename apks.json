@@ -267,14 +267,14 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.7",
-      "versionCode": 907,
+      "version": "0.9.8",
+      "versionCode": 908,
       "description": "Constant-product AMM liquidity pools on Minima — swap MINIMA/token across aggregated micro-pools, provide liquidity and earn the 0.5% swap fee. Trustless VERIFYOUT covenant; pools are good-till-cancelled and discovered from a shared on-chain registry. Interoperable with the PandaPools MiniDapp (same pools).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.7.apk",
-      "sha256": "8aedd75c0c960bc4d5726efa28db0aad9050bab3fd072a9000c39f07096937fd"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.8.apk",
+      "sha256": "40b479b721a79de8a882bccd38702a9503360695145878a0234a08d34507e431"
     }
   ]
 }
