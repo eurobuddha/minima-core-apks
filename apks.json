@@ -7,14 +7,14 @@
     {
       "name": "PandaApps",
       "packageId": "com.eurobuddha.pandaapps",
-      "version": "0.2.1",
-      "versionCode": 201,
+      "version": "0.2.2",
+      "versionCode": 202,
       "description": "This store — install and update native Minima apps (SHA-256 verified). Official-app UPDATES download to your Downloads to install manually; first-time installs go direct.",
       "category": "Store",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.1.apk",
-      "sha256": "885f6322a2afb641a65e7e26030e851944382af99c2fb38a0df75e79aa0d8343"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.2.apk",
+      "sha256": "a84f1f78be84c78c095bbb1975c51314584c71875f193d69bbb75e46947ba51b"
     },
     {
       "name": "Zero Edge Casino",
