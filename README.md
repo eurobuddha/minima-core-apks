@@ -4,6 +4,8 @@ A collection of native Android companion apps for the Minima Core node, which ta
 
 > ⚠️ **All apps here are in active development — use at your own risk.** They are experimental software provided **AS IS**, without warranty of any kind. They interact with a live blockchain and real funds; despite testing, bugs may exist. Back up your seed, test with small amounts, and only risk what you can afford to lose. Nothing here is financial advice.
 
+**License:** the catalog itself (`apks.json`, docs, icons) is [MIT](LICENSE) © 2026 eurobuddha. The distributed `.apk` files are release builds of their respective apps and carry those apps' own licenses (which include Apache-2.0 Minima components).
+
 ## Minima Faucet (v1.0)
 
 Native Android port of the Faucet MiniDapp. Package `org.minimarex.faucet`. It gets the node address via the IPC `getaddress` command and requests free Minima from the eurobuddha faucet backend.
