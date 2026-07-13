@@ -1,6 +1,7 @@
 {
   "name": "PandaApps",
   "description": "Native Android companion apps for Minima — eurobuddha's apps plus the official Minima app.",
+  "disclaimer": "⚠️ All apps in this store are experimental and in active development, provided AS IS with no warranty. They interact with a live blockchain and real funds — back up your seed, test with small amounts, and use entirely at your own risk. Not financial advice.",
   "version": "1.0",
   "apps": [
     {

@@ -2,6 +2,8 @@
 
 A collection of native Android companion apps for the Minima Core node, which talk to the node on-device via the minimaapi broadcast-Intent IPC.
 
+> ⚠️ **All apps here are in active development — use at your own risk.** They are experimental software provided **AS IS**, without warranty of any kind. They interact with a live blockchain and real funds; despite testing, bugs may exist. Back up your seed, test with small amounts, and only risk what you can afford to lose. Nothing here is financial advice.
+
 ## Minima Faucet (v1.0)
 
 Native Android port of the Faucet MiniDapp. Package `org.minimarex.faucet`. It gets the node address via the IPC `getaddress` command and requests free Minima from the eurobuddha faucet backend.
