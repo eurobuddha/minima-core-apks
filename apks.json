@@ -31,14 +31,14 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.1",
-      "versionCode": 401,
+      "version": "0.4.2",
+      "versionCode": 402,
       "description": "Full UTXO wallet — send & receive, split/consolidate coins, token balances and transaction history.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.1.apk",
-      "sha256": "e4ccdb966d12bfaa5f7ccf913c3f5b9fae11c7783da5902a237686cef7291748"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.2.apk",
+      "sha256": "2e6e996b034424dc3aad57a55ed6df1a1b57c567bd52a1db936ef152543758c1"
     },
     {
       "name": "Minima History",
@@ -268,14 +268,14 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.9",
-      "versionCode": 909,
+      "version": "0.9.10",
+      "versionCode": 910,
       "description": "Constant-product AMM liquidity pools on Minima — swap MINIMA/token across aggregated micro-pools, provide liquidity and earn the 0.5% swap fee. Trustless VERIFYOUT covenant; pools are good-till-cancelled and discovered from a shared on-chain registry. Interoperable with the PandaPools MiniDapp (same pools).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.9.apk",
-      "sha256": "d73e640f4bf73043af3c94cf1f39d75efb5c30ed63a9e44bbe3d7a0491acc78d"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.10.apk",
+      "sha256": "c4a64fe0eb772ea6d9a88e54f8e109f6bd741c7c267545292bc0fd7d2c75fb45"
     }
   ]
 }
