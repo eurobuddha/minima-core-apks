@@ -91,14 +91,14 @@
     {
       "name": "minimaSwap",
       "packageId": "com.eurobuddha.minimaswap",
-      "version": "0.17.1",
-      "versionCode": 1701,
-      "description": "Trustless cross-chain atomic swaps between native MINIMA and Ethereum USDT — HTLC hash-locked, no custodian. Makers publish a DEPTH LADDER (up to 6 bid + 6 ask tranches, each its own price and size) and takers can MARKET-SWEEP — a large order fills best-price-first across multiple levels/makers as sequential atomic swaps, with a transparent avg/worst-price review. Aggregated on-chain order book, per-take cap matching, embedded ETH wallet, both directions, background swap watcher, and a network-wide trade history. Interoperable with the miniSwap/bridge MiniDapp. An OTC tab for negotiated peer-to-peer deals — LPs advertise side+size, an instigator proposes/counters/accepts over a sealed channel, and the deal settles as a trustless HTLC swap. AUTO MARKET-MAKE — peg your maker ladder to the live MEXC MINIMA/USDT market: it auto-reprices when the market moves and auto-withdraws for safety if the feed goes down, restoring on recovery. NEW (0.17.0): your published market now stays LIVE until you cancel it — the app self-heals after reboots, node restarts and deep sleep (pairing retry, publish verification against the on-chain book, Doze-proof heartbeat) and alerts you if Minima Core is down so the market can be reinstated the moment connection returns. Now under the com.eurobuddha namespace — this is a NEW app id, so uninstall any old minimaSwap install first (finish open swaps before switching).",
+      "version": "0.18.0",
+      "versionCode": 1800,
+      "description": "Trustless cross-chain atomic swaps between native MINIMA and Ethereum USDT — HTLC hash-locked, no custodian. Makers publish a DEPTH LADDER (up to 6 bid + 6 ask tranches, each its own price and size) and takers can MARKET-SWEEP — a large order fills best-price-first across multiple levels/makers as sequential atomic swaps, with a transparent avg/worst-price review. Aggregated on-chain order book, per-take cap matching, embedded ETH wallet, both directions, background swap watcher, and a network-wide trade history. Interoperable with the miniSwap/bridge MiniDapp. An OTC tab for negotiated peer-to-peer deals — LPs advertise side+size, an instigator proposes/counters/accepts over a sealed channel, and the deal settles as a trustless HTLC swap. AUTO MARKET-MAKE — peg your maker ladder to the live MEXC MINIMA/USDT market: it auto-reprices when the market moves and auto-withdraws for safety if the feed goes down, restoring on recovery. Your published market stays LIVE until you cancel it — the app self-heals after reboots, node restarts and deep sleep and alerts you if Minima Core is down so the market can be reinstated the moment connection returns. NEW (0.18.0): ETH-leg fund-safety hardening — a dropped/replaced Ethereum transaction now retries and confirms on-chain instead of stranding funds, lock timelocks anchor to chain time (not the device clock), gas is floored to the base fee, and Tether approvals self-repair; it now also SAFELY coexists with usdtSwap on the same node (a shared-wallet tx clash just retries, never loses funds). Under the com.eurobuddha namespace — uninstall any old minimaSwap install first (finish open swaps before switching).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaswap-0151.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.17.1.apk",
-      "sha256": "90f961ca0c8e23a0730344cf8e1ab1032e4488b990fc0dba7d625b11f095f96a"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.18.0.apk",
+      "sha256": "b3048d8678667bf533cdf268582b1ba754ae05c446e0acfe4b5ce8a2d4fb0435"
     },
     {
       "name": "usdtSwap",
