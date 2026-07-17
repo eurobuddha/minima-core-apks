@@ -103,14 +103,14 @@
     {
       "name": "usdtSwap",
       "packageId": "com.eurobuddha.usdtswap",
-      "version": "0.1.0",
-      "versionCode": 100,
-      "description": "Trustless cross-chain atomic swaps between ERC20 USDT (Ethereum) and native USDT on Minima (mxUSDT) — HTLC hash-locked, no custodian. A fork of minimaSwap with the Minima leg repointed to mxUSDT (the bridged native-USDT token) and PARITY pricing: because both legs are USDT the mid is fixed at 1.0 and you set a skew + spread around it (no external price feed). Reuses minimaSwap's aggregated on-chain order book, depth-ladder market-making (up to 6 bid + 6 ask tranches), best-price-first market-sweep taking, OTC negotiation tab, embedded ETH wallet, both directions, and a background swap watcher — on its OWN isolated books, so it never mixes with minimaSwap. NEW app (v0.1.0): experimental and NOT yet mainnet-verified end-to-end — test with small amounts. Requires Minima Core running with usdtSwap enabled.",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "Trustless cross-chain atomic swaps between ERC20 USDT (Ethereum) and native USDT on Minima (mxUSDT) — HTLC hash-locked, no custodian. A fork of minimaSwap with the Minima leg repointed to mxUSDT (the bridged native-USDT token) and PARITY pricing: because both legs are USDT the mid is fixed at 1.0 and you set a skew + spread around it (no external price feed). Reuses minimaSwap's aggregated on-chain order book, depth-ladder market-making (up to 6 bid + 6 ask tranches), best-price-first market-sweep taking, OTC negotiation tab, embedded ETH wallet, both directions, and a background swap watcher — on its OWN isolated books, so it never mixes with minimaSwap. v0.1.1: mainnet-verified end-to-end (small swaps) and hardened — a dropped Ethereum tx now retries instead of stranding funds, and lock timelocks anchor to chain time; backed by a unit-test suite over the fund paths. Still experimental — test with small amounts. Requires Minima Core running with usdtSwap enabled.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/usdtswap.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/usdtSwap-0.1.0.apk",
-      "sha256": "089514a148030faccf2748e2802476b3b1ff4f92e7d8d1788d099258715722f3"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/usdtSwap-0.1.1.apk",
+      "sha256": "4f6ea5031fe97688b17d07f039047ed99da1450f0c7f2585da37faea2c33ee72"
     },
     {
       "name": "Minima ETH Wallet",
