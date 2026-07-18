@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-18 · minima-terminal-ide 0.1.3 — Full-depth autocomplete (command/param/value), offline help pages, KISS editor autocomplete, txn change guard, new icon
 - 2026-07-18 · minima-terminal-ide 0.1.2 — Fix: input bar obscured by on-screen keyboard (IME insets)
 - 2026-07-18 · minima-terminal-ide 0.1.1 — Terminal IDE initial release — terminal pro + KISS VM script IDE + txn workbench
 - 2026-07-12 · pandapools 0.8.10 — Keep-alive: pools auto-survive past the ~24h cascade. Net-zero owner re-anchor (recreate reserves at the covenant, covenant-enforced) + fresh discovery beacon on an ~18h cycle, via a foreground service + Doze-proof heartbeat + boot receiver (like minimaSwap/Limit). Discovery searches a MegaMMR node too (megammr:true). Android 12+ safe. Own git repo import.
