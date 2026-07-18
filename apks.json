@@ -115,14 +115,14 @@
   {
    "name": "AtomiX",
    "packageId": "com.eurobuddha.atomix",
-   "version": "0.1.4",
-   "versionCode": 5,
-   "description": "minimaSwap + usdtSwap combined into ONE app — pick your currency from the header pill and swap either native MINIMA ↔ ERC20, or bridged native-USDT (mxUSDT) ↔ ERC20 USDT. Trustless HTLC atomic swaps, no custodian. You publish and market-make in ONE currency at a time, and switching currency re-themes the whole app to that identity (Minima orange ↔ Tether green) and moves your market to that book — the legacy per-currency order books, so AtomiX interoperates with existing minimaSwap / usdtSwap peers. Background settlement is currency-agnostic: switching currency NEVER strands an in-flight swap in the other one. Carries the full feature set (depth-ladder market-making, best-price market-sweep taking, OTC tab, embedded ETH wallet, both directions, background watcher) plus the claim-path reliability hardening. v0.1.3: the market-maker ladder now defaults to a SINGLE level (a multi-leg ladder is opt-in, up to 6) and the app icon is the AtomiX atom; plus 0.1.2's identity fix so a maker rejoins the shared usdtSwap/minimaSwap order book. EXPERIMENTAL; test small.",
+   "version": "0.1.5",
+   "versionCode": 6,
+   "description": "minimaSwap + usdtSwap combined into ONE app — pick your currency from the header pill and swap either native MINIMA ↔ ERC20, or bridged native-USDT (mxUSDT) ↔ ERC20 USDT. Trustless HTLC atomic swaps, no custodian. You publish and market-make in ONE currency at a time, and switching currency re-themes the whole app to that identity (Minima orange ↔ Tether green) and moves your market to that book — the legacy per-currency order books, so AtomiX interoperates with existing minimaSwap / usdtSwap peers. Background settlement is currency-agnostic: switching currency NEVER strands an in-flight swap in the other one. Carries the full feature set (depth-ladder market-making, best-price market-sweep taking, OTC tab, embedded ETH wallet, both directions, background watcher) plus the claim-path reliability hardening. v0.1.5: switching currency now TOMBSTONES your live market on the old book (peers drop it immediately instead of it lingering ~1h) and REMEMBERS each currency's market so switching back restores your ladder; plus a price-feed guard so a mid-switch price can never mis-price the other currency. v0.1.3: ladder defaults to a SINGLE level (multi-leg opt-in, up to 6) and the AtomiX atom icon; 0.1.2's identity fix so a maker rejoins the shared usdtSwap/minimaSwap order book. EXPERIMENTAL; test small.",
    "category": "Finance",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.4.apk",
-   "sha256": "b0b31ba13ed754904cc034f76f671f05baf01ce9b3528d8121b87b2f47b8439d"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.5.apk",
+   "sha256": "4e04bcc18f737f4166c9c438658e5c07b2d58093e35d9896ed270e82724bbcfa"
   },
   {
    "name": "Minima ETH Wallet",
