@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-18 · minima-terminal-ide 0.1.1 — Terminal IDE initial release — terminal pro + KISS VM script IDE + txn workbench
 - 2026-07-12 · pandapools 0.8.10 — Keep-alive: pools auto-survive past the ~24h cascade. Net-zero owner re-anchor (recreate reserves at the covenant, covenant-enforced) + fresh discovery beacon on an ~18h cycle, via a foreground service + Doze-proof heartbeat + boot receiver (like minimaSwap/Limit). Discovery searches a MegaMMR node too (megammr:true). Android 12+ safe. Own git repo import.
 - 2026-07-12 · minimaSwap 0.17.1 — Android 12/13 crash fix: SwapEngine used BigInteger.TWO (API 34) in a static initializer, crashing minimaSwap on open on every Android below 14 (NoSuchFieldError). Switched to BigInteger.valueOf(2). No other changes.
 - 2026-07-11 · minima-wallet 0.2.6 — Enlarge Wallet launcher mark to fill the tile
