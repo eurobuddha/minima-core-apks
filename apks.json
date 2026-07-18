@@ -113,6 +113,18 @@
       "sha256": "c7fc6973b64b3b829908bb9cf873015d1696997c41faebe3dd292e58d682fd76"
     },
     {
+      "name": "AtomiX",
+      "packageId": "com.eurobuddha.atomix",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "description": "minimaSwap + usdtSwap combined into ONE app — pick your currency from the header pill and swap either native MINIMA ↔ ERC20, or bridged native-USDT (mxUSDT) ↔ ERC20 USDT. Trustless HTLC atomic swaps, no custodian. You publish and market-make in ONE currency at a time, and switching currency re-themes the whole app to that identity (Minima orange ↔ Tether green) and moves your market to that book — the legacy per-currency order books, so AtomiX interoperates with existing minimaSwap / usdtSwap peers. Background settlement is currency-agnostic: switching currency NEVER strands an in-flight swap in the other one. Carries the full feature set (depth-ladder market-making, best-price market-sweep taking, OTC tab, embedded ETH wallet, both directions, background watcher) plus the claim-path reliability hardening. One node runs one poller/market-maker instead of two contending for the command thread. EXPERIMENTAL — on-device mainnet verification in both currency modes is still pending; test with small amounts. Will replace minimaSwap + usdtSwap once verified; for now install ALONGSIDE them (uninstall the other two, with no in-flight swaps, for a clean test). Requires Minima Core running with AtomiX enabled.",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.0.apk",
+      "sha256": "f5a5791c69e3eaa9a934bd4316fbcbf0c2f0cc39575ac47a0d5f35ba6b4d6243"
+    },
+    {
       "name": "Minima ETH Wallet",
       "packageId": "com.eurobuddha.ethwallet",
       "version": "0.2.0",
