@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-19 · minima-terminal-ide 0.1.4 — Code-review pass: fix history-max overflow crash, command-injection guards on all fields, cursor-aware autocomplete, txn workbench hardening
 - 2026-07-18 · minima-terminal-ide 0.1.3 — Full-depth autocomplete (command/param/value), offline help pages, KISS editor autocomplete, txn change guard, new icon
 - 2026-07-18 · minima-terminal-ide 0.1.2 — Fix: input bar obscured by on-screen keyboard (IME insets)
 - 2026-07-18 · minima-terminal-ide 0.1.1 — Terminal IDE initial release — terminal pro + KISS VM script IDE + txn workbench
