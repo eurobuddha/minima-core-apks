@@ -17,6 +17,18 @@
    "sha256": "a84f1f78be84c78c095bbb1975c51314584c71875f193d69bbb75e46947ba51b"
   },
   {
+   "name": "Terminal IDE",
+   "packageId": "com.eurobuddha.terminalide",
+   "version": "0.1.4",
+   "versionCode": 104,
+   "description": "Professional developer tooling for the Minima protocol — a full node terminal with autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench.",
+   "category": "Developer",
+   "source": "PandaApps",
+   "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.1.4.apk",
+   "sha256": "230950b47b5bd534bf264cf1405fd1b9090f02d87b4561837700a20f715e2ff5"
+  },
+  {
    "name": "Zero Edge Casino",
    "packageId": "com.eurobuddha.casino",
    "version": "0.6.0",
