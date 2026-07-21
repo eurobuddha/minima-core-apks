@@ -1,5 +1,8 @@
 # Changelog
 
+- 2026-07-21 · minima-core-ui 1.3.0-ui-h2 — Large-response IPC: results over 256KB are handed to companion apps as a file (per-package content:// grant, 5-min prune) instead of the 'Result too long!' stub — long history/coins/printtree now work; plus commands run off the main thread (fixes megammrsync-over-IPC and slow-command ANRs). Old apps keep the old behavior; new-minimaapi apps get full results.
+- 2026-07-21 · terminal 1.2 — Large responses arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB; unchanged on older nodes). Renumbered past upstream's 1.1; eurobuddha-signed from 1.2 — uninstall the Spartacus-signed terminal first.
+- 2026-07-21 · minima-terminal-ide 0.1.5 — Large responses arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB; unchanged on older nodes)
 - 2026-07-21 · pandaapps 0.2.3 — IPFS catalog fallback — the store keeps working (core + apps) even if GitHub is unreachable
 - 2026-07-19 · minima-terminal-ide 0.1.4 — Code-review pass: fix history-max overflow crash, command-injection guards on all fields, cursor-aware autocomplete, txn workbench hardening
 - 2026-07-18 · minima-terminal-ide 0.1.3 — Full-depth autocomplete (command/param/value), offline help pages, KISS editor autocomplete, txn change guard, new icon

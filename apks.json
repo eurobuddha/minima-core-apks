@@ -19,14 +19,14 @@
     {
       "name": "Terminal IDE",
       "packageId": "com.eurobuddha.terminalide",
-      "version": "0.1.4",
-      "versionCode": 104,
-      "description": "Professional developer tooling for the Minima protocol — a full node terminal with autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench.",
+      "version": "0.1.5",
+      "versionCode": 105,
+      "description": "Professional developer tooling for the Minima protocol — a full node terminal with autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.1.5: large responses arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB).",
       "category": "Developer",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.1.4.apk",
-      "sha256": "230950b47b5bd534bf264cf1405fd1b9090f02d87b4561837700a20f715e2ff5"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.1.5.apk",
+      "sha256": "51044748c727ffb90457ec35aa74d85b207fb5fe0b8d6168f87f8fbb18bde446"
     },
     {
       "name": "Zero Edge Casino",
@@ -256,26 +256,26 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.2.5-ui-h2",
-      "versionCode": 20,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle PLUS the H2 node fix (2.4.240 crashed on Android's verifier). Resources + one dependency line; installs manually over the official build (back up your seed first).",
+      "version": "1.3.0-ui-h2",
+      "versionCode": 21,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, the H2 node fix, AND the new large-response IPC: companion-app commands run off the main thread and results over 256KB are handed over as a file (no more 'Result too long!' - long history/coins/printtree work). Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.2.5.apk",
-      "sha256": "0d0126f84d44f73424df3593299dcd8ba26dd46912623b5af9c337b850059ae0"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.3.0.apk",
+      "sha256": "b0a8925dca4ff75457878336fd8c038e06f00fdedc84c60f9e9db110a53cd7cb"
     },
     {
       "name": "Minima Terminal",
       "packageId": "org.minimarex.terminal",
-      "version": "1.1",
-      "versionCode": 2,
-      "description": "Run Minima Core node commands from a full on-device terminal, backed by your local node.",
+      "version": "1.2",
+      "versionCode": 3,
+      "description": "Run Minima Core node commands from a full on-device terminal, backed by your local node. 1.2: large responses now arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB; works as before on older nodes). Note: 1.2+ is eurobuddha-signed - updating over the Spartacus-signed 1.1 needs an uninstall first.",
       "category": "Tools",
-      "source": "Official",
+      "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.1.apk",
-      "sha256": "c5f8e854e11e0d63002364c4f16f02cf9e3d7cd9acc49441974dcafac3507e21"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.2.apk",
+      "sha256": "9122defb53917fdd1ec94db0bbc85629eab1bb8d7d45edf145bf6dce365e7607"
     },
     {
       "name": "Minima Wallet",
