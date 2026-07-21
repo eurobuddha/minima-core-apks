@@ -7,14 +7,14 @@
     {
       "name": "PandaApps",
       "packageId": "com.eurobuddha.pandaapps",
-      "version": "0.2.2",
-      "versionCode": 202,
-      "description": "This store — install and update native Minima apps (SHA-256 verified). Official-app UPDATES download to your Downloads to install manually; first-time installs go direct.",
+      "version": "0.2.3",
+      "versionCode": 203,
+      "description": "This store — install and update native Minima apps (SHA-256 verified). Falls back to IPFS if GitHub is unreachable, so it keeps working. Official-app UPDATES download to your Downloads to install manually; first-time installs go direct.",
       "category": "Store",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.2.apk",
-      "sha256": "a84f1f78be84c78c095bbb1975c51314584c71875f193d69bbb75e46947ba51b"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.3.apk",
+      "sha256": "d7f5e84909065515107c435fab334e2c12c9cc6db42269191a5d875753e231b9"
     },
     {
       "name": "Terminal IDE",
