@@ -19,14 +19,14 @@
     {
       "name": "Terminal IDE",
       "packageId": "com.eurobuddha.terminalide",
-      "version": "0.1.5",
-      "versionCode": 105,
-      "description": "Professional developer tooling for the Minima protocol — a full node terminal with autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.1.5: large responses arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB).",
+      "version": "0.2.0",
+      "versionCode": 200,
+      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.0: completion redesign — the suggestion pills are replaced by an IDE-style dropdown showing only the chosen command's parameters and values, each with its description from the node help; Tab (hardware or on-screen ⇥) accepts and chains command → param → value.",
       "category": "Developer",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.1.5.apk",
-      "sha256": "51044748c727ffb90457ec35aa74d85b207fb5fe0b8d6168f87f8fbb18bde446"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.0.apk",
+      "sha256": "0e08d4740b76d8f3d2d456e157f0747864763366588bc356268369fb11963e59"
     },
     {
       "name": "Zero Edge Casino",
