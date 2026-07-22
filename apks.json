@@ -67,14 +67,14 @@
   {
    "name": "Filez",
    "packageId": "com.eurobuddha.filez",
-   "version": "0.1.1",
-   "versionCode": 101,
+   "version": "0.1.2",
+   "versionCode": 102,
    "description": "Native file manager for your node's base folder. Export backups, archive exports and .txn files to your phone, and import documents into the node for restore / archive import / txnimport. Needs Minima Core 1.3.1+ (New UI preview) and the Admin toggle in Minima Core → Apps.",
    "category": "Tools",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/filez.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-filez-0.1.1.apk",
-   "sha256": "faa00af8582efee5588f299ab7140fd594dbe909cfe3a7474d3aab7e731c1037"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-filez-0.1.2.apk",
+   "sha256": "8dce8cbd96e8064e0e63ac73a071007415329ffe3b14572cdd5009920eca0e8f"
   },
   {
    "name": "Minima Vestr",
