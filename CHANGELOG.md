@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-22 · minima-filez 0.1.2 — Terminal-ready paths: file details and row menu now show/copy the full absolute node path (from status->data) that terminal file: arguments accept — relative subfolder paths were rejected by MiniFile.
 - 2026-07-22 · minima-core-ui 1.4.0-ui-h2 — User-configurable node startup params (menu → Startup Params): Server mode (-server), MegaMMR (-megammr) and RPC (-rpcenable) toggles + advanced extra-args field (validated at save; wipe/seed flags blocked), with Save & Restart doing a clean quit + relaunch. Also fixes a latent upstream hazard where a -clean in extra params ran on the very boot it was set.
 
 - 2026-07-22 · minima-filez 0.1.1 — Old-node detection: if the node answers commands but not FILE, Filez now shows 'Minima Core update needed — install the New UI preview 1.3.1+ from PandaApps' instead of a generic timeout.
