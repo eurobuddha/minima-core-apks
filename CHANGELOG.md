@@ -1,5 +1,7 @@
 # Changelog
 
+- 2026-07-22 · minima-core-ui 1.4.0-ui-h2 — User-configurable node startup params (menu → Startup Params): Server mode (-server), MegaMMR (-megammr) and RPC (-rpcenable) toggles + advanced extra-args field (validated at save; wipe/seed flags blocked), with Save & Restart doing a clean quit + relaunch. Also fixes a latent upstream hazard where a -clean in extra params ran on the very boot it was set.
+
 - 2026-07-22 · minima-filez 0.1.1 — Old-node detection: if the node answers commands but not FILE, Filez now shows 'Minima Core update needed — install the New UI preview 1.3.1+ from PandaApps' instead of a generic timeout.
 - 2026-07-22 · minima-filez 0.1.0 — Filez — native file manager for the node's base folder: export backups/archive exports/.txn files to the phone via SAF, import documents into the node for restore/txnimport. Needs Minima Core >= 1.3.1 (New UI preview) with Admin enabled.
 - 2026-07-22 · minima-terminal-ide 0.2.0 — Completion redesign: suggestion pills replaced by a tab-driven IDE-style dropdown — only the chosen command's params/values, each with its description from the node help (required first); hardware Tab or on-screen ⇥ accepts and chains command → param → value; suggestions follow the cursor and stay quiet inside quoted strings
