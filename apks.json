@@ -268,35 +268,35 @@
     {
       "name": "minimaCore Desktop (Mac)",
       "packageId": "com.eurobuddha.minimacore.mac",
-      "version": "0.13.0",
-      "versionCode": 1300,
+      "version": "0.15.4",
+      "versionCode": 1504,
       "description": "The minimaCore desktop app for macOS (Apple Silicon). Runs a full Minima node locally with the native-styled self-custody wallet, Pools, AtomiX, Mail and more. Downloads a .dmg (a download, not an Android install) — unsigned, so right-click → Open on first launch.",
       "category": "Desktop",
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.13.0/minimaCore-0.13.0-arm64.dmg"
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.15.4/minimaCore-0.15.4-arm64.dmg"
     },
     {
       "name": "minimaCore Desktop (Windows)",
       "packageId": "com.eurobuddha.minimacore.win",
-      "version": "0.13.0",
-      "versionCode": 1300,
+      "version": "0.15.4",
+      "versionCode": 1504,
       "description": "The minimaCore desktop app for Windows (x64). Runs a full Minima node locally with the native-styled self-custody wallet, Pools, AtomiX, Mail and more. Downloads an NSIS installer (.exe) — unsigned, so on SmartScreen click More info → Run anyway.",
       "category": "Desktop",
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.13.0/minimaCore.Setup.0.13.0.exe"
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.15.4/minimaCore.Setup.0.15.4.exe"
     },
     {
       "name": "minimaCore Desktop (Linux)",
       "packageId": "com.eurobuddha.minimacore.linux",
-      "version": "0.13.0",
-      "versionCode": 1300,
+      "version": "0.15.4",
+      "versionCode": 1504,
       "description": "The minimaCore desktop app for Linux (x64). Runs a full Minima node locally with the native-styled self-custody wallet, Pools, AtomiX, Mail and more. Downloads a portable AppImage — chmod +x then run it (no install).",
       "category": "Desktop",
       "source": "Linux",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.13.0/minimaCore-0.13.0.AppImage"
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.15.4/minimaCore-0.15.4.AppImage"
     },
     {
       "name": "Minima Core",
