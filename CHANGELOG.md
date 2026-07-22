@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-22 · minima-filez 0.1.0 — Filez — native file manager for the node's base folder: export backups/archive exports/.txn files to the phone via SAF, import documents into the node for restore/txnimport. Needs Minima Core >= 1.3.1 (New UI preview) with Admin enabled.
 - 2026-07-22 · minima-terminal-ide 0.2.0 — Completion redesign: suggestion pills replaced by a tab-driven IDE-style dropdown — only the chosen command's params/values, each with its description from the node help (required first); hardware Tab or on-screen ⇥ accepts and chains command → param → value; suggestions follow the cursor and stay quiet inside quoted strings
 - 2026-07-21 · pandaapps 0.2.4 — Fix: long app names pushed the version label off the card title row (the 'Minima Core — New UI (Preview)' entry showed no version); the name now wraps and the version always shows
 - 2026-07-21 · minima-core-ui 1.3.0-ui-h2 — Large-response IPC: results over 256KB are handed to companion apps as a file (per-package content:// grant, 5-min prune) instead of the 'Result too long!' stub — long history/coins/printtree now work; plus commands run off the main thread (fixes megammrsync-over-IPC and slow-command ANRs). Old apps keep the old behavior; new-minimaapi apps get full results.
