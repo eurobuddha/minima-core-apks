@@ -313,14 +313,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.4.2-ui-h2",
-      "versionCode": 25,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, the H2 node fix, the large-response IPC (no more 'Result too long!'), the admin file bridge, AND user-configurable startup params (menu > Startup Params: server mode, MegaMMR, RPC + advanced extra args, with Save & Restart). Installs manually over the official build (back up your seed first).",
+      "version": "1.5.0-ui-h2",
+      "versionCode": 26,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, the H2 node fix, large-response IPC, the admin file bridge, user-configurable startup params, AND a new Logs tab - live on-device tail of the node's own log with pause, filter, share and per-subsystem verbosity toggles. Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.4.2.apk",
-      "sha256": "988600cee30711fe23616b8ab18c42ac8f306b1991f36e514de9f8d4eca22f64"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.5.0.apk",
+      "sha256": "4338f0e35f2b8b28565aa37adb5d03ac28abb4e6a2d4b4871802ee4e90e2ae14"
     },
     {
       "name": "Minima Terminal",

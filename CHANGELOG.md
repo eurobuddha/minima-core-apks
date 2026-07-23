@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-23 · minima-core-ui 1.5.0-ui-h2 — Node Logs tab: live on-device tail of the node's own log (MINIMALOG event stream, bounded ring buffer from service start) with Pause/Resume, Clear, Share, substring filter and verbosity chips (scripts/mining/blocks/networking/ibd/maxima) driving the node's logs command
 - 2026-07-23 · minima-core-ui 1.4.2-ui-h2 — Version-line unification (vc25): two parallel release lines (1.3.2/1.3.3 file-bridge work and 1.4.0/1.4.1 startup-params work) carried the SAME code under clashing versionCodes, so devices on 1.3.3 were never offered the update. 1.4.2 supersedes every installed variant; contains startup params + file-bridge stat + large-response IPC.
 - 2026-07-23 · minima-core-ui 1.4.1-ui-h2 — File bridge: new stat action (resolves a raw terminal-style path exactly like the node does and reports exists/size/canonical + a parent listing when missing) and canonical base/abspath returned by list/get, so file apps never reconstruct node paths
 - 2026-07-23 · minima-filez 0.1.8 — Proper launcher icon — orange folder on dark, matching the store icon (was the template's generic icon).
