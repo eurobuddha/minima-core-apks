@@ -313,14 +313,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.6.1-ui-h2",
-      "versionCode": 29,
+      "version": "1.6.2-ui-h2",
+      "versionCode": 30,
       "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.1: the import aborts with a clean error before memory runs out (no more crashes), and with -megaprune in Startup Params extra args prunable coins never enter RAM - the recommended way to run mainnet MegaMMR on a phone. Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.1.apk",
-      "sha256": "e7a6da54f12d5313efba40f9b6e0e36340aec40d8c7ab353ac4e580d65a9e70e"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.2.apk",
+      "sha256": "c4eef6982a44800b698e9b4b1a5fd295afba993273e68ef2b87859ffc6ef34aa"
     },
     {
       "name": "Minima Terminal",
