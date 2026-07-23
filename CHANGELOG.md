@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-23 · minima-core-ui 1.4.2-ui-h2 — Version-line unification (vc25): two parallel release lines (1.3.2/1.3.3 file-bridge work and 1.4.0/1.4.1 startup-params work) carried the SAME code under clashing versionCodes, so devices on 1.3.3 were never offered the update. 1.4.2 supersedes every installed variant; contains startup params + file-bridge stat + large-response IPC.
 - 2026-07-23 · minima-core-ui 1.4.1-ui-h2 — File bridge: new stat action (resolves a raw terminal-style path exactly like the node does and reports exists/size/canonical + a parent listing when missing) and canonical base/abspath returned by list/get, so file apps never reconstruct node paths
 - 2026-07-23 · minima-filez 0.1.8 — Proper launcher icon — orange folder on dark, matching the store icon (was the template's generic icon).
 - 2026-07-23 · minima-filez 0.1.7 — File details now self-verify: the dialog asks the node to resolve the exact Location string like a terminal file: arg and shows the verdict, listing the folder's real contents on mismatch. Needs node 1.3.3 (stat parent listing).
