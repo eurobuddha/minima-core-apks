@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-23 · minima-filez 0.1.5 — Path handling mirrors the web Filez 1.9.4 exactly: root from status->data, Location = fullPath + location, detail dialog with Size / File Type / Location sections and a Copy path button (Copied to clipboard feedback).
 - 2026-07-23 · minima-filez 0.1.4 — Path ground truth: terminal paths now come from the node's own canonical base (FILE list 'base'), and a new 'Verify path with node' button stats the exact string the way MiniFile.createBaseFile resolves a terminal file: argument. Needs node 1.3.2.
 - 2026-07-22 · minima-explorer 0.1.0 — Initial release — native block explorer: live block feed, search by block/TxPoW/address, parsed block + txn detail, light & dark mode
 - 2026-07-22 · minima-filez 0.1.3 — Clipboard hardening: copy is deferred past popup dismissal and read-back verified (honest toast), path text is long-press selectable, new Share path menu item bypasses the clipboard entirely.
