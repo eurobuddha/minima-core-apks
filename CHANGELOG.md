@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-07-23 · minima-filez 0.1.7 — File details now self-verify: the dialog asks the node to resolve the exact Location string like a terminal file: arg and shows the verdict, listing the folder's real contents on mismatch. Needs node 1.3.3 (stat parent listing).
 - 2026-07-23 · minima-filez 0.1.6 — Fixes phantom /1.1/ in displayed paths: Minima appends the base version to -data, so status->data points inside the version folder while files live at -basefolder (one level up). Locations now use the bridge-reported canonical base. Root cause of 'Restore file doesn't exist'.
 - 2026-07-23 · minima-filez 0.1.5 — Path handling mirrors the web Filez 1.9.4 exactly: root from status->data, Location = fullPath + location, detail dialog with Size / File Type / Location sections and a Copy path button (Copied to clipboard feedback).
 - 2026-07-23 · minima-filez 0.1.4 — Path ground truth: terminal paths now come from the node's own canonical base (FILE list 'base'), and a new 'Verify path with node' button stats the exact string the way MiniFile.createBaseFile resolves a terminal file: argument. Needs node 1.3.2.
