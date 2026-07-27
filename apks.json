@@ -125,30 +125,6 @@
       "sha256": "b46d5cff75b0f9fec824b821d585ae8d8652d505049fb36c98ba61f4ef2c1850"
     },
     {
-      "name": "minimaSwap",
-      "packageId": "com.eurobuddha.minimaswap",
-      "version": "0.18.0",
-      "versionCode": 1800,
-      "description": "Trustless cross-chain atomic swaps between native MINIMA and Ethereum USDT — HTLC hash-locked, no custodian. Makers publish a DEPTH LADDER (up to 6 bid + 6 ask tranches, each its own price and size) and takers can MARKET-SWEEP — a large order fills best-price-first across multiple levels/makers as sequential atomic swaps, with a transparent avg/worst-price review. Aggregated on-chain order book, per-take cap matching, embedded ETH wallet, both directions, background swap watcher, and a network-wide trade history. Interoperable with the miniSwap/bridge MiniDapp. An OTC tab for negotiated peer-to-peer deals — LPs advertise side+size, an instigator proposes/counters/accepts over a sealed channel, and the deal settles as a trustless HTLC swap. AUTO MARKET-MAKE — peg your maker ladder to the live MEXC MINIMA/USDT market: it auto-reprices when the market moves and auto-withdraws for safety if the feed goes down, restoring on recovery. Your published market stays LIVE until you cancel it — the app self-heals after reboots, node restarts and deep sleep and alerts you if Minima Core is down so the market can be reinstated the moment connection returns. NEW (0.18.0): ETH-leg fund-safety hardening — a dropped/replaced Ethereum transaction now retries and confirms on-chain instead of stranding funds, lock timelocks anchor to chain time (not the device clock), gas is floored to the base fee, and Tether approvals self-repair; it now also SAFELY coexists with usdtSwap on the same node (a shared-wallet tx clash just retries, never loses funds). Under the com.eurobuddha namespace — uninstall any old minimaSwap install first (finish open swaps before switching).",
-      "category": "Finance",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaswap-0151.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minimaSwap-0.18.0.apk",
-      "sha256": "b3048d8678667bf533cdf268582b1ba754ae05c446e0acfe4b5ce8a2d4fb0435"
-    },
-    {
-      "name": "usdtSwap",
-      "packageId": "com.eurobuddha.usdtswap",
-      "version": "0.1.2",
-      "versionCode": 102,
-      "description": "Trustless cross-chain atomic swaps between ERC20 USDT (Ethereum) and native USDT on Minima (mxUSDT) — HTLC hash-locked, no custodian. A fork of minimaSwap with the Minima leg repointed to mxUSDT (the bridged native-USDT token) and PARITY pricing: because both legs are USDT the mid is fixed at 1.0 and you set a skew + spread around it (no external price feed). Reuses minimaSwap's aggregated on-chain order book, depth-ladder market-making (up to 6 bid + 6 ask tranches), best-price-first market-sweep taking, OTC negotiation tab, embedded ETH wallet, both directions, and a background swap watcher — on its OWN isolated books, so it never mixes with minimaSwap. v0.1.2: mainnet-verified end-to-end (both directions, small swaps) and hardened — a dropped Ethereum tx retries instead of stranding funds, lock timelocks anchor to chain time, gas is floored to the base fee, and Tether approvals self-repair; backed by a unit-test suite over the fund paths. Still experimental — test with small amounts. Requires Minima Core running with usdtSwap enabled.",
-      "category": "Finance",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/usdtswap.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/usdtSwap-0.1.2.apk",
-      "sha256": "c7fc6973b64b3b829908bb9cf873015d1696997c41faebe3dd292e58d682fd76"
-    },
-    {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
       "version": "0.1.12",
