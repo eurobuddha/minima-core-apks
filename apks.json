@@ -21,7 +21,7 @@
       "packageId": "com.eurobuddha.terminalide",
       "version": "0.2.0",
       "versionCode": 200,
-      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.0: completion redesign — the suggestion pills are replaced by an IDE-style dropdown showing only the chosen command's parameters and values, each with its description from the node help; Tab (hardware or on-screen ⇥) accepts and chains command → param → value.",
+      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.0: completion redesign — the suggestion pills are replaced by an IDE-style dropdown showing only the chosen command's parameters and values, each with its description from the node help; Tab (hardware or on-screen ⇥) accepts and chains command → param → value. Works with any Minima Core; large command outputs (>256KB) and megammrsync-style commands need the Minima Core New UI (Preview) 1.3.0+ node.",
       "category": "Developer",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
