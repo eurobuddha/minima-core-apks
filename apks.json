@@ -289,14 +289,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.6.3-ui-h2",
-      "versionCode": 31,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.3: the Wallet tab now explains its own number — a breakdown line under the total shows confirmed, locked (what is tied up in contracts), unconfirmed, coin count and how stale the figure is. Tap any token to see every coin behind that balance, with contract-locked ones flagged, and tap a coin for its full detail — every field individually copyable and no id ever truncated, so a coinid pastes straight back into the terminal. Installs manually over the official build (back up your seed first).",
+      "version": "1.6.4-ui-h2",
+      "versionCode": 32,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.4: the wallet now shows SENDABLE for every token, not confirmed — confirmed counts coins locked in contracts, so every balance in the list used to read high. Each token carries its own breakdown (locked, unconfirmed, coin count), tap any token to see every coin behind it with locked ones flagged, and tap a coin for full detail. Nothing is truncated anywhere: coin ids, token ids and amounts are shown in full and wrap, long-press any row to copy the id, and Receive gains a Copy button. Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.3.apk",
-      "sha256": "410a070c9cbc369f997ca40e708ef6505aa5bc8392faf383070ce8ef5db1df5f"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.4.apk",
+      "sha256": "d4979665af68e7c1e3b50b53b8e150261fe334d9ffa00867aefff3b312148bf5"
     },
     {
       "name": "Minima Terminal",
