@@ -357,6 +357,18 @@
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.2.19.apk",
       "sha256": "59feaaecbbf32c4e66d9527ccfdfb9f8837caf14c10f10b33d61a0c1724e08b7"
+    },
+    {
+      "name": "KeyUses",
+      "packageId": "com.eurobuddha.keyreuses",
+      "version": "0.1.0",
+      "versionCode": 100,
+      "description": "Audit your node's 64 keys for one-time-signature re-use. Minima signatures are stateful: each key must move to a fresh leaf every time it signs, and a seed re-sync that set keyuses too low makes the node re-use a leaf it already spent on-chain, which weakens that key. KeyUses compares what the chain proves each key has signed against your node's own counter, flags any key at risk or with confirmed re-use, and gives you the safe keyuses value for your next re-sync. Read-only: it never builds a transaction. Your 64 public keys are sent to the archive audit service to look up spend history — public keys cannot move funds, but they do reveal your addresses to that server.",
+      "category": "Security",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/keyuses.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-keyuses-0.1.0.apk",
+      "sha256": "42253918dff0e92508fcf4e5c13f37559094a592857e721ac3b0525da5c52dba"
     }
   ]
 }
