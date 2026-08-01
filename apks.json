@@ -19,14 +19,14 @@
     {
       "name": "Terminal IDE",
       "packageId": "com.eurobuddha.terminalide",
-      "version": "0.2.0",
-      "versionCode": 200,
-      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.0: completion redesign — the suggestion pills are replaced by an IDE-style dropdown showing only the chosen command's parameters and values, each with its description from the node help; Tab (hardware or on-screen ⇥) accepts and chains command → param → value. Works with any Minima Core; large command outputs (>256KB) and megammrsync-style commands need the Minima Core New UI (Preview) 1.3.0+ node.",
+      "version": "0.2.1",
+      "versionCode": 210,
+      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.1: you can finally get output out of the terminal — long-press any output block to copy or share it, a new select mode makes the whole log drag-selectable (the tab pager used to swallow the selection handles), and Export session saves or shares the lot as a file (which also fixes the old share crashing on any sizeable session). Works with any Minima Core; large command outputs (>256KB) and megammrsync-style commands need the Minima Core New UI (Preview) 1.3.0+ node.",
       "category": "Developer",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.0.apk",
-      "sha256": "0e08d4740b76d8f3d2d456e157f0747864763366588bc356268369fb11963e59"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.1.apk",
+      "sha256": "706e35ac33e539cb3c041784dc1af32b432a186d88bb5b8dec3095b092d96303"
     },
     {
       "name": "Zero Edge Casino",
