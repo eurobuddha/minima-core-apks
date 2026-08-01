@@ -289,14 +289,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.6.5-ui-h2",
-      "versionCode": 33,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.5: Send gains a QR scanner for the recipient address and a Max button that fills your sendable balance — and a rejected send now says so instead of reporting \"Funds Sent!\" and clearing the form. 1.6.4: the wallet shows SENDABLE for every token rather than confirmed (confirmed counts coins locked in contracts, so balances read high), each token carries its own locked/unconfirmed/coin-count breakdown, tap any token to inspect every coin behind it with locked ones flagged, and nothing is truncated anywhere — coin ids, token ids and amounts are shown in full and wrap, long-press any row to copy. Installs manually over the official build (back up your seed first).",
+      "version": "1.6.6-ui-h2",
+      "versionCode": 34,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.6: honest chain feedback — a send that fails now shows the node's own reason (\"Insufficient funds.. you only have X require:Y\") instead of a generic message, a posted transaction says \"mining…\" rather than claiming it is already sent, and the wallet confirms and refreshes itself when the balance actually moves on chain. 1.6.5: Send gains a QR scanner for the recipient address and a Max button. 1.6.4: the wallet shows SENDABLE for every token rather than confirmed (confirmed counts coins locked in contracts, so balances read high), each token carries its own locked/unconfirmed/coin-count breakdown, tap any token to inspect every coin behind it with locked ones flagged, and nothing is truncated anywhere — coin ids, token ids and amounts are shown in full and wrap, long-press any row to copy. Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.5.apk",
-      "sha256": "b8ef580b016fb0d11adc4823927517729b8ae48c915ca19ae84057e48292d03e"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.6.apk",
+      "sha256": "5fa84fdcdcde94fa8c28eb9afbb2649d48cfa6d2da41eab32de2acd59417bfd2"
     },
     {
       "name": "Minima Terminal",
