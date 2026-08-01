@@ -349,14 +349,14 @@
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.2.19",
-      "versionCode": 219,
-      "description": "On-chain order-book DEX for MINIMA/mxUSDT with a built-in market maker. Every order is a V5 covenant coin holding your own funds — no custodian and no server can touch or erase them. Place limit orders, or sweep several resting orders in one transaction at the best available price. The MARKET MAKER publishes a ladder of up to 6 bids and 6 asks with a per-rung price and amount: peg it to the live MEXC mid and it re-prices itself as the market moves (keeping the amounts you set), or quote your own fixed prices and it never moves them. A price re-lock is ONE transaction and your funds never leave the book, and the ladder can be edited in place while it is live. Every rung shows its real on-chain state — mining, live, re-pricing or cancelling — and a whole ladder withdraws in a handful of batched transactions. Good-till-cancelled orders auto-renew. Shares its order book with the PandaDEX MiniDapp. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.3.7",
+      "versionCode": 307,
+      "description": "On-chain DEX for MINIMA/mxUSDT blending PandaDEX V5 order-book liquidity with PandaPools AMM reserves. The ladder labels BOOK and POOL depth separately, marketable limits can fill atomically across both sources, and any unfilled balance rests as a limit order. Includes built-in market maker, confirmed personal trades, on-chain evidence/export for reconciliation, AtomiX mxUSDT bridge wording, and sendable/confirmed/locked/unconfirmed wallet balances. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.2.19.apk",
-      "sha256": "59feaaecbbf32c4e66d9527ccfdfb9f8837caf14c10f10b33d61a0c1724e08b7"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.3.7.apk",
+      "sha256": "f0596d1dec1f1d818dd876f9bbdecb136512c5936b733e3710fd82a1f8b3bf89"
     },
     {
       "name": "KeyUses",
