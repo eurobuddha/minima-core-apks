@@ -289,14 +289,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.6.2-ui-h2",
-      "versionCode": 30,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.1: the import aborts with a clean error before memory runs out (no more crashes), and with -megaprune in Startup Params extra args prunable coins never enter RAM - the recommended way to run mainnet MegaMMR on a phone. Installs manually over the official build (back up your seed first).",
+      "version": "1.6.3-ui-h2",
+      "versionCode": 31,
+      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.3: the Wallet tab now explains its own number — a breakdown line under the total shows confirmed, locked (what is tied up in contracts), unconfirmed, coin count and how stale the figure is. Tap any token to see every coin behind that balance, with contract-locked ones flagged, and tap a coin for its full detail — every field individually copyable and no id ever truncated, so a coinid pastes straight back into the terminal. Installs manually over the official build (back up your seed first).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.2.apk",
-      "sha256": "c4eef6982a44800b698e9b4b1a5fd295afba993273e68ef2b87859ffc6ef34aa"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.3.apk",
+      "sha256": "410a070c9cbc369f997ca40e708ef6505aa5bc8392faf383070ce8ef5db1df5f"
     },
     {
       "name": "Minima Terminal",
