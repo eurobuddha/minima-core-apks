@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-01 · minima-keyuses 0.1.0 — Native KeyUses key re-use audit: reads keys action:list, derives each key's default address on-device, and compares what the chain proves each key signed against the node's own counter. Reports AT RISK (chain ahead of counter) and witness-confirmed RE-USED separately, and gives the safe keyuses value for your next seed re-sync.
 - 2026-08-01 · minima-terminal-ide 0.2.1 — Get output out of the terminal: long-press any output block to copy it, select text in a dialog, or share it; a new select mode makes the whole log drag-selectable (the tab pager used to swallow the selection handles, so in-place selection never worked); Export session offers Save to file (SAF), Share and Copy to clipboard, sized against the Binder — the old share pushed the entire session through an Intent extra and killed the app on any sizeable log.
 
 - 2026-07-30 · pandadex 0.2.19 — Correct failed/raced cancel and relock handling so real fills are not suppressed; prevent multi-order sweeps from multiplying personal trade totals; bound fill-evidence queries and require recent evidence before classifying a disappearance as a cancellation.
