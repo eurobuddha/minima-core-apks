@@ -139,14 +139,14 @@
     {
       "name": "Minima ETH Wallet",
       "packageId": "com.eurobuddha.ethwallet",
-      "version": "0.2.0",
-      "versionCode": 200,
-      "description": "Standalone Ethereum/ERC20 wallet sharing minimaSwap's address — manage tokens, send/receive (QR), add any ERC20 by contract address, live gas preview, view activity on Etherscan. Same address via node-pair or one-time key import.",
+      "version": "0.2.2",
+      "versionCode": 202,
+      "description": "Standalone Ethereum/ERC20 wallet sharing minimaSwap's address — manage tokens, send/receive (QR), add any ERC20 by contract address, live gas preview, view activity on Etherscan. Same address via node-pair or one-time key import. 0.2.2 is a security and stability release, recommended for everyone. Fixes a crash-loop on launch: reinstalling restored the encrypted key store from backup, but the Keystore key that unlocks it is device-bound and is not restored, so the app died on every start — backup of that store is now disabled and an unreadable store is repaired instead of fatal. The confirm screen now shows the FULL recipient address instead of a shortened one, so address-poisoning (a lookalike address matching the first and last few characters) can no longer hide there, and recipients are checksum-verified. Node-derived keys are validated and the address is pinned: if your node ever derives a DIFFERENT address — a reset or restored-with-another-seed node — the wallet stops and tells you your funds are at the old address, instead of silently showing you an empty new wallet. Gas price and limit from the RPC are now bounded, so a bad endpoint cannot drain the balance as fees.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/ethwallet.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ethwallet-0.2.0.apk",
-      "sha256": "de742c45d4ca48b9288e757d994345fc43dd0f61adb61e292e043683826db4f9"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ethwallet-0.2.2.apk",
+      "sha256": "c60361dfd149494f4cd8ff3b80109d4e6d8f69a465949874f3ab2b6828f64be0"
     },
     {
       "name": "Minima Expert",
