@@ -349,14 +349,14 @@
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.3.8",
-      "versionCode": 308,
+      "version": "0.3.9",
+      "versionCode": 309,
       "description": "On-chain DEX for MINIMA/mxUSDT blending PandaDEX V5 order-book liquidity with PandaPools AMM reserves. The ladder labels BOOK and POOL depth separately, marketable limits can fill atomically across both sources, and any unfilled balance rests as a limit order. Includes built-in market maker, a split:10 maker funding tool for preparing wallet UTXOs before publishing offers, confirmed personal trades, on-chain evidence/export for reconciliation, AtomiX mxUSDT bridge wording, and sendable/confirmed/locked/unconfirmed wallet balances. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.3.8.apk",
-      "sha256": "1b5869fbb4901048bd65b066cf5db804dd2d700230e08f55e6191d6256029bde"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.3.9.apk",
+      "sha256": "2174e1af5611360900412f3ab5efac5bb3b2f0fdb0e90b8fe4bb1f18d564340f"
     },
     {
       "name": "KeyUses",
