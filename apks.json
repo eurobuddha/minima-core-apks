@@ -113,18 +113,6 @@
       "sha256": "d678304c76c09fffb28165bd4ae56cf409b022afc0176ec4514995f82bd27163"
     },
     {
-      "name": "Minima Limit",
-      "packageId": "com.eurobuddha.limit",
-      "version": "0.3.1",
-      "versionCode": 301,
-      "description": "On-chain limit-order DEX for MINIMA/USDT — place buy & sell orders at your price; trustless full-fill swaps via a VERIFYOUT smart contract. Good-till-cancelled orders auto-renew so they never expire. Shares the same order book as the Limit MiniDapp.",
-      "category": "Finance",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/limit.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-limit-0.3.1.apk",
-      "sha256": "b46d5cff75b0f9fec824b821d585ae8d8652d505049fb36c98ba61f4ef2c1850"
-    },
-    {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
       "version": "0.1.14",
