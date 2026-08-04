@@ -313,14 +313,14 @@
     {
       "name": "FreezePeach",
       "packageId": "com.eurobuddha.freezepeach",
-      "version": "0.3.31",
-      "versionCode": 331,
-      "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — end-to-end sealed, no phone number, no account, no server that can read or block you. Premium two-theme design, scan/paste contacts, short IDs, group chats with media + admins, rich sealed photos/video, and a full photo editor: filters, adjust, crop, rotate, markup, plus a native retro-effects studio (filtr, ported to OpenGL ES): dithering & palettes, halftone, edge-detect, ASCII art, CRT, scanlines, RGB-split, bloom, grain. Now includes a full non-custodial in-app Minima wallet: local WOTS signing (seed never leaves the device), send to any address or straight to a contact from the chat with a payment bubble, token icons + names + web-validation checkmarks, and a live balance.",
+      "version": "0.3.33",
+      "versionCode": 333,
+      "description": "Censorship-resistant, self-custodial chat on the MaxLite off-chain network. Your identity is your Minima seed — the same on any device — end-to-end sealed, no phone number, no account, no server that can read or block you. Premium two-theme design, scan/paste contacts, short IDs, group chats with media + admins, rich sealed photos/video, and a full photo editor: filters, adjust, crop, rotate, markup, plus a native retro-effects studio (filtr, ported to OpenGL ES): dithering & palettes, halftone, edge-detect, ASCII art, CRT, scanlines, RGB-split, bloom, grain. Now includes a full non-custodial in-app Minima wallet: local WOTS signing (seed never leaves the device), send to any address or straight to a contact from the chat with a payment bubble, token icons + names + web-validation checkmarks, and a live balance. 0.3.33 is a SECURITY release — upgrade strongly recommended: it fixes WOTS one-time-key re-use that could expose the key guarding your funds after a backup restore or a second-device setup, and domain-separates the wallet key from a Minima node's own key index 0, with a one-time upgrade screen and an attestation-gated sweep onto the new address.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.31.apk",
-      "sha256": "5091bcb517259bcba2a0ac98c7e14e76ef239d29d964517ae00f2bb8e5d91bab"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.33.apk",
+      "sha256": "ad61b436c1e638b13d912f2b0dc7abf7f536a1976f02d75c8a82e594a7468106"
     },
     {
       "name": "PandaPools",
