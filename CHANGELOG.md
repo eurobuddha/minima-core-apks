@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-04 · pandadex 0.4.1 — Trade verification release fix. Chain history now verifies the exact covenant-matched output for the spent order input, so batch cancels and same-wallet amount collisions cannot cross-prove phantom fills; CHAIN_VERIFIED is only used for node-history-proven rows, payout fallback remains LOCAL_VERIFIED; exports retain local/node verification if explorer.minima.global or block.minima.global are unavailable; maker split:10 cannot double-post during address lookup and publishing is blocked until split outputs confirm/sendable.
 - 2026-08-04 · miniMall-Inbox 0.4.0 — Send NFT — paid NFT order lines get a one-tap on-chain delivery button (sends the NFT token to the buyer's pay address, ref-tagged); order auto-advances to SHIPPED once every NFT line is sent.
 - 2026-08-04 · miniMall-Shop 0.3.1 — NFT-aware orders — .shop products may carry an nftTokenId; it now rides each order line so the vendor's Inbox can deliver the NFT on-chain. NFT badge on product detail.
 - 2026-08-04 · miniMerch-NFT-Studio 0.1.0 — First release — import your wallet NFTs (decimals:0 tokens) with images from token metadata, price them in Minima or mxUSDT, export a .shop with per-product nftTokenId for on-chain delivery

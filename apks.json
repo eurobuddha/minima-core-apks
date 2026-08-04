@@ -349,14 +349,14 @@
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.4.0",
-      "versionCode": 400,
-      "description": "On-chain DEX for MINIMA/mxUSDT blending PandaDEX V5 order-book liquidity with PandaPools AMM reserves. The ladder labels BOOK and POOL depth separately, marketable limits can fill atomically across both sources, and any unfilled balance rests as a limit order. Includes built-in market maker, a split:10 maker funding tool for preparing wallet UTXOs before publishing offers, confirmed personal trades, on-chain evidence/export for reconciliation, AtomiX mxUSDT bridge wording, and sendable/confirmed/locked/unconfirmed wallet balances. v0.4.0: a fill is now proven from the transaction that SPENT the order coin, not inferred from what is left unspent — so a fill whose proceeds were already spent onward is no longer lost, which is the normal case for your own maker rungs, and a cancel posted from another device on the same seed is seen correctly. Payout evidence is also adjudicated across a whole scan at once, so one cancelled rung's refund can no longer prove a payment for every other order of the same size (it produced three phantom trades on a live ladder). Anything still unproven is dropped. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.4.1",
+      "versionCode": 401,
+      "description": "v0.4.1: fixes the remaining trade-verification edge cases before public release — chain history now verifies the covenant-matched output for the exact spent order input, so batch cancels and same-wallet same-amount orders cannot cross-prove phantom fills; rows only claim CHAIN_VERIFIED when local node history proved the fill, otherwise payout evidence remains LOCAL_VERIFIED; exports keep PandaDEX local/node verification if explorer.minima.global or block.minima.global are unavailable, with both links included as optional corroboration; maker split:10 now blocks publishing until the split outputs confirm/sendable and cannot double-post while fetching the wallet address. On-chain DEX for MINIMA/mxUSDT blending PandaDEX V5 order-book liquidity with PandaPools AMM reserves. The ladder labels BOOK and POOL depth separately, marketable limits can fill atomically across both sources, and any unfilled balance rests as a limit order. Includes built-in market maker, a split:10 maker funding tool for preparing wallet UTXOs before publishing offers, confirmed personal trades, on-chain evidence/export for reconciliation, AtomiX mxUSDT bridge wording, and sendable/confirmed/locked/unconfirmed wallet balances. v0.4.0: a fill is now proven from the transaction that SPENT the order coin, not inferred from what is left unspent — so a fill whose proceeds were already spent onward is no longer lost, which is the normal case for your own maker rungs, and a cancel posted from another device on the same seed is seen correctly. Payout evidence is also adjudicated across a whole scan at once, so one cancelled rung's refund can no longer prove a payment for every other order of the same size (it produced three phantom trades on a live ladder). Anything still unproven is dropped. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.4.0.apk",
-      "sha256": "41c9e48f9d518704d5e12ceeb70b2ad795f64d2897adcc15770c987854a2f2e7"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.4.1.apk",
+      "sha256": "dbbf874bf1a942b777d106739e4a79751bb2112276ecd2da7f34582e4c59f171"
     },
     {
       "name": "KeyUses",
