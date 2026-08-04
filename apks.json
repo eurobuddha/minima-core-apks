@@ -163,26 +163,26 @@
     {
       "name": "miniMall",
       "packageId": "com.eurobuddha.merchshop",
-      "version": "0.3.0",
-      "versionCode": 300,
-      "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free.",
+      "version": "0.3.1",
+      "versionCode": 301,
+      "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free. 0.3.1: NFT-aware — NFT listings (from miniMerch NFT Studio) carry the token to your order so the vendor can deliver it on-chain.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.0.apk",
-      "sha256": "2b78e57476583655f400c17ebb89544c181862ebd1d831c070d4c76fb0f6434f"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.1.apk",
+      "sha256": "5e887e8743deb8f02c1c83f25dfc2a2bebd44f2c2eefc6890ba0773f06212ede"
     },
     {
       "name": "miniMall Inbox",
       "packageId": "com.eurobuddha.merchinbox",
-      "version": "0.3.0",
-      "versionCode": 300,
-      "description": "Vendor order manager — receive and manage orders across all your shops (PAID → CONFIRMED → SHIPPED), tagged by shop, with order chat + CSV export.",
+      "version": "0.4.0",
+      "versionCode": 400,
+      "description": "Vendor order manager — receive and manage orders across all your shops (PAID → CONFIRMED → SHIPPED), tagged by shop, with order chat + CSV export. 0.4.0: Send NFT — paid NFT orders get a one-tap on-chain delivery button; the order auto-advances to SHIPPED once every NFT line is sent.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.3.0.apk",
-      "sha256": "b02b832d1687cbd19eb2dc672d7a4b3aaf6bcafb82fac15af7f7310c52e596e2"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.4.0.apk",
+      "sha256": "0e6f97d15bbd87618c5e2716507e2970e80f501f1b5c1b059c5f7e3945afd024"
     },
     {
       "name": "miniMall Studio",
@@ -195,6 +195,18 @@
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.2.0.apk",
       "sha256": "5df45fcd2a81405d568453599ce627b774631740325028113e6f866e678ed14d"
+    },
+    {
+      "name": "miniMerch NFT Studio",
+      "packageId": "com.eurobuddha.merchnftstudio",
+      "version": "0.1.0",
+      "versionCode": 100,
+      "description": "Sell your own NFTs — imports the NFTs from your node's wallet (images, names and descriptions straight from the token metadata), lets you price them in Minima or mxUSDT, and exports a .shop your customers open in miniMall. Paid orders are delivered on-chain with one tap in miniMall Inbox.",
+      "category": "Shopping",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-nft-studio.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.1.0.apk",
+      "sha256": "de5fec50c5f78fe8a8ec211c5afb70245f748abd96bc2ad1658cd3aa0be957f5"
     },
     {
       "name": "miniMall Studio (Mac)",
