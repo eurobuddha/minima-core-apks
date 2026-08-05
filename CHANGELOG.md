@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-05 · minima-history 0.3.2 — Detail dialog: never truncate, everything copyable. Inputs/Outputs and the per-token effect now show FULL addresses and tokenids (monospace, tap-to-copy) instead of shortened, uncopyable 0x1234…ABCD strings; the primary token's full tokenid gets its own copy row; plain fields (amount, block, time) are text-selectable.
 - 2026-08-04 · Entropy 0.1.5 — First store release: provably fair BIP39 seed dice — SHA3(node+device) rejection-sampled rolls, iancoleman-parity maths, Last Word checksum calculator, FLAG_SECURE, zero permissions
 - 2026-08-04 · pandadex 0.4.1 — Trade verification release fix. Chain history now verifies the exact covenant-matched output for the spent order input, so batch cancels and same-wallet amount collisions cannot cross-prove phantom fills; CHAIN_VERIFIED is only used for node-history-proven rows, payout fallback remains LOCAL_VERIFIED; exports retain local/node verification if explorer.minima.global or block.minima.global are unavailable; maker split:10 cannot double-post during address lookup and publishing is blocked until split outputs confirm/sendable.
 - 2026-08-04 · miniMall-Inbox 0.4.0 — Send NFT — paid NFT order lines get a one-tap on-chain delivery button (sends the NFT token to the buyer's pay address, ref-tagged); order auto-advances to SHIPPED once every NFT line is sent.

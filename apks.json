@@ -55,14 +55,14 @@
     {
       "name": "Minima History",
       "packageId": "com.eurobuddha.history",
-      "version": "0.3.1",
-      "versionCode": 301,
+      "version": "0.3.2",
+      "versionCode": 302,
       "description": "Browse and export your node's full transaction history, with on-chain verification.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.1.apk",
-      "sha256": "0dca1c31a18ab0a16320083e41138817136d7ae3bba50ba3637399ce277cca0e"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.2.apk",
+      "sha256": "5f4449bcdca82975b2565ccb6a48a92f1c70e2114a8b960bf51b5806c1beff78"
     },
     {
       "name": "Minima Explorer",
