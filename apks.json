@@ -41,6 +41,18 @@
       "sha256": "e55de0e94d3d601be3984f3673c518cadfa505a17341e8b6de6824b50d00c17d"
     },
     {
+      "name": "Openly",
+      "packageId": "com.eurobuddha.openly",
+      "version": "0.1.2",
+      "versionCode": 21,
+      "description": "Peer-to-peer proposition betting — wager TRUE/FALSE on anything with anyone. Post your odds, counter to negotiate the stake and price, accept to match. When you agree on the outcome it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) — with a one-tap trusted \"eurobuddha\" default. Per-bet end-to-end encrypted chat, live on-chain confirmation feedback, and a full history of every payout. EXPERIMENTAL and it moves real funds — test small.",
+      "category": "Games",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.1.2.apk",
+      "sha256": "2476b719bd37a9f27e0c8263e0c09dbe962b733f478d6a68b8f1b17878e0d3cc"
+    },
+    {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
       "version": "0.4.3",
