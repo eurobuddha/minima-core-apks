@@ -127,14 +127,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.19",
-      "versionCode": 20,
-      "description": "v0.1.19: FUNDS — AtomiX now HALTS instead of trading with keys your node no longer owns. Both of its identities (the published swap key, and the ETH wallet derived from your node seed) used to be established once when the app started and never re-checked — so if you reset or restored your node to a different seed while AtomiX was running, it kept publishing a key your node cannot sign for and kept using an ETH wallet your node can no longer derive. That silently strands incoming swap legs and any change. AtomiX now re-verifies both against the node at startup, every ~5 minutes, and whenever the node reconnects. On a mismatch it stops publishing, order edits, OTC and new counter-legs (swaps already in flight keep settling), shows exactly which key drifted, and helps you export or sweep the old ETH wallet BEFORE you reinstall — a reinstall is the clean reset, but it drops the claim secrets for unsettled swaps and the stale ETH key is never stored on disk. A busy or locked node can never trigger the halt: 'cannot verify' is never treated as a mismatch. Also in 0.1.16-0.1.18: the market keeper no longer calls itself usdtSwap, claim discovery reaches coins older than the 256-block scan window (a claim could stall forever with funds sitting claimable on-chain), and the swap inspector no longer reports your own ETH lock as the counterparty's leg.",
+      "version": "0.1.20",
+      "versionCode": 21,
+      "description": "v0.1.20: a reinstall now actually resets AtomiX. If your node's seed changes (you reset or restored it), AtomiX halts trading rather than using keys your node no longer owns — but until now, uninstalling and reinstalling could NOT clear the halt, because Android was restoring the old settings from your phone/cloud backup. Backup is now switched off for this app entirely (it was also sending your swap claim secrets and identity off-device, which it should never have done), and the halt screen now says plainly that if the warning returns after a reinstall you should clear app storage — with a button that takes you straight there. 0.1.19 introduced the halt itself: AtomiX re-checks both its published swap key and its node-derived ETH wallet at startup, every ~5 minutes and whenever the node reconnects; on a mismatch it stops publishing, order edits, OTC and new counter-legs while swaps already in flight keep settling, and helps you export or sweep the stale ETH wallet first. A busy or locked node can never trigger the halt.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.19.apk",
-      "sha256": "b0cccc574a265f75e723f18869c3e90393a692dc35cea5091edb1eac21538139"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.20.apk",
+      "sha256": "a9bc2fa22f8091ba63590fd7713d08b76a7667d5cbde8dfeac102f54f71feb68"
     },
     {
       "name": "Minima ETH Wallet",
