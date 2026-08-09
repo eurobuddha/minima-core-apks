@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-09 · miniMall-Shop 0.4.0 — Wallet-native NFT checkout (no delivery address — your node's Mx address shown, payment blocked without it), art-first NFT storefronts with collection headers+icons, edition chips, StateNFT pieces and complete-collection listings, order status timeline, retry-payment fix
 - 2026-08-09 · miniMerch-NFT-Studio 0.2.0 — Gallery-grade rewrite + StateNFT: art-first wallet gallery, Atelier/artBox StateNFT collections open into per-piece stamped art (WebP/SVG/JPEG plates), per-piece and complete-collection listings, buyer-storefront preview, schema v3 .shop export with collection icons
 - 2026-08-09 · history 0.3.3 — PRIVACY: the full transaction archive (counterparties, amounts, raw inputs/outputs) was being uploaded to phone/cloud backup. Cloud backup disabled; the archive still travels over device transfer because it cannot be rebuilt — it keeps history the node has already dropped.
 - 2026-08-09 · utxo 0.4.4 — Auto-backup off. No keys are stored here (the wallet is the node's), but the tx cache, any in-flight distribute job and the shared node-pairing token were being backed up and restored onto whatever node you reinstalled against.
