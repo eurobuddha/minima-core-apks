@@ -409,14 +409,14 @@
   {
    "name": "Minima NFT Wallet",
    "packageId": "com.eurobuddha.nftwallet",
-   "version": "0.1.1",
-   "versionCode": 101,
-   "description": "v0.1.1: mint safety \u2014 an icon + description combination that would seal an unsplittable token (the record is immutable and rides every transaction) is now slimmed automatically or refused before minting, and split transactions size themselves to the token record's real weight. Full native wallet plus an NFT studio. Granular balances (sendable/confirmed/unconfirmed), coin explorer, QR send & receive, and history with copyable, verifiable addresses. Mints tokens, NFTs and locked-edition State NFTs with immutable on-chain identity, embedded artwork and background minting.",
+   "version": "0.1.2",
+   "versionCode": 102,
+   "description": "v0.1.2: CRITICAL mint safety \u2014 the ~8.4KB creator signature was added to token records after the size checks; heavy collections and signed multi-edition NFTs could seal unsplittable. The exact joint transfer budget now gates every mint path inside the engine: signatures are dropped when that keeps lots transferable (the contract still proves the creator), and impossible mints are refused with real numbers. Update before minting collections. v0.1.1: mint safety \u2014 an icon + description combination that would seal an unsplittable token (the record is immutable and rides every transaction) is now slimmed automatically or refused before minting, and split transactions size themselves to the token record's real weight. Full native wallet plus an NFT studio. Granular balances (sendable/confirmed/unconfirmed), coin explorer, QR send & receive, and history with copyable, verifiable addresses. Mints tokens, NFTs and locked-edition State NFTs with immutable on-chain identity, embedded artwork and background minting.",
    "category": "Wallet",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/nftwallet.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-nft-wallet-0.1.1.apk",
-   "sha256": "db41b20ad1fd3c4c74a91c3983b5f7aaf79a948eeabbd935761a1b29324031c2"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-nft-wallet-0.1.2.apk",
+   "sha256": "7935579c37cf5d9d65fe67b996684d50f97d137dc73c326bfb4c748129fd492f"
   },
   {
    "name": "Atelier",
