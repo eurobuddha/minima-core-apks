@@ -429,6 +429,18 @@
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atelier.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.4.12.apk",
    "sha256": "874d08061178f2725ebff5a901aa3353eaf27249687e017d4e5fb0094b5d9ceb"
+  },
+  {
+   "name": "Minima Mail",
+   "packageId": "com.eurobuddha.mail",
+   "version": "0.4.1",
+   "versionCode": 401,
+   "description": "On-chain end-to-end encrypted messenger \u2014 no server, no Maxima, no internet permission. Your identity is derived from your node seed (recoverable on any device); every message is a tiny coin carrying a sealed blob only the recipient can open. Chats, images, in-chat payments to a contact's own verified address, QR contact exchange, passphrase-encrypted backup. v0.4.1: SECURITY \u2014 Android auto-backup was uploading the decrypted local message store (bodies, images, your receiving address) to phone/cloud backup and restoring it on reinstall. Backup and device transfer are now off; a reinstall is a clean start. Note: switching backup off cannot delete a backup that already exists \u2014 if the app misbehaves right after a reinstall, clear its app storage.",
+   "category": "Social",
+   "source": "PandaApps",
+   "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/mail.png",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.4.1.apk",
+   "sha256": "7110f5ba380d1055d945e34eb201c063bca65f41bc8ef8260e778788baf276b7"
   }
  ]
 }
