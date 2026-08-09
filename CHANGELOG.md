@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-09 · miniMerch-NFT-Studio 0.2.0 — Gallery-grade rewrite + StateNFT: art-first wallet gallery, Atelier/artBox StateNFT collections open into per-piece stamped art (WebP/SVG/JPEG plates), per-piece and complete-collection listings, buyer-storefront preview, schema v3 .shop export with collection icons
 - 2026-08-09 · history 0.3.3 — PRIVACY: the full transaction archive (counterparties, amounts, raw inputs/outputs) was being uploaded to phone/cloud backup. Cloud backup disabled; the archive still travels over device transfer because it cannot be rebuilt — it keeps history the node has already dropped.
 - 2026-08-09 · utxo 0.4.4 — Auto-backup off. No keys are stored here (the wallet is the node's), but the tx cache, any in-flight distribute job and the shared node-pairing token were being backed up and restored onto whatever node you reinstalled against.
 - 2026-08-09 · terminal 1.3, pandaapps 0.2.6, vestr 0.4.1, futurecash 0.2.2, filez 0.1.9, faucet 0.2.1, blockexplorer 0.1.1, miniMall-Studio 0.2.1, miniMerch-NFT-Studio 0.1.1 — Auto-backup off across the remaining companion apps. None held secrets, but all carried the shared node-pairing token to the cloud, and a reinstall should always be a clean start. Completes the fleet sweep begun with AtomiX 0.1.20.
