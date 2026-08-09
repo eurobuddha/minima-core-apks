@@ -19,38 +19,38 @@
     {
       "name": "Terminal IDE",
       "packageId": "com.eurobuddha.terminalide",
-      "version": "0.2.1",
-      "versionCode": 210,
-      "description": "Professional developer tooling for the Minima protocol — a full node terminal with tab-driven autocomplete and offline help for every command, a KISS VM smart-contract editor (lint, offline test in the node's own VM, deploy) and a guided transaction workbench. 0.2.1: you can finally get output out of the terminal — long-press any output block to copy or share it, a new select mode makes the whole log drag-selectable (the tab pager used to swallow the selection handles), and Export session saves or shares the lot as a file (which also fixes the old share crashing on any sizeable session). Works with any Minima Core; large command outputs (>256KB) and megammrsync-style commands need the Minima Core New UI (Preview) 1.3.0+ node.",
+      "version": "0.2.2",
+      "versionCode": 211,
+      "description": "v0.2.2: SECURITY. Terminal IDE records every command you type, word for word — which in a Minima terminal can include seed phrases and vault passwords — and that history was being uploaded to your phone/cloud backup. Cloud backup is now off for this app. Your own saved scripts are the one exception: they still travel when you move to a new phone (device transfer), because there is no other way to export them. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Developer",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.1.apk",
-      "sha256": "706e35ac33e539cb3c041784dc1af32b432a186d88bb5b8dec3095b092d96303"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.2.apk",
+      "sha256": "7fa6d29ef59a52a0598c0566901d6c3f0483fd5a35c682ec17c6cadabc1c5ed2"
     },
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.3",
-      "versionCode": 603,
-      "description": "Provably-fair on-chain casino — coin flip, dice and roulette via a 3-phase commit-reveal contract. Zero house edge. v0.6.3: fixed the coin animation showing the wrong face (Tails was drawn as Heads — display only, results were always correct); roulette wheel is now a true no-zero 36-pocket wheel in the authentic clustered order.",
+      "version": "0.6.4",
+      "versionCode": 604,
+      "description": "v0.6.4: SECURITY. The secrets that let you claim a winning pot were being copied to your phone/cloud backup, and — worse — a restored copy cannot be decrypted, which would have silently stranded any in-flight bet until its timeout. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.3.apk",
-      "sha256": "e55de0e94d3d601be3984f3673c518cadfa505a17341e8b6de6824b50d00c17d"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.4.apk",
+      "sha256": "be290c67d5d5768e582c56194ed35159f6b44b61287f7812c0c772041ba1d483"
     },
     {
       "name": "Openly",
       "packageId": "com.eurobuddha.openly",
-      "version": "0.2.1",
-      "versionCode": 23,
-      "description": "Peer-to-peer proposition betting — wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate the stake and price, accept to match. When you agree on the outcome it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) — with a one-tap trusted \"eurobuddha\" default. Dual-currency (Minima + mxUSDT) with per-currency markets; durable arbiter disputes you can withdraw; per-bet end-to-end encrypted chat; live on-chain confirmation feedback; full payout history. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.2.2",
+      "versionCode": 25,
+      "description": "v0.2.2: SECURITY. A signed settlement transaction that moves the pot — held on the device while waiting for the other side to co-sign — was being copied to your phone/cloud backup, along with the identity this app pins to your node. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.1.apk",
-      "sha256": "e4fbf375b5ff0ad4438092a11873d5658895d6412ba1f5e53129ce07857813bb"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.2.apk",
+      "sha256": "712666e32e2e24cb66987e77ae966fe368381857d36b1110ee8ad7b882726146"
     },
     {
       "name": "Minima UTXO Wallet",
@@ -151,14 +151,14 @@
     {
       "name": "Minima Expert",
       "packageId": "com.eurobuddha.expert",
-      "version": "0.5.0",
-      "versionCode": 500,
-      "description": "Offline, on-device Minima knowledge expert — ask about the protocol, TxPoW, MiniDapps and node commands, with citations.",
+      "version": "0.5.1",
+      "versionCode": 501,
+      "description": "v0.5.1: SECURITY. Your AI provider API key was stored in plain text and copied to your phone/cloud backup — a live, billable credential leaving the device. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/expert.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.5.0.apk",
-      "sha256": "220100f8d5049bcf55485b0b1ecf623f8f297fb97d3f736a31665dddac5160ce"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.5.1.apk",
+      "sha256": "cab059269dd995a2232a00b935f2ce662c55c5f9b503c1662ce9639d445c8d61"
     },
     {
       "name": "Minima Faucet",
@@ -175,26 +175,26 @@
     {
       "name": "miniMall",
       "packageId": "com.eurobuddha.merchshop",
-      "version": "0.3.1",
-      "versionCode": 301,
-      "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free. 0.3.1: NFT-aware — NFT listings (from miniMerch NFT Studio) carry the token to your order so the vendor can deliver it on-chain.",
+      "version": "0.3.2",
+      "versionCode": 302,
+      "description": "v0.3.2: SECURITY. Unpaid-order flags and vendor addresses were being copied to your phone/cloud backup, so a restored phone could offer \"Retry payment\" for an order you had already paid — a duplicate spend. Your order archive (buyer names, shipping addresses) was leaving the device too. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.1.apk",
-      "sha256": "5e887e8743deb8f02c1c83f25dfc2a2bebd44f2c2eefc6890ba0773f06212ede"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.2.apk",
+      "sha256": "5fb89ba4cfbff0e2ffec06dda31d7f2bee41b4ef7b4da61c57378a2118fd3178"
     },
     {
       "name": "miniMall Inbox",
       "packageId": "com.eurobuddha.merchinbox",
-      "version": "0.4.0",
-      "versionCode": 400,
-      "description": "Vendor order manager — receive and manage orders across all your shops (PAID → CONFIRMED → SHIPPED), tagged by shop, with order chat + CSV export. 0.4.0: Send NFT — paid NFT orders get a one-tap on-chain delivery button; the order auto-advances to SHIPPED once every NFT line is sent.",
+      "version": "0.4.1",
+      "versionCode": 401,
+      "description": "v0.4.1: SECURITY. Your vendor payment address is locked in on first use and never refreshed, and it was being copied to your phone/cloud backup — so a restore onto a different node would have kept collecting buyer payments at an address you can no longer spend from. Delivery flags could also mark paid orders as already sent. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.4.0.apk",
-      "sha256": "0e6f97d15bbd87618c5e2716507e2970e80f501f1b5c1b059c5f7e3945afd024"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.4.1.apk",
+      "sha256": "78225f761c1fc44f46db3c325e5b63842d7e329a79b5517847afed9b368f6cee"
     },
     {
       "name": "miniMall Studio",
@@ -301,14 +301,14 @@
     {
       "name": "Minima Core — New UI (Preview)",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.6.7-ui-h2",
-      "versionCode": 35,
-      "description": "Minima Core with eurobuddha's brand-native dark-first UI restyle, H2 fix, large-response IPC, file bridge, startup params, Logs tab and streaming MegaMMR import. 1.6.6: honest chain feedback — a send that fails now shows the node's own reason (\"Insufficient funds.. you only have X require:Y\") instead of a generic message, a posted transaction says \"mining…\" rather than claiming it is already sent, and the wallet confirms and refreshes itself when the balance actually moves on chain. 1.6.5: Send gains a QR scanner for the recipient address and a Max button. 1.6.4: the wallet shows SENDABLE for every token rather than confirmed (confirmed counts coins locked in contracts, so balances read high), each token carries its own locked/unconfirmed/coin-count breakdown, tap any token to inspect every coin behind it with locked ones flagged, and nothing is truncated anywhere — coin ids, token ids and amounts are shown in full and wrap, long-press any row to copy. Installs manually over the official build (back up your seed first).",
+      "version": "1.6.8-ui-h2",
+      "versionCode": 36,
+      "description": "v1.6.8: SECURITY. Android's automatic backup was copying this app's data — which includes your node's own folder (wallet and private keys) and, if you restored a wallet here, your seed phrase in plain text — to your phone/cloud backup, and putting it back on reinstall. Backup and phone-to-phone transfer are now switched off for this app entirely; your node's data stays on the device, where it belongs. Your seed phrase written down offline remains your only backup, as intended. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.7.apk",
-      "sha256": "a20a336f3b1d996872d7b35098a031e2ce664e976e22d5ab2440ee6b31f92787"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.8.apk",
+      "sha256": "ff54de88c23ccfa439f444154979c90cf05243c707deabb7a8d28ae8ac5354a0"
     },
     {
       "name": "Minima Terminal",
@@ -349,26 +349,26 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.24",
-      "versionCode": 924,
-      "description": "Constant-product AMM liquidity pools on Minima — swap MINIMA/token across aggregated micro-pools, provide liquidity and earn the 0.5% swap fee. Trustless VERIFYOUT covenant; pools are good-till-cancelled and discovered from a shared on-chain registry. Interoperable with the PandaPools MiniDapp (same pools).",
+      "version": "0.9.25",
+      "versionCode": 925,
+      "description": "v0.9.25: SECURITY. Your pool recovery recipes contain seed-derived keys, and they were being uploaded to your phone/cloud backup. Cloud backup is now off for this app. The recipes still travel when you move to a new phone (device transfer), because they are designed to be reclaimable from the same seed — that part is deliberate and unchanged. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.24.apk",
-      "sha256": "0b5daf347027ae20bf9ed453c002f5ad54ddcb772b60bd9c04ec44dfc532cb4a"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.25.apk",
+      "sha256": "5a0d6cab988b5081371b305d0ea98f4683dfb8948837e7e5d0f4104496b8ee76"
     },
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.4.1",
-      "versionCode": 401,
-      "description": "v0.4.1: fixes the remaining trade-verification edge cases before public release — chain history now verifies the covenant-matched output for the exact spent order input, so batch cancels and same-wallet same-amount orders cannot cross-prove phantom fills; rows only claim CHAIN_VERIFIED when local node history proved the fill, otherwise payout evidence remains LOCAL_VERIFIED; exports keep PandaDEX local/node verification if explorer.minima.global or block.minima.global are unavailable, with both links included as optional corroboration; maker split:10 now blocks publishing until the split outputs confirm/sendable and cannot double-post while fetching the wallet address. On-chain DEX for MINIMA/mxUSDT blending PandaDEX V5 order-book liquidity with PandaPools AMM reserves. The ladder labels BOOK and POOL depth separately, marketable limits can fill atomically across both sources, and any unfilled balance rests as a limit order. Includes built-in market maker, a split:10 maker funding tool for preparing wallet UTXOs before publishing offers, confirmed personal trades, on-chain evidence/export for reconciliation, AtomiX mxUSDT bridge wording, and sendable/confirmed/locked/unconfirmed wallet balances. v0.4.0: a fill is now proven from the transaction that SPENT the order coin, not inferred from what is left unspent — so a fill whose proceeds were already spent onward is no longer lost, which is the normal case for your own maker rungs, and a cancel posted from another device on the same seed is seen correctly. Payout evidence is also adjudicated across a whole scan at once, so one cancelled rung's refund can no longer prove a payment for every other order of the same size (it produced three phantom trades on a live ladder). Anything still unproven is dropped. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.4.2",
+      "versionCode": 402,
+      "description": "v0.4.2: SECURITY. The list of wallet keys PandaDEX uses to decide which orders are yours was being copied to your phone/cloud backup and restored onto whatever node you reinstalled against — which makes it mis-answer in both directions: ignoring your own orders, or treating a stranger's fills as yours. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.4.1.apk",
-      "sha256": "dbbf874bf1a942b777d106739e4a79751bb2112276ecd2da7f34582e4c59f171"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.4.2.apk",
+      "sha256": "43ce41a44f27ea6fa57216686b64ad49f2870193044cd5d6a7fa33413bbca50a"
     },
     {
       "name": "KeyUses",
