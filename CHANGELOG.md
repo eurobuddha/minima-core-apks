@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-09 · atelier 0.4.10 — Mint safety: token record + largest embedded image budgeted jointly (each rides twice per transfer under the 64KB cap); collections that would seal but never send are refused or icon-slimmed at mint; send paths honestly flag pre-guard collections whose lots can never transfer.
 - 2026-08-09 · minima-nft-wallet 0.1.1 — Mint safety: icon + text combinations that would seal an unsplittable token record are slimmed automatically or refused before tokencreate (the record is immutable); split transactions now size their batches to the token record's real weight instead of a fixed 3.
 - 2026-08-09 · minima-nft-wallet 0.1.1 — Mint-time definition guard (icon+text weight cannot seal an unsplittable token; auto-slims the icon or refuses) + adaptive split batches sized to the real token-definition weight
 - 2026-08-09 · minima-core-ui 1.6.9 — IPC SAFETY: replies between ~128K and 256K characters passed the size check yet overflowed Android's broadcast parcel on delivery, killing the asking companion app with no error (observed live: a ~131K-char coins reply crash-looped Atelier on open). Replies over 100K characters now always take the content:// file hand-off; the inbound command cap is unchanged at 256K. Fixes the whole companion fleet at once — no app updates required.
