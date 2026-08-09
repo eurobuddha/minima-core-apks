@@ -55,14 +55,14 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.4",
-      "versionCode": 404,
-      "description": "v0.4.4: housekeeping — Android's automatic backup is switched off for this app. Your keys live in the node, not here, but the transaction cache, any in-flight distribute job and the shared node-pairing token were all being copied to your phone/cloud backup and restored on reinstall — onto whatever node you reinstalled against. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.4.5",
+      "versionCode": 405,
+      "description": "v0.4.5: your coins are back. The Wallet tab went blank (empty addresses only, Balances still fine) once the node's coin-list reply grew past the 256KB IPC cap — the node was silently replacing it with a “Result too long” stub. The app now uses the node's file hand-off IPC client (Minima Core 1.3.0+), so coin lists of any size arrive in full. If paired with an older node, the wallet now shows a clear “update Minima Core” error instead of an empty wallet.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.4.apk",
-      "sha256": "91fd335fd030a5eadb58a3b52e6e3124b37d0714bd88fb6241fd5b4bbe2be67c"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.5.apk",
+      "sha256": "94967d0468f914c3ace86f438dd92cd91ea08f1ff902f7b279ca093576b00cbf"
     },
     {
       "name": "Minima History",
