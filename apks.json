@@ -175,26 +175,26 @@
     {
       "name": "miniMall",
       "packageId": "com.eurobuddha.merchshop",
-      "version": "0.3.2",
-      "versionCode": 302,
-      "description": "v0.3.2: SECURITY. Unpaid-order flags and vendor addresses were being copied to your phone/cloud backup, so a restored phone could offer \"Retry payment\" for an order you had already paid — a duplicate spend. Your order archive (buyer names, shipping addresses) was leaving the device too. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.4.0",
+      "versionCode": 400,
+      "description": "Your shop-of-shops — add shops a vendor shares (.shop files), browse storefronts, and order with Minima or mxUSDT. End-to-end encrypted, Maxima-free. v0.4.0: NFT marketplace checkout — NFTs are delivered to YOUR wallet address (read from your node, never typed), art-first storefronts with collection headers and edition chips (StateNFT pieces and complete collections included), and a Placed → Paid → Delivered order timeline. Retry-payment no longer needs the shop open.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.3.2.apk",
-      "sha256": "5fb89ba4cfbff0e2ffec06dda31d7f2bee41b4ef7b4da61c57378a2118fd3178"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.4.0.apk",
+      "sha256": "6ba45f90867dcaa7d7959f78b512d9f04bc69afba9011b1a15b90fc614b32ee2"
     },
     {
       "name": "miniMall Inbox",
       "packageId": "com.eurobuddha.merchinbox",
-      "version": "0.4.1",
-      "versionCode": 401,
-      "description": "v0.4.1: SECURITY. Your vendor payment address is locked in on first use and never refreshed, and it was being copied to your phone/cloud backup — so a restore onto a different node would have kept collecting buyer payments at an address you can no longer spend from. Delivery flags could also mark paid orders as already sent. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.5.0",
+      "versionCode": 500,
+      "description": "Vendor order manager — receive and manage orders across all your shops, with order chat + CSV export. v0.5.0: AUTOMATIC NFT delivery — the moment a payment confirms on-chain, the NFT is sent to the buyer with zero taps and the order ships itself (toggleable). StateNFT pieces transfer with full state replay, complete collections deliver piece by piece, and nothing is marked delivered until the coins are confirmed gone from your wallet.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.4.1.apk",
-      "sha256": "78225f761c1fc44f46db3c325e5b63842d7e329a79b5517847afed9b368f6cee"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.5.0.apk",
+      "sha256": "81bdf3be313091c5f7058c41994cacc8e35d5410ee1cc5a38adfad8320c9e6ce"
     },
     {
       "name": "miniMall Studio",
@@ -211,14 +211,14 @@
     {
       "name": "miniMerch NFT Studio",
       "packageId": "com.eurobuddha.merchnftstudio",
-      "version": "0.1.1",
-      "versionCode": 101,
-      "description": "v0.1.1: housekeeping — Android's automatic backup is switched off for this app. Shop drafts live in the cache and your vendor identity is re-fetched each launch, but the shared node-pairing token was being copied to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.2.0",
+      "versionCode": 200,
+      "description": "Sell your own NFTs — an art-first gallery of the NFTs in your node's wallet: tap to list, price in Minima or mxUSDT, preview the exact buyer storefront, export a .shop. v0.2.0: StateNFT collections (Atelier / artBox) open into their individual pieces with the real stamped artwork (WebP/SVG/JPEG plates) alongside the collection's token icon — sell pieces one by one or the complete collection as a single listing. Paid orders are delivered on-chain automatically by miniMall Inbox.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-nft-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.1.1.apk",
-      "sha256": "ac4d5f8aac3136aba85f0f4918a0f2b144b011f7885401fc8e175a9d24541c71"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.2.0.apk",
+      "sha256": "a5ba5847308fb2702a23f41db38c86f46be2081734996d081807be7549515f44"
     },
     {
       "name": "miniMall Studio (Mac)",
