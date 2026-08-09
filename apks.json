@@ -199,26 +199,14 @@
     {
       "name": "miniMall Studio",
       "packageId": "com.eurobuddha.merchstudio",
-      "version": "0.2.1",
-      "versionCode": 201,
-      "description": "v0.2.1: housekeeping \u2014 Android's automatic backup is switched off for this app. Shop drafts live in the cache and your vendor identity is re-fetched each launch, but the shared node-pairing token was being copied to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
+      "version": "0.3.0",
+      "versionCode": 300,
+      "description": "Build a shop on your phone and export a .shop bundle for miniMall. v0.3.0: the NFT Studio has moved in \u2014 two tabs: Products (typed goods, photos, shipping) and NFTs (an art-first gallery of your wallet's NFTs, incl. StateNFT collections with per-piece stamped artwork \u2014 sell pieces individually or a complete collection). One shop can hold both; NFT delivery is on-chain and automatic via miniMall Inbox. Replaces the separate miniMerch NFT Studio app.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.2.1.apk",
-      "sha256": "ceb70cfab03e1b11affc07e276ac650e55f4606bd86c0fec5c323058f9995312"
-    },
-    {
-      "name": "miniMerch NFT Studio",
-      "packageId": "com.eurobuddha.merchnftstudio",
-      "version": "0.2.0",
-      "versionCode": 200,
-      "description": "Sell your own NFTs \u2014 an art-first gallery of the NFTs in your node's wallet: tap to list, price in Minima or mxUSDT, preview the exact buyer storefront, export a .shop. v0.2.0: StateNFT collections (Atelier / artBox) open into their individual pieces with the real stamped artwork (WebP/SVG/JPEG plates) alongside the collection's token icon \u2014 sell pieces one by one or the complete collection as a single listing. Paid orders are delivered on-chain automatically by miniMall Inbox.",
-      "category": "Shopping",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-nft-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.2.0.apk",
-      "sha256": "a5ba5847308fb2702a23f41db38c86f46be2081734996d081807be7549515f44"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.3.0.apk",
+      "sha256": "9b615a18f34bd5913f29f15cbcc06163c8eb0049d974a4d8c3606f3ad579a9af"
     },
     {
       "name": "miniMall Studio (Mac)",
