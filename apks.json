@@ -421,14 +421,14 @@
     {
       "name": "Atelier",
       "packageId": "com.eurobuddha.statenft",
-      "version": "0.4.3",
-      "versionCode": 403,
-      "description": "v0.4.3: input fields now rise above the keyboard. v0.4.2: big-collection fix — adopts the minimaCore file hand-off for oversized node replies, so 20-lot embedded collections show every sealed plate and correct ownership. The Minima NFT studio. StateNFT collections with sealed per-coin identities enforced by KISS VM contract, a generative art studio with 18 on-chain SVG style packs (deterministic from a seed, rarity sliders, traits sealed into token metadata), single NFTs, custom tokens, an image editor, background minting that survives the screen turning off, whole-collection sends and airdrops, and The Graveyard for provable disposal. Pairs with the Atelier MiniDapp — the same seed mints byte-identical art on either.",
+      "version": "0.4.4",
+      "versionCode": 404,
+      "description": "v0.4.4: CRASH FIX — Android 14's daily dataSync budget could crash the app on open while a mint was pending; the mint service now runs as specialUse and never crash-loops. v0.4.3: input fields now rise above the keyboard. v0.4.2: big-collection fix — adopts the minimaCore file hand-off for oversized node replies, so 20-lot embedded collections show every sealed plate and correct ownership. The Minima NFT studio. StateNFT collections with sealed per-coin identities enforced by KISS VM contract, a generative art studio with 18 on-chain SVG style packs (deterministic from a seed, rarity sliders, traits sealed into token metadata), single NFTs, custom tokens, an image editor, background minting that survives the screen turning off, whole-collection sends and airdrops, and The Graveyard for provable disposal. Pairs with the Atelier MiniDapp — the same seed mints byte-identical art on either.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atelier.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.4.3.apk",
-      "sha256": "44739ff144f99cebd898fd6730529ee61275ffcb1c6c4f1269c4449a04038119"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.4.4.apk",
+      "sha256": "1339a7669c23f0941b9c438c1d80b68dff4651c7c83b4d28667c8d03d5b2071f"
     }
   ]
 }
