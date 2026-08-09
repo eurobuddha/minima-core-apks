@@ -421,14 +421,14 @@
     {
       "name": "Atelier",
       "packageId": "com.eurobuddha.statenft",
-      "version": "0.4.1",
-      "versionCode": 401,
-      "description": "The Minima NFT studio. StateNFT collections with sealed per-coin identities enforced by KISS VM contract, a generative art studio with 18 on-chain SVG style packs (deterministic from a seed, rarity sliders, traits sealed into token metadata), single NFTs, custom tokens, an image editor, background minting that survives the screen turning off, whole-collection sends and airdrops, and The Graveyard for provable disposal. Pairs with the Atelier MiniDapp — the same seed mints byte-identical art on either.",
+      "version": "0.4.2",
+      "versionCode": 402,
+      "description": "v0.4.2: big-collection fix — adopts the minimaCore file hand-off for oversized node replies, so 20-lot embedded collections show every sealed plate and correct ownership. The Minima NFT studio. StateNFT collections with sealed per-coin identities enforced by KISS VM contract, a generative art studio with 18 on-chain SVG style packs (deterministic from a seed, rarity sliders, traits sealed into token metadata), single NFTs, custom tokens, an image editor, background minting that survives the screen turning off, whole-collection sends and airdrops, and The Graveyard for provable disposal. Pairs with the Atelier MiniDapp — the same seed mints byte-identical art on either.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atelier.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.4.1.apk",
-      "sha256": "58ea3772b11e46b41063d2509850b23c81dddd23ed4e1f944b2b7ec462c7e088"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.4.2.apk",
+      "sha256": "9bf4888b8cd0ca22e36cdab7c38d451f5de37ac0bd55b1d809847a6dfebb4e11"
     }
   ]
 }
