@@ -277,14 +277,14 @@
     {
       "name": "Minima Core",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.2.5",
-      "versionCode": 19,
+      "version": "1.6.9-ui-h2",
+      "versionCode": 37,
       "description": "Run a full Minima Core node on Android — the node the companion apps connect to. (If you already run a node, you may already have this installed.)",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
-      "file": "https://raw.githubusercontent.com/spartacusrex-minima/minima-core-android/main/dist/minima-1.2.5.apk",
-      "sha256": "71507a87abbd743c7176b05d367b1756c6f52cec925bb78f1094eda85bf003fa"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.9.apk",
+      "sha256": "aa226f22c756f5f4f3b4a0fa6b26cc65215423b01a1ce22075ac2bba5bf8f899"
     },
     {
       "name": "Minima Core — New UI (Preview)",
