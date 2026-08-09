@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-09 · miniMall-Inbox 0.5.0 — Automatic NFT delivery: paid orders send the NFT on-chain with zero taps once payment confirms (toggleable). StateNFT pieces transfer with full state replay, complete collections deliver piece-by-piece, both confirmed by UTXO departure before the order ships
 - 2026-08-09 · miniMall-Shop 0.4.0 — Wallet-native NFT checkout (no delivery address — your node's Mx address shown, payment blocked without it), art-first NFT storefronts with collection headers+icons, edition chips, StateNFT pieces and complete-collection listings, order status timeline, retry-payment fix
 - 2026-08-09 · miniMerch-NFT-Studio 0.2.0 — Gallery-grade rewrite + StateNFT: art-first wallet gallery, Atelier/artBox StateNFT collections open into per-piece stamped art (WebP/SVG/JPEG plates), per-piece and complete-collection listings, buyer-storefront preview, schema v3 .shop export with collection icons
 - 2026-08-09 · history 0.3.3 — PRIVACY: the full transaction archive (counterparties, amounts, raw inputs/outputs) was being uploaded to phone/cloud backup. Cloud backup disabled; the archive still travels over device transfer because it cannot be rebuilt — it keeps history the node has already dropped.
