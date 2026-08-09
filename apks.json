@@ -43,14 +43,14 @@
     {
       "name": "Openly",
       "packageId": "com.eurobuddha.openly",
-      "version": "0.2.0",
-      "versionCode": 22,
-      "description": "Peer-to-peer proposition betting — wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate the stake and price, accept to match. When you agree on the outcome it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) — with a one-tap trusted \"eurobuddha\" default. 0.2.0: dual-currency (Minima + mxUSDT) with per-currency markets; durable arbiter disputes you can withdraw; per-bet end-to-end encrypted chat; live on-chain confirmation feedback; full payout history. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.2.1",
+      "versionCode": 23,
+      "description": "Peer-to-peer proposition betting — wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate the stake and price, accept to match. When you agree on the outcome it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) — with a one-tap trusted \"eurobuddha\" default. Dual-currency (Minima + mxUSDT) with per-currency markets; durable arbiter disputes you can withdraw; per-bet end-to-end encrypted chat; live on-chain confirmation feedback; full payout history. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.0.apk",
-      "sha256": "2877b29acc7c2da977acaa8c11dc99e5c7e2177b60191886e5eebf31ace8ca93"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.1.apk",
+      "sha256": "e4fbf375b5ff0ad4438092a11873d5658895d6412ba1f5e53129ce07857813bb"
     },
     {
       "name": "Minima UTXO Wallet",
