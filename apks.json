@@ -7,14 +7,14 @@
     {
       "name": "PandaApps",
       "packageId": "com.eurobuddha.pandaapps",
-      "version": "0.2.5",
-      "versionCode": 205,
-      "description": "This store — install and update native Minima apps (SHA-256 verified). Falls back to IPFS if GitHub is unreachable, so it keeps working. Official-app UPDATES download to your Downloads to install manually; first-time installs go direct.",
+      "version": "0.2.6",
+      "versionCode": 206,
+      "description": "v0.2.6: housekeeping — Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Store",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.5.apk",
-      "sha256": "90c885700d2eb2d118f1cb4449b8df8343b8bd53b47604cc456ab16f466256d6"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.6.apk",
+      "sha256": "88da830f614fa7a585ee493e722b7c9bfa4c3cc2f8df1bce7737b026d3997911"
     },
     {
       "name": "Terminal IDE",
@@ -55,74 +55,74 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.3",
-      "versionCode": 403,
-      "description": "Full UTXO wallet — send & receive, split/consolidate coins, token balances and transaction history.",
+      "version": "0.4.4",
+      "versionCode": 404,
+      "description": "v0.4.4: housekeeping — Android's automatic backup is switched off for this app. Your keys live in the node, not here, but the transaction cache, any in-flight distribute job and the shared node-pairing token were all being copied to your phone/cloud backup and restored on reinstall — onto whatever node you reinstalled against. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.3.apk",
-      "sha256": "a618b5146f3a33d4ef8de778bf19b1da746b08a2e804959912d0c95d54703f6f"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.4.apk",
+      "sha256": "91fd335fd030a5eadb58a3b52e6e3124b37d0714bd88fb6241fd5b4bbe2be67c"
     },
     {
       "name": "Minima History",
       "packageId": "com.eurobuddha.history",
-      "version": "0.3.2",
-      "versionCode": 302,
-      "description": "Browse and export your node's full transaction history, with on-chain verification.",
+      "version": "0.3.3",
+      "versionCode": 303,
+      "description": "v0.3.3: PRIVACY. Your full transaction archive — counterparties, amounts, raw inputs and outputs — was being uploaded to your phone/cloud backup. Cloud backup is now off for this app. The archive still moves with you when you switch to a new phone (device transfer), which matters because it cannot be rebuilt: it keeps history your node has already dropped. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.2.apk",
-      "sha256": "5f4449bcdca82975b2565ccb6a48a92f1c70e2114a8b960bf51b5806c1beff78"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.3.apk",
+      "sha256": "5924bc929550c805a4c04d24bde8ba6f2fb042c72590e632cd003d4ca78a9fac"
     },
     {
       "name": "Minima Explorer",
       "packageId": "com.eurobuddha.blockexplorer",
-      "version": "0.1.0",
-      "versionCode": 100,
-      "description": "Native block explorer for your local node: live block feed, search by block, TxPoW ID or address, full transaction detail. Light & dark mode.",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "v0.1.1: housekeeping — Android's automatic backup is switched off for this app. It held nothing of value, but every app in the family was scaffolded to copy its data to your phone/cloud backup and restore it on reinstall, and a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/explorer.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-explorer-0.1.0.apk",
-      "sha256": "e04b64d2b48472c96cdc856025900465f722eaad12c0f62d70d24f13a103987b"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-explorer-0.1.1.apk",
+      "sha256": "7e5c96f30db098c8051c4b56d2e5316537efec8f86afc65938ce026768137f3f"
     },
     {
       "name": "Filez",
       "packageId": "com.eurobuddha.filez",
-      "version": "0.1.8",
-      "versionCode": 108,
-      "description": "Native file manager for your node's base folder. Export backups, archive exports and .txn files to your phone, and import documents into the node for restore / archive import / txnimport. Needs Minima Core 1.3.1+ (New UI preview) and the Admin toggle in Minima Core → Apps.",
+      "version": "0.1.9",
+      "versionCode": 109,
+      "description": "v0.1.9: housekeeping — Android's automatic backup is switched off for this app. Your files live in the node's own folder, not here, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/filez.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-filez-0.1.8.apk",
-      "sha256": "487f44dd37a48c0031b6457033c5acf5a058cec883b239baea3991d8c5e8afe9"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-filez-0.1.9.apk",
+      "sha256": "c25f295b30b6cf4140a6bc9131db43aefc40a481ceb17f4de6763e9037957748"
     },
     {
       "name": "Minima Vestr",
       "packageId": "com.eurobuddha.vestr",
-      "version": "0.4.0",
-      "versionCode": 400,
-      "description": "Token-vesting contract manager — create and track scheduled token releases on Minima.",
+      "version": "0.4.1",
+      "versionCode": 401,
+      "description": "v0.4.1: housekeeping — Android's automatic backup is switched off for this app. Contract state is read from the chain each run and nothing of its own is stored, but the shared node-pairing token was being carried to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/vestr.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.4.0.apk",
-      "sha256": "31b5063f58631c2fc5c7bb6417e5b641f4de8759b511fe5d61c6107700eab47e"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.4.1.apk",
+      "sha256": "7712630275e72e1fae83da8c32a7e9ea4d3f2babe8205ff1f0b3b13b440af346"
     },
     {
       "name": "FutureCash",
       "packageId": "com.eurobuddha.futurecash",
-      "version": "0.2.1",
-      "versionCode": 201,
-      "description": "Send Minima or tokens to the future — lock funds until a block you choose; the recipient collects when it matures. Interoperable with the FutureCash MiniDapp.",
+      "version": "0.2.2",
+      "versionCode": 202,
+      "description": "v0.2.2: housekeeping — Android's automatic backup is switched off for this app. It reads everything live from your node and stores nothing of its own, but the shared node-pairing token was being carried to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecash.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.1.apk",
-      "sha256": "d678304c76c09fffb28165bd4ae56cf409b022afc0176ec4514995f82bd27163"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.2.apk",
+      "sha256": "ee3facb47cd78428bcd22c43ffc27b3d1ea382acd0f0e22a9ed726843bf67aea"
     },
     {
       "name": "AtomiX",
@@ -163,14 +163,14 @@
     {
       "name": "Minima Faucet",
       "packageId": "com.eurobuddha.faucet",
-      "version": "0.2.0",
-      "versionCode": 200,
-      "description": "Request test funds from the Minima faucet to your node's wallet address.",
+      "version": "0.2.1",
+      "versionCode": 201,
+      "description": "v0.2.1: housekeeping — Android's automatic backup is switched off for this app. It stores nothing at all, but the shared node-pairing token was being carried to the cloud with it; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/faucet.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.2.0.apk",
-      "sha256": "c92c5d54a399ca13a45b66fc16f0527331336bd7ffd48304a5a4e0c31de98967"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.2.1.apk",
+      "sha256": "12421eea42e97a8ccf96dd8bceda6c0ca18e9d1242ddf502f1ae675d94a0c880"
     },
     {
       "name": "miniMall",
@@ -199,26 +199,26 @@
     {
       "name": "miniMall Studio",
       "packageId": "com.eurobuddha.merchstudio",
-      "version": "0.2.0",
-      "versionCode": 200,
-      "description": "Build a shop on your phone — products, photos, shipping — keyed to your node, then export a .shop bundle to share with customers.",
+      "version": "0.2.1",
+      "versionCode": 201,
+      "description": "v0.2.1: housekeeping — Android's automatic backup is switched off for this app. Shop drafts live in the cache and your vendor identity is re-fetched each launch, but the shared node-pairing token was being copied to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.2.0.apk",
-      "sha256": "5df45fcd2a81405d568453599ce627b774631740325028113e6f866e678ed14d"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.2.1.apk",
+      "sha256": "ceb70cfab03e1b11affc07e276ac650e55f4606bd86c0fec5c323058f9995312"
     },
     {
       "name": "miniMerch NFT Studio",
       "packageId": "com.eurobuddha.merchnftstudio",
-      "version": "0.1.0",
-      "versionCode": 100,
-      "description": "Sell your own NFTs — imports the NFTs from your node's wallet (images, names and descriptions straight from the token metadata), lets you price them in Minima or mxUSDT, and exports a .shop your customers open in miniMall. Paid orders are delivered on-chain with one tap in miniMall Inbox.",
+      "version": "0.1.1",
+      "versionCode": 101,
+      "description": "v0.1.1: housekeeping — Android's automatic backup is switched off for this app. Shop drafts live in the cache and your vendor identity is re-fetched each launch, but the shared node-pairing token was being copied to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-nft-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.1.0.apk",
-      "sha256": "de5fec50c5f78fe8a8ec211c5afb70245f748abd96bc2ad1658cd3aa0be957f5"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMerch-NFT-Studio-0.1.1.apk",
+      "sha256": "ac4d5f8aac3136aba85f0f4918a0f2b144b011f7885401fc8e175a9d24541c71"
     },
     {
       "name": "miniMall Studio (Mac)",
@@ -313,14 +313,14 @@
     {
       "name": "Minima Terminal",
       "packageId": "org.minimarex.terminal",
-      "version": "1.2",
-      "versionCode": 3,
-      "description": "Run Minima Core node commands from a full on-device terminal, backed by your local node. 1.2: large responses now arrive in full via the new minimaapi (needs Minima Core New UI 1.3.0+ for results over 256KB; works as before on older nodes). Note: 1.2+ is eurobuddha-signed - updating over the Spartacus-signed 1.1 needs an uninstall first.",
+      "version": "1.3",
+      "versionCode": 4,
+      "description": "v1.3: housekeeping — Android's automatic backup is switched off for this app. It stores only the node event log (no command history — that is Terminal IDE), but none of it should be restored onto a different node. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.2.apk",
-      "sha256": "9122defb53917fdd1ec94db0bbc85629eab1bb8d7d45edf145bf6dce365e7607"
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.3.apk",
+      "sha256": "6df5ed4463200149a747d329e1510f82e3b10a90cf86d7a812bd1a208eb45e44"
     },
     {
       "name": "Minima Wallet",
