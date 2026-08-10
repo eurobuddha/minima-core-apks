@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-10 · atelier 0.5.2 — FILTR PHONE LAYOUT: on narrow screens the image stage pins on top while the editing panes flick one at a time from a sticky bottom tab bar (Import / Presets / Effects / Tune / Adjust / Post FX / Annotate / Save); desktop keeps the exploded three-column editor. Loading an image auto-flicks to Effects. Same tabbed layout lands in the paired MiniDapp 4.2.2, which also restores filtr.js the 4.2.0/4.2.1 packages accidentally dropped.
 - 2026-08-10 · atelier 0.5.0 — ALWAYS SIGNED: every mint carries the creator signature; budget-first sizing on an on-chain-proven transfer ceiling (20,000-char record+image confirms, 21,000 fails — the previous 23,000 assumption was never real); photos/artwork/icons auto-shrink to fit; unsigned and unsendable mints are impossible from any lane.
 - 2026-08-10 · minima-nft-wallet 0.1.4 — same ALWAYS-SIGNED law: signature mandatory, envelope-budgeted records, auto-slimmed icons, proven 19,500 pair budget.
 - 2026-08-10 · minima-nft-wallet 0.1.4 — ALWAYS SIGNED: every mint carries the creator signature; budget-first envelope on the proven 19500 transfer ceiling; artwork and icons auto-shrink to fit
