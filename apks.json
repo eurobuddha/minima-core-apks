@@ -433,14 +433,14 @@
   {
    "name": "Minima Mail",
    "packageId": "com.eurobuddha.mail",
-   "version": "0.5.0",
-   "versionCode": 500,
-   "description": "On-chain end-to-end encrypted mail \u2014 no server, no Maxima, no internet permission. Identity from your node seed; every message is a sealed blob in a tiny coin. v0.5.0: FULL EMAIL MAKEOVER. Mail now looks and behaves like what it is \u2014 email over a blockchain, where delivery rides the next block (~1-3 min), not instant chat. Drawer folders (Inbox / Outbox / Sent / Archive), optional subjects (each subject threads on its own; old chats untouched), a real To/Subject/Body compose screen, and honest delivery status everywhere: sends sit in the Outbox as 'Posting to chain', move to Sent as 'On-chain block N' then 'Confirmed', and failures stay visible with one-tap Retry instead of vanishing. The inbox shows 'Checked block N' with pull-to-refresh. New light 'paper' theme by default, the classic dark theme one toggle away, and a custom icon set throughout. Conversations keep their chat bubbles.",
+   "version": "0.5.1",
+   "versionCode": 501,
+   "description": "On-chain end-to-end encrypted mail \u2014 no server, no Maxima, no internet permission. Identity from your node seed; every message is a sealed blob in a tiny coin. v0.5.1: FUNDS/KEY SAFETY on top of the 0.5.0 email makeover. Every send (message coins and payments) is now pinned to a signable wallet coin, so anyone-can-spend beacon dust on a shared node can't be grabbed and fail the send after it has already burned a WOTS key-use. The pay-address auto-responder is hard rate-limited (hourly cap + per-peer cooldown) so forged requests can't drain coins or key-uses. And the pay-address validator now enforces the strict Mx charset plus a node-side checkaddress gate before any funds move \u2014 closing a crafted-address injection into the send command. 0.5.0 recap: full email UX \u2014 drawer folders (Inbox/Outbox/Sent/Archive), optional subject threading, To/Subject/Body compose, honest delivery status (Posting \u2192 On-chain block N \u2192 Confirmed, failures retryable from the Outbox), 'Checked block N' freshness line, light paper + dark themes, custom icons. Conversations keep their chat bubbles.",
    "category": "Social",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/mail.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.0.apk",
-   "sha256": "4d6dcf2a72cd133fb95928235b8dce9c0950ff9b94cae265d7d067549ea9d5e0"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.1.apk",
+   "sha256": "56a85f14cd92b1ebaa58ee7ada2550c88bb5be338f0d6411bff9a2f76bf77575"
   }
  ]
 }
