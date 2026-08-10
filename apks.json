@@ -433,14 +433,14 @@
   {
    "name": "Minima Mail",
    "packageId": "com.eurobuddha.mail",
-   "version": "0.4.1",
-   "versionCode": 401,
-   "description": "On-chain end-to-end encrypted messenger \u2014 no server, no Maxima, no internet permission. Your identity is derived from your node seed (recoverable on any device); every message is a tiny coin carrying a sealed blob only the recipient can open. Chats, images, in-chat payments to a contact's own verified address, QR contact exchange, passphrase-encrypted backup. v0.4.1: SECURITY \u2014 Android auto-backup was uploading the decrypted local message store (bodies, images, your receiving address) to phone/cloud backup and restoring it on reinstall. Backup and device transfer are now off; a reinstall is a clean start. Note: switching backup off cannot delete a backup that already exists \u2014 if the app misbehaves right after a reinstall, clear its app storage.",
+   "version": "0.5.0",
+   "versionCode": 500,
+   "description": "On-chain end-to-end encrypted mail \u2014 no server, no Maxima, no internet permission. Identity from your node seed; every message is a sealed blob in a tiny coin. v0.5.0: FULL EMAIL MAKEOVER. Mail now looks and behaves like what it is \u2014 email over a blockchain, where delivery rides the next block (~1-3 min), not instant chat. Drawer folders (Inbox / Outbox / Sent / Archive), optional subjects (each subject threads on its own; old chats untouched), a real To/Subject/Body compose screen, and honest delivery status everywhere: sends sit in the Outbox as 'Posting to chain', move to Sent as 'On-chain block N' then 'Confirmed', and failures stay visible with one-tap Retry instead of vanishing. The inbox shows 'Checked block N' with pull-to-refresh. New light 'paper' theme by default, the classic dark theme one toggle away, and a custom icon set throughout. Conversations keep their chat bubbles.",
    "category": "Social",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/mail.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.4.1.apk",
-   "sha256": "7110f5ba380d1055d945e34eb201c063bca65f41bc8ef8260e778788baf276b7"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.0.apk",
+   "sha256": "4d6dcf2a72cd133fb95928235b8dce9c0950ff9b94cae265d7d067549ea9d5e0"
   }
  ]
 }
