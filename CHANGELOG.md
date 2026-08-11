@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-11 · atelier 0.5.7 — chosen icons honored: icon intake ladder reaches 120px (busy uploads no longer fail the 6000-char budget and silently fall back to plate 1); mint-gate icon slim targets the room actually spare after plates get theirs instead of a hardcoded 2000 below the shrink floor. Paired MiniDapp 4.2.6 identical.
 - 2026-08-10 · atelier 0.5.6 — ALWAYS FITS holes closed: the silent plate-1-as-icon fallback (6000 chars inside the record) starved every plate's image room and the raster ladder stopped at 300px — photos refused at budgets a 180px rung fits. Icon now slims/drops whenever plates need the room; ladder reaches 140px. Paired MiniDapp 4.2.5 identical.
 - 2026-08-10 · atelier 0.5.5 — proof-sheet plate management: tap a filled plate for Edit / Replace / Clear, new Reset-all-plates button, size refusals point at the replace path. Previously only the crop editor opened, trapping an oversized pick before minting.
 - 2026-08-10 · atelier 0.5.4 — stamp recovery speed: same-pair re-posts (duplicate-proof by construction) go at the ordinary 6-block coin cadence, batch-capped at 2/tick so competing TxPoWs stop starving each other; the 0.5.3 rescue crawled at ~1 seal/10min. Paired MiniDapp 4.2.4 identical.
