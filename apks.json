@@ -7,14 +7,14 @@
   {
    "name": "PandaApps",
    "packageId": "com.eurobuddha.pandaapps",
-   "version": "0.2.8",
-   "versionCode": 208,
-   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.8: a new front page \u2014 apps are grouped by what they do (Wallets, Finance & Trading, Tools, Social, Games and the rest), anything out of date is pinned to an Updates section at the top, and each row is now just an icon, a name and its state instead of a wall of text. Tap any app for its own page: full description, version history, install actions, and a link straight to its source code \u2014 every app in this store is open source, and every catalog entry now carries its repo. v0.2.6: housekeeping \u2014 Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
+   "version": "0.2.9",
+   "versionCode": 209,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.9: fix \u2014 after installing anything, its row kept saying \"Waiting for the installer\u2026\" instead of showing that it had installed; the row pinned under Updates also stopped showing download progress, and an app's page jumped back to the top repeatedly while downloading. v0.2.8: a new front page \u2014 apps are grouped by what they do (Wallets, Finance & Trading, Tools, Social, Games and the rest), anything out of date is pinned to an Updates section at the top, and each row is now just an icon, a name and its state instead of a wall of text. Tap any app for its own page: full description, version history, install actions, and a link straight to its source code \u2014 every app in this store is open source, and every catalog entry now carries its repo. v0.2.6: housekeeping \u2014 Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
    "category": "Store",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.8.apk",
-   "sha256": "6203ef1e6ccaad7645d1ac07617007c792dfa4e32854853521cc52ee4b8cc94a",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.9.apk",
+   "sha256": "2c5b7526c53ad6c8deb36008f32853606b063f53d01e45fee1aac52815b93210",
    "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
   },
   {
