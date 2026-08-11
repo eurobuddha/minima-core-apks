@@ -1,20 +1,21 @@
 {
  "name": "PandaApps",
  "description": "Native Android companion apps for Minima \u2014 eurobuddha's apps plus the official Minima app.",
- "disclaimer": "\u26a0\ufe0f All apps in this store are experimental and in active development, provided AS IS with no warranty. They interact with a live blockchain and real funds \u2014 back up your seed, test with small amounts, and use entirely at your own risk. Not financial advice.",
+ "disclaimer": "Every app here is free, open source, and yours to use, fork, share or make your own \u2014 every repo is public, so please read the code and do your own due diligence. They're built in the open and still in active development, provided as is with no warranty. They talk to a live blockchain and real funds, so back up your seed, start with small amounts, and use at your own risk. Nothing here is financial advice.",
  "version": "1.0",
  "apps": [
   {
    "name": "PandaApps",
    "packageId": "com.eurobuddha.pandaapps",
-   "version": "0.2.7",
-   "versionCode": 207,
-   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.6: housekeeping \u2014 Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
+   "version": "0.2.8",
+   "versionCode": 208,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.8: a new front page \u2014 apps are grouped by what they do (Wallets, Finance & Trading, Tools, Social, Games and the rest), anything out of date is pinned to an Updates section at the top, and each row is now just an icon, a name and its state instead of a wall of text. Tap any app for its own page: full description, version history, install actions, and a link straight to its source code \u2014 every app in this store is open source, and every catalog entry now carries its repo. v0.2.6: housekeeping \u2014 Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
    "category": "Store",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.7.apk",
-   "sha256": "6a7828816303a5eb7941c7b7096c9f346bed7c88c82ffcca5936efb2bdfa29d9"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.2.8.apk",
+   "sha256": "6203ef1e6ccaad7645d1ac07617007c792dfa4e32854853521cc52ee4b8cc94a",
+   "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
   },
   {
    "name": "Terminal IDE",
@@ -26,7 +27,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal-ide.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.3.apk",
-   "sha256": "d8966b78e2537587f13fbee8433be78cd0a74b1a90ee58574643fd9a10561158"
+   "sha256": "d8966b78e2537587f13fbee8433be78cd0a74b1a90ee58574643fd9a10561158",
+   "repo": "https://github.com/eurobuddha/minima-core-android-terminalide"
   },
   {
    "name": "Zero Edge Casino",
@@ -38,7 +40,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.5.apk",
-   "sha256": "a182006d8eadbf44b1be4d04d77415c1399dd12522a5f0764d073ab69d506e01"
+   "sha256": "a182006d8eadbf44b1be4d04d77415c1399dd12522a5f0764d073ab69d506e01",
+   "repo": "https://github.com/eurobuddha/minima-core-android-casino"
   },
   {
    "name": "Openly",
@@ -50,7 +53,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.4.apk",
-   "sha256": "477c4c41f70a25edd99c870bf23a7a5f421c92031d260747f3c0fe108cba0a8f"
+   "sha256": "477c4c41f70a25edd99c870bf23a7a5f421c92031d260747f3c0fe108cba0a8f",
+   "repo": "https://github.com/eurobuddha/openly"
   },
   {
    "name": "Minima UTXO Wallet",
@@ -62,7 +66,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.6.apk",
-   "sha256": "689849eb5daf82b46f4c24b3ee7747173b4a7d6a899695d137dd7e7a713e0dde"
+   "sha256": "689849eb5daf82b46f4c24b3ee7747173b4a7d6a899695d137dd7e7a713e0dde",
+   "repo": "https://github.com/eurobuddha/minima-core-android-utxo"
   },
   {
    "name": "Minima History",
@@ -74,7 +79,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.4.apk",
-   "sha256": "4c792839ed470c84d7d5c0764ad0287ef790338b30066a39c43fe08b08314ed8"
+   "sha256": "4c792839ed470c84d7d5c0764ad0287ef790338b30066a39c43fe08b08314ed8",
+   "repo": "https://github.com/eurobuddha/minima-core-android-history"
   },
   {
    "name": "Minima Explorer",
@@ -86,7 +92,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/explorer.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-explorer-0.1.2.apk",
-   "sha256": "cfaeaf50f01899e967e9d48a80fa41c56eabbad7a78ebe5fe7627d4155f72b19"
+   "sha256": "cfaeaf50f01899e967e9d48a80fa41c56eabbad7a78ebe5fe7627d4155f72b19",
+   "repo": "https://github.com/eurobuddha/minima-core-android-blockexplorer"
   },
   {
    "name": "Filez",
@@ -98,7 +105,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/filez.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-filez-0.1.10.apk",
-   "sha256": "751d423338f1710afb70291316f781f7978c29fa4204194a0ee845d92a6a6b54"
+   "sha256": "751d423338f1710afb70291316f781f7978c29fa4204194a0ee845d92a6a6b54",
+   "repo": "https://github.com/eurobuddha/minima-core-android-filez"
   },
   {
    "name": "Minima Vestr",
@@ -110,7 +118,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/vestr.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-vestr-0.4.2.apk",
-   "sha256": "136a638327dc4b503788d9e6017f99717e463f31e21f5066b2affe9c1a0ba5cb"
+   "sha256": "136a638327dc4b503788d9e6017f99717e463f31e21f5066b2affe9c1a0ba5cb",
+   "repo": "https://github.com/eurobuddha/minima-core-android-vestr"
   },
   {
    "name": "FutureCash",
@@ -122,7 +131,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecash.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.3.apk",
-   "sha256": "4ce769c41a5d6c355c17607fbc0e7c916870f2e810d424f812954516d4e30ad4"
+   "sha256": "4ce769c41a5d6c355c17607fbc0e7c916870f2e810d424f812954516d4e30ad4",
+   "repo": "https://github.com/eurobuddha/minima-core-android-futurecash"
   },
   {
    "name": "AtomiX",
@@ -134,7 +144,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.21.apk",
-   "sha256": "114d7530c081858d73fd8f4729ca14b5c4975ef37e94e4f6c4bb7792c6d20705"
+   "sha256": "114d7530c081858d73fd8f4729ca14b5c4975ef37e94e4f6c4bb7792c6d20705",
+   "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
   },
   {
    "name": "Minima ETH Wallet",
@@ -146,7 +157,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/ethwallet.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ethwallet-0.2.3.apk",
-   "sha256": "7a9ba9724ce4e09dc8951f682a190055603d71e1ee5289e2bee9e85996b08757"
+   "sha256": "7a9ba9724ce4e09dc8951f682a190055603d71e1ee5289e2bee9e85996b08757",
+   "repo": "https://github.com/eurobuddha/minima-core-android-ethwallet"
   },
   {
    "name": "Minima Expert",
@@ -158,7 +170,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/expert.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-expert-0.7.1.apk",
-   "sha256": "bd7c870d88e7b8136bb52c0c45ca8739f60fad98ca789e0467ed1c27eb73048f"
+   "sha256": "bd7c870d88e7b8136bb52c0c45ca8739f60fad98ca789e0467ed1c27eb73048f",
+   "repo": "https://github.com/eurobuddha/minima-core-android-expert"
   },
   {
    "name": "Minima Faucet",
@@ -170,7 +183,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/faucet.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-faucet-0.2.2.apk",
-   "sha256": "d51d4f343690d747f30a43f6e15e7a5ca5a659115d8561c0fb99f777a0144359"
+   "sha256": "d51d4f343690d747f30a43f6e15e7a5ca5a659115d8561c0fb99f777a0144359",
+   "repo": "https://github.com/eurobuddha/minima-core-android-faucet"
   },
   {
    "name": "miniMall",
@@ -182,7 +196,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Shop-0.4.1.apk",
-   "sha256": "71f5242fa8142945bf3eac7feb64679db5464989c1e38211a875cb744fe6a116"
+   "sha256": "71f5242fa8142945bf3eac7feb64679db5464989c1e38211a875cb744fe6a116",
+   "repo": "https://github.com/eurobuddha/minima-core-android-merchshop"
   },
   {
    "name": "miniMall Inbox",
@@ -194,7 +209,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-inbox.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Inbox-0.5.1.apk",
-   "sha256": "cf23033d85a881b97e94eaec43c6ef9fc933c8884224ac3b2a247d7f1169661c"
+   "sha256": "cf23033d85a881b97e94eaec43c6ef9fc933c8884224ac3b2a247d7f1169661c",
+   "repo": "https://github.com/eurobuddha/minima-core-android-merchinbox"
   },
   {
    "name": "miniMall Studio",
@@ -206,7 +222,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.3.1.apk",
-   "sha256": "6ea55903334a2f8316fe4f4b7231cddd91dc365784ac245e5d02d6e57ace2699"
+   "sha256": "6ea55903334a2f8316fe4f4b7231cddd91dc365784ac245e5d02d6e57ace2699",
+   "repo": "https://github.com/eurobuddha/minima-core-android-merchstudio"
   },
   {
    "name": "miniMall Studio (Mac)",
@@ -217,7 +234,8 @@
    "category": "Desktop",
    "source": "Mac",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-mac.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.1.1-mac.dmg"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.1.1-mac.dmg",
+   "repo": "https://github.com/eurobuddha/minimall-core"
   },
   {
    "name": "miniMall Studio (Windows installer)",
@@ -228,7 +246,8 @@
    "category": "Desktop",
    "source": "Windows",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
-   "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1-Setup.exe"
+   "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1-Setup.exe",
+   "repo": "https://github.com/eurobuddha/minimall-core"
   },
   {
    "name": "miniMall Studio (Windows portable)",
@@ -239,7 +258,8 @@
    "category": "Desktop",
    "source": "Windows",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
-   "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1.exe"
+   "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/miniMall-Studio-v0.1.1/miniMall-Studio-0.1.1.exe",
+   "repo": "https://github.com/eurobuddha/minimall-core"
   },
   {
    "name": "minimaCore Desktop (Mac)",
@@ -250,7 +270,8 @@
    "category": "Desktop",
    "source": "Mac",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore-0.16.7-arm64.dmg"
+   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore-0.16.7-arm64.dmg",
+   "repo": "https://github.com/eurobuddha/minimacore-desktop"
   },
   {
    "name": "minimaCore Desktop (Windows)",
@@ -261,7 +282,8 @@
    "category": "Desktop",
    "source": "Windows",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore.Setup.0.16.7.exe"
+   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore.Setup.0.16.7.exe",
+   "repo": "https://github.com/eurobuddha/minimacore-desktop"
   },
   {
    "name": "minimaCore Desktop (Linux)",
@@ -272,7 +294,8 @@
    "category": "Desktop",
    "source": "Linux",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore-0.16.7.AppImage"
+   "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.7/minimaCore-0.16.7.AppImage",
+   "repo": "https://github.com/eurobuddha/minimacore-desktop"
   },
   {
    "name": "Minima Core",
@@ -284,7 +307,8 @@
    "source": "Official",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.9.apk",
-   "sha256": "aa226f22c756f5f4f3b4a0fa6b26cc65215423b01a1ce22075ac2bba5bf8f899"
+   "sha256": "aa226f22c756f5f4f3b4a0fa6b26cc65215423b01a1ce22075ac2bba5bf8f899",
+   "repo": "https://github.com/spartacusrex-minima/minima-core-android"
   },
   {
    "name": "Minima Core \u2014 New UI (Preview)",
@@ -296,7 +320,8 @@
    "source": "Official",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-core-ui-1.6.10-ui-h2.apk",
-   "sha256": "a6462fb094e230a9af038168d2e9f84a6eddb61280f6b50cbe0a22eb1926ca31"
+   "sha256": "a6462fb094e230a9af038168d2e9f84a6eddb61280f6b50cbe0a22eb1926ca31",
+   "repo": "https://github.com/spartacusrex-minima/minima-core-android"
   },
   {
    "name": "Minima Terminal",
@@ -308,7 +333,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.3.1.apk",
-   "sha256": "25d5f88b14896cbc4981e7537fc61a9c60c186d6d16ae0fc11c1cdc4f2ac7763"
+   "sha256": "25d5f88b14896cbc4981e7537fc61a9c60c186d6d16ae0fc11c1cdc4f2ac7763",
+   "repo": "https://github.com/eurobuddha/minima-core-android-terminal"
   },
   {
    "name": "Minima Wallet",
@@ -320,7 +346,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-mmm2.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.2.7.apk",
-   "sha256": "83453fcfe1dea540eddf1698d61346e6f419c6c19f62fc611228793811689a62"
+   "sha256": "83453fcfe1dea540eddf1698d61346e6f419c6c19f62fc611228793811689a62",
+   "repo": "https://github.com/eurobuddha/minima-core-android-wallet"
   },
   {
    "name": "FreezePeach",
@@ -332,7 +359,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/freezepeach.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/freezepeach-0.3.33.apk",
-   "sha256": "ad61b436c1e638b13d912f2b0dc7abf7f536a1976f02d75c8a82e594a7468106"
+   "sha256": "ad61b436c1e638b13d912f2b0dc7abf7f536a1976f02d75c8a82e594a7468106",
+   "repo": "https://github.com/eurobuddha/freezepeach"
   },
   {
    "name": "PandaPools",
@@ -344,7 +372,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.26.apk",
-   "sha256": "bddf51cbc5bb3e42ae32316f887206a4aad55ad217cecf6e9215210fd1ae0498"
+   "sha256": "bddf51cbc5bb3e42ae32316f887206a4aad55ad217cecf6e9215210fd1ae0498",
+   "repo": "https://github.com/eurobuddha/minima-core-android-pandapools"
   },
   {
    "name": "PandaDEX",
@@ -356,7 +385,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandadex-0.4.3.apk",
-   "sha256": "72a30a9605d0e45da211b1d0422cd40f8229361133ef933ac10d1a9750c8bd26"
+   "sha256": "72a30a9605d0e45da211b1d0422cd40f8229361133ef933ac10d1a9750c8bd26",
+   "repo": "https://github.com/eurobuddha/minima-core-android-pandadex"
   },
   {
    "name": "KeyUses",
@@ -368,7 +398,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/keyuses.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-keyuses-0.1.1.apk",
-   "sha256": "73e338b0cbb7500358f05be82af0fa4b0dd98e0540c3dc2e44ec5306ea9cf666"
+   "sha256": "73e338b0cbb7500358f05be82af0fa4b0dd98e0540c3dc2e44ec5306ea9cf666",
+   "repo": "https://github.com/eurobuddha/minima-core-android-keyreuses"
   },
   {
    "name": "Brain Wallet",
@@ -380,7 +411,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/brainwallet.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/brainwallet-1.1.2.apk",
-   "sha256": "59381f57d111d1f5030c45b81403f608e2f32e1095202f227aa04af80834feb3"
+   "sha256": "59381f57d111d1f5030c45b81403f608e2f32e1095202f227aa04af80834feb3",
+   "repo": "https://github.com/eurobuddha/minima-core-android-brainwallet"
   },
   {
    "name": "Entropy",
@@ -392,7 +424,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/entropy.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Entropy-0.1.7.apk",
-   "sha256": "f0d929cdc94e07a65ecebb9c030e7e5ff6c525af2231013375cbef0eaa011547"
+   "sha256": "f0d929cdc94e07a65ecebb9c030e7e5ff6c525af2231013375cbef0eaa011547",
+   "repo": "https://github.com/eurobuddha/minima-core-android-entropy"
   },
   {
    "name": "Minima AI Skill",
@@ -404,7 +437,8 @@
    "source": "Skill",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-skill.png",
    "file": "https://github.com/eurobuddha/minima-skill/releases/download/v1.0.0/minima-skill-1.0.0.zip",
-   "sha256": "bc6342c27f1223c1d44f4f0690f87c7969127a2da4789b938a3a4f3d5a00c825"
+   "sha256": "bc6342c27f1223c1d44f4f0690f87c7969127a2da4789b938a3a4f3d5a00c825",
+   "repo": "https://github.com/eurobuddha/minima-skill"
   },
   {
    "name": "Minima NFT Wallet",
@@ -416,7 +450,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/nftwallet.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-nft-wallet-0.1.6.apk",
-   "sha256": "48d9afc661e8a1411f8fb7793cb7e047307824b778f347ec378a8385bb0672a2"
+   "sha256": "48d9afc661e8a1411f8fb7793cb7e047307824b778f347ec378a8385bb0672a2",
+   "repo": "https://github.com/eurobuddha/minima-core-android-nftwallet"
   },
   {
    "name": "Atelier",
@@ -428,7 +463,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atelier.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/atelier-0.5.9.apk",
-   "sha256": "8182c9724667a9154347610555761b442c40d72ab94e86181b44dab982dd3f32"
+   "sha256": "8182c9724667a9154347610555761b442c40d72ab94e86181b44dab982dd3f32",
+   "repo": "https://github.com/eurobuddha/statenft-suite"
   },
   {
    "name": "Minima Mail",
@@ -440,7 +476,8 @@
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/mail.png",
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.2.apk",
-   "sha256": "8f656f07cbcd4ba712d00da80d9e90220e55ea11396b2a2aabb7097f5ae314cd"
+   "sha256": "8f656f07cbcd4ba712d00da80d9e90220e55ea11396b2a2aabb7097f5ae314cd",
+   "repo": "https://github.com/eurobuddha/minima-core-android-mail"
   }
  ]
 }
