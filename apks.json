@@ -43,14 +43,14 @@
   {
    "name": "Openly",
    "packageId": "com.eurobuddha.openly",
-   "version": "0.2.3",
-   "versionCode": 26,
-   "description": "Peer-to-peer proposition betting \u2014 wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate, accept to match. Agree the outcome and it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) \u2014 with a one-tap trusted \u201ceurobuddha\u201d default. v0.2.3: FUNDS/FLOW fix \u2014 accepting a bet across two devices (and an arbiter ruling) now actually confirms on-chain instead of hanging on \u201cconfirming\u201d forever (the accepting/arbiter node couldn't attach the coin's proof); plus you can no longer be a party to a bet you arbitrate. EXPERIMENTAL and it moves real funds \u2014 test small.",
+   "version": "0.2.4",
+   "versionCode": 27,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Peer-to-peer proposition betting \u2014 wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate, accept to match. Agree the outcome and it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) \u2014 with a one-tap trusted \u201ceurobuddha\u201d default. v0.2.3: FUNDS/FLOW fix \u2014 accepting a bet across two devices (and an arbiter ruling) now actually confirms on-chain instead of hanging on \u201cconfirming\u201d forever (the accepting/arbiter node couldn't attach the coin's proof); plus you can no longer be a party to a bet you arbitrate. EXPERIMENTAL and it moves real funds \u2014 test small.",
    "category": "Games",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.3.apk",
-   "sha256": "f32632cf206e48f3740a6d0c1fb5e99592c1ab5e6df2ea5e034eae8062e854b8"
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.4.apk",
+   "sha256": "477c4c41f70a25edd99c870bf23a7a5f421c92031d260747f3c0fe108cba0a8f"
   },
   {
    "name": "Minima UTXO Wallet",
