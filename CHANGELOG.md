@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-08-11 · atelier 0.5.8 + minima-nft-wallet 0.1.5 — image-path audit: all shrink ladders end in a dimension-halving last resort, so raster always fits any budget (four 'cannot be shrunk'/silent-fallback burns closed at the root). Paired MiniDapp 4.2.7 identical.
 - 2026-08-11 · minima-nft-wallet 0.1.5 — shrink ladders reach the floor: dimension-halving last resort, raster always fits
 - 2026-08-11 · atelier 0.5.7 — chosen icons honored: icon intake ladder reaches 120px (busy uploads no longer fail the 6000-char budget and silently fall back to plate 1); mint-gate icon slim targets the room actually spare after plates get theirs instead of a hardcoded 2000 below the shrink floor. Paired MiniDapp 4.2.6 identical.
 - 2026-08-10 · atelier 0.5.6 — ALWAYS FITS holes closed: the silent plate-1-as-icon fallback (6000 chars inside the record) starved every plate's image room and the raster ladder stopped at 300px — photos refused at budgets a 180px rung fits. Icon now slims/drops whenever plates need the room; ladder reaches 140px. Paired MiniDapp 4.2.5 identical.
