@@ -124,14 +124,14 @@
   {
    "name": "FutureCash",
    "packageId": "com.eurobuddha.futurecash",
-   "version": "0.2.3",
-   "versionCode": 203,
-   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.2: housekeeping \u2014 Android's automatic backup is switched off for this app. It reads everything live from your node and stores nothing of its own, but the shared node-pairing token was being carried to the cloud; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
+   "version": "0.2.4",
+   "versionCode": 204,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.4 fixes locked payments not showing up. If your node missed the one pairing reply the app waited for \u2014 common after restoring a node, reinstalling, or restarting Minima Core \u2014 FutureCash never asked the node for your coins at all, and showed an empty list with no error while the block number kept ticking. Real locked funds looked like no funds; they were always safe on-chain and still visible in the FutureCash MiniDapp. The app now keeps retrying until it finds the contract, recognises the contract however it was registered (by address, not by script text, so a registration made by the MiniDapp is matched), and also scans the canonical FutureCash address so a locally-derived address can never hide a stake. An empty list now always says why, and the About tab shows the contract address in use so you can compare it with the MiniDapp's.",
    "category": "Finance",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecash.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.3.apk",
-   "sha256": "4ce769c41a5d6c355c17607fbc0e7c916870f2e810d424f812954516d4e30ad4",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.4.apk",
+   "sha256": "63135d7ba16820cdc3234012d6a1507cb3c91c3fe4d0d7362bbb65b7711adab0",
    "repo": "https://github.com/eurobuddha/minima-core-android-futurecash"
   },
   {
