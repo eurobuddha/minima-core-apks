@@ -124,14 +124,14 @@
   {
    "name": "FutureCash",
    "packageId": "com.eurobuddha.futurecash",
-   "version": "0.2.4",
-   "versionCode": 204,
-   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.4 fixes locked payments not showing up. If your node missed the one pairing reply the app waited for \u2014 common after restoring a node, reinstalling, or restarting Minima Core \u2014 FutureCash never asked the node for your coins at all, and showed an empty list with no error while the block number kept ticking. Real locked funds looked like no funds; they were always safe on-chain and still visible in the FutureCash MiniDapp. The app now keeps retrying until it finds the contract, recognises the contract however it was registered (by address, not by script text, so a registration made by the MiniDapp is matched), and also scans the canonical FutureCash address so a locally-derived address can never hide a stake. An empty list now always says why, and the About tab shows the contract address in use so you can compare it with the MiniDapp's.",
+   "version": "0.2.5",
+   "versionCode": 205,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.5 lists your locked payments newest first \u2014 they used to arrive in whatever order the node happened to walk the chain, so ready-to-collect ones were scattered up and down the list. v0.2.4 fixed locked payments not showing up at all: if your node missed the one pairing reply the app waited for \u2014 common after restoring a node, reinstalling, or restarting Minima Core \u2014 FutureCash never asked the node for your coins, and showed an empty list with no error while the block number kept ticking, so real locked funds looked like no funds. They were always safe on-chain and still visible in the FutureCash MiniDapp. The app now keeps retrying until it finds the contract, recognises it however it was registered (by address, not script text), and also scans the canonical FutureCash address so a locally-derived address can never hide a stake. An empty list now says why, and the About tab shows the contract address in use so you can compare it with the MiniDapp's.",
    "category": "Finance",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecash.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.4.apk",
-   "sha256": "63135d7ba16820cdc3234012d6a1507cb3c91c3fe4d0d7362bbb65b7711adab0",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-futurecash-0.2.5.apk",
+   "sha256": "7158a631565174b4cfc1c8aebd666d1b2933972d9f454bb7d75f7ba2f67cd3dc",
    "repo": "https://github.com/eurobuddha/minima-core-android-futurecash"
   },
   {
