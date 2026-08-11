@@ -326,14 +326,14 @@
   {
    "name": "Minima Terminal",
    "packageId": "org.minimarex.terminal",
-   "version": "0.2.4",
-   "versionCode": 213,
-   "description": "v0.2.4: IMPORTANT \u2014 script deploys no longer default to trackall. Identical script text gives everyone the same address, so trackall on a template or burn script filled your wallet with other people's locked coins; deploys now track only your own coins unless you opt in, with a plain-language warning. To clean an already-affected wallet, redeploy the same script with trackall off (newscript replaces the old registration). NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v1.3: housekeeping \u2014 Android's automatic backup is switched off for this app. It stores only the node event log (no command history \u2014 that is Terminal IDE), but none of it should be restored onto a different node. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
+   "version": "1.3.1",
+   "versionCode": 5,
+   "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v1.3: housekeeping \u2014 Android's automatic backup is switched off for this app. It stores only the node event log (no command history \u2014 that is Terminal IDE), but none of it should be restored onto a different node. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info \u2192 Storage \u2192 Clear storage).",
    "category": "Tools",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/terminal.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-terminal-ide-0.2.4.apk",
-   "sha256": "736b27c30cccdb0d070d27223acfc683e84091643fe3a011ba7a95b84732a5d1",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/terminal-1.3.1.apk",
+   "sha256": "25d5f88b14896cbc4981e7537fc61a9c60c186d6d16ae0fc11c1cdc4f2ac7763",
    "repo": "https://github.com/eurobuddha/minima-core-android-terminal"
   },
   {
