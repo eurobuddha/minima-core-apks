@@ -19,3 +19,36 @@ substitute your own idea for what the user told you to do.
 
 When your instinct conflicts with the user's instruction, follow the instruction. Ignoring it wastes the user's time,
 tokens, and money, and is the most serious mistake you can make.
+
+## Before publishing: run `./check.py`
+
+`apks.json` is the only thing users' stores read, and nothing else validates it. Every field in it
+can drift from the APK it describes, and each way it has drifted shipped a real bug:
+
+| check | what it caught |
+|---|---|
+| `sha` | a rebuilt APK left with the old hash — PandaApps verifies the download and refuses to install |
+| `code` | Terminal IDE 0.2.4 shipped as versionCode 204 while the catalog said 213, so the store offered the same update forever |
+| `name` | catalog version disagreeing with the APK's versionName (a `+sha` build suffix is allowed) |
+| `convention` | versionCode off `minor*100 + patch`, which drifts below the convention until the first correct number is an unnstallable downgrade |
+| `downgrade` | a versionCode at or below the published one — Android refuses it and says only "App not installed" |
+| `missing` / `repo` / `signer` | a referenced APK absent from the repo, an entry with no source link, one of our APKs not on the Minima Family key |
+
+```bash
+./check.py        # failures only; non-zero exit means do not push
+./check.py -v     # every entry
+```
+
+Takes ~6s over the whole catalog. A `pre-push` hook runs it automatically; it is not versioned, so
+reinstall it in a fresh clone with:
+
+```bash
+cp hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+```
+
+`git push --no-verify` bypasses it for a docs-only push.
+
+**Exemptions** (in `check.py`): the upstream Minima builds — `org.minimarex.minimacore` (both Core
+rows) and `org.minimarex.terminal` — are exempt from `convention` and `signer`, because we neither
+number nor sign them and renumbering would break upgrades from an officially-installed build. Every
+other check still applies to them.

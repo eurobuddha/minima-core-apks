@@ -1,0 +1,13 @@
+#!/bin/sh
+# Refuse to publish a catalog that disagrees with the APKs it points at.
+# Installed copy lives at .git/hooks/pre-push (not versioned) — reinstall with:
+#     cp hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+# Bypass for a docs-only push:  git push --no-verify
+DIR=$(git rev-parse --show-toplevel)
+[ -x "$DIR/check.py" ] || exit 0
+"$DIR/check.py" || {
+  echo ""
+  echo "pre-push: apks.json does not match the APKs. Push refused."
+  echo "          Fix the above, or 'git push --no-verify' if this push does not touch the catalog."
+  exit 1
+}
