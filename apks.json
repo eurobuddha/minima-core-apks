@@ -482,14 +482,14 @@
     {
       "name": "Maxima",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.3.0",
-      "versionCode": 300,
-      "description": "Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima that fixes what classic never could. Chat with two ticks (a real delivery receipt from the recipient's device, not just \"the relay took it\") and groups, over a transport that survives the other person being offline: a store-and-forward mailbox holds sealed messages until they reappear. Multi-homes across several relays so no single operator can cut you off, and your phone gives back where it can - holding mail for contacts, replicating the directory, witnessing delivery. Tier 2: when your network allows, your phone gets a real public address (verified from outside before it is ever advertised) and finds contacts on the same Wi-Fi to message them directly with no relay and no internet. Interoperates with classic Maxima on the live network. Your identity is a Minima seed phrase, stored wallet-grade; it also works as the comms layer for other apps via IPC. Open source.",
+      "version": "0.3.1",
+      "versionCode": 301,
+      "description": "Now with seed-phrase RESTORE (Settings) - the path back from a reinstall; your 24 words reproduce the exact same identity. Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima that fixes what classic never could. Chat with two ticks (a real delivery receipt from the recipient's device, not just \"the relay took it\") and groups, over a transport that survives the other person being offline: a store-and-forward mailbox holds sealed messages until they reappear. Multi-homes across several relays so no single operator can cut you off, and your phone gives back where it can - holding mail for contacts, replicating the directory, witnessing delivery. Tier 2: when your network allows, your phone gets a real public address (verified from outside before it is ever advertised) and finds contacts on the same Wi-Fi to message them directly with no relay and no internet. Interoperates with classic Maxima on the live network. Your identity is a Minima seed phrase, stored wallet-grade; it also works as the comms layer for other apps via IPC. Open source.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxima.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.3.0.apk",
-      "sha256": "27bdaf27ce1ff397e38934fa5993e686263c0e7aea048674e9963cc1af33e90f",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.3.1.apk",
+      "sha256": "922d86425495512fd3d0f6ebd8c0e92ad554bcfb6015a4e0bf38798837799ff6",
       "repo": "https://github.com/eurobuddha/maxima"
     }
   ]
