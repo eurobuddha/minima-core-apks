@@ -482,14 +482,14 @@
   {
    "name": "Maxima",
    "packageId": "com.eurobuddha.maxima.app",
-   "version": "0.3.2",
-   "versionCode": 302,
-   "description": "Now with a cleaner look - a branded status icon in your notification bar (the Maxima mark, not a data-transfer arrow) and a live 'connected' indicator that breathes when the transport is up. Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima that fixes what classic never could. Chat with two ticks (a real delivery receipt from the recipient's device, not just \"the relay took it\") and groups, over a transport that survives the other person being offline: a store-and-forward mailbox holds sealed messages until they reappear. Seed-phrase RESTORE brings your identity back after a reinstall - your 24 words reproduce the exact same identity. Multi-homes across several relays so no single operator can cut you off, and your phone gives back where it can - holding mail for contacts, replicating the directory, witnessing delivery. Tier 2: when your network allows, your phone gets a real public address (verified from outside before it is ever advertised) and finds contacts on the same Wi-Fi to message them directly with no relay and no internet. Interoperates with classic Maxima on the live network. Your identity is a Minima seed phrase, stored wallet-grade; it also works as the comms layer for other apps via IPC. Open source.",
+   "version": "0.4.0",
+   "versionCode": 400,
+   "description": "Now a full private messenger with an in-app Minima WALLET - one Mx address, coins and tokens, no chain node needed (sign on device, publish via your node or a gateway). SELF-HOSTED MEDIA: photos are encrypted on your phone, kept there, and mirrored across the relay mesh - your phone is the server, no central media host. Send PHOTOS in 1:1 and group chats; add contacts by QR. Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima. Two ticks (a real delivery receipt from the recipient's device), groups, and a store-and-forward mailbox that holds sealed messages until the other person reappears. Multi-homes across several relays so no single operator can cut you off; run your own relay in seconds (desktop installer or a Pi). One seed phrase backs your comms identity, chat wallet and chain wallet with no key clash. Interoperates with classic Maxima. Open source.",
    "category": "Social",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxima.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.3.2.apk",
-   "sha256": "31377a39555ffbf873b2d43812e313205dcb1e9e693825610fc31a10cd31c92a",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.4.0.apk",
+   "sha256": "6a8beb4ff1bf83d33cb36bafeb331d5b5e9f66df1ad50351209032d2de8978c5",
    "repo": "https://github.com/eurobuddha/maxima"
   }
  ]
