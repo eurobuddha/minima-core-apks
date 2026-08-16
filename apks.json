@@ -456,14 +456,14 @@
   {
    "name": "The Salon",
    "packageId": "com.eurobuddha.salon",
-   "version": "0.11.7",
-   "versionCode": 1107,
+   "version": "0.11.8",
+   "versionCode": 1108,
    "description": "v0.11.0: DMs and media now travel over MAXIMA - the decentralised, user-hosted comms network. When you and a contact both run the Maxima app, direct messages are free, instant and off-chain (held by a relay mailbox while they're offline); peers without Maxima still get the on-chain dust-coin DMs, an automatic fallback. New \"Maxima mesh\" hosting: your photos and video are encrypted on your phone, kept there, and mirrored across the relay mesh - you are the server, no central host. (Needs the Maxima app installed; approve the Salon once in Maxima -> Connected apps.) The decentralized social network built on Minima: your identity is a 1-of-1 on-chain token you own forever; your profile, photos, video and music live at storage YOU control (SFTP / IPFS / GitHub / encrypted relay / Maxima mesh). Discover people from a permissionless on-chain town square, tip anyone in MINIMA or mxUSD, prove the NFTs you hold. Open source. EXPERIMENTAL; test small.",
    "category": "Social",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/salon.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/salon-0.11.7.apk",
-   "sha256": "a15ed0e43cc975517d208284341ea9c56f23e88e34abd6b5278bac0b130d1b00",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/salon-0.11.8.apk",
+   "sha256": "6fe0f37ca0ecf635852dd0e9ee8dbc475cc0f8e405f20407bab38f461c410b9e",
    "repo": "https://github.com/eurobuddha/minima-core-android-salon"
   },
   {
