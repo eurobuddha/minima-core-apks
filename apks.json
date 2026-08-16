@@ -46,14 +46,14 @@
   {
    "name": "Openly",
    "packageId": "com.eurobuddha.openly",
-   "version": "0.2.6",
-   "versionCode": 206,
-   "description": "v0.2.6: renumbering release \u2014 same app. The internal build number now matches the version you see, in line with the rest of the store. No feature changes. Peer-to-peer proposition betting \u2014 wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate, accept to match. Agree the outcome and it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) \u2014 with a one-tap trusted \u201ceurobuddha\u201d default. v0.2.5: extends the on-chain proof fix to the TIMEOUT and keep-alive REFRESH paths \u2014 a bet you didn't personally create can now be timed out or refreshed without hanging on \u201cconfirming\u201d forever \u2014 plus signing and withdraw hardening (v0.2.3 already fixed the same for accept + arbiter-rule). Updating from v0.2.3 or earlier? Uninstall first \u2014 those used a different signing key; v0.2.4+ update in place. EXPERIMENTAL and it moves real funds \u2014 test small.",
+   "version": "0.2.7",
+   "versionCode": 207,
+   "description": "v0.2.7: STABILITY \u2014 fixes the frequent \u201cOpenly keeps stopping\u201d crashes. Two causes: (1) the background keep-alive service hit Android 14/15's daily foreground-service time limit and then crash-looped hourly \u2014 it's replaced with a periodic background job that can't hit that limit; (2) on a busy board the app read too much at once and blew Android's IPC size cap \u2014 that read is now bounded and runs once per block. Plus broad crash-hardening across the app. Peer-to-peer proposition betting \u2014 wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate, accept to match. Agree the outcome and it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) \u2014 with a one-tap trusted \u201ceurobuddha\u201d default. Updating from v0.2.3 or earlier? Uninstall first \u2014 those used a different signing key; v0.2.4+ update in place. EXPERIMENTAL and it moves real funds \u2014 test small.",
    "category": "Games",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.6.apk",
-   "sha256": "b47bdf437965f1565dcdbe9fbe2f952f8b0d5c2a5ecdba57dcfd9a5292deae7b",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/Openly-0.2.7.apk",
+   "sha256": "5cf0f9441f6644156ecb6a54eecc5bcee3fba0dda1a311c74db2c3d56748d5a6",
    "repo": "https://github.com/eurobuddha/openly"
   },
   {
