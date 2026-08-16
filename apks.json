@@ -482,14 +482,14 @@
   {
    "name": "Maxima",
    "packageId": "com.eurobuddha.maxima.app",
-   "version": "0.4.4",
-   "versionCode": 404,
+   "version": "0.4.5",
+   "versionCode": 405,
    "description": "Now a full private messenger with an in-app Minima WALLET - one Mx address, coins and tokens, no chain node needed (sign on device, publish via your node or a gateway). SELF-HOSTED MEDIA: photos are encrypted on your phone, kept there, and mirrored across the relay mesh - your phone is the server, no central media host. Send PHOTOS in 1:1 and group chats; add contacts by QR. Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima. Two ticks (a real delivery receipt from the recipient's device), groups, and a store-and-forward mailbox that holds sealed messages until the other person reappears. Multi-homes across several relays so no single operator can cut you off; run your own relay in seconds (desktop installer or a Pi). One seed phrase backs your comms identity, chat wallet and chain wallet with no key clash. Interoperates with classic Maxima. Open source.",
    "category": "Social",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxima.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.4.4.apk",
-   "sha256": "a5e40eed0566d8fb363de625bb14d0a6c98e1e87353ce628ec48d0cceb18b133",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.4.5.apk",
+   "sha256": "3429cbfe6bc516e3408c2a3ce7df168b73edb81121da5cb8f77bfe218e7b1284",
    "repo": "https://github.com/eurobuddha/maxima"
   }
  ]
