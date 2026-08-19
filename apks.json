@@ -2,8 +2,21 @@
  "name": "PandaApps",
  "description": "Native Android companion apps for Minima \u2014 eurobuddha's apps plus the official Minima app.",
  "disclaimer": "Every app here is free, open source, and yours to use, fork, share or make your own \u2014 every repo is public, so please read the code and do your own due diligence. They're built in the open and still in active development, provided as is with no warranty. They talk to a live blockchain and real funds, so back up your seed, start with small amounts, and use at your own risk. Nothing here is financial advice.",
- "version": "1.0",
+ "version": "1.1",
  "apps": [
+  {
+   "name": "Parlons",
+   "packageId": "com.eurobuddha.maxima.app",
+   "version": "0.5.6",
+   "versionCode": 506,
+   "description": "Private, secure chat \u2014 let's chat. Decentralized, end-to-end messaging with no account, no phone number and no server holding your history: messages go straight from your device to your contact's, carried by independent relays. Includes a self-custodial Minima wallet (send and receive MINIMA; your keys and seed never leave the phone). Powered by Maxima, Minima's peer-to-peer comms layer. Android 9+.",
+   "category": "Social",
+   "source": "PandaApps",
+   "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/parlons-0.5.6.apk",
+   "sha256": "2577acfcfd5df0351f2e6a36f74b60298066417d3b6a6d9f339b0d5a18307808",
+   "repo": "https://github.com/eurobuddha/maxima"
+  },
   {
    "name": "PandaApps",
    "packageId": "com.eurobuddha.pandaapps",
@@ -478,19 +491,6 @@
    "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.2.apk",
    "sha256": "8f656f07cbcd4ba712d00da80d9e90220e55ea11396b2a2aabb7097f5ae314cd",
    "repo": "https://github.com/eurobuddha/minima-core-android-mail"
-  },
-  {
-   "name": "Maxima",
-   "packageId": "com.eurobuddha.maxima.app",
-   "version": "0.4.25",
-   "versionCode": 425,
-   "description": "SELF-HEAL: a contact that moved host no longer gets stuck on an old address - your node re-resolves it across every relay you share and converges automatically, no manual re-add. CONTACTS: a connectivity dot (online / seen-Nh-ago / offline) and a peer pill on every contact - a Minima Core / full node reads as 'core', a classic-Maxima peer as 'classic'. ADDRESS FIX: your phone now always advertises an externally-reachable address (a relay), never its own LAN IP, mirroring classic Maxima exactly - so remote contacts can actually reach you. ROBUST, STICKY CONNECTIONS: full connection-maintenance parity with classic Maxima - a link now survives quiet stretches with keep-alive traffic (a classic node no longer drops you after 10 minutes of silence), black-hole sockets are detected and reconnected, a check-connect probe verifies a relay actually delivers, and MLS/host lifecycle (12h server rotation, 7-day host purge, 30-min contact re-resolve) matches the reference. A full private messenger with an in-app Minima WALLET - one Mx address, coins and tokens, no chain node needed (sign on device, publish via your node or a gateway). SELF-HOSTED MEDIA: photos are encrypted on your phone, kept there, and mirrored across the relay mesh - your phone is the server, no central media host. Send PHOTOS in 1:1 and group chats; add contacts by QR. Decentralised messaging for Minima - an original, wire-compatible rebuild of Maxima. Two ticks (a real delivery receipt from the recipient's device), groups, and a store-and-forward mailbox that holds sealed messages until the other person reappears. Multi-homes across several relays so no single operator can cut you off; run your own relay in seconds (desktop installer or a Pi). One seed phrase backs your comms identity, chat wallet and chain wallet with no key clash. Interoperates with classic Maxima. Open source.",
-   "category": "Social",
-   "source": "PandaApps",
-   "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/maxima.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/maxima-0.4.25.apk",
-   "sha256": "95c124a248d5c781ffdf3591ba7e0cb4fe8a20835989719a77567345460685de",
-   "repo": "https://github.com/eurobuddha/maxima"
   }
  ]
 }
