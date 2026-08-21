@@ -31,6 +31,19 @@
    "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
   },
   {
+   "name": "PandaGet",
+   "packageId": "com.eurobuddha.pandaget",
+   "version": "0.4.0",
+   "versionCode": 400,
+   "description": "v0.4.0: first release. PandaApps without the install permission, for anyone whose phone blocks PandaApps as a harmful app. Google Play Protect distrusts a sideloaded store that can install apps; PandaGet cannot install anything, so there is nothing for it to object to. It shows the same catalog, and Download saves an app's APK, verified against its published SHA-256, into your Downloads folder. Open the file from your Files app to install it yourself: Android asks you once to allow installs from your file manager, and every app still confirms in the system installer. Play Protect may still warn about a downloaded app itself while our new signing key earns its reputation, but from the Files app you get the normal choice to install anyway, instead of the store being blocked outright. Requires Android 10 or newer.",
+   "category": "Store",
+   "source": "PandaApps",
+   "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaget-0.4.0.apk",
+   "sha256": "72c337e076b6f5e4bb2cd147748e846a721a761c7788089dc4495549a1c10e20",
+   "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
+  },
+  {
    "name": "Terminal IDE",
    "packageId": "com.eurobuddha.terminalide",
    "version": "0.3.0",
