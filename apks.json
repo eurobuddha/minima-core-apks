@@ -163,14 +163,14 @@
   {
    "name": "AtomiX",
    "packageId": "com.eurobuddha.atomix",
-   "version": "0.1.36",
-   "versionCode": 136,
-   "description": "v0.1.22: renumbering release \u2014 same app. The internal build number now matches the version you see, in line with the rest of the store. No feature changes. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.1.20: a reinstall now actually resets AtomiX. If your node's seed changes (you reset or restored it), AtomiX halts trading rather than using keys your node no longer owns \u2014 but until now, uninstalling and reinstalling could NOT clear the halt, because Android was restoring the old settings from your phone/cloud backup. Backup is now switched off for this app entirely (it was also sending your swap claim secrets and identity off-device, which it should never have done), and the halt screen now says plainly that if the warning returns after a reinstall you should clear app storage \u2014 with a button that takes you straight there. 0.1.19 introduced the halt itself: AtomiX re-checks both its published swap key and its node-derived ETH wallet at startup, every ~5 minutes and whenever the node reconnects; on a mismatch it stops publishing, order edits, OTC and new counter-legs while swaps already in flight keep settling, and helps you export or sweep the stale ETH wallet first. A busy or locked node can never trigger the halt.",
+   "version": "0.1.39",
+   "versionCode": 139,
+   "description": "Reliability and security hardening, field-tested with a live 100,000 MINIMA swap. AtomiX can now read the node's large replies (over 100K characters) it was previously deaf to \u2014 screens that could hang while loading now work. The swap engine is hardened throughout: command building rejects malformed input, signing is serialised so a one-time key can never be reused, the background message scanner can no longer get stuck, and a range of Ethereum-side crashes and fund-stranding edge cases are fixed. Same Minima family signing key as recent store versions, so it updates in place. Earlier safety behaviour still applies: if your node's seed changes (you reset or restored it), AtomiX halts new trading rather than using keys your node no longer owns while in-flight swaps keep settling \u2014 if that warning returns after a reinstall, clear app storage (there is a button for it). Backup stays off for this app so a reinstall is a true reset and your claim secrets never leave the device.",
    "category": "Finance",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.36.apk",
-   "sha256": "e67ba716cdab07aca5a4ff28441e48e9452421a71075db65c581470f13b9960b",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.39.apk",
+   "sha256": "9ebb50fe2807dc266b3beee75f7e2f4d0a0c1203100d3670862516c4c5453fc9",
    "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
   },
   {
