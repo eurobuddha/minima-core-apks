@@ -163,14 +163,14 @@
   {
    "name": "AtomiX",
    "packageId": "com.eurobuddha.atomix",
-   "version": "0.1.39",
-   "versionCode": 139,
-   "description": "Reliability and security hardening, field-tested with a live 100,000 MINIMA swap. AtomiX can now read the node's large replies (over 100K characters) it was previously deaf to \u2014 screens that could hang while loading now work. The swap engine is hardened throughout: command building rejects malformed input, signing is serialised so a one-time key can never be reused, the background message scanner can no longer get stuck, and a range of Ethereum-side crashes and fund-stranding edge cases are fixed. Same Minima family signing key as recent store versions, so it updates in place. Earlier safety behaviour still applies: if your node's seed changes (you reset or restored it), AtomiX halts new trading rather than using keys your node no longer owns while in-flight swaps keep settling \u2014 if that warning returns after a reinstall, clear app storage (there is a button for it). Backup stays off for this app so a reinstall is a true reset and your claim secrets never leave the device.",
+   "version": "0.1.41",
+   "versionCode": 141,
+   "description": "New users can now swap with a nearly-empty ETH wallet. AtomiX was reserving far more ETH for gas than a swap actually costs \u2014 enough that a brand-new node-derived wallet (everyone starts with one) often couldn't afford its own Ethereum transaction, so the swap quietly refunded with no explanation. Gas is now sized from real on-chain costs and priced realistically, cutting the ETH a swap needs by roughly four times (about 0.0001 ETH), and if a wallet still can't cover gas you get a clear \u201cAdd ETH for gas\u201d prompt instead of a silent refund. Refunds now say why they happened, and a rare case where a finished swap kept re-scanning in the background is retired. Field-tested live on both markets. Same Minima family signing key as recent store versions, so it updates in place. Earlier safety behaviour still applies: if your node's seed changes (you reset or restored it), AtomiX halts new trading rather than using keys your node no longer owns while in-flight swaps keep settling \u2014 if that warning returns after a reinstall, clear app storage (there is a button for it). Backup stays off so a reinstall is a true reset and your claim secrets never leave the device.",
    "category": "Finance",
    "source": "PandaApps",
    "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.39.apk",
-   "sha256": "9ebb50fe2807dc266b3beee75f7e2f4d0a0c1203100d3670862516c4c5453fc9",
+   "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.41.apk",
+   "sha256": "cd6bba64ec8165f475e9ecca72f5cfa59741e29149adfd2bcd703cbe3d610706",
    "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
   },
   {
