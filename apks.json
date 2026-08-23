@@ -98,14 +98,14 @@
     {
       "name": "Minima History",
       "packageId": "com.eurobuddha.history",
-      "version": "0.3.5",
-      "versionCode": 305,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.3.3: PRIVACY. Your full transaction archive — counterparties, amounts, raw inputs and outputs — was being uploaded to your phone/cloud backup. Cloud backup is now off for this app. The archive still moves with you when you switch to a new phone (device transfer), which matters because it cannot be rebuilt: it keeps history your node has already dropped. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.3.6",
+      "versionCode": 306,
+      "description": "v0.3.6: every address is now labeled YOURS (your wallet), CONTRACT (a script your node knows — e.g. the casino), or EXTERNAL — so you can finally see what is being sent, received, owned and controlled by you. Your own coins at a shared contract show CONTRACT · YOURS; entries that touch none of your addresses are flagged as foreign contract activity, with a menu toggle to hide them. Full addresses stay shown and tap-to-copy. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.3.3: PRIVACY. Cloud backup is off for this app; the archive still moves with device transfer, because it cannot be rebuilt once your node prunes.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.5.apk",
-      "sha256": "1bbc2dcfa70ddc56a2cbd3b21b953ac191e183ddb7eb4cf6f04af92c9670ae42",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.6.apk",
+      "sha256": "101775236d616e0a8fa7e5b96d0bb6244c24802d68a3b4da093a52aec47eaa07",
       "repo": "https://github.com/eurobuddha/minima-core-android-history"
     },
     {
