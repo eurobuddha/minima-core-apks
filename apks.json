@@ -59,14 +59,14 @@
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.8",
-      "versionCode": 608,
-      "description": "v0.6.8: playing once no longer makes your wallet track every bet in the casino — the shared contract is registered without tracking, a launch sweep cleans up bets already adopted by older versions (your own live bets keep their locked status), and bet scans are bounded so oversized replies can never crash the app. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
+      "version": "0.6.9",
+      "versionCode": 609,
+      "description": "v0.6.9: the win/lose reveal now fires the instant the result is known — synced to the HISTORY tab instead of lagging minutes behind while the payout confirmed on-chain. MY BETS shows a 'payout confirming…' state during that wait so nothing looks unfinished. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.8.apk",
-      "sha256": "09bff7f499e5aa05255a4391dfa79d6b8f41eb82cd2ce7922d32385031d8de7a",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/ZeroEdgeCasino-0.6.9.apk",
+      "sha256": "25a0b5f5f8ec708df91581f63c198e06a8775997a8fa0686e4cceacba022e90e",
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
