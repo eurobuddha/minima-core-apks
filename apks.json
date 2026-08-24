@@ -5,6 +5,32 @@
   "version": "1.1",
   "apps": [
     {
+      "name": "PandaApps",
+      "packageId": "com.eurobuddha.pandaapps",
+      "version": "0.4.2",
+      "versionCode": 402,
+      "description": "v0.4.2: the stores lead the list. PandaApps and PandaGet now sit at the top of the front page under GET STARTED, ahead of the Minima Core builds, instead of at the bottom under MORE. First release since 0.3.0; no other changes to how PandaApps works. v0.3.0: fewer scary warnings. The store no longer asks Android for the right to see every app on your phone — that permission, next to the one that lets it install, is what made Google Play Protect flag it as harmful. It also now tells you BEFORE downloading when an app cannot be updated in place because your copy was signed with our old key, and offers to uninstall it, instead of failing at the end with a bare \"App not installed\". NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.9: fix — after installing anything, its row kept saying \"Waiting for the installer…\" instead of showing that it had installed; the row pinned under Updates also stopped showing download progress, and an app's page jumped back to the top repeatedly while downloading. v0.2.8: a new front page — apps are grouped by what they do (Wallets, Finance & Trading, Tools, Social, Games and the rest), anything out of date is pinned to an Updates section at the top, and each row is now just an icon, a name and its state instead of a wall of text. Tap any app for its own page: full description, version history, install actions, and a link straight to its source code — every app in this store is open source, and every catalog entry now carries its repo. v0.2.6: housekeeping — Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "category": "Store",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.4.2.apk",
+      "sha256": "6c534399dc94d72f7e9efa769824fe877f53e262c91629606acd1a636e6a3e21",
+      "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
+    },
+    {
+      "name": "PandaGet",
+      "packageId": "com.eurobuddha.pandaget",
+      "version": "0.4.2",
+      "versionCode": 402,
+      "description": "v0.4.2: the stores lead the list. PandaApps and PandaGet now sit at the top of the front page under GET STARTED, ahead of the Minima Core builds, instead of at the bottom under MORE. v0.4.1: its own icon. PandaGet no longer wears PandaApps' launcher icon — it now shows the stitched cartoon panda, so the two are distinguishable side by side. No functional changes. v0.4.0: first release. PandaApps without the install permission, for anyone whose phone blocks PandaApps as a harmful app. Google Play Protect distrusts a sideloaded store that can install apps; PandaGet cannot install anything, so there is nothing for it to object to. It shows the same catalog, and Download saves an app's APK, verified against its published SHA-256, into your Downloads folder. Open the file from your Files app to install it yourself: Android asks you once to allow installs from your file manager, and every app still confirms in the system installer. Play Protect may still warn about a downloaded app itself while our new signing key earns its reputation, but from the Files app you get the normal choice to install anyway, instead of the store being blocked outright. Requires Android 10 or newer.",
+      "category": "Store",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaget.png",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaget-0.4.2.apk",
+      "sha256": "08eec842bade5c428f41147375d753af10a2bacc5fde9fe6764abda359ded2d0",
+      "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
+    },
+    {
       "name": "Parlons",
       "packageId": "com.eurobuddha.maxima.app",
       "version": "0.6.33",
@@ -16,32 +42,6 @@
       "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/parlons-0.6.33.apk",
       "sha256": "b10be59c8266dd22731293ee660f7f57a076a3d7e9b08ce87d561374ec791987",
       "repo": "https://github.com/eurobuddha/maxima"
-    },
-    {
-      "name": "PandaApps",
-      "packageId": "com.eurobuddha.pandaapps",
-      "version": "0.3.0",
-      "versionCode": 300,
-      "description": "v0.3.0: fewer scary warnings. The store no longer asks Android for the right to see every app on your phone — that permission, next to the one that lets it install, is what made Google Play Protect flag it as harmful. It also now tells you BEFORE downloading when an app cannot be updated in place because your copy was signed with our old key, and offers to uninstall it, instead of failing at the end with a bare \"App not installed\". NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.2.9: fix — after installing anything, its row kept saying \"Waiting for the installer…\" instead of showing that it had installed; the row pinned under Updates also stopped showing download progress, and an app's page jumped back to the top repeatedly while downloading. v0.2.8: a new front page — apps are grouped by what they do (Wallets, Finance & Trading, Tools, Social, Games and the rest), anything out of date is pinned to an Updates section at the top, and each row is now just an icon, a name and its state instead of a wall of text. Tap any app for its own page: full description, version history, install actions, and a link straight to its source code — every app in this store is open source, and every catalog entry now carries its repo. v0.2.6: housekeeping — Android's automatic backup is switched off for this app. It only caches downloaded APKs, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
-      "category": "Store",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaapps.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaapps-0.3.0.apk",
-      "sha256": "0b04cc6f181be01a1af44e1fefc5726e2fb830ac332db20cb819f80ca04f612b",
-      "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
-    },
-    {
-      "name": "PandaGet",
-      "packageId": "com.eurobuddha.pandaget",
-      "version": "0.4.1",
-      "versionCode": 401,
-      "description": "v0.4.1: its own icon. PandaGet no longer wears PandaApps' launcher icon — it now shows the stitched cartoon panda, so the two are distinguishable side by side. No functional changes. v0.4.0: first release. PandaApps without the install permission, for anyone whose phone blocks PandaApps as a harmful app. Google Play Protect distrusts a sideloaded store that can install apps; PandaGet cannot install anything, so there is nothing for it to object to. It shows the same catalog, and Download saves an app's APK, verified against its published SHA-256, into your Downloads folder. Open the file from your Files app to install it yourself: Android asks you once to allow installs from your file manager, and every app still confirms in the system installer. Play Protect may still warn about a downloaded app itself while our new signing key earns its reputation, but from the Files app you get the normal choice to install anyway, instead of the store being blocked outright. Requires Android 10 or newer.",
-      "category": "Store",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaget.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandaget-0.4.1.apk",
-      "sha256": "2dfbbfa85ebdff4a0886a6534e300e595d927b44ff62b28e25345b7d1511b5d5",
-      "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
     },
     {
       "name": "Terminal IDE",
