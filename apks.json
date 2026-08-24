@@ -31,16 +31,16 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
     },
     {
-      "name": "Parlons",
+      "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.35",
-      "versionCode": 635,
+      "version": "0.6.36",
+      "versionCode": 636,
       "description": "Private, secure chat \u2014 let's chat. Decentralized, end-to-end messaging with no account, no phone number and no server holding your history: messages go straight from your device to your contact's, carried by independent relays. Includes a self-custodial Minima wallet (send and receive MINIMA; your keys and seed never leave the phone). Powered by Maxima, Minima's peer-to-peer comms layer. Android 9+.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/parlons-0.6.35.apk",
-      "sha256": "301d15173a3e65652b7beff217ff4b928c0da2b9a89d4c1e59443ed53cf05d37",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/parlons-0.6.36.apk",
+      "sha256": "2520f5db2ca355aca0fb9fe309b3ea489f8fd0dba6fc7103dad4db273e008690",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
