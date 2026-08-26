@@ -24,7 +24,11 @@ import json
 import hashlib
 import re
 import sys
-import urllib.request
+
+# check.py (same repo root) already knows how to find aapt2 and read an APK's real
+# versionCode/versionName — reuse it rather than duplicating the SDK-probing logic.
+sys.path.insert(0, __file__.rsplit('/', 2)[0])
+import check as checkmod
 
 CATALOG = __file__.rsplit('/', 2)[0] + '/apks.json'
 
@@ -65,20 +69,31 @@ repo = row['repo'].split('github.com/')[1].rstrip('/')
 new_url = f"https://github.com/{repo}/releases/download/v{version}/{new_base}"
 
 print(f"fetching {new_url} …")
-try:
-    h = hashlib.sha256()
-    with urllib.request.urlopen(new_url, timeout=300) as r:
-        for chunk in iter(lambda: r.read(1 << 20), b''):
-            h.update(chunk)
-    new_sha = h.hexdigest()
-except Exception as e:
-    die(f"release asset not fetchable — create the release first: {e}")
+local = checkmod.fetch_release_file(new_url, "")
+if local is None:
+    die("release asset not fetchable — create the release first")
+h = hashlib.sha256()
+with open(local, 'rb') as f:
+    for chunk in iter(lambda: f.read(1 << 20), b''):
+        h.update(chunk)
+new_sha = h.hexdigest()
 
 m = re.match(r'^(\d+)\.(\d+)\.(\d+)$', version)
 if not m:
     die(f"version {version!r} is not X.Y.Z")
 major, minor, patch = map(int, m.groups())
-new_code = minor * 100 + patch + (major * 10000 if major else 0)
+convention_code = minor * 100 + patch + (major * 10000 if major else 0)
+
+# The APK itself is the authority on versionCode — convention-exempt apps
+# (org.minimarex.*, see check.py CONVENTION_EXEMPT) use a plain counter, and
+# writing the convention number for them would trip check.py's `code` check.
+real_code, real_name = checkmod.apk_identity(local) if new_base.endswith('.apk') else (None, None)
+new_code = real_code if real_code is not None else convention_code
+if real_code is not None and real_code != convention_code and pkg not in checkmod.CONVENTION_EXEMPT:
+    die(f"APK versionCode {real_code} breaks the convention ({convention_code} expected "
+        f"for {version}) — fix the app's build.gradle before publishing")
+if real_name is not None and real_name.split('+')[0] != version:
+    die(f"APK versionName {real_name!r} does not match requested version {version!r}")
 
 # Surgical replacement: each needle is the full JSON-encoded "key": value pair of
 # THIS row, so identical values on other rows can never be touched by accident.
