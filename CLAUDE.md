@@ -20,6 +20,21 @@ substitute your own idea for what the user told you to do.
 When your instinct conflicts with the user's instruction, follow the instruction. Ignoring it wastes the user's time,
 tokens, and money, and is the most serious mistake you can make.
 
+## RULE — binaries NEVER go in this repo's git
+
+This repo is the **manifest only**: `apks.json`, `icons/`, docs, `scripts/`, `hooks/`.
+Every APK/dmg/installer lives as a **GitHub Release asset on its own app's repo**, and
+the catalog row's `file` field points at `https://github.com/eurobuddha/<app-repo>/releases/download/v<version>/<file>`.
+Committing a binary here is a defect — the repo hit 13 GB that way and its history had to
+be rewritten on 2026-08-26. The only binaries associated with this repo are its own
+Releases: `mirrors` (upstream Minima Core APKs, which publish no releases of their own).
+
+**Publish flow for a new app version** (in this order):
+1. In the app's repo: `gh release create v<ver> <apk> --title "<App> <ver>" --notes "<one line>"`.
+2. Here: `scripts/publish-app.py <packageId> <ver>` — surgically updates the row's
+   version/versionCode/file/sha256 after fetching the release asset it points at.
+3. `./check.py`, then commit + push (the pre-push hook re-runs check.py).
+
 ## Before publishing: run `./check.py`
 
 `apks.json` is the only thing users' stores read, and nothing else validates it. Every field in it

@@ -27,7 +27,9 @@ Each check exists because it shipped a real bug:
   downgrade  versionCode is <= the one currently committed for that package.
              Android refuses a downgrade and reports only "App not installed".
 
-  missing    the referenced file is not in the repo (catalog-hosted files only).
+  missing    the referenced file cannot be fetched. Catalog rows point at GitHub
+             Release assets (each app repo hosts its own binaries since 2026-08-26);
+             a row whose URL 404s is a store entry nobody can install.
   repo       the entry has no repo URL, so the app's "View source code" button cannot show.
   signer     one of our APKs is not signed with the Minima Family key.
 """
@@ -39,9 +41,16 @@ import subprocess
 import sys
 import glob
 import os
+import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CATALOG = os.path.join(HERE, "apks.json")
+
+# Binaries live in each app repo's GitHub Releases, not in this repo, so verifying
+# them means downloading. Downloads are cached here keyed by the catalog sha256 —
+# a cached file whose name matches the expected hash is trusted without refetching,
+# so only rows that actually changed cost bandwidth on a re-run.
+CACHE = os.path.expanduser("~/.cache/minima-core-apks-check")
 
 FAMILY_KEY_CN = "CN=eurobuddha, OU=Minima Family"
 
@@ -114,6 +123,31 @@ def sha256(path):
     return h.hexdigest()
 
 
+def fetch_release_file(url, want_sha):
+    """Local path to the binary at `url`, downloading into the cache on a miss.
+
+    The cache file is named <sha256-prefix>-<basename>, so a changed catalog hash
+    forces a fresh download. The caller re-hashes the returned file every run —
+    the cache only saves bandwidth, it is never trusted for integrity. Returns
+    None when the URL cannot be fetched; the caller reports that as `missing`.
+    """
+    os.makedirs(CACHE, exist_ok=True)
+    base = url.split("/")[-1]
+    key = (want_sha or "nosha")[:16]
+    path = os.path.join(CACHE, f"{key}-{base}")
+    if os.path.exists(path):
+        return path
+    try:
+        tmp = path + ".part"
+        with urllib.request.urlopen(url, timeout=300) as r, open(tmp, "wb") as f:
+            for chunk in iter(lambda: r.read(1 << 20), b""):
+                f.write(chunk)
+        os.rename(tmp, path)
+        return path
+    except Exception:
+        return None
+
+
 def expected_code(version):
     """The family convention: minor*100 + patch (major*10000 too, once major > 0)."""
     m = re.match(r"^(\d+)\.(\d+)\.(\d+)$", version)
@@ -153,11 +187,13 @@ def main():
         pkg = a.get("packageId", "")
         version = a.get("version", "")
         code = a.get("versionCode")
-        filename = a.get("file", "").split("/")[-1]
-        local = os.path.join(HERE, filename)
+        url = a.get("file", "")
+        filename = url.split("/")[-1]
         is_apk = filename.lower().endswith(".apk")
-        # Files served from someone else's repo or a GitHub Release are not ours to hash.
-        hosted_here = "raw.githubusercontent.com/eurobuddha/minima-core-apks" in a.get("file", "")
+        # Rows we can verify end-to-end: anything served from OUR GitHub Releases
+        # (per-app repos, or this repo's own `mirrors` release for upstream copies).
+        # Upstream rows hosted elsewhere are not ours to hash.
+        verifiable = ("github.com/eurobuddha/" in url and "/releases/download/" in url)
 
         def fail(check, detail):
             failures.append((name, check, detail))
@@ -165,10 +201,11 @@ def main():
         if not a.get("repo"):
             fail("repo", "no repo URL — the source-code link cannot render")
 
-        if is_apk and hosted_here and not os.path.exists(local):
-            fail("missing", f"{filename} is not in the repo")
+        local = fetch_release_file(url, a.get("sha256", "")) if (is_apk and verifiable) else None
+        if is_apk and verifiable and local is None:
+            fail("missing", f"cannot fetch {url}")
 
-        if is_apk and hosted_here and os.path.exists(local):
+        if is_apk and verifiable and local:
             checked_binaries += 1
 
             actual = sha256(local)
