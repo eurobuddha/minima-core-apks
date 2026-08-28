@@ -163,14 +163,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.43",
-      "versionCode": 143,
-      "description": "Stale OTC offers now clean themselves up. Previously, an OTC offer someone sent you just sat on the OTC tab forever if you ignored it \u2014 still showing \u201cyour move\u201d days later, at a price that was long out of date, even though the sender's side had already given up after an hour. Offers you don't act on within 24 hours now expire and quietly disappear, like every other finished deal. Nothing changes about live negotiations or fund safety \u2014 the on-chain checks that protect an executing swap are untouched. Also recent: cleaner 5-decimal balance display, right-sized ETH gas so new users can swap with a nearly-empty ETH wallet (with a clear \u201cAdd ETH for gas\u201d prompt when needed), and refunds that say why they happened. Same Minima family signing key as recent store versions, so it updates in place. If your node's seed changes, AtomiX still halts new trading rather than using keys your node no longer owns; backup stays off so a reinstall is a true reset.",
+      "version": "0.1.44",
+      "versionCode": 144,
+      "description": "Refunds now tell you exactly why. When a swap times out and your tokens come back, the notification used to just say \u201cTimelock passed\u201d \u2014 now it says what actually went wrong, correctly for your side of the trade: \u201cthe counterparty locked their side but never claimed yours\u201d when you were the seller, or \u201cthe counterparty never locked their side\u201d when you started the swap. If the swap was rejected over mismatched amounts, that specific reason is shown instead. Also recent: OTC offers you ignore now expire after 24 hours instead of sitting forever, clean 5-decimal balance display, and right-sized ETH gas so new users can swap with a nearly-empty ETH wallet. Same Minima family signing key as recent store versions, so it updates in place. If your node's seed changes, AtomiX still halts new trading rather than using keys your node no longer owns; backup stays off so a reinstall is a true reset.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.43/AtomiX-0.1.43.apk",
-      "sha256": "085f08c48cb5f6ddadab7f886be8503e49b214fd736773019495d7b639bbe3e2",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.44.apk",
+      "sha256": "424fe3c830f3ccc0c965e0deb09f3a7ec2be60ec0d8428181fe6266812ee8c4a",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
