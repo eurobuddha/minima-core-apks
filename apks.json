@@ -161,6 +161,19 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-futurecash"
     },
     {
+      "name": "FutureCash Next",
+      "packageId": "com.eurobuddha.futurecashnext",
+      "version": "0.1.5",
+      "versionCode": 105,
+      "description": "The WOTS-protected sibling of FutureCash: an unattended guardian for time-locked payments. A collect is pinned by the covenant and always safe in itself — the danger is where the funds land: a payout address whose one-time Winternitz key was reused leaks its secret. So the guardian audits every payout address first, then on every block: a clean address is collected (once you opt in); a reused, at-risk address is collected and immediately swept to your safe rescue destination, then verified arrived; an address the audit can't judge yet is left alone, because an uncollected coin sitting in the covenant is not at risk at all. Also on board: Harden (retire reused change addresses) and Recover (free coins stranded on retired ones). Runs as a foreground service with a single resumable spend state machine; every transaction path cleans up after itself, and only public keys and addresses ever leave the device. Installs alongside classic FutureCash — both share the same covenant address and interoperate with the FutureCash MiniDapp.",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecashnext.png",
+      "file": "https://github.com/eurobuddha/futurecash-next-apk/releases/download/v0.1.5/minima-futurecash-next-0.1.5.apk",
+      "sha256": "330bca894fb69fd79044d93595e8574a31455123c4562e67b78f347e65eee1e9",
+      "repo": "https://github.com/eurobuddha/futurecash-next-apk"
+    },
+    {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
       "version": "0.1.44",
