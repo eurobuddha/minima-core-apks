@@ -165,7 +165,7 @@
       "packageId": "com.eurobuddha.futurecashnext",
       "version": "0.1.7",
       "versionCode": 107,
-      "description": "v0.1.7 never abbreviates an address: every screen and toast shows the full value, tap to copy. v0.1.6 says plainly when auto-collect is off — the guardian only auto-collects clean matured stakes once you opt in, and the status card, safe card and notification now all say so instead of rendering \u2018Protected\u2019 over waiting stakes. The WOTS-protected sibling of FutureCash: an unattended guardian for time-locked payments. A collect is pinned by the covenant and always safe in itself — the danger is where the funds land: a payout address whose one-time Winternitz key was reused leaks its secret. So the guardian audits every payout address first, then on every block: a clean address is collected (once you opt in); a reused, at-risk address is collected and immediately swept to your safe rescue destination, then verified arrived; an address the audit can't judge yet is left alone, because an uncollected coin sitting in the covenant is not at risk at all. Also on board: Harden (retire reused change addresses) and Recover (free coins stranded on retired ones). Runs as a foreground service with a single resumable spend state machine; every transaction path cleans up after itself, and only public keys and addresses ever leave the device. Installs alongside classic FutureCash — both share the same covenant address and interoperate with the FutureCash MiniDapp.",
+      "description": "v0.1.7 never abbreviates an address: every screen and toast shows the full value, tap to copy. v0.1.6 says plainly when auto-collect is off \u2014 the guardian only auto-collects clean matured stakes once you opt in, and the status card, safe card and notification now all say so instead of rendering \u2018Protected\u2019 over waiting stakes. The WOTS-protected sibling of FutureCash: an unattended guardian for time-locked payments. A collect is pinned by the covenant and always safe in itself \u2014 the danger is where the funds land: a payout address whose one-time Winternitz key was reused leaks its secret. So the guardian audits every payout address first, then on every block: a clean address is collected (once you opt in); a reused, at-risk address is collected and immediately swept to your safe rescue destination, then verified arrived; an address the audit can't judge yet is left alone, because an uncollected coin sitting in the covenant is not at risk at all. Also on board: Harden (retire reused change addresses) and Recover (free coins stranded on retired ones). Runs as a foreground service with a single resumable spend state machine; every transaction path cleans up after itself, and only public keys and addresses ever leave the device. Installs alongside classic FutureCash \u2014 both share the same covenant address and interoperate with the FutureCash MiniDapp.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/futurecashnext.png",
@@ -176,14 +176,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.44",
-      "versionCode": 144,
-      "description": "Refunds now tell you exactly why. When a swap times out and your tokens come back, the notification used to just say \u201cTimelock passed\u201d \u2014 now it says what actually went wrong, correctly for your side of the trade: \u201cthe counterparty locked their side but never claimed yours\u201d when you were the seller, or \u201cthe counterparty never locked their side\u201d when you started the swap. If the swap was rejected over mismatched amounts, that specific reason is shown instead. Also recent: OTC offers you ignore now expire after 24 hours instead of sitting forever, clean 5-decimal balance display, and right-sized ETH gas so new users can swap with a nearly-empty ETH wallet. Same Minima family signing key as recent store versions, so it updates in place. If your node's seed changes, AtomiX still halts new trading rather than using keys your node no longer owns; backup stays off so a reinstall is a true reset.",
+      "version": "0.1.45",
+      "versionCode": 145,
+      "description": "Same app as 0.1.44, repackaged \u2014 no behavior changes. From 0.1.44: refund notifications tell you exactly what went wrong, correctly for your side of the trade, and OTC offers you ignore expire after 24 hours instead of sitting forever. Plus the recent run of improvements: clean 5-decimal balances, right-sized ETH gas so new users can swap with a nearly-empty ETH wallet, and clear reasons whenever a swap refunds. Signed with the same Minima family key as recent store versions, so it updates in place. If your node's seed changes, AtomiX halts new trading rather than using keys your node no longer owns; backup stays off so a reinstall is a true reset.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.44.apk",
-      "sha256": "424fe3c830f3ccc0c965e0deb09f3a7ec2be60ec0d8428181fe6266812ee8c4a",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.45.apk",
+      "sha256": "cb620a5ee5649c95780a1c042f9048ad511386d714b050d38c488cb371e7ee4c",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
