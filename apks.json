@@ -427,14 +427,14 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.29",
-      "versionCode": 929,
-      "description": "v0.9.28: your Wallet tab now always loads \u2014 the app can finally read large node replies (the content:// hand-off minimaCore uses for replies over 100K chars; wallets holding tokens with big metadata were stuck on \"Loading balances\u2026\" forever). v0.9.27: a swap no longer adopts the pool into your wallet balance \u2014 foreign pools are registered without tracking, and a launch sweep cleans up pools past swaps already pinned to your node (fully effective after the node\u2019s next restart). Your own pools still show as locked \u2014 that\u2019s your liquidity. NOTE if updating from v0.9.24 or older: NEW SIGNING KEY \u2014 uninstall the old version first (Android refuses an in-place update when the signature changes; re-pair MINIMA_ID with the node afterwards).",
+      "version": "0.9.30",
+      "versionCode": 930,
+      "description": "v0.9.30: a what-if POOL CALCULATOR (My LP tab, or \"What if the price moves?\" on any of your pool cards, seeded with its live reserves) — move the MINIMA price and see the reserves, their ratio, the value versus holding and the effect of fees on the pool's constant-product curve; display only. v0.9.28: your Wallet tab now always loads \u2014 the app can finally read large node replies (the content:// hand-off minimaCore uses for replies over 100K chars; wallets holding tokens with big metadata were stuck on \"Loading balances\u2026\" forever). v0.9.27: a swap no longer adopts the pool into your wallet balance \u2014 foreign pools are registered without tracking, and a launch sweep cleans up pools past swaps already pinned to your node (fully effective after the node\u2019s next restart). Your own pools still show as locked \u2014 that\u2019s your liquidity. NOTE if updating from v0.9.24 or older: NEW SIGNING KEY \u2014 uninstall the old version first (Android refuses an in-place update when the signature changes; re-pair MINIMA_ID with the node afterwards).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.29.apk",
-      "sha256": "2d5322b2c1c275f62877f801b20467801184ab4afe7e5872f817bc07276dd0d6",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.30.apk",
+      "sha256": "be63b021e3859f49fb5ec947357fe4346cd6419e3fdbb357ea323e0a19aa0c72",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandapools"
     },
     {
