@@ -428,14 +428,14 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.30",
-      "versionCode": 930,
-      "description": "v0.9.30: a what-if POOL CALCULATOR (My LP tab, or \"What if the price moves?\" on any of your pool cards, seeded with its live reserves) — move the MINIMA price and see the reserves, their ratio, the value versus holding and the effect of fees on the pool's constant-product curve; display only. v0.9.28: your Wallet tab now always loads — the app can finally read large node replies (the content:// hand-off minimaCore uses for replies over 100K chars; wallets holding tokens with big metadata were stuck on \"Loading balances…\" forever). v0.9.27: a swap no longer adopts the pool into your wallet balance — foreign pools are registered without tracking, and a launch sweep cleans up pools past swaps already pinned to your node (fully effective after the node’s next restart). Your own pools still show as locked — that’s your liquidity. NOTE if updating from v0.9.24 or older: NEW SIGNING KEY — uninstall the old version first (Android refuses an in-place update when the signature changes; re-pair MINIMA_ID with the node afterwards).",
+      "version": "0.9.34",
+      "versionCode": 934,
+      "description": "v0.9.34: light-mode fixes. Every entry dialog — the Pool calculator, create / add / migrate / deposit, swap and send — showed white text on a white background when your phone was in light mode, so what you typed was invisible; dialogs now match the app's dark palette and are legible. The STYLE light/dark toggle, which had silently done nothing, now switches themes. v0.9.30: a what-if POOL CALCULATOR (My LP tab, or \"What if the price moves?\" on any of your pool cards, seeded with its live reserves) — move the MINIMA price and see the reserves, their ratio, the value versus holding and the effect of fees on the pool's constant-product curve; display only. v0.9.28: your Wallet tab now always loads — the app can finally read large node replies (the content:// hand-off minimaCore uses for replies over 100K chars; wallets holding tokens with big metadata were stuck on \"Loading balances…\" forever). v0.9.27: a swap no longer adopts the pool into your wallet balance — foreign pools are registered without tracking, and a launch sweep cleans up pools past swaps already pinned to your node (fully effective after the node’s next restart). Your own pools still show as locked — that’s your liquidity. NOTE if updating from v0.9.24 or older: NEW SIGNING KEY — uninstall the old version first (Android refuses an in-place update when the signature changes; re-pair MINIMA_ID with the node afterwards).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.30.apk",
-      "sha256": "be63b021e3859f49fb5ec947357fe4346cd6419e3fdbb357ea323e0a19aa0c72",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/pandapools-0.9.34.apk",
+      "sha256": "bed1c700abfa2be2cf12281a652ee2c00331612f7af3b732b8619c46cd9a9457",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandapools"
     },
     {
