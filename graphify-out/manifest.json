@@ -1,0 +1,307 @@
+{
+  "check.py": {
+    "mtime": 1787729658.8370113,
+    "ast_hash": "dbc0b523fc81c653278106258c7e4f93",
+    "semantic_hash": ""
+  },
+  "hooks/pre-push": {
+    "mtime": 1786626624.4800684,
+    "ast_hash": "f38bb1892631dd97b5cda34ef9a8c064",
+    "semantic_hash": ""
+  },
+  "scripts/publish-app.py": {
+    "mtime": 1787730406.0026548,
+    "ast_hash": "5dc0f339bbc1402bbf0c8c2bb0b6f214",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1788515232.374549,
+    "ast_hash": "5498b1bc74ff7cedce5e8a19019ee1b0",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1787729865.6347187,
+    "ast_hash": "996e009571940e458b011e22efbc3faf",
+    "semantic_hash": ""
+  },
+  "COMPATIBILITY.md": {
+    "mtime": 1785168095.917706,
+    "ast_hash": "f2566c1bf4972a1e0d355e37362c2443",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787729814.8554106,
+    "ast_hash": "046e2ad2b3b19bd25f8c17bb0925d05f",
+    "semantic_hash": ""
+  },
+  "icons/atelier.png": {
+    "mtime": 1786293359.1378553,
+    "ast_hash": "123771b2c86a0b9cc8a446b7d4c1da0f",
+    "semantic_hash": ""
+  },
+  "icons/atomix.png": {
+    "mtime": 1784334038.036858,
+    "ast_hash": "c9527d4e1e9c22c62ea3805ccc974e5e",
+    "semantic_hash": ""
+  },
+  "icons/brainwallet.png": {
+    "mtime": 1785784625.477644,
+    "ast_hash": "680a439c4c15b346698e10f989d8eb63",
+    "semantic_hash": ""
+  },
+  "icons/casino.png": {
+    "mtime": 1782576609.358093,
+    "ast_hash": "534df940818b2eed327a63956e935b81",
+    "semantic_hash": ""
+  },
+  "icons/entropy.png": {
+    "mtime": 1785880261.6406374,
+    "ast_hash": "a8f0626a7126569f4dbd48bf307aa0aa",
+    "semantic_hash": ""
+  },
+  "icons/ethwallet.png": {
+    "mtime": 1782852686.590152,
+    "ast_hash": "1bb867ad08c1bfc54d2dfd4d2fbd8b10",
+    "semantic_hash": ""
+  },
+  "icons/expert.png": {
+    "mtime": 1782571021.0794628,
+    "ast_hash": "3a17836042b494a58bf7877cbf852a78",
+    "semantic_hash": ""
+  },
+  "icons/explorer.png": {
+    "mtime": 1784719239.1353989,
+    "ast_hash": "ab4e870498509ab6383394f572799082",
+    "semantic_hash": ""
+  },
+  "icons/faucet.png": {
+    "mtime": 1782576609.357721,
+    "ast_hash": "83501cf33d4102118a52f20ded22c02b",
+    "semantic_hash": ""
+  },
+  "icons/filez.png": {
+    "mtime": 1784709211.2218015,
+    "ast_hash": "e32c6d22500a2873c61bd74d1592dacf",
+    "semantic_hash": ""
+  },
+  "icons/freezepeach.png": {
+    "mtime": 1783292948.450513,
+    "ast_hash": "ee14ebfbba03aa0cfe718933dafa4981",
+    "semantic_hash": ""
+  },
+  "icons/futurecash.png": {
+    "mtime": 1782671685.419782,
+    "ast_hash": "0307ae5b64c130e5a3c96f4986e5a9d7",
+    "semantic_hash": ""
+  },
+  "icons/futurecashnext.png": {
+    "mtime": 1787940467.3786051,
+    "ast_hash": "1d140e7964b0e15c6fedf793553cd53b",
+    "semantic_hash": ""
+  },
+  "icons/history.png": {
+    "mtime": 1782571021.0739136,
+    "ast_hash": "c3340e689d942750f916b009eb91187f",
+    "semantic_hash": ""
+  },
+  "icons/keyuses.png": {
+    "mtime": 1785614775.712788,
+    "ast_hash": "a3d8de34744706b41ea24e168b7ffbb0",
+    "semantic_hash": ""
+  },
+  "icons/limit.png": {
+    "mtime": 1782818583.7115085,
+    "ast_hash": "d9ab5fe6f3e1b28cdc00ab1c40663e41",
+    "semantic_hash": ""
+  },
+  "icons/mail.png": {
+    "mtime": 1786315261.4873283,
+    "ast_hash": "22e2558a6ef02c89f3aaeea481d6de48",
+    "semantic_hash": ""
+  },
+  "icons/maxima.png": {
+    "mtime": 1786698836.2702997,
+    "ast_hash": "e3b67e3b317da52ee6b5c8e744c00d39",
+    "semantic_hash": ""
+  },
+  "icons/maxlite-demo.png": {
+    "mtime": 1783268900.9071813,
+    "ast_hash": "1cade5fa4465d54038be42f31a164242",
+    "semantic_hash": ""
+  },
+  "icons/minima-skill.png": {
+    "mtime": 1785921548.484205,
+    "ast_hash": "8706e0a8c591db100aa5b32af754ee0d",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet-black.png": {
+    "mtime": 1783788415.2140775,
+    "ast_hash": "cc098412644b3e7ac984c4245f3b279e",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet-mark.png": {
+    "mtime": 1783787736.7787204,
+    "ast_hash": "30cafd4e4cfb941b9d925c5f15dcd0c4",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet-mmm.png": {
+    "mtime": 1783798980.2421572,
+    "ast_hash": "e721a8798834ab374641d1d7a39fd9ad",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet-mmm2.png": {
+    "mtime": 1783800189.7041163,
+    "ast_hash": "6c0f1fd407dbe462b3d82a53d3edb9a6",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet-white.png": {
+    "mtime": 1783785715.2728384,
+    "ast_hash": "835ff1e9420afb2e238657051eaeba15",
+    "semantic_hash": ""
+  },
+  "icons/minima-wallet.png": {
+    "mtime": 1782999675.1668553,
+    "ast_hash": "b42a00a97985ae43dc75340e887b85c2",
+    "semantic_hash": ""
+  },
+  "icons/minima.png": {
+    "mtime": 1782576609.3573506,
+    "ast_hash": "6976cdf6379c575ff396965d8c79bae4",
+    "semantic_hash": ""
+  },
+  "icons/minimaclassic-desktop.png": {
+    "mtime": 1788468226.606668,
+    "ast_hash": "c56c88008bd9aaae654727e89bf44798",
+    "semantic_hash": ""
+  },
+  "icons/minimacore-desktop.png": {
+    "mtime": 1784725264.1448073,
+    "ast_hash": "585b4a81ef3d19a8709b7c1f37cfceb3",
+    "semantic_hash": ""
+  },
+  "icons/minimacore-ui.png": {
+    "mtime": 1783775098.3046355,
+    "ast_hash": "5a100d461c7a84d47d3051a4f6a985c2",
+    "semantic_hash": ""
+  },
+  "icons/minimall-inbox.png": {
+    "mtime": 1782736268.8978477,
+    "ast_hash": "00c6ec2b12833dffd259ae09316eb2a8",
+    "semantic_hash": ""
+  },
+  "icons/minimall-mac.png": {
+    "mtime": 1782736268.8988395,
+    "ast_hash": "201b2c7146432fe17cd547005ac582a0",
+    "semantic_hash": ""
+  },
+  "icons/minimall-nft-studio.png": {
+    "mtime": 1785853541.076377,
+    "ast_hash": "22781221498752a9f36c980894bfa71c",
+    "semantic_hash": ""
+  },
+  "icons/minimall-studio.png": {
+    "mtime": 1782736268.8982706,
+    "ast_hash": "22781221498752a9f36c980894bfa71c",
+    "semantic_hash": ""
+  },
+  "icons/minimall-win.png": {
+    "mtime": 1782739207.387906,
+    "ast_hash": "6820ecd19ab1cc839122d6e3f6af179a",
+    "semantic_hash": ""
+  },
+  "icons/minimall.png": {
+    "mtime": 1782736268.8974113,
+    "ast_hash": "2d3447b6d987e6937835cbef945a2647",
+    "semantic_hash": ""
+  },
+  "icons/minimaswap-0151.png": {
+    "mtime": 1783291051.4978418,
+    "ast_hash": "ea74000978451b51127fd93700da7e39",
+    "semantic_hash": ""
+  },
+  "icons/minimaswap.png": {
+    "mtime": 1783289396.9162984,
+    "ast_hash": "ea74000978451b51127fd93700da7e39",
+    "semantic_hash": ""
+  },
+  "icons/nftwallet.png": {
+    "mtime": 1786292787.0253928,
+    "ast_hash": "a0766357ef4fff5e6a0aa4a25675d479",
+    "semantic_hash": ""
+  },
+  "icons/openly.png": {
+    "mtime": 1786457071.8970792,
+    "ast_hash": "45a902454fdf0cefc1c9c62550748ced",
+    "semantic_hash": ""
+  },
+  "icons/pandaapps.png": {
+    "mtime": 1782580332.1769376,
+    "ast_hash": "d1fc05abab4a48af5675146056633ee0",
+    "semantic_hash": ""
+  },
+  "icons/pandadex.png": {
+    "mtime": 1785349716.998489,
+    "ast_hash": "75494c2aa2069d79fd0dfdea43588c22",
+    "semantic_hash": ""
+  },
+  "icons/pandaget.png": {
+    "mtime": 1787565452.4181435,
+    "ast_hash": "9d610906f5e2212a46c4367630663297",
+    "semantic_hash": ""
+  },
+  "icons/pandapools-appicon.png": {
+    "mtime": 1783782250.5900073,
+    "ast_hash": "4405044846878d63782dcefa9cdce8ef",
+    "semantic_hash": ""
+  },
+  "icons/pandapools-cutepanda.png": {
+    "mtime": 1783782120.7121623,
+    "ast_hash": "085aabed80b8b5a0ff23bb177593143b",
+    "semantic_hash": ""
+  },
+  "icons/pandapools-panda.png": {
+    "mtime": 1783776185.2596529,
+    "ast_hash": "fd28a72e86258d96ff1bd7b5ac8408e0",
+    "semantic_hash": ""
+  },
+  "icons/pandapools.png": {
+    "mtime": 1783775482.9731712,
+    "ast_hash": "b53be16b8993ddbacde342099d7e20a7",
+    "semantic_hash": ""
+  },
+  "icons/parlons.png": {
+    "mtime": 1787590818.494594,
+    "ast_hash": "c0696c82b88aacaedcab39c61e337738",
+    "semantic_hash": ""
+  },
+  "icons/salon.png": {
+    "mtime": 1786671340.2087762,
+    "ast_hash": "ca097637924d6740728ba3fc9313a39c",
+    "semantic_hash": ""
+  },
+  "icons/terminal-ide.png": {
+    "mtime": 1784419441.4514847,
+    "ast_hash": "52dad86784adc8d61620463b4545f475",
+    "semantic_hash": ""
+  },
+  "icons/terminal.png": {
+    "mtime": 1782576609.3570065,
+    "ast_hash": "2e58b2f9a98494e7696d0f3f98962456",
+    "semantic_hash": ""
+  },
+  "icons/usdtswap.png": {
+    "mtime": 1784282161.9185216,
+    "ast_hash": "61c5e3b343edbfbe425669ce691dd461",
+    "semantic_hash": ""
+  },
+  "icons/utxo.png": {
+    "mtime": 1782864521.9662797,
+    "ast_hash": "b18f330e9373f4c703c64b1f8a1b88bf",
+    "semantic_hash": ""
+  },
+  "icons/vestr.png": {
+    "mtime": 1782571021.0853887,
+    "ast_hash": "f674b36578111e9c401bc37842aa2666",
+    "semantic_hash": ""
+  }
+}

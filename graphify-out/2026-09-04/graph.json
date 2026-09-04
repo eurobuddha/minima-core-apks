@@ -1,0 +1,340 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 3,
+      "community_name": "CHANGELOG.md",
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_changelog",
+      "community": 3,
+      "community_name": "CHANGELOG.md",
+      "norm_label": "changelog"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 2,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "community": 2,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "user instructions \u2014 authoritative. these override default behavior and must be followed exactly."
+    },
+    {
+      "label": "RULE 0 (highest priority) \u2014 Follow the user's explicit instructions. They are BLOCKING, not suggestions.",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/CLAUDE.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "claude_rule_0_highest_priority_follow_the_user_s_explicit_instructions_they_are_blocking_not_suggestions",
+      "community": 2,
+      "community_name": "User instructions \u2014 AUTHORITATIVE. These override default behavior and must be followed exactly.",
+      "norm_label": "rule 0 (highest priority) \u2014 follow the user's explicit instructions. they are blocking, not suggestions."
+    },
+    {
+      "label": "COMPATIBILITY.md",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "compatibility",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "compatibility.md"
+    },
+    {
+      "label": "Node compatibility \u2014 which apps need the forked \"Minima Core \u2014 New UI (Preview)\"?",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "compatibility_node_compatibility_which_apps_need_the_forked_minima_core_new_ui_preview",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "node compatibility \u2014 which apps need the forked \"minima core \u2014 new ui (preview)\"?"
+    },
+    {
+      "label": "Verdicts",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "compatibility_verdicts",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "verdicts"
+    },
+    {
+      "label": "HARD \u2014 requires the fork, does NOT work on official Minima Core",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "compatibility_hard_requires_the_fork_does_not_work_on_official_minima_core",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "hard \u2014 requires the fork, does not work on official minima core"
+    },
+    {
+      "label": "SOFT \u2014 works on official core, specific features need the fork",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "compatibility_soft_works_on_official_core_specific_features_need_the_fork",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "soft \u2014 works on official core, specific features need the fork"
+    },
+    {
+      "label": "FULLY COMPATIBLE \u2014 identical behavior on official and forked core",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "compatibility_fully_compatible_identical_behavior_on_official_and_forked_core",
+      "community": 0,
+      "community_name": "Verdicts",
+      "norm_label": "fully compatible \u2014 identical behavior on official and forked core"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Minima Core APKs",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_minima_core_apks",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "minima core apks"
+    },
+    {
+      "label": "Minima Faucet (v1.0)",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "readme_minima_faucet_v1_0",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "minima faucet (v1.0)"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "readme_install",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "install"
+    },
+    {
+      "label": "Minima UTXO Wallet (v1.0)",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "readme_minima_utxo_wallet_v1_0",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "minima utxo wallet (v1.0)"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "readme_install_34",
+      "community": 1,
+      "community_name": "Minima Core APKs",
+      "norm_label": "install"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude",
+      "target": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude_user_instructions_authoritative_these_override_default_behavior_and_must_be_followed_exactly",
+      "target": "claude_rule_0_highest_priority_follow_the_user_s_explicit_instructions_they_are_blocking_not_suggestions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "compatibility",
+      "target": "compatibility_node_compatibility_which_apps_need_the_forked_minima_core_new_ui_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "compatibility_node_compatibility_which_apps_need_the_forked_minima_core_new_ui_preview",
+      "target": "compatibility_verdicts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "compatibility_verdicts",
+      "target": "compatibility_fully_compatible_identical_behavior_on_official_and_forked_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "compatibility_verdicts",
+      "target": "compatibility_hard_requires_the_fork_does_not_work_on_official_minima_core",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/COMPATIBILITY.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "compatibility_verdicts",
+      "target": "compatibility_soft_works_on_official_core_specific_features_need_the_fork",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_minima_core_apks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_minima_core_apks",
+      "target": "readme_minima_faucet_v1_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_minima_core_apks",
+      "target": "readme_minima_utxo_wallet_v1_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_minima_faucet_v1_0",
+      "target": "readme_install",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "desktop/minima-core-apks/README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_minima_utxo_wallet_v1_0",
+      "target": "readme_install_34",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

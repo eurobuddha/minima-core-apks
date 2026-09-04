@@ -1,6 +1,14 @@
 {
   "0": "Verdicts",
-  "1": "Minima Core APKs",
+  "1": "PandaApps catalog (minima-core-apks)",
   "2": "User instructions — AUTHORITATIVE. These override default behavior and must be followed exactly.",
-  "3": "CHANGELOG.md"
+  "3": "CHANGELOG.md",
+  "4": "check.py",
+  "5": "apk_identity",
+  "6": "expected_code",
+  "7": "fetch_release_file",
+  "8": "find_tool",
+  "9": "published_codes",
+  "10": "pre-push",
+  "11": "publish-app.py"
 }
