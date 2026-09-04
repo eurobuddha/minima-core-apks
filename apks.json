@@ -59,14 +59,14 @@
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.10",
-      "versionCode": 610,
-      "description": "v0.6.10: you only ever track your own coins — foreign bets a polluted node adopts mid-session are now shed within a block (the hygiene sweep runs on every new block, in the app AND the background service, instead of once per launch), so strangers' casino activity stops inflating your locked balance. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
+      "version": "0.6.11",
+      "versionCode": 611,
+      "description": "v0.6.11: identity self-heals — the app no longer freezes on \"Starting up…\" / \"Identity not loaded yet\" after re-pairing a node. Identity loading was a one-shot at launch while balance kept retrying, so a single transient failure at startup (node still coming up, enable grant not landed, a one-off timeout) could stick forever even though balance and block height updated; it now retries every block until it lands and no longer depends on the keys reply. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.10/ZeroEdgeCasino-0.6.10.apk",
-      "sha256": "3949772d9cc338b96236dc44debacbef8b8fb876ffb50b49ab41e41bed2adca6",
+      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.11/ZeroEdgeCasino-0.6.11.apk",
+      "sha256": "d7fffdcc93e992e8539b41aba08ac7e2478444b290bc12a9ad156ae1b28dc47e",
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
