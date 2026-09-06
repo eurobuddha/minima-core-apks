@@ -85,14 +85,14 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.20",
-      "versionCode": 420,
-      "description": "v0.4.20: pop-up dialogs (transaction detail, Send confirm, token detail, Tools prompts) now follow the app's Light/Dark setting instead of the phone's — in Light mode they were a dark grey frame with dark text and unreadable. v0.4.19 also: fixes from a full code review of the money path. A transaction the node REJECTS is now shown as failed, not “sent”. A Minima send with a burn burned twice (once as the inputs−outputs gap, once via a second burn transaction from another coin) — fixed, one burn. History now lists your own sends/splits/distributes on top (pending or failed, with the node’s error and every coin id copyable), confirms them against the on-chain transaction and links the Explorer. A node that doesn’t answer a sign in time shows ‘posted?’ and settles itself instead of a false ‘Failed’. Token icon/link fetches can no longer be redirected to the node’s local RPC; IPC pairing tokens use SecureRandom. Send confirm shows full addresses and coin ids (tap to copy). Upgrading from 0.4.5 or older: uninstall first (the signing key changed in 0.4.7) and re-enable the app in Minima Core → Apps.",
+      "version": "0.4.22",
+      "versionCode": 422,
+      "description": "v0.4.22: works again on Minima Core older than 1.3.0. Those nodes cap every reply at 256K characters and the wallet's coin list overflowed, so the Wallet tab showed only empty addresses (balances were fine). Coins now load per token, and per address if needed, with a banner saying so — updating Minima Core still gives the full, fast path. v0.4.20: pop-ups follow the app's Light/Dark setting (were unreadable in Light). fixes from a full code review of the money path. A transaction the node REJECTS is now shown as failed, not “sent”. A Minima send with a burn burned twice (once as the inputs−outputs gap, once via a second burn transaction from another coin) — fixed, one burn. History now lists your own sends/splits/distributes on top (pending or failed, with the node’s error and every coin id copyable), confirms them against the on-chain transaction and links the Explorer. A node that doesn’t answer a sign in time shows ‘posted?’ and settles itself instead of a false ‘Failed’. Token icon/link fetches can no longer be redirected to the node’s local RPC; IPC pairing tokens use SecureRandom. Send confirm shows full addresses and coin ids (tap to copy). Upgrading from 0.4.5 or older: uninstall first (the signing key changed in 0.4.7) and re-enable the app in Minima Core → Apps.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.20.apk",
-      "sha256": "53e2b267624933f8e891307fd5a58089f062f06470fb8fd7416b61a8b7063cfb",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.22.apk",
+      "sha256": "490b4ba4951cf70ce94de642bc41fe1b98cde5d7a34bbdded5efc83942199032",
       "repo": "https://github.com/eurobuddha/minima-core-android-utxo"
     },
     {
