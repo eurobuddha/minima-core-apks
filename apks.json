@@ -85,14 +85,14 @@
     {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
-      "version": "0.4.7",
-      "versionCode": 407,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.4.5: your coins are back. The Wallet tab went blank (empty addresses only, Balances still fine) once the node's coin-list reply grew past the 256KB IPC cap — the node was silently replacing it with a “Result too long” stub. The app now uses the node's file hand-off IPC client (Minima Core 1.3.0+), so coin lists of any size arrive in full. If paired with an older node, the wallet now shows a clear “update Minima Core” error instead of an empty wallet.",
+      "version": "0.4.19",
+      "versionCode": 419,
+      "description": "v0.4.19: fixes from a full code review of the money path. A transaction the node REJECTS is now shown as failed, not “sent”. A Minima send with a burn burned twice (once as the inputs−outputs gap, once via a second burn transaction from another coin) — fixed, one burn. History now lists your own sends/splits/distributes on top (pending or failed, with the node’s error and every coin id copyable), confirms them against the on-chain transaction and links the Explorer. A node that doesn’t answer a sign in time shows ‘posted?’ and settles itself instead of a false ‘Failed’. Token icon/link fetches can no longer be redirected to the node’s local RPC; IPC pairing tokens use SecureRandom. Send confirm shows full addresses and coin ids (tap to copy). Upgrading from 0.4.5 or older: uninstall first (the signing key changed in 0.4.7) and re-enable the app in Minima Core → Apps.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/utxo.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.7.apk",
-      "sha256": "9f8e486357c6422f4914e57fc9d56c934938858f3c5c7468bf2258d2d46d6c19",
+      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-utxo-wallet-0.4.19.apk",
+      "sha256": "95a2d6ffedea908f7b9b249ee67e2609fbe64482f5ffa65fab97398ef7e75ba5",
       "repo": "https://github.com/eurobuddha/minima-core-android-utxo"
     },
     {
