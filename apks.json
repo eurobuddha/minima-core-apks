@@ -389,14 +389,14 @@
     {
       "name": "Minima Core",
       "packageId": "org.minimarex.minimacore",
-      "version": "1.2.5",
-      "versionCode": 19,
+      "version": "1.2.6",
+      "versionCode": 20,
       "description": "Run a full Minima Core node on Android — the node the companion apps connect to. (If you already run a node, you may already have this installed.)",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
-      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/mirrors/minima-1.2.5.apk",
-      "sha256": "71507a87abbd743c7176b05d367b1756c6f52cec925bb78f1094eda85bf003fa",
+      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/mirrors/minima-1.2.6.apk",
+      "sha256": "c0aee60318ffca578376095b52d61f401b528e317fbf3390f2bbce68668ba4c1",
       "repo": "https://github.com/spartacusrex-minima/minima-core-android"
     },
     {
