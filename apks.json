@@ -98,14 +98,14 @@
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.11",
-      "versionCode": 611,
-      "description": "v0.6.11: identity self-heals — the app no longer freezes on \"Starting up…\" / \"Identity not loaded yet\" after re-pairing a node. Identity loading was a one-shot at launch while balance kept retrying, so a single transient failure at startup (node still coming up, enable grant not landed, a one-off timeout) could stick forever even though balance and block height updated; it now retries every block until it lands and no longer depends on the keys reply. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
+      "version": "0.6.12",
+      "versionCode": 612,
+      "description": "v0.6.12: the History tab now shows your net result on the same line as the caption — won bets add, lost bets subtract → Net +X (green) / Net -X (red) — summed across your whole stored history, and the resolved-bets history now keeps your last 1000 bets (up from 50). Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.11/ZeroEdgeCasino-0.6.11.apk",
-      "sha256": "d7fffdcc93e992e8539b41aba08ac7e2478444b290bc12a9ad156ae1b28dc47e",
+      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.12/ZeroEdgeCasino-0.6.12.apk",
+      "sha256": "f4c063949beaebfc80f0b81b973d6ab1ad193bcb8676bc6e6e8e775b6eb71f56",
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
