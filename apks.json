@@ -98,14 +98,14 @@
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.12",
-      "versionCode": 612,
-      "description": "v0.6.12: the History tab now shows your net result on the same line as the caption — won bets add, lost bets subtract → Net +X (green) / Net -X (red) — summed across your whole stored history, and the resolved-bets history now keeps your last 1000 bets (up from 50). Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
+      "version": "0.6.13",
+      "versionCode": 613,
+      "description": "v0.6.13: the History caption now shows how many resolved bets you actually have (not the storage maximum), and the list draws the 250 most recent bets so the tab stays smooth with a long history — the Net total still sums your full stored history (won bets add, lost bets subtract → Net +X green / Net -X red). Keeps your last 1000 resolved bets. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.12/ZeroEdgeCasino-0.6.12.apk",
-      "sha256": "f4c063949beaebfc80f0b81b973d6ab1ad193bcb8676bc6e6e8e775b6eb71f56",
+      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.13/ZeroEdgeCasino-0.6.13.apk",
+      "sha256": "06a6e1250bb613efb269767ad944f738d2bc43fd875f26ae70e6d9daf684e5b2",
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
