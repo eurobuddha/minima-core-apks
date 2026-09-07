@@ -98,14 +98,14 @@
     {
       "name": "Zero Edge Casino",
       "packageId": "com.eurobuddha.casino",
-      "version": "0.6.13",
-      "versionCode": 613,
-      "description": "v0.6.13: the History caption now shows how many resolved bets you actually have (not the storage maximum), and the list draws the 250 most recent bets so the tab stays smooth with a long history — the Net total still sums your full stored history (won bets add, lost bets subtract → Net +X green / Net -X red). Keeps your last 1000 resolved bets. Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
+      "version": "0.7.0",
+      "versionCode": 700,
+      "description": "v0.7.0: a new MINIMA | USD toggle at the top runs the exact same provably-fair casino in MxUSD (the Minima dollar-pegged token) with a green dollar theme — create/take/reveal/resolve all work identically in MxUSD, shown at the token's true resolution; per-currency balance, bets, history and net P&L. Minima mode is unchanged. (MxUSD bets pay network fees in native Minima — keep a little Minima in the wallet.) Fair-odds trustless on-chain gambling: coin flip, dice, roulette. 3-phase commit-reveal, no custodian, auto-reveal/resolve in the background.",
       "category": "Games",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/casino.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.6.13/ZeroEdgeCasino-0.6.13.apk",
-      "sha256": "06a6e1250bb613efb269767ad944f738d2bc43fd875f26ae70e6d9daf684e5b2",
+      "file": "https://github.com/eurobuddha/minima-core-android-casino/releases/download/v0.7.0/ZeroEdgeCasino-0.7.0.apk",
+      "sha256": "715e0e7f3f613a13d2974e9de2a1d80a1e5346f3631d0465b6c4e9898c8c0d6a",
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
