@@ -274,6 +274,7 @@
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-mac.png",
       "file": "https://github.com/eurobuddha/minimall-core/releases/download/v0.1.1/miniMall-Studio-0.1.1-mac.dmg",
+      "sha256": "1335bd722378d8197e1b127681db3e0db7f9f06cf252137aa0f0f91f871d70e5",
       "repo": "https://github.com/eurobuddha/minimall-core"
     },
     {
@@ -286,6 +287,7 @@
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
       "file": "https://github.com/eurobuddha/minimall-core/releases/download/v0.1.1/miniMall-Studio-0.1.1-Setup.exe",
+      "sha256": "4771e0fd87867f11d4d38d0547521825ade40b79b3c2b2f283a1a05ab18dd926",
       "repo": "https://github.com/eurobuddha/minimall-core"
     },
     {
@@ -298,6 +300,7 @@
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-win.png",
       "file": "https://github.com/eurobuddha/minimall-core/releases/download/v0.1.1/miniMall-Studio-0.1.1.exe",
+      "sha256": "62b9e4132c5784cec64274da359731fca084e3a0ab51bd0776caec9f2d051b95",
       "repo": "https://github.com/eurobuddha/minimall-core"
     },
     {
@@ -310,6 +313,7 @@
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
       "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.23/minimaCore-0.16.23-arm64.dmg",
+      "sha256": "046c02f7d838f2a617bdd4758b1b72da6f679c848e3bbe4cb3076590979e9a6b",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
@@ -322,6 +326,7 @@
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
       "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.23/minimaCore.Setup.0.16.23.exe",
+      "sha256": "a48044497563a487817b0940221901afb6c5d1b26a215be4d0ea9f4c9c6414bc",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
@@ -334,6 +339,7 @@
       "source": "Linux",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
       "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.16.23/minimaCore-0.16.23.AppImage",
+      "sha256": "8cf3b30f0c6973e35756b8c6256f4640cfb9f77c3b6edfd3f8056e21473e1e58",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
@@ -346,6 +352,7 @@
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaclassic-desktop.png",
       "file": "https://github.com/eurobuddha/minimaDesk/releases/download/v0.7.12/minimaDesk-0.7.12-arm64.dmg",
+      "sha256": "1ee567447d93230c378bf78ef6ab5c7133b0a3381f3461ba84fe7e4132f5f180",
       "repo": "https://github.com/eurobuddha/minimaDesk"
     },
     {
@@ -358,6 +365,7 @@
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaclassic-desktop.png",
       "file": "https://github.com/eurobuddha/minimaDesk/releases/download/v0.7.12/minimaDesk.Setup.0.7.12.exe",
+      "sha256": "a0e4ea0658d324109f14b9321a83282cbe1c5e9330b3dbf2ca20323f3c5b7876",
       "repo": "https://github.com/eurobuddha/minimaDesk"
     },
     {
@@ -370,6 +378,7 @@
       "source": "Linux",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimaclassic-desktop.png",
       "file": "https://github.com/eurobuddha/minimaDesk/releases/download/v0.7.12/minimaDesk-0.7.12.AppImage",
+      "sha256": "5ebec5501f724072ed0addc37c85d152e7cb899c02a6559b31bcfc05bbdb5132",
       "repo": "https://github.com/eurobuddha/minimaDesk"
     },
     {

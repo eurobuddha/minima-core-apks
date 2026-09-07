@@ -7,9 +7,11 @@ Pre-publish check for apks.json. Run before pushing; non-zero exit means do not 
 
 Each check exists because it shipped a real bug:
 
-  sha        catalog sha256 disagrees with the file's actual bytes.
-             A rebuilt APK with the old hash still in the catalog: PandaApps verifies the
-             download against this and refuses to install on mismatch.
+  sha        catalog sha256 disagrees with the file's actual bytes, or a verifiable binary
+             carries no sha256 at all. A rebuilt APK with the old hash still in the catalog:
+             PandaApps verifies the download against this and refuses to install on mismatch.
+             Applies to every binary served from our releases — APKs AND desktop installers
+             (.dmg/.exe/.AppImage), which PandaGet Desktop verifies the same way.
 
   code       catalog versionCode disagrees with the APK's real versionCode.
              Terminal IDE 0.2.4 shipped as 204 while the catalog said 213, so the store
@@ -201,32 +203,39 @@ def main():
         if not a.get("repo"):
             fail("repo", "no repo URL — the source-code link cannot render")
 
-        local = fetch_release_file(url, a.get("sha256", "")) if (is_apk and verifiable) else None
-        if is_apk and verifiable and local is None:
+        # Any binary served from OUR releases is downloaded and integrity-checked — APKs and
+        # desktop installers (.dmg/.exe/.AppImage) alike. sha256+size are the universal gate;
+        # aapt2 identity and the signer check are APK-only (nothing reads a .dmg's version).
+        local = fetch_release_file(url, a.get("sha256", "")) if verifiable else None
+        if verifiable and local is None:
             fail("missing", f"cannot fetch {url}")
 
-        if is_apk and verifiable and local:
+        if verifiable and local:
             checked_binaries += 1
 
             actual = sha256(local)
-            if a.get("sha256", "").lower() != actual:
-                fail("sha", f"catalog {a.get('sha256','(none)')[:16]}… != file {actual[:16]}…")
+            want = a.get("sha256", "").lower()
+            if not want:
+                fail("sha", f"no sha256 in the catalog for {filename} — a verifiable binary must carry one")
+            elif want != actual:
+                fail("sha", f"catalog {want[:16]}… != file {actual[:16]}…")
 
-            real_code, real_name = apk_identity(local)
-            if real_code is None:
-                fail("code", "could not read the APK (aapt2 missing?)")
-            else:
-                if real_code != code:
-                    fail("code", f"catalog {code} != APK {real_code}")
-                if real_name is not None:
-                    # a build suffix such as 0.2.6+486effc is fine
-                    if real_name.split("+")[0] != version:
-                        fail("name", f"catalog {version!r} != APK {real_name!r}")
+            if is_apk:
+                real_code, real_name = apk_identity(local)
+                if real_code is None:
+                    fail("code", "could not read the APK (aapt2 missing?)")
+                else:
+                    if real_code != code:
+                        fail("code", f"catalog {code} != APK {real_code}")
+                    if real_name is not None:
+                        # a build suffix such as 0.2.6+486effc is fine
+                        if real_name.split("+")[0] != version:
+                            fail("name", f"catalog {version!r} != APK {real_name!r}")
 
-            if pkg not in SIGNER_EXEMPT:
-                signer = apk_signer(local)
-                if signer and FAMILY_KEY_CN not in signer:
-                    fail("signer", f"not the Minima Family key: {signer[:48]}")
+                if pkg not in SIGNER_EXEMPT:
+                    signer = apk_signer(local)
+                    if signer and FAMILY_KEY_CN not in signer:
+                        fail("signer", f"not the Minima Family key: {signer[:48]}")
 
         if is_apk and pkg not in CONVENTION_EXEMPT:
             exp = expected_code(version)
@@ -253,7 +262,7 @@ def main():
         print("\nDo not push. Fix these first.")
         return 1
 
-    print(f"OK — {len(apps)} entries, {checked_binaries} APKs verified against their catalog rows.")
+    print(f"OK — {len(apps)} entries, {checked_binaries} binaries verified against their catalog rows.")
     if not AAPT:
         print("NOTE: aapt2 not found, so versionCode/versionName were not read from the binaries.")
     return 0
