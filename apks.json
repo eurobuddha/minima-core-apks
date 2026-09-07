@@ -31,6 +31,45 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-pandaapps"
     },
     {
+      "name": "PandaGet Desktop (Mac)",
+      "packageId": "com.eurobuddha.pandaget.desktop.mac",
+      "version": "0.1.0",
+      "versionCode": 100,
+      "description": "PandaGet Desktop for macOS — a download-only store for the Minima family's DESKTOP apps. It lists the Mac builds, downloads the one you pick, verifies it against its published SHA-256, and reveals it in Finder for you to install. It installs nothing itself. Signed and notarized by the Minima Family, so it opens with a normal double-click. v0.1.0: first release.",
+      "category": "Store",
+      "source": "Mac",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaget.png",
+      "file": "https://github.com/eurobuddha/pandaget-desktop/releases/download/v0.1.0/PandaGet-0.1.0-arm64.dmg",
+      "sha256": "b588e2ad29d5c80ce33e195d3fd5480d083478ccb285200b20e7ce8550dad564",
+      "repo": "https://github.com/eurobuddha/pandaget-desktop"
+    },
+    {
+      "name": "PandaGet Desktop (Windows)",
+      "packageId": "com.eurobuddha.pandaget.desktop.win",
+      "version": "0.1.0",
+      "versionCode": 100,
+      "description": "PandaGet Desktop for Windows — a download-only store for the Minima family's DESKTOP apps. It lists the Windows builds, downloads the one you pick, verifies it against its published SHA-256, and reveals it in Explorer for you to install. It installs nothing itself. Unsigned for now, so Windows SmartScreen may warn on first run — choose More info → Run anyway. v0.1.0: first release.",
+      "category": "Store",
+      "source": "Windows",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaget.png",
+      "file": "https://github.com/eurobuddha/pandaget-desktop/releases/download/v0.1.0/PandaGet.Setup.0.1.0.exe",
+      "sha256": "c03628a45d25a2e52f4fe9dc777c3495029875d872eee2f0159f26499cf83d77",
+      "repo": "https://github.com/eurobuddha/pandaget-desktop"
+    },
+    {
+      "name": "PandaGet Desktop (Linux)",
+      "packageId": "com.eurobuddha.pandaget.desktop.linux",
+      "version": "0.1.0",
+      "versionCode": 100,
+      "description": "PandaGet Desktop for Linux — a download-only store for the Minima family's DESKTOP apps. It lists the Linux builds, downloads the one you pick, verifies it against its published SHA-256, and reveals it in your file manager. It installs nothing itself. Ships as an AppImage: make it executable (chmod +x) and run it. v0.1.0: first release.",
+      "category": "Store",
+      "source": "Linux",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandaget.png",
+      "file": "https://github.com/eurobuddha/pandaget-desktop/releases/download/v0.1.0/PandaGet-0.1.0.AppImage",
+      "sha256": "139c120a7bdda2b9b5c887373574b8f93a57e995d152c2027b47b1eabe7c6d1a",
+      "repo": "https://github.com/eurobuddha/pandaget-desktop"
+    },
+    {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
       "version": "0.6.56",
