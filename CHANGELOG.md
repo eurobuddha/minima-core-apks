@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-09-09 · minimaCore PandaBear 1.6.16-ui-h2 (44) — coalesced wallet refreshes, shared image requests, expiring verification caches, bounded metadata fetching, lifecycle-aware startup feedback, and hardened API response handling. Family-signed APK installed on Z Fold; 27 JVM and 18 Android tests passed. API AAR available in the source release.
 - 2026-09-09 · minimaCore PandaBear 1.6.15-ui-h2 (43) — six-decimal wallet summaries with exact token/coin details, live resync progress and restart feedback, keyboard resizing/dismissal, and light-mode menu visibility. APK is the Z Fold-tested family-signed build, hosted on its source repository release.
 - 2026-09-09 · AtomiX 0.1.57 — stale-input validation after consolidation; wallet IPC size guards; confirmed Minima claim/refund tracking; persistent interrupted-write protection; failed-trade refund recovery; accurate swap diagnostics and bounded consolidation. Verified on S23 and Z Fold with in-place updates. 228 Android tests per variant pass; MDS/desktop source mirrors updated and tested. APK is hosted in the app repository release.
 
