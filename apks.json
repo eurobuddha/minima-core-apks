@@ -215,14 +215,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.45",
-      "versionCode": 145,
-      "description": "Same app as 0.1.44, repackaged — no behavior changes. From 0.1.44: refund notifications tell you exactly what went wrong, correctly for your side of the trade, and OTC offers you ignore expire after 24 hours instead of sitting forever. Plus the recent run of improvements: clean 5-decimal balances, right-sized ETH gas so new users can swap with a nearly-empty ETH wallet, and clear reasons whenever a swap refunds. Signed with the same Minima family key as recent store versions, so it updates in place. If your node's seed changes, AtomiX halts new trading rather than using keys your node no longer owns; backup stays off so a reinstall is a true reset.",
+      "version": "0.1.57",
+      "versionCode": 157,
+      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.57 rejects stale funding inputs, guards oversized wallet reads, confirms Minima settlement on-chain, preserves interrupted-write safety across restarts, and improves failed-trade recovery and swap diagnostics. Includes bounded manual consolidation. Install as an update to preserve existing wallet and trade data.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/AtomiX-0.1.45.apk",
-      "sha256": "cb620a5ee5649c95780a1c042f9048ad511386d714b050d38c488cb371e7ee4c",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.57/AtomiX-0.1.57.apk",
+      "sha256": "a82ab1d4eb79f28a338f472ef49d06a67f4cc329b0c6874bec0595bf6c41f0f0",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
