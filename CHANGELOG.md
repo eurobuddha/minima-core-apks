@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-09-11 · pandadex 0.4.15 — Live expanded transaction log, immediate progress, weighted ladder reference, verified pool/book history updates, Samsung keyboard reveal, and completed receipt/authorization/recovery review fixes.
 - 2026-09-09 · Zero Edge Casino 0.7.1 — cross-currency My Bets, timeout-claim banner and deduplicated tap-to-open notifications, correct claimant eligibility and deadline countdown. 19 JVM tests passed; family-signed APK hosted on the casino GitHub Release.
 - 2026-09-09 · minimaCore PandaBear 1.6.16-ui-h2 (44) — coalesced wallet refreshes, shared image requests, expiring verification caches, bounded metadata fetching, lifecycle-aware startup feedback, and hardened API response handling. Family-signed APK installed on Z Fold; 27 JVM and 18 Android tests passed. API AAR available in the source release.
 - 2026-09-09 · minimaCore PandaBear 1.6.15-ui-h2 (43) — six-decimal wallet summaries with exact token/coin details, live resync progress and restart feedback, keyboard resizing/dismissal, and light-mode menu visibility. APK is the Z Fold-tested family-signed build, hosted on its source repository release.

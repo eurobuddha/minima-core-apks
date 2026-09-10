@@ -489,14 +489,14 @@
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.4.3",
-      "versionCode": 403,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.4.2: SECURITY. The list of wallet keys PandaDEX uses to decide which orders are yours was being copied to your phone/cloud backup and restored onto whatever node you reinstalled against — which makes it mis-answer in both directions: ignoring your own orders, or treating a stranger's fills as yours. Backup and phone-to-phone transfer are now off for this app. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.4.15",
+      "versionCode": 415,
+      "description": "PandaDEX 0.4.15: live transaction progress in the page and expanded log; size-weighted bid/offer reference; verified book and PandaPools executions in market history; immediate verified taker-receipt indexing; fair public-history scanning; Samsung keyboard input reveal; receipt, maker-authorization and recovery fixes. Development software for real on-chain trading. Independent node histories can remain incomplete; legacy receipt and stock-device validation limits are documented in the source release notes. Existing Minima Family-signed installations update in place. Preserve local history and pending receipts; do not clear storage as a routine update step. After deleting a pairing entry, reopen PandaDEX and enable it in MinimaCore Apps.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-pandadex/releases/download/v0.4.3/pandadex-0.4.3.apk",
-      "sha256": "72a30a9605d0e45da211b1d0422cd40f8229361133ef933ac10d1a9750c8bd26",
+      "file": "https://github.com/eurobuddha/minima-core-android-pandadex/releases/download/v0.4.15/pandadex-0.4.15.apk",
+      "sha256": "53c929aa2904265ea1df97e79af07f503c832b47699dc222950073869c304066",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandadex"
     },
     {
