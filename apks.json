@@ -645,14 +645,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.67",
-      "versionCode": 267,
-      "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. Includes the completed protocol, persistence and lifecycle reliability repairs. v0.2.67 aligns the Android build counter with the store update convention.",
+      "version": "0.2.68",
+      "versionCode": 268,
+      "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. v0.2.68 fixes switching and unpairing accounts so an old connection cannot restore the previous session or its saved address.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.67/parlons-cloud-portal-0.2.67-release.apk",
-      "sha256": "58fe940be07c9e5995f7affa58fc0a6c1019143e24f6619f99d4a11503fb6a32",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.68/parlons-cloud-portal-0.2.68-release.apk",
+      "sha256": "c2cf568890df63c1f5c598b44e167d17e21db5b3d1d2db2bfb8a3bf80a2b1e44",
       "repo": "https://github.com/eurobuddha/maxima"
     }
   ]
