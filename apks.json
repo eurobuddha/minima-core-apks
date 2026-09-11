@@ -72,14 +72,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.119",
-      "versionCode": 719,
+      "version": "0.6.120",
+      "versionCode": 720,
       "description": "v0.6.119: account and wallet persistence, mailbox ordering, transport lifecycle, relay discovery, bounded background work and UI polish. Private end-to-end messaging over independent community relays, with a self-custodial Minima wallet. Android 9+.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.119/parlons-0.6.119.apk",
-      "sha256": "010388060656990241a8fd29fc897f7cc53826576b0af5ee5d8cc1af1aa02391",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.120/parlons-0.6.120.apk",
+      "sha256": "0787f3251d6c01998ef2ef616b5c4fbdff1af5fde357ad191a8314a5a1a83a9e",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -645,14 +645,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.68",
-      "versionCode": 268,
+      "version": "0.2.69",
+      "versionCode": 269,
       "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. v0.2.68 fixes switching and unpairing accounts so an old connection cannot restore the previous session or its saved address.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.68/parlons-cloud-portal-0.2.68-release.apk",
-      "sha256": "c2cf568890df63c1f5c598b44e167d17e21db5b3d1d2db2bfb8a3bf80a2b1e44",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.69/parlons-cloud-portal-0.2.69-release.apk",
+      "sha256": "662546f0c4afe3780f8e22773bd056f961d8221976f7f4d49b5221927788c039",
       "repo": "https://github.com/eurobuddha/maxima"
     }
   ]
