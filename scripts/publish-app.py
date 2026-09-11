@@ -38,7 +38,22 @@ def die(msg):
     sys.exit(1)
 
 
-args = [a for a in sys.argv[1:] if not a.startswith('--')]
+# `--name <row name>` takes a VALUE, and that value does not start with '--', so a
+# plain startswith filter left it in the positional list and every documented
+# invocation died on "len(args) != 2" - which is exactly the form the two
+# org.minimarex.minimacore rows require. Consume the flag and its value together.
+args = []
+skip_next = False
+for a in sys.argv[1:]:
+    if skip_next:
+        skip_next = False
+        continue
+    if a == '--name':
+        skip_next = True
+        continue
+    if a.startswith('--'):
+        continue
+    args.append(a)
 name_filter = None
 if '--name' in sys.argv:
     name_filter = sys.argv[sys.argv.index('--name') + 1]
@@ -62,9 +77,21 @@ row = rows[0]
 # (AtomiX-0.1.43.apk -> AtomiX-0.1.44.apk) without hardcoding per-app patterns.
 old_url = row['file']
 old_base = old_url.split('/')[-1]
-if row['version'] not in old_base:
-    die(f"cannot derive filename: {row['version']!r} not in {old_base!r}")
-new_base = old_base.replace(row['version'], version)
+if row['version'] in old_base:
+    new_base = old_base.replace(row['version'], version)
+else:
+    # Some rows carry a suffixed version whose asset filename uses only the numeric
+    # core: minimaCore PandaBear is version "1.6.16-ui-h2" but ships
+    # "minima-core-ui-1.6.16.apk". Fall back to substituting the numeric core, so the
+    # release tag keeps the full version (v1.6.17-ui-h2) while the filename keeps its
+    # own shape. Without this, every release of such a row died here.
+    core_re = re.compile(r'^\d+(?:\.\d+)*')
+    old_core = core_re.match(row['version'])
+    new_core = core_re.match(version)
+    if not old_core or not new_core or old_core.group(0) not in old_base:
+        die(f"cannot derive filename: neither {row['version']!r} nor its numeric core "
+            f"is in {old_base!r}")
+    new_base = old_base.replace(old_core.group(0), new_core.group(0))
 repo = row['repo'].split('github.com/')[1].rstrip('/')
 new_url = f"https://github.com/{repo}/releases/download/v{version}/{new_base}"
 
@@ -78,9 +105,11 @@ with open(local, 'rb') as f:
         h.update(chunk)
 new_sha = h.hexdigest()
 
-m = re.match(r'^(\d+)\.(\d+)\.(\d+)$', version)
+# A trailing build suffix (1.6.17-ui-h2) is fine - the convention number is computed
+# from the numeric core, and for CONVENTION_EXEMPT packages it is not used at all.
+m = re.match(r'^(\d+)\.(\d+)\.(\d+)(?:[-+].*)?$', version)
 if not m:
-    die(f"version {version!r} is not X.Y.Z")
+    die(f"version {version!r} is not X.Y.Z (an optional -suffix is allowed)")
 major, minor, patch = map(int, m.groups())
 convention_code = minor * 100 + patch + (major * 10000 if major else 0)
 
