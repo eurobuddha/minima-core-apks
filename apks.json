@@ -137,14 +137,14 @@
     {
       "name": "Minima History",
       "packageId": "com.eurobuddha.history",
-      "version": "0.3.7",
-      "versionCode": 307,
-      "description": "v0.3.6: every address is now labeled YOURS (your wallet), CONTRACT (a script your node knows — e.g. the casino), or EXTERNAL — so you can finally see what is being sent, received, owned and controlled by you. Your own coins at a shared contract show CONTRACT · YOURS; entries that touch none of your addresses are flagged as foreign contract activity, with a menu toggle to hide them. Full addresses stay shown and tap-to-copy. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.3.3: PRIVACY. Cloud backup is off for this app; the archive still moves with device transfer, because it cannot be rebuilt once your node prunes.",
+      "version": "0.3.8",
+      "versionCode": 308,
+      "description": "v0.3.8: Fix invisible transaction detail values and breakdown text in light-mode dialogs. v0.3.6: every address is now labeled YOURS (your wallet), CONTRACT (a script your node knows — e.g. the casino), or EXTERNAL — so you can finally see what is being sent, received, owned and controlled by you. Your own coins at a shared contract show CONTRACT · YOURS; entries that touch none of your addresses are flagged as foreign contract activity, with a menu toggle to hide them. Full addresses stay shown and tap-to-copy. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.3.3: PRIVACY. Cloud backup is off for this app; the archive still moves with device transfer, because it cannot be rebuilt once your node prunes.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/history.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-history-0.3.7.apk",
-      "sha256": "6bb9cf0c49a2b9a2aa7b1b29c2303cf24325e3eac829414815506d44fff843f0",
+      "file": "https://github.com/eurobuddha/minima-core-android-history/releases/download/v0.3.8/minima-history-0.3.8.apk",
+      "sha256": "82c683ba79fa49ff4cd96e8fdc56efe50a832d0f551aeec4d8ae3117d316339e",
       "repo": "https://github.com/eurobuddha/minima-core-android-history"
     },
     {
@@ -163,14 +163,14 @@
     {
       "name": "Filez",
       "packageId": "com.eurobuddha.filez",
-      "version": "0.1.10",
-      "versionCode": 110,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.1.9: housekeeping — Android's automatic backup is switched off for this app. Your files live in the node's own folder, not here, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
+      "version": "0.1.11",
+      "versionCode": 111,
+      "description": "v0.1.11: Fix invisible filename text in light-mode New folder and Rename dialogs; preserve readable text in dark mode. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). v0.1.9: housekeeping — Android's automatic backup is switched off for this app. Your files live in the node's own folder, not here, but the shared node-pairing token was being copied to your phone/cloud backup; a reinstall should always be a clean start. Note: switching backup off cannot delete a backup that already exists, so if this app misbehaves right after a reinstall, clear its app storage (App info → Storage → Clear storage).",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/filez.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-filez/releases/download/v0.1.10/minima-filez-0.1.10.apk",
-      "sha256": "751d423338f1710afb70291316f781f7978c29fa4204194a0ee845d92a6a6b54",
+      "file": "https://github.com/eurobuddha/minima-core-android-filez/releases/download/v0.1.11/minima-filez-0.1.11.apk",
+      "sha256": "1d640b593ca53b6039de70f6031e780de0f66e00cf23369c0b93cf2a40389af9",
       "repo": "https://github.com/eurobuddha/minima-core-android-filez"
     },
     {
@@ -228,14 +228,14 @@
     {
       "name": "Minima ETH Wallet",
       "packageId": "com.eurobuddha.ethwallet",
-      "version": "0.2.3",
-      "versionCode": 203,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Standalone Ethereum/ERC20 wallet sharing minimaSwap's address — manage tokens, send/receive (QR), add any ERC20 by contract address, live gas preview, view activity on Etherscan. Same address via node-pair or one-time key import. 0.2.2 is a security and stability release, recommended for everyone. Fixes a crash-loop on launch: reinstalling restored the encrypted key store from backup, but the Keystore key that unlocks it is device-bound and is not restored, so the app died on every start — backup of that store is now disabled and an unreadable store is repaired instead of fatal. The confirm screen now shows the FULL recipient address instead of a shortened one, so address-poisoning (a lookalike address matching the first and last few characters) can no longer hide there, and recipients are checksum-verified. Node-derived keys are validated and the address is pinned: if your node ever derives a DIFFERENT address — a reset or restored-with-another-seed node — the wallet stops and tells you your funds are at the old address, instead of silently showing you an empty new wallet. Gas price and limit from the RPC are now bounded, so a bad endpoint cannot drain the balance as fees.",
+      "version": "0.2.5",
+      "versionCode": 205,
+      "description": "v0.2.5: Fix text and hint contrast in Send and other native dialogs in light and dark mode. Include the R8 configuration used by the validated release. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Standalone Ethereum/ERC20 wallet sharing minimaSwap's address — manage tokens, send/receive (QR), add any ERC20 by contract address, live gas preview, view activity on Etherscan. Same address via node-pair or one-time key import. 0.2.2 is a security and stability release, recommended for everyone. Fixes a crash-loop on launch: reinstalling restored the encrypted key store from backup, but the Keystore key that unlocks it is device-bound and is not restored, so the app died on every start — backup of that store is now disabled and an unreadable store is repaired instead of fatal. The confirm screen now shows the FULL recipient address instead of a shortened one, so address-poisoning (a lookalike address matching the first and last few characters) can no longer hide there, and recipients are checksum-verified. Node-derived keys are validated and the address is pinned: if your node ever derives a DIFFERENT address — a reset or restored-with-another-seed node — the wallet stops and tells you your funds are at the old address, instead of silently showing you an empty new wallet. Gas price and limit from the RPC are now bounded, so a bad endpoint cannot drain the balance as fees.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/ethwallet.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-ethwallet/releases/download/v0.2.3/ethwallet-0.2.3.apk",
-      "sha256": "7a9ba9724ce4e09dc8951f682a190055603d71e1ee5289e2bee9e85996b08757",
+      "file": "https://github.com/eurobuddha/minima-core-android-ethwallet/releases/download/v0.2.5/ethwallet-0.2.5.apk",
+      "sha256": "69440fe0ec5efd94106a60e6b935ac6356563b0eca815298f0d802a6137a4854",
       "repo": "https://github.com/eurobuddha/minima-core-android-ethwallet"
     },
     {
@@ -293,14 +293,14 @@
     {
       "name": "miniMall Studio",
       "packageId": "com.eurobuddha.merchstudio",
-      "version": "0.3.2",
-      "versionCode": 302,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Build a shop on your phone and export a .shop bundle for miniMall. v0.3.0: the NFT Studio has moved in — two tabs: Products (typed goods, photos, shipping) and NFTs (an art-first gallery of your wallet's NFTs, incl. StateNFT collections with per-piece stamped artwork — sell pieces individually or a complete collection). One shop can hold both; NFT delivery is on-chain and automatic via miniMall Inbox. Replaces the separate miniMerch NFT Studio app.",
+      "version": "0.3.3",
+      "versionCode": 303,
+      "description": "v0.3.3: Fix price-per-piece and bundle-price input text and hints in light-mode dialogs. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Build a shop on your phone and export a .shop bundle for miniMall. v0.3.0: the NFT Studio has moved in — two tabs: Products (typed goods, photos, shipping) and NFTs (an art-first gallery of your wallet's NFTs, incl. StateNFT collections with per-piece stamped artwork — sell pieces individually or a complete collection). One shop can hold both; NFT delivery is on-chain and automatic via miniMall Inbox. Replaces the separate miniMerch NFT Studio app.",
       "category": "Shopping",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimall-studio.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/miniMall-Studio-0.3.2.apk",
-      "sha256": "aac330aa0f5c9a1cbc5562f1591e42c018aac33dfb4a3c38083eb2218b396cc1",
+      "file": "https://github.com/eurobuddha/minima-core-android-merchstudio/releases/download/v0.3.3/miniMall-Studio-0.3.3.apk",
+      "sha256": "656ae50ea5b3aed5f6d9474e64167d3b38af4a7f05c8e84b9e6b16e32ed8f1f1",
       "repo": "https://github.com/eurobuddha/minima-core-android-merchstudio"
     },
     {
@@ -463,14 +463,14 @@
     {
       "name": "Minima Wallet",
       "packageId": "com.eurobuddha.wallet",
-      "version": "0.2.9",
-      "versionCode": 209,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed. When importing a seed, enter how many signatures it has already used (over-estimate if unsure) — this protects against reusing a one-time key.",
+      "version": "0.2.10",
+      "versionCode": 210,
+      "description": "v0.2.10: Keep native dialogs consistent with the selected app theme, fixing unreadable input when app and system themes differ. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed. When importing a seed, enter how many signatures it has already used (over-estimate if unsure) — this protects against reusing a one-time key.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-mmm2.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-wallet-0.2.9.apk",
-      "sha256": "8e5ff55741550fbd6ede8785550cdc5d854464c238c0022c8b4f4cf4878d8d02",
+      "file": "https://github.com/eurobuddha/minima-core-android-wallet/releases/download/v0.2.10/minima-wallet-0.2.10.apk",
+      "sha256": "991e9119b396be734f03917ab7ad1c0b79cc17b24f55f117df660b9299ff8e59",
       "repo": "https://github.com/eurobuddha/minima-core-android-wallet"
     },
     {
@@ -593,14 +593,14 @@
     {
       "name": "Minima Mail",
       "packageId": "com.eurobuddha.mail",
-      "version": "0.5.4",
-      "versionCode": 504,
-      "description": "NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). On-chain end-to-end encrypted mail — no server, no Maxima, no internet permission. Identity from your node seed; every message is a sealed blob in a tiny coin. v0.5.1: FUNDS/KEY SAFETY on top of the 0.5.0 email makeover. Every send (message coins and payments) is now pinned to a signable wallet coin, so anyone-can-spend beacon dust on a shared node can't be grabbed and fail the send after it has already burned a WOTS key-use. The pay-address auto-responder is hard rate-limited (hourly cap + per-peer cooldown) so forged requests can't drain coins or key-uses. And the pay-address validator now enforces the strict Mx charset plus a node-side checkaddress gate before any funds move — closing a crafted-address injection into the send command. 0.5.0 recap: full email UX — drawer folders (Inbox/Outbox/Sent/Archive), optional subject threading, To/Subject/Body compose, honest delivery status (Posting → On-chain block N → Confirmed, failures retryable from the Outbox), 'Checked block N' freshness line, light paper + dark themes, custom icons. Conversations keep their chat bubbles.",
+      "version": "0.5.5",
+      "versionCode": 505,
+      "description": "v0.5.5: Keep native dialogs consistent with the selected Paper or Dark app theme. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). On-chain end-to-end encrypted mail — no server, no Maxima, no internet permission. Identity from your node seed; every message is a sealed blob in a tiny coin. v0.5.1: FUNDS/KEY SAFETY on top of the 0.5.0 email makeover. Every send (message coins and payments) is now pinned to a signable wallet coin, so anyone-can-spend beacon dust on a shared node can't be grabbed and fail the send after it has already burned a WOTS key-use. The pay-address auto-responder is hard rate-limited (hourly cap + per-peer cooldown) so forged requests can't drain coins or key-uses. And the pay-address validator now enforces the strict Mx charset plus a node-side checkaddress gate before any funds move — closing a crafted-address injection into the send command. 0.5.0 recap: full email UX — drawer folders (Inbox/Outbox/Sent/Archive), optional subject threading, To/Subject/Body compose, honest delivery status (Posting → On-chain block N → Confirmed, failures retryable from the Outbox), 'Checked block N' freshness line, light paper + dark themes, custom icons. Conversations keep their chat bubbles.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/mail.png",
-      "file": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/minima-mail-0.5.4.apk",
-      "sha256": "230c79688891cbff5790221a302c6231d27516cf90c69406b88963aa77e87cc5",
+      "file": "https://github.com/eurobuddha/minima-core-android-mail/releases/download/v0.5.5/minima-mail-0.5.5.apk",
+      "sha256": "34f44b99f4f4f5ebeec835026aab9e4ba07d363bd35dd31785d1e7274255a775",
       "repo": "https://github.com/eurobuddha/minima-core-android-mail"
     },
     {
