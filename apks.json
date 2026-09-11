@@ -72,14 +72,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.120",
-      "versionCode": 720,
-      "description": "v0.6.119: account and wallet persistence, mailbox ordering, transport lifecycle, relay discovery, bounded background work and UI polish. Private end-to-end messaging over independent community relays, with a self-custodial Minima wallet. Android 9+.",
+      "version": "0.6.121",
+      "versionCode": 721,
+      "description": "v0.6.121: incoming calls use Android ringtone playback with prominent Answer/Decline notifications and full-screen alert settings. Includes the mobile-call SDP ordering and STUN discovery repairs from0.6.120. Private end-to-end messaging, calls and a self-custodial Minima wallet. Android9+.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.120/parlons-0.6.120.apk",
-      "sha256": "0787f3251d6c01998ef2ef616b5c4fbdff1af5fde357ad191a8314a5a1a83a9e",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.121/parlons-0.6.121.apk",
+      "sha256": "7331d3e4c2bee4fa167324eaa41a549ef5d403ba27f97d0ab48968c3ec684c31",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -645,14 +645,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.69",
-      "versionCode": 269,
-      "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. v0.2.68 fixes switching and unpairing accounts so an old connection cannot restore the previous session or its saved address.",
+      "version": "0.2.70",
+      "versionCode": 270,
+      "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. v0.2.70 fixes incoming ringtone playback and adds prominent Answer/Decline notifications with full-screen alert settings. Includes the call setup fixes from0.2.69 and account-switching fix from0.2.68.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.69/parlons-cloud-portal-0.2.69-release.apk",
-      "sha256": "662546f0c4afe3780f8e22773bd056f961d8221976f7f4d49b5221927788c039",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.70/parlons-cloud-portal-0.2.70-release.apk",
+      "sha256": "fc1ab8098209b45094c69ed8ae14e96163c3ad3273786cbb5fd1d6f3300bcde9",
       "repo": "https://github.com/eurobuddha/maxima"
     }
   ]
