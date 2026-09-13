@@ -93,7 +93,11 @@ else:
             f"is in {old_base!r}")
     new_base = old_base.replace(old_core.group(0), new_core.group(0))
 repo = row['repo'].split('github.com/')[1].rstrip('/')
-new_url = f"https://github.com/{repo}/releases/download/v{version}/{new_base}"
+old_tag = old_url.split('/releases/download/', 1)[-1].split('/', 1)[0]
+if not old_tag.endswith(row['version']):
+    die(f"cannot preserve release tag pattern: {old_tag!r}")
+tag_prefix = old_tag[:-len(row['version'])]
+new_url = f"https://github.com/{repo}/releases/download/{tag_prefix}{version}/{new_base}"
 
 print(f"fetching {new_url} …")
 local = checkmod.fetch_release_file(new_url, "")
