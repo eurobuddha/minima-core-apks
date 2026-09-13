@@ -72,14 +72,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.125",
-      "versionCode": 725,
+      "version": "0.6.126",
+      "versionCode": 726,
       "description": "Private chat, voice/video calls and encrypted file transfers. Download files explicitly, pause/resume, save or remove them. Active file transfers resume after restart; deliberate pauses are preserved. Private peer discovery with no public torrent listing.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.125/parlons-0.6.125.apk",
-      "sha256": "7d3dfd3596ce8b1b596a16ff928bc0a176fa95762bdd1ddb869e1a2544c88966",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.126/parlons-0.6.126.apk",
+      "sha256": "1f294a88669147ed0ab9ab4f9c7f727e9ba023a576c8bb9e86f6655df1ce7d60",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -645,14 +645,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.74",
-      "versionCode": 274,
+      "version": "0.2.75",
+      "versionCode": 275,
       "description": "Pair your Android phone with your own always-on Parlons account for private chat, calls and wallet access. Private file transfers include progress, Pause/Resume, Save and Remove. Automatic restart sharing requires an updated paired node; deliberate pauses remain paused.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.74/parlons-cloud-portal-0.2.74-release.apk",
-      "sha256": "d9093f1f94bbd8eb8ef7a949cce0f679b3598a3b3ed9ed0cf3453b201f714f51",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.75/parlons-cloud-portal-0.2.75-release.apk",
+      "sha256": "3ccec9ef82a06efc72bb860f566a20a433280f9b93782bfea2a5e9599c74b5c7",
       "repo": "https://github.com/eurobuddha/maxima"
     }
   ]
