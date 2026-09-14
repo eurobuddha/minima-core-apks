@@ -1,5 +1,7 @@
 # Changelog
 
+- 2026-09-14 · AtomiX 0.1.59 — swap history now follows the currency you are trading. Switching between MxUSD and MINIMA used to leave the other market’s history on screen; it is now scoped, while any unfinished swap in the other currency stays visible so a claimable or refundable leg is never hidden. Market prints are tagged per market, so the chart no longer mixes the two price scales, and the collector can no longer mark the other market’s open locks as spent after a switch. CSV export still covers both currencies and gains a Currency column. Verified on the S23 and Z Fold; in-place update preserves wallet and trade data.
+
 - 2026-09-11 · pandadex 0.4.17 — fixes stock MINIMA dust-balance parsing and missing available-to-trade values; distinguishes wallet loading from connection failure. Verified on the S10 Plus; in-place update preserves data.
 
 - 2026-09-11 · pandadex 0.4.15 — Live expanded transaction log, immediate progress, weighted ladder reference, verified pool/book history updates, Samsung keyboard reveal, and completed receipt/authorization/recovery review fixes.

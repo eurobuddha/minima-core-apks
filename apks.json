@@ -215,14 +215,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.57",
-      "versionCode": 157,
-      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.57 rejects stale funding inputs, guards oversized wallet reads, confirms Minima settlement on-chain, preserves interrupted-write safety across restarts, and improves failed-trade recovery and swap diagnostics. Includes bounded manual consolidation. Install as an update to preserve existing wallet and trade data.",
+      "version": "0.1.59",
+      "versionCode": 159,
+      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.59 scopes your swap history to the currency you are actually trading \u2014 switching between MxUSD and MINIMA no longer leaves the other market\u0027s history on screen \u2014 while still showing any unfinished swap in the other currency so a claimable or refundable leg is never hidden. Market prints are now tagged per market, so the price chart no longer mixes the two. CSV export covers both currencies and gains a Currency column. Install as an update to preserve existing wallet and trade data.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.57/AtomiX-0.1.57.apk",
-      "sha256": "a82ab1d4eb79f28a338f472ef49d06a67f4cc329b0c6874bec0595bf6c41f0f0",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.59/AtomiX-0.1.59.apk",
+      "sha256": "b26d6dc3bc1f0bf2a3c2398e1f37996f6390f40893e4df42d7538007890a0e7a",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
