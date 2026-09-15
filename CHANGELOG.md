@@ -1,5 +1,7 @@
 # Changelog
 
+- 2026-09-15 · minimaCore Desktop 0.16.92 (Mac/Windows/Linux) — the AtomiX Activity tab now shows what a swap actually was. Each row gains how long ago it happened, whether you were maker or taker, the full counterparty address (click to copy — never shortened), and a plain-language state line ("Done — received 4.95 USDT.") in place of a raw status word. Matches the Android app’s history detail.
+
 - 2026-09-14 · minimaCore Desktop 0.16.91 (Mac/Windows/Linux) — AtomiX market publishing works again. The publish send was pinning its input to a coin the node could not spend yet, and because every publish creates that coin as its own change, each publish broke the next one. Swap history is now scoped to the currency you are trading, and market prints are tagged per market so the chart no longer mixes the two price scales. All three platforms published to the update feed.
 
 - 2026-09-14 · AtomiX 0.1.59 — swap history now follows the currency you are trading. Switching between MxUSD and MINIMA used to leave the other market’s history on screen; it is now scoped, while any unfinished swap in the other currency stays visible so a claimable or refundable leg is never hidden. Market prints are tagged per market, so the chart no longer mixes the two price scales, and the collector can no longer mark the other market’s open locks as spent after a switch. CSV export still covers both currencies and gains a Currency column. Verified on the S23 and Z Fold; in-place update preserves wallet and trade data.
