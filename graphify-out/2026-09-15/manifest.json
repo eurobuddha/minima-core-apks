@@ -1,7 +1,7 @@
 {
   "check.py": {
-    "mtime": 1788794895.0073764,
-    "ast_hash": "b07b531b31ccca8b987c37ef314f689d",
+    "mtime": 1787729658.8370113,
+    "ast_hash": "dbc0b523fc81c653278106258c7e4f93",
     "semantic_hash": ""
   },
   "hooks/pre-push": {
@@ -10,13 +10,13 @@
     "semantic_hash": ""
   },
   "scripts/publish-app.py": {
-    "mtime": 1789420633.8985264,
-    "ast_hash": "954249a713c75d5a2e05ba20e72dd310",
+    "mtime": 1787730406.0026548,
+    "ast_hash": "5dc0f339bbc1402bbf0c8c2bb0b6f214",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1789461303.5793617,
-    "ast_hash": "aa24172d4b49b3e5c6761c7763fa86e7",
+    "mtime": 1788515232.374549,
+    "ast_hash": "5498b1bc74ff7cedce5e8a19019ee1b0",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -302,16 +302,6 @@
   "icons/vestr.png": {
     "mtime": 1782571021.0853887,
     "ast_hash": "f674b36578111e9c401bc37842aa2666",
-    "semantic_hash": ""
-  },
-  "scripts/sync-upstream-core.py": {
-    "mtime": 1788700930.0219278,
-    "ast_hash": "527c8b4655d3470be6d723935766018a",
-    "semantic_hash": ""
-  },
-  ".github/workflows/sync-upstream-core.yml": {
-    "mtime": 1788701161.158574,
-    "ast_hash": "474552f66033e39dae332cea35805d76",
     "semantic_hash": ""
   }
 }
