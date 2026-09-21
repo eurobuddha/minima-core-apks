@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-09-21 · pandadex 0.4.20 — trading worked again: on any wallet holding more than eight coins of the traded token every order failed with “Could not read the available balance”, because the funding selector parsed the node's balance with a stricter precision limit than stock MinimaCore reports. Each coin's own amount was read the same way and is fixed with it. Signed with the Minima Family key; updates in place.
 - 2026-09-17 · pandadex 0.4.19 — the dollar token is now called MxUSD everywhere in the app (it was labelled mxUSDT; the token itself and the trade-export columns are unchanged). Rolls up 0.4.16–0.4.18: stock-node balances no longer show blank when the wallet holds dust, and the loading placeholders follow the real pairing state — a connected wallet is never told to connect, and a disconnected one is sent to MinimaCore → Apps instead of being told orders are "loading". Signed with the Minima Family key; updates in place.
 
 - 2026-09-15 · minimaCore Desktop 0.16.92 (Mac/Windows/Linux) — the AtomiX Activity tab now shows what a swap actually was. Each row gains how long ago it happened, whether you were maker or taker, the full counterparty address (click to copy — never shortened), and a plain-language state line ("Done — received 4.95 USDT.") in place of a raw status word. Matches the Android app’s history detail.

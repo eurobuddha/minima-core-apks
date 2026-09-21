@@ -489,14 +489,14 @@
     {
       "name": "PandaDEX",
       "packageId": "com.eurobuddha.pandadex",
-      "version": "0.4.19",
-      "versionCode": 419,
-      "description": "PandaDEX 0.4.19: names the dollar token MxUSD throughout (was labelled mxUSDT; token id unchanged, export columns unchanged). Rolls up 0.4.16-0.4.18: fixes blank MINIMA and available-to-trade balances on stock nodes and keeps full balance precision; startup, receive-address and open-orders placeholders now follow the real pairing state, so a connected wallet is never told to connect and a disconnected one is sent to MinimaCore Apps rather than told to wait. Includes live transaction progress in the page and expanded log; size-weighted bid/offer reference; verified book and PandaPools executions in market history; immediate verified taker-receipt indexing; fair public-history scanning; Samsung keyboard input reveal; receipt, maker-authorization and recovery fixes. Development software for real on-chain trading. Independent node histories can remain incomplete; legacy receipt and stock-device validation limits are documented in the source release notes. Existing Minima Family-signed installations update in place. Preserve local history and pending receipts; do not clear storage as a routine update step. After deleting a pairing entry, reopen PandaDEX and enable it in MinimaCore Apps.",
+      "version": "0.4.20",
+      "versionCode": 420,
+      "description": "PandaDEX 0.4.20: fixes a defect that stopped trading outright. On a wallet holding more than eight coins of the traded token, every order failed with \"Could not read the available balance\" - the funding selector read the node's balance with a stricter precision limit than stock MinimaCore actually reports, and gave up before listing a single coin. Coin amounts were read the same way and are fixed with it. Rolls up 0.4.16-0.4.19: names the dollar token MxUSD throughout (was labelled mxUSDT; token id unchanged, export columns unchanged); fixes blank MINIMA and available-to-trade balances on stock nodes and keeps full balance precision; startup, receive-address and open-orders placeholders now follow the real pairing state, so a connected wallet is never told to connect and a disconnected one is sent to MinimaCore Apps rather than told to wait. Includes live transaction progress in the page and expanded log; size-weighted bid/offer reference; verified book and PandaPools executions in market history; immediate verified taker-receipt indexing; fair public-history scanning; Samsung keyboard input reveal; receipt, maker-authorization and recovery fixes. Development software for real on-chain trading. Independent node histories can remain incomplete; legacy receipt and stock-device validation limits are documented in the source release notes. Existing Minima Family-signed installations update in place. Preserve local history and pending receipts; do not clear storage as a routine update step. After deleting a pairing entry, reopen PandaDEX and enable it in MinimaCore Apps.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-pandadex/releases/download/v0.4.19/pandadex-0.4.19.apk",
-      "sha256": "5e91858a4acd75aa2a2ba1ee9b2f7220d636a81c31bad86b43475d46f55bf9ce",
+      "file": "https://github.com/eurobuddha/minima-core-android-pandadex/releases/download/v0.4.20/pandadex-0.4.20.apk",
+      "sha256": "32f1512a51f8717a0da3ddb257c24b96c45027bc81f21f38fb6f44c89867f10b",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandadex"
     },
     {
