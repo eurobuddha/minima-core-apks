@@ -72,14 +72,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.128",
-      "versionCode": 728,
+      "version": "0.6.129",
+      "versionCode": 729,
       "description": "Private chat, voice/video calls and encrypted file transfers. Download files explicitly, pause/resume, save or remove them. Active file transfers resume after restart; deliberate pauses are preserved. Private peer discovery with no public torrent listing.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.128/parlons-0.6.128.apk",
-      "sha256": "52f339ec2b3f1bf1ef9b8a9fa579a255a8400736d6c880a18d9ec0edc5eb01e9",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.129/parlons-0.6.129.apk",
+      "sha256": "842d6aaccaf25e762417f5412d728e42a590a3554728437ecfe4ae8210fb2dd0",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
