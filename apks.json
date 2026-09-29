@@ -215,14 +215,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.66",
-      "versionCode": 166,
-      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.66 makes the currency switch look like a button: the chip that moves you between the MINIMA and dollar markets was styled exactly like the Mainnet status badge next to it, so it read as a label and people never tried tapping it. It now carries a ⇄ and a moving ring, drawn in the colour of the market you would switch TO — trading dollars, an orange dot orbits the edge; trading MINIMA, a green arc sweeps around it. The label still names the market your money is actually in, so nothing on screen ever shows a currency you are not trading. Long-press the chip to change the speed or turn the motion off; with system animations disabled the ring stays as a static rim. Also adds the app's first screen-reader label, on this control. Install as an update to preserve existing wallet and trade data.",
+      "version": "0.1.67",
+      "versionCode": 167,
+      "description": "Native atomic swaps between Minima assets and Ethereum USDT. The currency switch — the chip that moves you between the MINIMA and dollar markets — carries a ⇄ and a moving ring drawn in the colour of the market you would switch TO: trading dollars, an orange dot orbits the edge; trading MINIMA, a green arc sweeps around it. The label still names the market your money is actually in, so nothing on screen ever shows a currency you are not trading. Long-press the chip to change the speed or stop the motion; with system animations disabled the ring is drawn as a static rim, so the control stays marked. 0.1.67 makes the effect free to run — its gradients are built once rather than every frame — and stops it animating while the app is in the background. Install as an update to preserve existing wallet and trade data.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.66/AtomiX-0.1.66.apk",
-      "sha256": "7581e658927ff9535d85a7d05dafe711ecf877ff272749df9209bc3a3d80fbdd",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.67/AtomiX-0.1.67.apk",
+      "sha256": "5d10c013832c3aa1734de3829feb820e820f85bc3d589cd1f077546faca9921c",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
