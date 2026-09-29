@@ -215,14 +215,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.59",
-      "versionCode": 159,
-      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.59 scopes your swap history to the currency you are actually trading — switching between MxUSD and MINIMA no longer leaves the other market's history on screen — while still showing any unfinished swap in the other currency so a claimable or refundable leg is never hidden. Market prints are now tagged per market, so the price chart no longer mixes the two. CSV export covers both currencies and gains a Currency column. Install as an update to preserve existing wallet and trade data.",
+      "version": "0.1.66",
+      "versionCode": 166,
+      "description": "Native atomic swaps between Minima assets and Ethereum USDT. 0.1.66 makes the currency switch look like a button: the chip that moves you between the MINIMA and dollar markets was styled exactly like the Mainnet status badge next to it, so it read as a label and people never tried tapping it. It now carries a ⇄ and a moving ring, drawn in the colour of the market you would switch TO — trading dollars, an orange dot orbits the edge; trading MINIMA, a green arc sweeps around it. The label still names the market your money is actually in, so nothing on screen ever shows a currency you are not trading. Long-press the chip to change the speed or turn the motion off; with system animations disabled the ring stays as a static rim. Also adds the app's first screen-reader label, on this control. Install as an update to preserve existing wallet and trade data.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.59/AtomiX-0.1.59.apk",
-      "sha256": "b26d6dc3bc1f0bf2a3c2398e1f37996f6390f40893e4df42d7538007890a0e7a",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.66/AtomiX-0.1.66.apk",
+      "sha256": "7581e658927ff9535d85a7d05dafe711ecf877ff272749df9209bc3a3d80fbdd",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
