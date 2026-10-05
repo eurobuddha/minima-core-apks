@@ -1,7 +1,7 @@
-# Graph Report - minima-core-apks  (2026-09-29)
+# Graph Report - desktop/minima-core-apks  (2026-09-15)
 
 ## Corpus Check
-- 9 files · ~95,664 words
+- 9 files · ~94,753 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c73abc52`
+- Built from commit: `bb6ab829`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,13 +42,13 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `apk_identity()`  [EXTRACTED]
-  scripts/sync-upstream-core.py → check.py
+  desktop/minima-core-apks/scripts/sync-upstream-core.py → desktop/minima-core-apks/check.py
 - `main()` --calls--> `sha256()`  [EXTRACTED]
-  scripts/sync-upstream-core.py → check.py
+  desktop/minima-core-apks/scripts/sync-upstream-core.py → desktop/minima-core-apks/check.py
 - `main()` --calls--> `fetch_release_file()`  [EXTRACTED]
-  scripts/sync-upstream-core.py → check.py
+  desktop/minima-core-apks/scripts/sync-upstream-core.py → desktop/minima-core-apks/check.py
 - `main()` --calls--> `main()`  [EXTRACTED]
-  scripts/sync-upstream-core.py → check.py
+  desktop/minima-core-apks/scripts/sync-upstream-core.py → desktop/minima-core-apks/check.py
 
 ## Import Cycles
 - None detected.
