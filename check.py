@@ -60,6 +60,7 @@ FAMILY_KEY_CN = "CN=eurobuddha, OU=Minima Family"
 # upgrade path from an officially-installed Minima build, so they are exempt from
 # `convention` only — every other check still applies.
 CONVENTION_EXEMPT = {
+    "org.minima.core",          # Official Core 1.7+ uses an upstream version counter
     "org.minimarex.minimacore",   # Minima Core, and the New UI preview fork
     "org.minimarex.terminal",     # Minima Terminal
     "org.minimarex.minimablock",  # BlackBear uses the same monotonic Android counter as PandaBear
@@ -106,16 +107,23 @@ def apk_identity(path):
             name.group(1) if name else None)
 
 
-def apk_signer(path):
+def apk_signer(path, certificate_digest=False):
     if not APKSIGNER:
         return None
     try:
-        out = subprocess.run([APKSIGNER, "verify", "--print-certs", path],
-                             capture_output=True, text=True, timeout=120).stdout
+        result = subprocess.run([APKSIGNER, "verify", "--print-certs", path],
+                                capture_output=True, text=True, timeout=120)
+        if result.returncode != 0:
+            return None
+        out = result.stdout
     except Exception:
         return None
-    m = re.search(r"certificate DN: (.+)", out)
-    return m.group(1).strip() if m else None
+    pattern = r"certificate SHA-256 digest: ([0-9a-fA-F]{64})" if certificate_digest else r"certificate DN: (.+)"
+    m = re.search(pattern, out)
+    if not m:
+        return None
+    value = m.group(1).strip()
+    return value.lower() if certificate_digest else value
 
 
 def sha256(path):
@@ -233,9 +241,17 @@ def main():
                         if real_name.split("+")[0] != version:
                             fail("name", f"catalog {version!r} != APK {real_name!r}")
 
-                if pkg not in SIGNER_EXEMPT:
+                if pkg == "org.minima.core":
+                    # Pinned to the signature of the APK fetched from upstream commit
+                    # 70cffca465749329924d0e63f654be91aab097a2. Fail closed if unverifiable.
+                    signer = apk_signer(local, certificate_digest=True)
+                    if signer != "b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14dff47b321368b4":
+                        fail("signer", "official Core signature is invalid or not the trusted Minima Global certificate")
+                elif pkg not in SIGNER_EXEMPT:
                     signer = apk_signer(local)
-                    if signer and FAMILY_KEY_CN not in signer:
+                    if not signer:
+                        fail("signer", "APK signature could not be verified")
+                    elif FAMILY_KEY_CN not in signer:
                         fail("signer", f"not the Minima Family key: {signer[:48]}")
 
         if is_apk and pkg not in CONVENTION_EXEMPT:
