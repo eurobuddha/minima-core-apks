@@ -38,6 +38,37 @@ git commit -am "<App> 0.4.3" && git push
 `scripts/publish-app.py` does step 2 surgically (never rewrites the whole JSON) and
 computes the sha256 from the release asset it just verified.
 
+## Automatic official Minima Core updates
+
+The existing `sync-upstream-core` GitHub Action checks upstream **hourly at minute
+43 UTC**, and supports **Run workflow** for an immediate check. It watches the
+committed `dist/minima-X.Y[.Z].apk` files in
+`spartacusrex-minima/minima-core-android`: upstream currently publishes its Android
+builds there rather than as GitHub Releases.
+
+`scripts/sync-upstream-core.py` selects the newest version from one immutable
+upstream commit, verifies the `org.minima.core` package, version name, increasing
+version code and the pinned Minima Global signing certificate, then mirrors the
+unchanged APK to our `mirrors` release. It reads the mirror back and verifies its
+SHA-256, updates only the official Core row, runs the full catalog validator, and
+commits/pushes automatically. PandaBear and BlackBear remain separate listings.
+
+An interrupted run can reuse an identical uploaded asset; it never overwrites a
+conflicting asset. Failed checks stop publication. A changed package, signing key,
+or changed bytes for an already published version require review. The trusted
+certificate is shared with `check.py` as `OFFICIAL_CORE_CERT_SHA256`.
+
+PandaApps and the web store read the updated catalog. The existing Hetzner IPFS
+publisher runs hourly at minute 17 and picks up the new catalog automatically.
+GitHub scheduling and CDN caching can add delay; this is polling, not an instant
+upstream webhook. Scheduled Actions may be disabled by GitHub after 60 days without
+repository activity; the workflow status and run history are visible in Actions.
+
+```bash
+python3 -B scripts/sync-upstream-core.py --dry-run  # verifies upstream, no publication
+python3 -B -m unittest discover -s tests -v        # updater regression checks
+```
+
 ## Verification
 
 `./check.py` is the gate — it downloads every catalog binary (cached in

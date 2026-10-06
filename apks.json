@@ -465,7 +465,7 @@
       "packageId": "org.minima.core",
       "version": "1.7",
       "versionCode": 32,
-      "description": "Official Minima Core 1.7, published by upstream on 1 October 2026 and mirrored unchanged. Package org.minima.core installs separately from older org.minimarex.minimacore builds. Uses block-as-key-uses with larger keys: the same seed produces different addresses from classic wallets; installing or restoring here does not automatically move old funds. Back up the original wallet and complete active swaps/pool positions before moving funds. Companion apps must support this new official package.",
+      "description": "Official Minima Core, mirrored unchanged from upstream and automatically updated after verification. Package org.minima.core installs separately from older org.minimarex.minimacore builds. Uses block-as-key-uses with larger keys: the same seed produces different addresses from classic wallets; installing or restoring here does not automatically move old funds. Back up the original wallet and complete active swaps/pool positions before moving funds. Companion apps must support this new official package.",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",

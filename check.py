@@ -55,6 +55,8 @@ CATALOG = os.path.join(HERE, "apks.json")
 CACHE = os.path.expanduser("~/.cache/minima-core-apks-check")
 
 FAMILY_KEY_CN = "CN=eurobuddha, OU=Minima Family"
+# Official Core 1.7, verified from upstream commit 70cffca465749329924d0e63f654be91aab097a2.
+OFFICIAL_CORE_CERT_SHA256 = "b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14dff47b321368b4"
 
 # Upstream builds we do not number. Renumbering them to our convention would break the
 # upgrade path from an officially-installed Minima build, so they are exempt from
@@ -245,7 +247,7 @@ def main():
                     # Pinned to the signature of the APK fetched from upstream commit
                     # 70cffca465749329924d0e63f654be91aab097a2. Fail closed if unverifiable.
                     signer = apk_signer(local, certificate_digest=True)
-                    if signer != "b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14dff47b321368b4":
+                    if signer != OFFICIAL_CORE_CERT_SHA256:
                         fail("signer", "official Core signature is invalid or not the trusted Minima Global certificate")
                 elif pkg not in SIGNER_EXEMPT:
                     signer = apk_signer(local)
