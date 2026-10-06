@@ -62,10 +62,11 @@ FAMILY_KEY_CN = "CN=eurobuddha, OU=Minima Family"
 CONVENTION_EXEMPT = {
     "org.minimarex.minimacore",   # Minima Core, and the New UI preview fork
     "org.minimarex.terminal",     # Minima Terminal
+    "org.minimarex.minimablock",  # BlackBear uses the same monotonic Android counter as PandaBear
 }
 
 # Same reason: these are not signed by us.
-SIGNER_EXEMPT = CONVENTION_EXEMPT
+SIGNER_EXEMPT = {"org.minimarex.minimacore", "org.minimarex.terminal"}
 
 
 def find_tool(name):
