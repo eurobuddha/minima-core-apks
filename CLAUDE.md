@@ -63,7 +63,11 @@ cp hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
 
 `git push --no-verify` bypasses it for a docs-only push.
 
-**Exemptions** (in `check.py`): the upstream Minima builds — `org.minimarex.minimacore` (both Core
-rows) and `org.minimarex.terminal` — are exempt from `convention` and `signer`, because we neither
-number nor sign them and renumbering would break upgrades from an officially-installed build. Every
-other check still applies to them.
+**Exemptions** (in `check.py`): official Core retains its upstream version counter and pinned
+upstream signing certificate. The three `com.eurobuddha` core builds and Terminal retain their
+monotonic Android counters. Every family APK must verify against the family signing key.
+The validator also compares each catalogue package ID with the signed APK's real identity.
+
+Counter exceptions for the three pre-migration artifacts are pinned to their exact SHA-256 hashes in `HISTORICAL_COUNTER_SHA256`. They preserve currently published listings until coordinated replacement; they do not exempt new artifacts or relax package/signature checks.
+
+Family signing is pinned to certificate SHA-256 `eca1383c9d27683a281fbe6355356267877dc2dd14d963d7cc289ca0700e517f`; matching the publisher name alone is insufficient.

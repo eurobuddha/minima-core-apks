@@ -55,6 +55,7 @@ CATALOG = os.path.join(HERE, "apks.json")
 CACHE = os.path.expanduser("~/.cache/minima-core-apks-check")
 
 FAMILY_KEY_CN = "CN=eurobuddha, OU=Minima Family"
+FAMILY_CERT_SHA256 = "eca1383c9d27683a281fbe6355356267877dc2dd14d963d7cc289ca0700e517f"
 # Official Core 1.7, verified from upstream commit 70cffca465749329924d0e63f654be91aab097a2.
 OFFICIAL_CORE_CERT_SHA256 = "b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14dff47b321368b4"
 
@@ -63,13 +64,23 @@ OFFICIAL_CORE_CERT_SHA256 = "b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14d
 # `convention` only — every other check still applies.
 CONVENTION_EXEMPT = {
     "org.minima.core",          # Official Core 1.7+ uses an upstream version counter
-    "org.minimarex.minimacore",   # Minima Core, and the New UI preview fork
-    "org.minimarex.terminal",     # Minima Terminal
-    "org.minimarex.minimablock",  # BlackBear uses the same monotonic Android counter as PandaBear
+    "com.eurobuddha.minimacore",   # PandaBear uses the core monotonic counter
+    "com.eurobuddha.terminal",     # Minima Terminal
+    "com.eurobuddha.minimablock",  # BlackBear uses the core monotonic counter
+    "com.eurobuddha.pandamonium", # Pandamonium uses the same core counter
 }
 
-# Same reason: these are not signed by us.
-SIGNER_EXEMPT = {"org.minimarex.minimacore", "org.minimarex.terminal"}
+# Preserve the counters of these exact previously published artifacts until their
+# coordinated replacement. This grants no namespace-wide exception to a new APK.
+HISTORICAL_COUNTER_SHA256 = {
+    "6d2708a0f87adc25484818feccb6e8eba1b50c3ffcbf387b3b9baee6ac211bae",  # PandaBear 1.7.4
+    "55b6b1d4a7685e3ee5cde586794107a3264d8eee15cee1d71df6cf3051bc1d27",  # BlackBear 1.7.4
+    "eb411f965c50f27a55c194ca90e608215a62e14286059af999b0f6ad2e60f851",  # Terminal 1.3.3
+}
+
+
+# Family signing is required for every locally maintained application.
+SIGNER_EXEMPT = set()  # All family APKs must use the family release certificate.
 
 
 def find_tool(name):
@@ -107,6 +118,20 @@ def apk_identity(path):
     name = re.search(r"versionName='([^']*)'", line)
     return (int(code.group(1)) if code else None,
             name.group(1) if name else None)
+
+
+def apk_package(path):
+    """Read the real Android identity; catalogue edits cannot rename a signed APK."""
+    if not AAPT:
+        return None
+    try:
+        result = subprocess.run([AAPT, "dump", "badging", path], capture_output=True, text=True, timeout=120)
+        if result.returncode:
+            return None
+        match = re.search(r"^package: name='([^']+)'", result.stdout, re.MULTILINE)
+        return match.group(1) if match else None
+    except Exception:
+        return None
 
 
 def apk_signer(path, certificate_digest=False):
@@ -174,9 +199,8 @@ def published_codes():
     """
     versionCode per ENTRY as currently COMMITTED, to catch a downgrade before it ships.
 
-    Keyed by name, not packageId: Minima Core and Minima Core — New UI (Preview) are two rows
-    sharing org.minimarex.minimacore at different versionCodes, and keying by package collapsed
-    them into one, making the official row look like a downgrade of the preview.
+    Keyed by entry name: historical listings or editions can share a package ID
+    while carrying different release counters. Never compare unrelated catalogue rows.
     """
     try:
         blob = subprocess.run(["git", "-C", HERE, "show", "HEAD:apks.json"],
@@ -188,7 +212,8 @@ def published_codes():
 
 def main():
     verbose = "-v" in sys.argv or "--verbose" in sys.argv
-    catalog = json.load(open(CATALOG))
+    with open(CATALOG) as catalog_file:
+        catalog = json.load(catalog_file)
     apps = catalog["apps"]
     live = published_codes()
 
@@ -232,6 +257,9 @@ def main():
                 fail("sha", f"catalog {want[:16]}… != file {actual[:16]}…")
 
             if is_apk:
+                real_package = apk_package(local)
+                if real_package != pkg:
+                    fail("package", f"catalog {pkg!r} != APK {real_package!r}")
                 real_code, real_name = apk_identity(local)
                 if real_code is None:
                     fail("code", "could not read the APK (aapt2 missing?)")
@@ -250,13 +278,11 @@ def main():
                     if signer != OFFICIAL_CORE_CERT_SHA256:
                         fail("signer", "official Core signature is invalid or not the trusted Minima Global certificate")
                 elif pkg not in SIGNER_EXEMPT:
-                    signer = apk_signer(local)
-                    if not signer:
-                        fail("signer", "APK signature could not be verified")
-                    elif FAMILY_KEY_CN not in signer:
-                        fail("signer", f"not the Minima Family key: {signer[:48]}")
+                    signer = apk_signer(local, certificate_digest=True)
+                    if signer != FAMILY_CERT_SHA256:
+                        fail("signer", "APK signature is invalid or not the trusted Minima Family certificate")
 
-        if is_apk and pkg not in CONVENTION_EXEMPT:
+        if is_apk and pkg not in CONVENTION_EXEMPT and a.get("sha256", "").lower() not in HISTORICAL_COUNTER_SHA256:
             exp = expected_code(version)
             if exp is None:
                 fail("convention", f"version {version!r} is not X.Y.Z, cannot derive a code")

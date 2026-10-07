@@ -118,7 +118,7 @@ class SyncTests(unittest.TestCase):
         self.assert_not_published()
 
     def test_wrong_package_is_refused(self):
-        self.package = 'org.minimarex.minimacore'
+        self.package = 'com.eurobuddha.minimacore'
         with self.assertRaises(SystemExit): sync.main()
         self.assert_not_published()
 

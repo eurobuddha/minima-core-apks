@@ -6,7 +6,7 @@
 Steps, in order — each one fails loudly rather than half-updating the catalog:
 
   1. Find the catalog row by packageId (use --name when two rows share a package,
-     e.g. the two org.minimarex.minimacore rows).
+     e.g. the two com.eurobuddha.minimacore rows).
   2. Build the new release-asset URL from the row's `repo` field and the new
      version, keeping the same filename pattern as the current row
      (everything before the version stays; only the version changes).
@@ -41,7 +41,7 @@ def die(msg):
 # `--name <row name>` takes a VALUE, and that value does not start with '--', so a
 # plain startswith filter left it in the positional list and every documented
 # invocation died on "len(args) != 2" - which is exactly the form the two
-# org.minimarex.minimacore rows require. Consume the flag and its value together.
+# com.eurobuddha.minimacore rows require. Consume the flag and its value together.
 args = []
 skip_next = False
 for a in sys.argv[1:]:
@@ -118,8 +118,10 @@ major, minor, patch = map(int, m.groups())
 convention_code = minor * 100 + patch + (major * 10000 if major else 0)
 
 # The APK itself is the authority on versionCode — convention-exempt apps
-# (org.minimarex.*, see check.py CONVENTION_EXEMPT) use a plain counter, and
+# (com.eurobuddha.*, see check.py CONVENTION_EXEMPT) use a plain counter, and
 # writing the convention number for them would trip check.py's `code` check.
+if new_base.endswith('.apk') and checkmod.apk_package(local) != pkg:
+    die('APK package does not match this catalogue row; create or migrate the row explicitly')
 real_code, real_name = checkmod.apk_identity(local) if new_base.endswith('.apk') else (None, None)
 new_code = real_code if real_code is not None else convention_code
 if real_code is not None and real_code != convention_code and pkg not in checkmod.CONVENTION_EXEMPT:
