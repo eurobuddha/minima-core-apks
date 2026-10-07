@@ -489,14 +489,14 @@
     {
       "name": "Minima Wallet",
       "packageId": "com.eurobuddha.wallet",
-      "version": "0.2.10",
-      "versionCode": 210,
-      "description": "v0.2.10: Keep native dialogs consistent with the selected app theme, fixing unreadable input when app and system themes differ. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed. When importing a seed, enter how many signatures it has already used (over-estimate if unsure) — this protects against reusing a one-time key.",
+      "version": "0.2.12",
+      "versionCode": 212,
+      "description": "v0.2.12: Full 64-address wallet set \u2014 the wallet now derives, tracks, receives on and spends ALL 64 base addresses (the same default set a Minima node derives from this seed) instead of only address 0. Receive cycles through them (\u2018New address\u2019, #n of 64), each input coin signs with its own key, and the send confirmation shows the signature counter per signing key and the FULL recipient address. First launch derives the 64 addresses once in the background; balances across all addresses appear when it finishes. v0.2.10: Keep native dialogs consistent with the selected app theme, fixing unreadable input when app and system themes differ. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Self-custodial Minima wallet — signs locally, uses Minima Core only as a NON-admin relay (works with node admin OFF). PRE-VERIFICATION TEST BUILD: viewing balances + receiving is safe; do NOT send real funds until on-device verification confirms a transaction lands on-chain. Coins received are always recoverable from your seed. When importing a seed, enter how many signatures it has already used (over-estimate if unsure) — this protects against reusing a one-time key.",
       "category": "Wallet",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima-wallet-mmm2.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-wallet/releases/download/v0.2.10/minima-wallet-0.2.10.apk",
-      "sha256": "991e9119b396be734f03917ab7ad1c0b79cc17b24f55f117df660b9299ff8e59",
+      "file": "https://github.com/eurobuddha/minima-core-android-wallet/releases/download/v0.2.12/minima-wallet-0.2.12.apk",
+      "sha256": "c4016ccc00a1048b5acec29d6957a244b5b82ff9501d1f41171ceb8b85f5b791",
       "repo": "https://github.com/eurobuddha/minima-core-android-wallet"
     },
     {
