@@ -683,7 +683,7 @@
     },
     {
       "name": "Minima Core Pandamonium",
-      "category": "Tools",
+      "category": "Core",
       "source": "PandaApps",
       "packageId": "com.eurobuddha.pandamonium",
       "version": "1.9.10-Pandamonium",
