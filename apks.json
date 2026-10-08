@@ -436,6 +436,7 @@
     {
       "name": "minimaCore PandaBear",
       "packageId": "com.eurobuddha.minimacore",
+      "highlight": "classic keys",
       "version": "1.9.10-PandaBear",
       "versionCode": 81,
       "description": "Minima Core \u2014 PandaBear build. Classic startup policy. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time.",
@@ -686,6 +687,7 @@
       "category": "Core",
       "source": "PandaApps",
       "packageId": "com.eurobuddha.pandamonium",
+      "highlight": "fully loaded",
       "version": "1.9.11-Pandamonium",
       "versionCode": 82,
       "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v1.9.11-Pandamonium/minima-core-Pandamonium-1.9.11.apk",
