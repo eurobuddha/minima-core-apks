@@ -686,13 +686,13 @@
       "category": "Core",
       "source": "PandaApps",
       "packageId": "com.eurobuddha.pandamonium",
-      "version": "1.9.10-Pandamonium",
-      "versionCode": 81,
-      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v1.9.10-Pandamonium/minima-core-Pandamonium-1.9.10.apk",
-      "sha256": "38301193a655d7c971abf959bbcec7a5764b76edf31ad2e78b5c2e5c0ff6430f",
+      "version": "1.9.11-Pandamonium",
+      "versionCode": 82,
+      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v1.9.11-Pandamonium/minima-core-Pandamonium-1.9.11.apk",
+      "sha256": "e02fdb72141bd5ebdd2bed7d09d6f104fe094720edf697278b92b1b44b056f15",
       "repo": "https://github.com/eurobuddha/minima-core-android",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "description": "Minima Core \u2014 Pandamonium build. Integrated companion apps, including Minima Mail and Minima Vestr. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
+      "description": "v1.9.11: app icons beside sidebar titles, following the saved order when reordered. Minima Core \u2014 Pandamonium build. Integrated companion apps, including Minima Mail and Minima Vestr. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
     },
     {
       "name": "Minima Limit",
