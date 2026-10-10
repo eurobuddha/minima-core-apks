@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.134",
-      "versionCode": 734,
-      "description": "v0.6.134: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. Open, copy and share chat links, recognize bare domains, and copy messages or captions. Private chat, calls and encrypted file transfers with Pause/Resume, Save and Remove. Includes repairs for transfers stuck at Connecting and rapid transfer restarts.",
+      "version": "0.6.135",
+      "versionCode": 735,
+      "description": "v0.6.135: repairs stalled large file transfers and Resume after storage errors. Retains failed file preparation and resumes browser uploads after lost responses. Includes chat link actions, copying, search, and compatibility with PandaBear, BlackBear and Pandamonium.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.134/parlons-0.6.134.apk",
-      "sha256": "263685b38eb379e6e2e942f8a6099adb823a370d7f6ec46b4eef1fdd592bd419",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.135/parlons-0.6.135.apk",
+      "sha256": "772e9dcdb360ef41c5c7fbc372d764567333eb21d15d3d1bd13ae18ee1ee2130",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
