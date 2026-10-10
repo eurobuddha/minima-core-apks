@@ -5,6 +5,19 @@
   "version": "1.1",
   "apps": [
     {
+      "name": "minimaDocs (Mac)",
+      "packageId": "com.eurobuddha.minimadocs.desktop.mac",
+      "version": "0.1.2",
+      "versionCode": 102,
+      "description": "Documents, spreadsheets and layered images for Apple Silicon Macs. Image Studio adds editable masks, selections, retouching, brushes, text, colour correction, 15 Filtr effects and 14 presets. Fixes large-image saving, undo and closing after a failed save. Connect Parlons Desktop or the included minimaCore account for contacts and invitations. App and installer signed and notarized. 16 MiB project limit; no PSD support.",
+      "category": "Desktop",
+      "source": "Mac",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimadocs.png",
+      "file": "https://github.com/eurobuddha/minimaDocs/releases/download/mac-v0.1.2/minimaDocs-0.1.2-mac-arm64.dmg",
+      "sha256": "237d5d5f524b37c7b1ea7eb4191cd31e15c67c1db97fd8c09f9abc6ed39c9d5c",
+      "repo": "https://github.com/eurobuddha/minimaDocs"
+    },
+    {
       "name": "minimaDocs",
       "packageId": "com.eurobuddha.minimadocs",
       "version": "0.3.2",
