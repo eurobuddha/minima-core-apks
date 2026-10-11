@@ -710,19 +710,6 @@
       "description": "v1.9.11: app icons beside sidebar titles, following the saved order when reordered. Minima Core \u2014 Pandamonium build. Integrated companion apps, including Minima Mail and Minima Vestr. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
     },
     {
-      "name": "Minima Limit",
-      "category": "Tools",
-      "source": "PandaApps",
-      "packageId": "com.eurobuddha.limit",
-      "version": "0.3.4",
-      "versionCode": 304,
-      "file": "https://github.com/eurobuddha/minima-core-android-limit/releases/download/v0.3.4/limit-0.3.4.apk",
-      "sha256": "2de05d0ec7c1325b10431748532036594832363c9f2aecfebb3e62fc1138e6b4",
-      "repo": "https://github.com/eurobuddha/minima-core-android-limit",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-limit.png",
-      "description": "v0.3.4: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. Limit orders for Minima through the companion node connection."
-    },
-    {
       "name": "miniMall NFT Studio",
       "category": "Tools",
       "source": "PandaApps",
@@ -734,45 +721,6 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-nftstudio",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-merchnftstudio.png",
       "description": "v0.2.1: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. NFT tools for miniMall using the Minima companion connection."
-    },
-    {
-      "name": "MinimaSwap",
-      "category": "Tools",
-      "source": "PandaApps",
-      "packageId": "com.eurobuddha.minimaswap",
-      "version": "0.18.5",
-      "versionCode": 1805,
-      "file": "https://github.com/eurobuddha/minima-core-android-minimaswap/releases/download/v0.18.5/minimaswap-0.18.5.apk",
-      "sha256": "10332a1653b36f9be324805e61f0005eda308377595416fdad4e5df2aa0b9d22",
-      "repo": "https://github.com/eurobuddha/minima-core-android-minimaswap",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-minimaswap.png",
-      "description": "v0.18.5: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. Minima token swaps through the companion node connection."
-    },
-    {
-      "name": "PocketWeb",
-      "category": "Tools",
-      "source": "PandaApps",
-      "packageId": "com.eurobuddha.pocketweb",
-      "version": "0.11.4",
-      "versionCode": 1104,
-      "file": "https://github.com/eurobuddha/PocketWeb/releases/download/android-v0.11.4/pocketweb-0.11.4-vc1104.apk",
-      "sha256": "738f21260e5691f3b74ba4374b0ad45a37070a831c1366bd1e2e3a99fcfeb3bf",
-      "repo": "https://github.com/eurobuddha/PocketWeb",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-pocketweb.png",
-      "description": "v0.11.4: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. Browse and publish PocketWeb sites using the Minima Core companion connection."
-    },
-    {
-      "name": "USDT Swap",
-      "category": "Tools",
-      "source": "PandaApps",
-      "packageId": "com.eurobuddha.usdtswap",
-      "version": "0.1.7",
-      "versionCode": 107,
-      "file": "https://github.com/eurobuddha/minima-core-android-usdtswap/releases/download/v0.1.7/usdtswap-0.1.7.apk",
-      "sha256": "24b1bcb09dc57af6e8cb097c9574a3dadcb010b3f76710a65712719ff06d9090",
-      "repo": "https://github.com/eurobuddha/minima-core-android-usdtswap",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-usdtswap.png",
-      "description": "v0.1.7: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. USDT swap companion for Minima Core."
     }
   ]
 }

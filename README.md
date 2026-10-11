@@ -22,6 +22,14 @@ and the historical `miniMall-Studio-v0.1.1` (superseded by
 
 > ⚠️ **All apps here are in active development — use at your own risk.** They are experimental software provided **AS IS**, without warranty of any kind. They interact with a live blockchain and real funds; despite testing, bugs may exist. Back up your seed, test with small amounts, and only risk what you can afford to lose. Nothing here is financial advice.
 
+## Deprecated apps — do not relist
+
+Minima Limit (`com.eurobuddha.limit`), MinimaSwap (`com.eurobuddha.minimaswap`),
+PocketWeb (`com.eurobuddha.pocketweb`) and USDT Swap (`com.eurobuddha.usdtswap`)
+are unsupported and excluded from the active catalogue by the owner’s instruction
+on 2026-10-11. Building or publishing a compatibility update does not authorize
+adding them back. Repositories and historical release artifacts are retained.
+
 ## Publishing a new app version
 
 ```bash
