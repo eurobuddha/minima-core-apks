@@ -30,6 +30,10 @@ are unsupported and excluded from the active catalogue by the owner’s instruct
 on 2026-10-11. Building or publishing a compatibility update does not authorize
 adding them back. Repositories and historical release artifacts are retained.
 
+miniMall NFT Studio (`com.eurobuddha.merchnftstudio`) is also deprecated and
+excluded from the active catalogue by the owner’s instruction on 2026-10-12.
+Do not relist it without explicit owner authorization.
+
 ## Publishing a new app version
 
 ```bash

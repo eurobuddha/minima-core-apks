@@ -708,19 +708,6 @@
       "repo": "https://github.com/eurobuddha/minima-core-android",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
       "description": "v1.9.11: app icons beside sidebar titles, following the saved order when reordered. Minima Core \u2014 Pandamonium build. Integrated companion apps, including Minima Mail and Minima Vestr. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
-    },
-    {
-      "name": "miniMall NFT Studio",
-      "category": "Tools",
-      "source": "PandaApps",
-      "packageId": "com.eurobuddha.merchnftstudio",
-      "version": "0.2.1",
-      "versionCode": 201,
-      "file": "https://github.com/eurobuddha/minima-core-android-nftstudio/releases/download/v0.2.1/nftstudio-0.2.1.apk",
-      "sha256": "9fc3d1a538f46bf4774c18a70d51f9420e8bfc99103a421f8dd9bbc21c16de16",
-      "repo": "https://github.com/eurobuddha/minima-core-android-nftstudio",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/release-merchnftstudio.png",
-      "description": "v0.2.1: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. NFT tools for miniMall using the Minima companion connection."
     }
   ]
 }
