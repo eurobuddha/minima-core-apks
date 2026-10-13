@@ -7,14 +7,14 @@
     {
       "name": "minimaDocs (Mac)",
       "packageId": "com.eurobuddha.minimadocs.desktop.mac",
-      "version": "0.1.2",
-      "versionCode": 102,
-      "description": "Documents, spreadsheets and layered images for Apple Silicon Macs. Image Studio adds editable masks, selections, retouching, brushes, text, colour correction, 15 Filtr effects and 14 presets. Fixes large-image saving, undo and closing after a failed save. Connect Parlons Desktop or the included minimaCore account for contacts and invitations. App and installer signed and notarized. 16 MiB project limit; no PSD support.",
+      "version": "0.1.3",
+      "versionCode": 103,
+      "description": "Mac 0.1.3 adds offline PhotoCraft: layers, selections, masks, adjustments, retouching, brushes and text. Encrypted .pcraft projects; PNG, PSD and OpenRaster exports. Existing minimaDocs image projects retain their original editor. Word, spreadsheets and Parlons contacts remain available. Signed and notarized for Apple Silicon, macOS 13+. 16 MiB file limit; PhotoCraft is early alpha. Android 0.3.3 cannot edit .pcraft files; use PNG for raster interchange.",
       "category": "Desktop",
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimadocs.png",
-      "file": "https://github.com/eurobuddha/minimaDocs/releases/download/mac-v0.1.2/minimaDocs-0.1.2-mac-arm64.dmg",
-      "sha256": "237d5d5f524b37c7b1ea7eb4191cd31e15c67c1db97fd8c09f9abc6ed39c9d5c",
+      "file": "https://github.com/eurobuddha/minimaDocs/releases/download/mac-v0.1.3/minimaDocs-0.1.3-mac-arm64.dmg",
+      "sha256": "e94cb7c4698396ffb29842da85c6371256e7f7f627aebe92a18fe7b464aeffaa",
       "repo": "https://github.com/eurobuddha/minimaDocs"
     },
     {
