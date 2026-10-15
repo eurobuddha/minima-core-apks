@@ -477,14 +477,14 @@
     {
       "name": "Minima Core",
       "packageId": "org.minima.core",
-      "version": "1.7",
-      "versionCode": 32,
+      "version": "1.7.2",
+      "versionCode": 34,
       "description": "Official Minima Core, mirrored unchanged from upstream and automatically updated after verification. Package org.minima.core installs separately from older org.minimarex.minimacore builds. Uses block-as-key-uses with larger keys: the same seed produces different addresses from classic wallets; installing or restoring here does not automatically move old funds. Back up the original wallet and complete active swaps/pool positions before moving funds. Companion apps must support this new official package.",
       "category": "Core",
       "source": "Official",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
-      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/mirrors/minima-1.7.apk",
-      "sha256": "54a0d4c898bc7be46d11be66d5e28f3004b74523f63ad016a7494efb88c07cc7",
+      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/mirrors/minima-1.7.2.apk",
+      "sha256": "bb731ccd9164c543c02013cbdbb1c56bb2c8a153fe6a06445a20fdbe87fd2806",
       "repo": "https://github.com/spartacusrex-minima/minima-core-android"
     },
     {
