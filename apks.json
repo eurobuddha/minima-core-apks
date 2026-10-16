@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.142",
-      "versionCode": 742,
-      "description": "v0.6.142: Choose English, 简体中文 or Русский during setup or in Settings. One signed APK includes all three languages. Private chat, calls, wallet, file transfers and help follow your choice while preserving drafts and selections.",
+      "version": "0.6.143",
+      "versionCode": 743,
+      "description": "v0.6.143: Choose English, 简体中文 or Русский during setup or in Settings. Fixes torrent verification-queue stalls and ensures shutdown closes all transfers after an individual stop failure. One signed APK includes all three languages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.142/parlons-0.6.142.apk",
-      "sha256": "adf123d3135ffd76d5353e0934e81cea236158a8b30ec820335ff783720953c2",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.143/parlons-0.6.143.apk",
+      "sha256": "57fcd09b2205661c354b2a0ee9943d7a9adb56138d3752a23b553307bcc3654e",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -685,14 +685,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.86",
-      "versionCode": 286,
-      "description": "v0.2.86: Choose English, 简体中文 or Русский during setup or in Settings. Chat, calls, file transfers, wallet, node controls and command help follow your saved choice. Pair with your own always-on Parlons account.",
+      "version": "0.2.87",
+      "versionCode": 287,
+      "description": "v0.2.87: Choose English, 简体中文 or Русский during setup or in Settings. Updated language resources. Chat, calls, wallet, node controls and help follow your saved choice. Hosted torrent fixes require the updated Cloud/Node host.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.86/parlons-cloud-portal-0.2.86-release.apk",
-      "sha256": "c6a37a75fe7f231a45c8e801cf049022f1ad4e432f33ae24f66352181a0abd5d",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.87/parlons-cloud-portal-0.2.87-release.apk",
+      "sha256": "289194b3f883d25fcdd238f12d52e9b5d9c9ae407ce2823d132fc44526732903",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
