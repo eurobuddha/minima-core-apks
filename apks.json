@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.141",
-      "versionCode": 741,
-      "description": "v0.6.135: repairs stalled large file transfers and Resume after storage errors. Retains failed file preparation and resumes browser uploads after lost responses. Includes chat link actions, copying, search, and compatibility with PandaBear, BlackBear and Pandamonium.",
+      "version": "0.6.142",
+      "versionCode": 742,
+      "description": "v0.6.142: Choose English, 简体中文 or Русский during setup or in Settings. One signed APK includes all three languages. Private chat, calls, wallet, file transfers and help follow your choice while preserving drafts and selections.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.141/parlons-0.6.141.apk",
-      "sha256": "85fee3e0bcd1758d409cf7778c88572885e30b56b98e1ab79ceff90445f862b6",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.142/parlons-0.6.142.apk",
+      "sha256": "adf123d3135ffd76d5353e0934e81cea236158a8b30ec820335ff783720953c2",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -685,14 +685,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.84",
-      "versionCode": 284,
-      "description": "v0.2.84: current shared Parlons libraries. Pair with Node 0.2.123 or Cloud 0.11.116 for repaired large-file transfer recovery and resumable browser uploads. Open, copy and share chat links; private chat, calls and wallet access through your own always-on account. Compatible with PandaBear, BlackBear and Pandamonium.",
+      "version": "0.2.86",
+      "versionCode": 286,
+      "description": "v0.2.86: Choose English, 简体中文 or Русский during setup or in Settings. Chat, calls, file transfers, wallet, node controls and command help follow your saved choice. Pair with your own always-on Parlons account.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.84/parlons-cloud-portal-0.2.84-release.apk",
-      "sha256": "ca8dbe819bc25fe749bbce9cfc6d304327755998ce7ed83dd16ec46238c7fd9d",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.86/parlons-cloud-portal-0.2.86-release.apk",
+      "sha256": "c6a37a75fe7f231a45c8e801cf049022f1ad4e432f33ae24f66352181a0abd5d",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
