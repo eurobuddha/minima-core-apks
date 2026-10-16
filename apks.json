@@ -646,14 +646,14 @@
     {
       "name": "Parlons Desktop (Mac)",
       "packageId": "com.eurobuddha.parlons.desktop.mac",
-      "version": "1.5.112",
-      "versionCode": 10612,
-      "description": "v1.5.110: repairs private file transfers stopped by storage errors and makes Resume restart them correctly. v1.5.109: explicitly approve and revoke minimaDocs contacts and document invitations. Preserves chat links, image paste, text size and private-file transfer fixes. Open and copy chat links, recognize bare domains, and copy messages or captions. Private messaging, calls and encrypted file transfers on your computer. Includes fixes for stuck transfers and rapid restarts; deliberate pauses stay paused. Signed and notarised for Apple silicon Macs.",
+      "version": "1.5.114",
+      "versionCode": 10614,
+      "description": "v1.5.114: Choose English, 简体中文 or Русский during setup or in Settings; your choice is saved. Includes bundled Chinese font support and fixes for stalled file transfers and shutdown problems. Private messaging, calls, chat links and encrypted file transfers on your computer. Signed and notarised for Apple silicon Macs.",
       "category": "Desktop",
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/desktop-v1.5.112/MaximaNode-1.5.112-notarized.dmg",
-      "sha256": "c6d80e410b3bc41f8ea7597dcdfef289fe498c119e0fa484a8dff4f43bd4ac34",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/desktop-v1.5.114/MaximaNode-1.5.114-notarized.dmg",
+      "sha256": "ccbfdccf5f9a5e0362a3b4cf892c31e7979a21a93308d625bbd6913b0471969f",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
