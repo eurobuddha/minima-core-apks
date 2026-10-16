@@ -542,14 +542,14 @@
     {
       "name": "KeyUses",
       "packageId": "com.eurobuddha.keyreuses",
-      "version": "0.1.3",
-      "versionCode": 103,
-      "description": "v0.1.3: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. NEW SIGNING KEY: uninstall the old version before installing this one (Android refuses an in-place update when the signature changes; Minima apps must re-pair MINIMA_ID with the node afterwards). Audit your node's 64 keys for one-time-signature re-use. Minima signatures are stateful: each key must move to a fresh leaf every time it signs, and a seed re-sync that set keyuses too low makes the node re-use a leaf it already spent on-chain, which weakens that key. KeyUses compares what the chain proves each key has signed against your node's own counter, flags any key at risk or with confirmed re-use, and gives you the safe keyuses value for your next re-sync. Read-only: it never builds a transaction. Your 64 public keys are sent to the archive audit service to look up spend history \u2014 public keys cannot move funds, but they do reveal your addresses to that server.",
+      "version": "0.1.4",
+      "versionCode": 104,
+      "description": "v0.1.4: recognises the new block-as-keyuses keys (128/4, minimaCore started with -blockaskeyuses) alongside classic 64/3 keys. Same signing key as 0.1.3 — installs as a normal update. Audit your node's keys for one-time-signature re-use. Minima signatures are stateful: each key must move to a fresh leaf every time it signs, and a seed re-sync that set keyuses too low makes the node re-use a leaf it already spent on-chain, which weakens that key. KeyUses compares what the chain proves each key has signed against your node's own counter, flags any key at risk or with confirmed re-use, and gives you the safe keyuses value for your next re-sync (classic keys only — block-as-keyuses keys take their key uses from the block height automatically, so no keyuses value is needed). Read-only: it never builds a transaction. Your public keys are sent to the archive audit service to look up spend history — public keys cannot move funds, but they do reveal your addresses to that server.",
       "category": "Security",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/keyuses.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-keyreuses/releases/download/v0.1.3/minima-keyuses-0.1.3.apk",
-      "sha256": "38d8204c914dbd55fcfb0c1b16c5671e1211a162b6a5987649ca03356b54ec19",
+      "file": "https://github.com/eurobuddha/minima-core-android-keyreuses/releases/download/v0.1.4/minima-keyuses-0.1.4.apk",
+      "sha256": "63c5f2c1a0d7de7e7826845f1d564f654cef7f9eca257bf4238a5162077c679d",
       "repo": "https://github.com/eurobuddha/minima-core-android-keyreuses"
     },
     {
