@@ -20,14 +20,14 @@
     {
       "name": "minimaDocs",
       "packageId": "com.eurobuddha.minimadocs",
-      "version": "0.3.4",
-      "versionCode": 304,
-      "description": "v0.3.4 adds a PhotoCraft touch editor: Looks with strength control, colour and exposure adjustments, crop/rotate/straighten, brush masks, editable layers, undo/redo and before comparison. Native .pcraft projects work with Mac 0.1.3; legacy image projects retain their existing editor. Documents and spreadsheets work offline; share saved files through Maxima and Parlons contacts. Healing, text and advanced selections remain desktop tools. Existing 16 MiB file limit.",
+      "version": "0.3.5",
+      "versionCode": 305,
+      "description": "v0.3.5 fixes imported photos showing only transparency on affected Android graphics drivers. PhotoCraft touch editing includes Looks, colour/exposure, crop/rotate, brush masks, layers and undo. Native .pcraft projects work with Mac 0.1.3; legacy images keep their editor. Offline documents and spreadsheets; Maxima/Parlons sharing. Existing 16 MiB editable-file limit remains.",
       "category": "Tools",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimadocs.png",
-      "file": "https://github.com/eurobuddha/minimaDocs/releases/download/v0.3.4/minimaDocs-0.3.4.apk",
-      "sha256": "dbe4f6b539e314bf52bd2bf7d52981c946b9d905935abb30cd343ea879dfb0b5",
+      "file": "https://github.com/eurobuddha/minimaDocs/releases/download/v0.3.5/minimaDocs-0.3.5.apk",
+      "sha256": "0fc7dc3268cf276acac6b79e6eef3ceb1555cb607a89eb77a66052de95578a04",
       "repo": "https://github.com/eurobuddha/minimaDocs"
     },
     {
