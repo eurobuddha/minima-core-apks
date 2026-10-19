@@ -688,13 +688,13 @@
       "source": "PandaApps",
       "packageId": "com.eurobuddha.pandamonium",
       "highlight": "fully loaded",
-      "version": "1.9.41-Pandamonium",
-      "versionCode": 112,
-      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v1.9.41-Pandamonium/minima-core-Pandamonium-1.9.41.apk",
-      "sha256": "39321e36a123f7952e98be0496e3395d1badc3a8b18c3d1628ecde8e5940ea60",
+      "version": "2.0.0-Pandamonium",
+      "versionCode": 195,
+      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v2.0.0-Pandamonium/minima-core-Pandamonium-2.0.0.apk",
+      "sha256": "a21659bc8133dcd21f45538c8ccb632355229b123d7369ab381978a1066792b4",
       "repo": "https://github.com/eurobuddha/minima-core-android",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "description": "v1.9.11: app icons beside sidebar titles, following the saved order when reordered. Minima Core \u2014 Pandamonium build. Integrated companion apps, including Minima Mail and Minima Vestr. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. v1.9.10: owned-versus-tracked coin handling, with ownership filtering applied before result limits. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
+      "description": "Pandamonium 2.0.0: manual English, Chinese, Russian and Ukrainian selection across the core and integrated apps. Includes Keets chat, AtomiX, ETH Wallet, minimaWallet, UTXO/NFT wallets, Future Cash Next, MiniMall, Atelier, Salon and Minima Faucet. Repairs include shared durable Ethereum submissions, transaction recovery, order-backing validation and Terminal IDE responsiveness. Signed with the existing Minima Family key and checked on the Fold; see release notes for verified scope and remaining review work. Compact header, History tab and persistent long-press sidebar ordering. Blocks-as-keyuses and low RAM are enabled by default; the classic-mode setting removes those defaults. Standalone companion apps remain supported through their normal permissions. Use the matching eurobuddha companion updates. Migration from older Core package IDs requires backing up and restoring the node; shut down the old Core before starting this build. Run one Core at a time."
     }
   ]
 }
