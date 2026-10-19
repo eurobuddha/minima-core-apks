@@ -135,19 +135,6 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-casino"
     },
     {
-      "name": "Openly",
-      "packageId": "com.eurobuddha.openly",
-      "version": "0.2.10",
-      "versionCode": 210,
-      "description": "v0.2.10: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. v0.2.7: STABILITY \u2014 fixes the frequent \u201cOpenly keeps stopping\u201d crashes. Two causes: (1) the background keep-alive service hit Android 14/15's daily foreground-service time limit and then crash-looped hourly \u2014 it's replaced with a periodic background job that can't hit that limit; (2) on a busy board the app read too much at once and blew Android's IPC size cap \u2014 that read is now bounded and runs once per block. Plus broad crash-hardening across the app. Peer-to-peer proposition betting \u2014 wager TRUE/FALSE on anything, in Minima OR mxUSDT. Post your odds, counter to negotiate, accept to match. Agree the outcome and it self-settles in one tap at 0% fee; if you don't, name an arbiter (10%) \u2014 with a one-tap trusted \u201ceurobuddha\u201d default. Updating from v0.2.3 or earlier? Uninstall first \u2014 those used a different signing key; v0.2.4+ update in place. EXPERIMENTAL and it moves real funds \u2014 test small.",
-      "category": "Games",
-      "source": "PandaApps",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/openly.png",
-      "file": "https://github.com/eurobuddha/openly/releases/download/v0.2.10/Openly-0.2.10.apk",
-      "sha256": "d9e10addd6829694ed6b08d4304cb32af7121ea2e118d5b240ba080c3c5788e2",
-      "repo": "https://github.com/eurobuddha/openly"
-    },
-    {
       "name": "Minima UTXO Wallet",
       "packageId": "com.eurobuddha.utxo",
       "version": "0.4.33",
