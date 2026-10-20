@@ -1,5 +1,7 @@
 # Changelog
 
+- 2026-10-20 · ETH Wallet 0.2.11 and AtomiX 0.1.82 — standalone fixes for durable Ethereum submissions, strict RPC/key/nonce validation and reviewed account context. ETH Wallet preserves imported keys on storage failure. AtomiX adds maker-funding checks, market/OTC validation, guarded publication and recovery acknowledgement. Existing family-signed APKs; 71 ETH Wallet and 552 AtomiX tests passed in each debug/release suite.
+
 - 2026-10-20 · Pandamonium 2.0.27 — Salon Keets phone hosting (24 MiB), publication feedback and repeat-submit protection, pinch zoom and gallery scrolling; Atelier duplicate-mint recovery, clearer burial confirmation and 3–5 minute-per-item minting guidance. Publishes the existing signed code222 build; includes all 2.0.22–2.0.27 changes. Full review and standalone parity remain in progress.
 
 - 2026-10-15 · catalog — Official **Minima Core** mirror 1.7 -> **1.7.2** (upstream Minima Global-signed build, versionCode 34), synced automatically from spartacusrex-minima/minima-core-android/dist/minima-1.7.2.apk at 0e78619120eac3d6dc86cf203f6d26d2fc01c0f4. Same signing cert (SHA-256 b5d07fce1b381237aa3075941cceab7359c377ca0fe50a7d14dff47b321368b4); APK sha256 bb731ccd9164c543c02013cbdbb1c56bb2c8a153fe6a06445a20fdbe87fd2806. Catalog-only.
