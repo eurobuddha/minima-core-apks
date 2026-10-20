@@ -672,14 +672,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.87",
-      "versionCode": 287,
-      "description": "v0.2.87: Choose English, 简体中文 or Русский during setup or in Settings. Updated language resources. Chat, calls, wallet, node controls and help follow your saved choice. Hosted torrent fixes require the updated Cloud/Node host.",
+      "version": "0.2.88",
+      "versionCode": 288,
+      "description": "v0.2.88: Fixes outgoing text appearing as a temporary incoming message. Your own sends keep their direction and delivery state without incoming notifications. Repeated identical sends stay separate, and history refreshes preserve newly confirmed messages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.87/parlons-cloud-portal-0.2.87-release.apk",
-      "sha256": "289194b3f883d25fcdd238f12d52e9b5d9c9ae407ce2823d132fc44526732903",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.88/parlons-cloud-portal-0.2.88-release.apk",
+      "sha256": "500f5ad96b26002a5217f4943da886c9d701070c04e5e523e8ee8595420b9e04",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
