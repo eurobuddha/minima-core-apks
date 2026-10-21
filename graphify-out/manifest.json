@@ -1,7 +1,7 @@
 {
   "check.py": {
-    "mtime": 1788794895.0073764,
-    "ast_hash": "b07b531b31ccca8b987c37ef314f689d",
+    "mtime": 1791383058.5730627,
+    "ast_hash": "290cb5825f9c18f0b672ea0ac7b246cd",
     "semantic_hash": ""
   },
   "hooks/pre-push": {
@@ -10,18 +10,18 @@
     "semantic_hash": ""
   },
   "scripts/publish-app.py": {
-    "mtime": 1789420633.8985264,
-    "ast_hash": "954249a713c75d5a2e05ba20e72dd310",
+    "mtime": 1791376612.296846,
+    "ast_hash": "42fb39a0ca4a2928b5422c31352068d2",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1790691721.8818119,
-    "ast_hash": "4585d63101bac4429dbd1b1144c58bc5",
+    "mtime": 1792537785.8832407,
+    "ast_hash": "7005a98664f83b4e52c2ef01134094d8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1787729865.6347187,
-    "ast_hash": "996e009571940e458b011e22efbc3faf",
+    "mtime": 1791383058.5736485,
+    "ast_hash": "3beee5bce356aa4a767726b351a4c7fc",
     "semantic_hash": ""
   },
   "COMPATIBILITY.md": {
@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787729814.8554106,
-    "ast_hash": "046e2ad2b3b19bd25f8c17bb0925d05f",
+    "mtime": 1791791861.0454857,
+    "ast_hash": "27b044619a57d5dfbd9a7f3ef9a4a19c",
     "semantic_hash": ""
   },
   "icons/atelier.png": {
@@ -229,11 +229,6 @@
     "ast_hash": "a0766357ef4fff5e6a0aa4a25675d479",
     "semantic_hash": ""
   },
-  "icons/openly.png": {
-    "mtime": 1786457071.8970792,
-    "ast_hash": "45a902454fdf0cefc1c9c62550748ced",
-    "semantic_hash": ""
-  },
   "icons/pandaapps.png": {
     "mtime": 1782580332.1769376,
     "ast_hash": "d1fc05abab4a48af5675146056633ee0",
@@ -305,13 +300,58 @@
     "semantic_hash": ""
   },
   "scripts/sync-upstream-core.py": {
-    "mtime": 1788700930.0219278,
-    "ast_hash": "527c8b4655d3470be6d723935766018a",
+    "mtime": 1791282529.873179,
+    "ast_hash": "4c8222865c067f3fb499eab78ed3f441",
     "semantic_hash": ""
   },
   ".github/workflows/sync-upstream-core.yml": {
-    "mtime": 1788701161.158574,
-    "ast_hash": "474552f66033e39dae332cea35805d76",
+    "mtime": 1791282529.8722801,
+    "ast_hash": "35af86360d2ea26d43cad53a09626216",
+    "semantic_hash": ""
+  },
+  "tests/test_catalog_identity.py": {
+    "mtime": 1791383058.573399,
+    "ast_hash": "36c73e38b70f3f58f9668562a88cfc30",
+    "semantic_hash": ""
+  },
+  "tests/test_sync_upstream_core.py": {
+    "mtime": 1791376612.2973206,
+    "ast_hash": "3f2cb20e5456ec5d42ad9b182e21ba40",
+    "semantic_hash": ""
+  },
+  "RELEASE_PUBLICATION_2026-10-20.txt": {
+    "mtime": 1792512510.870121,
+    "ast_hash": "108388aca0f0d505a10201dbfca639d4",
+    "semantic_hash": ""
+  },
+  "icons/minimadocs.png": {
+    "mtime": 1791280181.6292439,
+    "ast_hash": "9fb5a63c7cb9c9d9e3aab97b5eb688f3",
+    "semantic_hash": ""
+  },
+  "icons/release-limit.png": {
+    "mtime": 1782757490.5075483,
+    "ast_hash": "3d2c6da145ce7fb9e43fc8a233d3c72d",
+    "semantic_hash": ""
+  },
+  "icons/release-merchnftstudio.png": {
+    "mtime": 1782571892.0,
+    "ast_hash": "2557ed329bac345981b1b0fb4ff4667d",
+    "semantic_hash": ""
+  },
+  "icons/release-minimaswap.png": {
+    "mtime": 1783289396.9092767,
+    "ast_hash": "a16e800955b4a17d09071808c4afcb67",
+    "semantic_hash": ""
+  },
+  "icons/release-pocketweb.png": {
+    "mtime": 1787078682.5048125,
+    "ast_hash": "171bc4320ad34791f91054d5b2835cb7",
+    "semantic_hash": ""
+  },
+  "icons/release-usdtswap.png": {
+    "mtime": 1783289396.0,
+    "ast_hash": "a16e800955b4a17d09071808c4afcb67",
     "semantic_hash": ""
   }
 }
