@@ -672,14 +672,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.89",
-      "versionCode": 289,
+      "version": "0.2.90",
+      "versionCode": 290,
       "description": "v0.2.88: Fixes outgoing text appearing as a temporary incoming message. Your own sends keep their direction and delivery state without incoming notifications. Repeated identical sends stay separate, and history refreshes preserve newly confirmed messages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.89/parlons-cloud-portal-0.2.89-release.apk",
-      "sha256": "519100b9586eee3506caf2024e96f520b7bd21cc7484cc9dcb400e4c0b204926",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.90/parlons-cloud-portal-0.2.90-release.apk",
+      "sha256": "4c8cf190522a2ec809c0466cc5c3a527d049057830ca9c2da6aacba90544fca9",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
