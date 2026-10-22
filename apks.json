@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.144",
-      "versionCode": 744,
+      "version": "0.6.145",
+      "versionCode": 745,
       "description": "v0.6.143: Choose English, 简体中文 or Русский during setup or in Settings. Fixes torrent verification-queue stalls and ensures shutdown closes all transfers after an individual stop failure. One signed APK includes all three languages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.144/parlons-0.6.144.apk",
-      "sha256": "de6df0c514c45d2fbc2b9be3bcee9e7bc941bd90089738b32ccd78595cc02d36",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.145/parlons-0.6.145.apk",
+      "sha256": "48161c0b7a03f615dd29e4480268b8c7175667f9e51db7a9b52b8fa31392cda9",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -672,14 +672,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.88",
-      "versionCode": 288,
+      "version": "0.2.89",
+      "versionCode": 289,
       "description": "v0.2.88: Fixes outgoing text appearing as a temporary incoming message. Your own sends keep their direction and delivery state without incoming notifications. Repeated identical sends stay separate, and history refreshes preserve newly confirmed messages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.88/parlons-cloud-portal-0.2.88-release.apk",
-      "sha256": "500f5ad96b26002a5217f4943da886c9d701070c04e5e523e8ee8595420b9e04",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.89/parlons-cloud-portal-0.2.89-release.apk",
+      "sha256": "519100b9586eee3506caf2024e96f520b7bd21cc7484cc9dcb400e4c0b204926",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
