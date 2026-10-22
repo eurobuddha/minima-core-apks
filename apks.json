@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.143",
-      "versionCode": 743,
+      "version": "0.6.144",
+      "versionCode": 744,
       "description": "v0.6.143: Choose English, 简体中文 or Русский during setup or in Settings. Fixes torrent verification-queue stalls and ensures shutdown closes all transfers after an individual stop failure. One signed APK includes all three languages.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.143/parlons-0.6.143.apk",
-      "sha256": "57fcd09b2205661c354b2a0ee9943d7a9adb56138d3752a23b553307bcc3654e",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.144/parlons-0.6.144.apk",
+      "sha256": "de6df0c514c45d2fbc2b9be3bcee9e7bc941bd90089738b32ccd78595cc02d36",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
