@@ -670,6 +670,58 @@
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
+      "name": "Parlons Node (Linux server)",
+      "packageId": "com.eurobuddha.parlons.node.linux",
+      "version": "0.2.138",
+      "versionCode": 338,
+      "description": "Your always-on Parlons account, a Parlons relay and a full Minima node in one program, for a Linux server or a 64-bit Raspberry Pi. Phones pair to it with Parlons Cloud and get the same chats everywhere. Install with one command on the machine: curl -fsSL https://raw.githubusercontent.com/eurobuddha/maxima/main/ops/get-parlons-node.sh | bash — it checks the download, starts the node at boot, asks for an admin password and shows the QR code your phone scans. Step by step: https://parlons.info/guide/index.html",
+      "category": "Desktop",
+      "source": "Linux",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/node-v0.2.138/parlons-node-0.2.138.jar",
+      "sha256": "597a77225514b8ceddf1036a6016abc6d4b826e7711210c7f55de01857c9b4af",
+      "repo": "https://github.com/eurobuddha/maxima"
+    },
+    {
+      "name": "Parlons Cloud account (Mac)",
+      "packageId": "com.eurobuddha.parlons.cloudhost.mac",
+      "version": "0.11.123",
+      "versionCode": 1223,
+      "description": "Your always-on Parlons account and a Parlons relay, without the blockchain: runs in 1 GB of RAM. Phones pair to it with Parlons Cloud and get the same chats everywhere. Install with one command: curl -fsSL https://raw.githubusercontent.com/eurobuddha/maxima/main/ops/get-parlons-cloud.sh | bash — it checks the download, starts at login and shows the QR code your phone scans. Relays for others on port 9501 unless installed with --no-relay. https://parlons.info/guide/index.html",
+      "category": "Desktop",
+      "source": "Mac",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/cloud-v0.11.123/parlons-cloud-0.11.123.jar",
+      "sha256": "536964bf218769f5e70ff6062a7c43eda2a9a7be5f796cfc2c0a2cabe56b90b5",
+      "repo": "https://github.com/eurobuddha/maxima"
+    },
+    {
+      "name": "Parlons Cloud account (Windows)",
+      "packageId": "com.eurobuddha.parlons.cloudhost.win",
+      "version": "0.11.123",
+      "versionCode": 1223,
+      "description": "Your always-on Parlons account and a Parlons relay, without the blockchain: runs in 1 GB of RAM. Phones pair to it with Parlons Cloud and get the same chats everywhere. Install with one command: irm https://raw.githubusercontent.com/eurobuddha/maxima/main/ops/get-parlons-cloud.ps1 | iex — it checks the download, starts at login and shows the QR code your phone scans. Relays for others on port 9501 unless installed with --no-relay. https://parlons.info/guide/index.html",
+      "category": "Desktop",
+      "source": "Windows",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/cloud-v0.11.123/parlons-cloud-0.11.123.jar",
+      "sha256": "536964bf218769f5e70ff6062a7c43eda2a9a7be5f796cfc2c0a2cabe56b90b5",
+      "repo": "https://github.com/eurobuddha/maxima"
+    },
+    {
+      "name": "Parlons Cloud account (Linux)",
+      "packageId": "com.eurobuddha.parlons.cloudhost.linux",
+      "version": "0.11.123",
+      "versionCode": 1223,
+      "description": "Your always-on Parlons account and a Parlons relay, without the blockchain: runs in 1 GB of RAM. Phones pair to it with Parlons Cloud and get the same chats everywhere. Install with one command: curl -fsSL https://raw.githubusercontent.com/eurobuddha/maxima/main/ops/get-parlons-cloud.sh | bash — it checks the download, starts at login and shows the QR code your phone scans. Relays for others on port 9501 unless installed with --no-relay. https://parlons.info/guide/index.html",
+      "category": "Desktop",
+      "source": "Linux",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/cloud-v0.11.123/parlons-cloud-0.11.123.jar",
+      "sha256": "536964bf218769f5e70ff6062a7c43eda2a9a7be5f796cfc2c0a2cabe56b90b5",
+      "repo": "https://github.com/eurobuddha/maxima"
+    },
+    {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
       "version": "0.2.90",
