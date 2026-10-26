@@ -518,13 +518,26 @@
       "packageId": "com.eurobuddha.pandadex",
       "version": "0.4.24",
       "versionCode": 424,
-      "description": "v0.4.24: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.4.23: Improves connection and block status layout, accessible controls, and scrollable navigation tabs.",
+      "description": "DEPRECATED — superseded by Dexicon. Kept listed so existing order holders can cancel and withdraw; new trading belongs in Dexicon. v0.4.24: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.4.23: Improves connection and block status layout, accessible controls, and scrollable navigation tabs.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",
       "file": "https://github.com/eurobuddha/minima-core-android-pandadex/releases/download/v0.4.24/pandadex-0.4.24.apk",
       "sha256": "720db449926c466e6ffce635aade8c9cfdf5c660e6162abb6c0a02e5196aac59",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandadex"
+    },
+    {
+      "name": "Dexicon",
+      "packageId": "com.eurobuddha.dexicon",
+      "version": "0.1.35",
+      "versionCode": 135,
+      "description": "Decentralised MINIMA/MxUSD exchange that supersedes PandaDEX. Your node is your account: signed orders travel over a fleet of Parlons relays and every trade settles on-chain from your own wallet, no custodian. One-click takes, a market-making ladder that can track MEXC, and AtomiX entry/exit for Ethereum USDT holders. Wide two-column layout on folding phones and tablets. EXPERIMENTAL and it moves real funds — test small.",
+      "category": "Finance",
+      "source": "PandaApps",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/dexicon.png",
+      "file": "https://github.com/eurobuddha/minima-core-android-dexicon/releases/download/v0.1.35/dexicon-0.1.35.apk",
+      "sha256": "1285dff5727fe5eff4e6dd381bc97e7aee006dcc398228ab5c90acca8e61461d",
+      "repo": "https://github.com/eurobuddha/minima-core-android-dexicon"
     },
     {
       "name": "KeyUses",
