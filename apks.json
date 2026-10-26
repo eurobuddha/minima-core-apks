@@ -228,14 +228,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.83",
-      "versionCode": 183,
-      "description": "v0.1.82: validates maker funding and market/OTC input, retains signed Ethereum transactions across restarts and uncertain replies, protects reviewed send context, and improves OTC/responder recovery and interrupted-write acknowledgement. Includes 0.1.73–0.1.82 fixes. v0.1.72: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. 0.1.71: supports PandaBear and BlackBear through a node-pinning SDK; refuses ambiguous two-node discovery. Fixes contract timestamp decoding on Android 9–11 while retaining exact overflow checks. Complete active swaps before changing wallet modes, then establish a valid destination-wallet identity. The same seed creates different addresses across modes. Native atomic swaps between Minima assets and Ethereum USDT. 0.1.70 locks in exact price arithmetic on the maker's accept checks: a swap offered at exactly your published price is now provably accepted (its MiniDapp and Desktop siblings silently ignored such swaps due to a rounding quirk, leaving the other side to wait out a refund — this app was unaffected and now carries the test that keeps it that way).",
+      "version": "0.1.84",
+      "versionCode": 184,
+      "description": "v0.1.84: makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every buy a maker does not lock is recorded and its reason sent sealed to the taker, and each swap card shows the maker's notice, the respond-by time, when the refund opens (automatic, app open or not), the full refund tx and a Refund now button. v0.1.82: validates maker funding and market/OTC input, retains signed Ethereum transactions across restarts and uncertain replies, protects reviewed send context, and improves OTC/responder recovery and interrupted-write acknowledgement. Includes 0.1.73–0.1.82 fixes. v0.1.72: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. 0.1.71: supports PandaBear and BlackBear through a node-pinning SDK; refuses ambiguous two-node discovery. Fixes contract timestamp decoding on Android 9–11 while retaining exact overflow checks. Complete active swaps before changing wallet modes, then establish a valid destination-wallet identity. The same seed creates different addresses across modes. Native atomic swaps between Minima assets and Ethereum USDT. 0.1.70 locks in exact price arithmetic on the maker's accept checks: a swap offered at exactly your published price is now provably accepted (its MiniDapp and Desktop siblings silently ignored such swaps due to a rounding quirk, leaving the other side to wait out a refund — this app was unaffected and now carries the test that keeps it that way).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.83/AtomiX-0.1.83.apk",
-      "sha256": "d7aae436cb899de111e15369be965df8bc3f2e99d1ff75ab1f4be3f28a13b292",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.84/AtomiX-0.1.84.apk",
+      "sha256": "7c98b850bbbe64f94a47b54ae2de96a721b4a2336e2201afb553fab9a741e3b4",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
@@ -740,13 +740,13 @@
       "source": "PandaApps",
       "packageId": "com.eurobuddha.pandamonium",
       "highlight": "fully loaded",
-      "version": "2.0.57-Pandamonium",
-      "versionCode": 253,
-      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v2.0.57-Pandamonium/minima-core-Pandamonium-2.0.57.apk",
-      "sha256": "409b250b1723ed14d4c9d9c172e35505de498acbd44ace36152e65b0f68a66a6",
+      "version": "2.0.58-Pandamonium",
+      "versionCode": 254,
+      "file": "https://github.com/eurobuddha/minima-core-android/releases/download/v2.0.58-Pandamonium/minima-core-Pandamonium-2.0.58.apk",
+      "sha256": "8baf430d068f77a9d4537612edc6e3efc87d811e31ab5de855a1a83dd1866ad9",
       "repo": "https://github.com/eurobuddha/minima-core-android",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-ui.png",
-      "description": "v2.0.57-Pandamonium: Encrypted file sharing up to 100 MB between KeetChat and Parlons Keets-address contacts, with explicit download, pause/resume and verified saving. Update both endpoints and keep their Keets nodes online. File bytes use peer Hyperdrive replication, not fleet mailboxes."
+      "description": "v2.0.58-Pandamonium: built-in AtomiX takes 0.1.84 — makers auto-merge/split their coins, declined buys are explained to the taker, and swap cards show deadlines, the maker's reason and a Refund now button. v2.0.57-Pandamonium: Encrypted file sharing up to 100 MB between KeetChat and Parlons Keets-address contacts, with explicit download, pause/resume and verified saving. Update both endpoints and keep their Keets nodes online. File bytes use peer Hyperdrive replication, not fleet mailboxes."
     }
   ]
 }
