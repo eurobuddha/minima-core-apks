@@ -98,14 +98,14 @@
     {
       "name": "Parlons!",
       "packageId": "com.eurobuddha.maxima.app",
-      "version": "0.6.149",
-      "versionCode": 749,
+      "version": "0.6.150",
+      "versionCode": 750,
       "description": "v0.6.148: Encrypted file sharing up to 100 MB between KeetChat and Parlons Keets-address contacts, with explicit download, pause/resume and verified saving. Update both endpoints and keep their Keets nodes online. File bytes use peer Hyperdrive replication, not fleet mailboxes. Enable the existing ADMIN permission for Parlons in your linked node Apps tab.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.149/parlons-0.6.149.apk",
-      "sha256": "7ca3209863699039204a61d523e0129193333750b5d3e62d42c85863e365a080",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/v0.6.150/parlons-0.6.150.apk",
+      "sha256": "93118f8125a53734bfe21659e7fbf8f679c3d52b0728be02c57847e981621a9e",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
@@ -737,14 +737,14 @@
     {
       "name": "Parlons Cloud Portal",
       "packageId": "com.eurobuddha.parlons.cloud",
-      "version": "0.2.94",
-      "versionCode": 294,
+      "version": "0.2.95",
+      "versionCode": 295,
       "description": "v0.2.93: Encrypted file sharing up to 100 MB between KeetChat and Parlons Keets-address contacts, with explicit download, pause/resume and verified saving. Update both endpoints and keep their Keets nodes online. File bytes use peer Hyperdrive replication, not fleet mailboxes.",
       "category": "Social",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/parlons.png",
-      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.94/parlons-cloud-portal-0.2.94-release.apk",
-      "sha256": "efad353d4bafd90a3144631721c5b9ebf7c3c921e81c5a4d02a6c3f916ee4e45",
+      "file": "https://github.com/eurobuddha/maxima/releases/download/portal-v0.2.95/parlons-cloud-portal-0.2.95-release.apk",
+      "sha256": "b736e89f11d26ca6af4139e05517c954dceaaa213f0fcb66b18d608a43f72c4e",
       "repo": "https://github.com/eurobuddha/maxima"
     },
     {
