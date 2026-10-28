@@ -529,14 +529,14 @@
     {
       "name": "Dexicon",
       "packageId": "com.eurobuddha.dexicon",
-      "version": "0.1.35",
-      "versionCode": 135,
+      "version": "0.1.36",
+      "versionCode": 136,
       "description": "Decentralised MINIMA/MxUSD exchange that supersedes PandaDEX. Your node is your account: signed orders travel over a fleet of Parlons relays and every trade settles on-chain from your own wallet, no custodian. One-click takes, a market-making ladder that can track MEXC, and AtomiX entry/exit for Ethereum USDT holders. Wide two-column layout on folding phones and tablets. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/dexicon.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-dexicon/releases/download/v0.1.35/dexicon-0.1.35.apk",
-      "sha256": "1285dff5727fe5eff4e6dd381bc97e7aee006dcc398228ab5c90acca8e61461d",
+      "file": "https://github.com/eurobuddha/minima-core-android-dexicon/releases/download/v0.1.36/dexicon-0.1.36.apk",
+      "sha256": "6e0673e5aaac5476eb7d987f0a17fc734a9c41b8963bf73acb1461f993fac592",
       "repo": "https://github.com/eurobuddha/minima-core-android-dexicon"
     },
     {
