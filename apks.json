@@ -462,19 +462,6 @@
       "highlight": "New key mode"
     },
     {
-      "name": "Minima Core",
-      "packageId": "org.minima.core",
-      "version": "1.7.2",
-      "versionCode": 34,
-      "description": "Official Minima Core, mirrored unchanged from upstream and automatically updated after verification. Package org.minima.core installs separately from older org.minimarex.minimacore builds. Uses block-as-key-uses with larger keys: the same seed produces different addresses from classic wallets; installing or restoring here does not automatically move old funds. Back up the original wallet and complete active swaps/pool positions before moving funds. Companion apps must support this new official package.",
-      "category": "Core",
-      "source": "Official",
-      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minima.png",
-      "file": "https://github.com/eurobuddha/minima-core-apks/releases/download/mirrors/minima-1.7.2.apk",
-      "sha256": "bb731ccd9164c543c02013cbdbb1c56bb2c8a153fe6a06445a20fdbe87fd2806",
-      "repo": "https://github.com/spartacusrex-minima/minima-core-android"
-    },
-    {
       "name": "Minima Terminal",
       "packageId": "com.eurobuddha.terminal",
       "version": "1.3.5",
@@ -514,11 +501,11 @@
       "repo": "https://github.com/eurobuddha/minima-core-android-pandapools"
     },
     {
-      "name": "PandaDEX",
+      "name": "PandaDEX (deprecated)",
       "packageId": "com.eurobuddha.pandadex",
       "version": "0.4.26",
       "versionCode": 426,
-      "description": "v0.4.26: A transaction the node refused no longer keeps its coins locked forever. DEPRECATED — superseded by Dexicon. Kept listed so existing order holders can cancel and withdraw; new trading belongs in Dexicon. v0.4.24: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.4.23: Improves connection and block status layout, accessible controls, and scrollable navigation tabs. v0.4.25: Maintenance update: persists submitted input claims across restart and checks exact unspent inputs including the mempool before signing. Uncertain posts cannot be retried automatically. PandaDEX remains deprecated in favour of Dexicon; retained for existing order holders.",
+      "description": "DEPRECATED, still listed: superseded by Dexicon. Kept only so existing order holders can cancel and withdraw; new trading belongs in Dexicon. v0.4.26: A transaction the node refused no longer keeps its coins locked forever. v0.4.24: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.4.23: Improves connection and block status layout, accessible controls, and scrollable navigation tabs. v0.4.25: Maintenance update: persists submitted input claims across restart and checks exact unspent inputs including the mempool before signing. Uncertain posts cannot be retried automatically. PandaDEX remains deprecated in favour of Dexicon; retained for existing order holders.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandadex.png",

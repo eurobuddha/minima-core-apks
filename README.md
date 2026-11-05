@@ -34,6 +34,12 @@ miniMall NFT Studio (`com.eurobuddha.merchnftstudio`) is also deprecated and
 excluded from the active catalogue by the owner’s instruction on 2026-10-12.
 Do not relist it without explicit owner authorization.
 
+Official Minima Core (`org.minima.core`, the upstream build mirrored from spartacusrex-minima) is
+removed from the catalogue by the owner's instruction on 2026-11-05: people installed it instead of the
+bears and hit incompatibilities until upstream incorporates the family's changes. The hourly
+`sync-upstream-core` workflow is disabled for the same reason. Do not relist it or re-enable the
+workflow without explicit owner authorization.
+
 ## Publishing a new app version
 
 ```bash
