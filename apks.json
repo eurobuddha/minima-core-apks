@@ -371,14 +371,14 @@
     {
       "name": "minimaCore Desktop (Windows)",
       "packageId": "com.eurobuddha.minimacore.win",
-      "version": "0.18.36",
-      "versionCode": 1836,
+      "version": "0.18.37",
+      "versionCode": 1837,
       "description": "v0.18.37: AtomiX: a swap whose own Ethereum lock never landed (reverted or dropped) is cleared an hour after its timelock instead of showing as in flight forever. v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account.",
       "category": "Desktop",
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.36/minimaCore-0.18.36-x64.exe",
-      "sha256": "b35d3976bd4863b232cad4cb371bc48946e17a3f8f875e15e8d7cd5940644ef2",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.37/minimaCore-0.18.37-x64.exe",
+      "sha256": "41e9a8a56c751890d87006d15ca007f8ab81c65b0610744ffa1418dc3de5425b",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
