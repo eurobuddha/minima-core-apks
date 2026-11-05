@@ -358,14 +358,14 @@
     {
       "name": "minimaCore Desktop (Mac)",
       "packageId": "com.eurobuddha.minimacore.mac",
-      "version": "0.18.36",
-      "versionCode": 1836,
-      "description": "v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account. Signed and notarized for Apple silicon Macs.",
+      "version": "0.18.37",
+      "versionCode": 1837,
+      "description": "v0.18.37: AtomiX: a swap whose own Ethereum lock never landed (reverted or dropped) is cleared an hour after its timelock instead of showing as in flight forever. v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account. Signed and notarized for Apple silicon Macs.",
       "category": "Desktop",
       "source": "Mac",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.36/minimaCore-0.18.36-arm64-notarized.dmg",
-      "sha256": "34b4fb918e6711db666e9d2bcf4d32de163e4e416e356ded3fdf681d7b47bc19",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.37/minimaCore-0.18.37-arm64-notarized.dmg",
+      "sha256": "8b4db4eaa5d23df01e21bf82d431961f7866ebef9cb8bf1fbb375d4444c8710d",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
@@ -373,7 +373,7 @@
       "packageId": "com.eurobuddha.minimacore.win",
       "version": "0.18.36",
       "versionCode": 1836,
-      "description": "v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account.",
+      "description": "v0.18.37: AtomiX: a swap whose own Ethereum lock never landed (reverted or dropped) is cleared an hour after its timelock instead of showing as in flight forever. v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account.",
       "category": "Desktop",
       "source": "Windows",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
@@ -384,14 +384,14 @@
     {
       "name": "minimaCore Desktop (Linux)",
       "packageId": "com.eurobuddha.minimacore.linux",
-      "version": "0.18.36",
-      "versionCode": 1836,
-      "description": "v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account.",
+      "version": "0.18.37",
+      "versionCode": 1837,
+      "description": "v0.18.37: AtomiX: a swap whose own Ethereum lock never landed (reverted or dropped) is cleared an hour after its timelock instead of showing as in flight forever. v0.18.36: AtomiX: a claim or refund now pays a plain wallet coin, so swapped MxUSD can fund a pool straight away. v0.18.35: Chat backup: back up and restore the keets chat address with every contact and message (the same .kbak file as the bears 2.2.10, both ways). v0.18.34: PandaPools: a transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.18.32: Encrypted combined PandaPools/node backups, verified export after create/migrate, and durable reserve claims. v0.18.25: AtomiX makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every declined buy is explained to the taker, and each swap shows its deadlines, the maker's reason and a Refund now button. v0.18.24: Bundles Parlons Node 0.2.140 with encrypted Keets file transport. Bundles Parlons Node 0.2.140 with encrypted private file transfers up to 100 MB, direct Cloud-device uploads and separate hosted accounts for friends. Run a full Minima node, wallet, MiniDapps and Parlons on your computer. Keep the host online and make its Parlons listening port reachable to use it as your Cloud account.",
       "category": "Desktop",
       "source": "Linux",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/minimacore-desktop.png",
-      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.36/minimaCore-0.18.36-x64.AppImage",
-      "sha256": "97acff1fc1144d6d0d4e0b166abac45b4b70f77b45063c447ac72851f649ed55",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/v0.18.37/minimaCore-0.18.37-x64.AppImage",
+      "sha256": "8412d5aa27498651815bb371dc04671d66a97eb38bb50e72ff67506651374f1c",
       "repo": "https://github.com/eurobuddha/minimacore-desktop"
     },
     {
