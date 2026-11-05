@@ -228,14 +228,14 @@
     {
       "name": "AtomiX",
       "packageId": "com.eurobuddha.atomix",
-      "version": "0.1.85",
-      "versionCode": 185,
-      "description": "v0.1.85: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.1.84: makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every buy a maker does not lock is recorded and its reason sent sealed to the taker, and each swap card shows the maker's notice, the respond-by time, when the refund opens (automatic, app open or not), the full refund tx and a Refund now button. v0.1.82: validates maker funding and market/OTC input, retains signed Ethereum transactions across restarts and uncertain replies, protects reviewed send context, and improves OTC/responder recovery and interrupted-write acknowledgement. Includes 0.1.73–0.1.82 fixes. v0.1.72: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. 0.1.71: supports PandaBear and BlackBear through a node-pinning SDK; refuses ambiguous two-node discovery. Fixes contract timestamp decoding on Android 9–11 while retaining exact overflow checks. Complete active swaps before changing wallet modes, then establish a valid destination-wallet identity. The same seed creates different addresses across modes. Native atomic swaps between Minima assets and Ethereum USDT. 0.1.70 locks in exact price arithmetic on the maker's accept checks: a swap offered at exactly your published price is now provably accepted (its MiniDapp and Desktop siblings silently ignored such swaps due to a rounding quirk, leaving the other side to wait out a refund — this app was unaffected and now carries the test that keeps it that way).",
+      "version": "0.1.97",
+      "versionCode": 197,
+      "description": "v0.1.97: Hand over to Dexicon: AtomiX checks nothing is in flight, withdraws its market and confirms before you move to Dexicon. A claim or refund now pays a plain wallet coin, so received MxUSD can fund a pool straight away. No key or address is ever shortened. v0.1.85: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.1.84: makers keep their own coins tradeable (auto merge above 30 coins, 120 for MINIMA; split a single coin into 10), every buy a maker does not lock is recorded and its reason sent sealed to the taker, and each swap card shows the maker's notice, the respond-by time, when the refund opens (automatic, app open or not), the full refund tx and a Refund now button. v0.1.82: validates maker funding and market/OTC input, retains signed Ethereum transactions across restarts and uncertain replies, protects reviewed send context, and improves OTC/responder recovery and interrupted-write acknowledgement. Includes 0.1.73–0.1.82 fixes. v0.1.72: compatible with Minima Core PandaBear, BlackBear and Pandamonium in the eurobuddha namespace. 0.1.71: supports PandaBear and BlackBear through a node-pinning SDK; refuses ambiguous two-node discovery. Fixes contract timestamp decoding on Android 9–11 while retaining exact overflow checks. Complete active swaps before changing wallet modes, then establish a valid destination-wallet identity. The same seed creates different addresses across modes. Native atomic swaps between Minima assets and Ethereum USDT. 0.1.70 locks in exact price arithmetic on the maker's accept checks: a swap offered at exactly your published price is now provably accepted (its MiniDapp and Desktop siblings silently ignored such swaps due to a rounding quirk, leaving the other side to wait out a refund — this app was unaffected and now carries the test that keeps it that way).",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/atomix.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.85/AtomiX-0.1.85.apk",
-      "sha256": "093fa1e565a8b54829af533ee8210e9d8f3c53a545600d823add73d53be55098",
+      "file": "https://github.com/eurobuddha/minima-core-android-atomix/releases/download/v0.1.97/AtomiX-0.1.97.apk",
+      "sha256": "68325c9284a6d0cb62ed1e4e2da9e092d6398c13cf4dbe2b264b11aa12792d92",
       "repo": "https://github.com/eurobuddha/minima-core-android-atomix"
     },
     {
@@ -490,14 +490,14 @@
     {
       "name": "PandaPools",
       "packageId": "com.eurobuddha.pandapools",
-      "version": "0.9.76",
-      "versionCode": 976,
-      "description": "v0.9.76: A pool transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.9.75: Brings standalone recovery into parity with Pandamonium: existing-wallet recovery, pinned archive proofs, bounded withdrawal and collection, and durable confirmation tracking. Keeps signing-state and uncertain-outcome guards. v0.9.74: Adds password-encrypted pool + native node backups with verified export after creation or migration. Persists reserve input claims before broadcast and checks exact unspent inputs before signing. Missing proof or signing-state evidence remains a recovery stop; node restore uses the native restore UI. v0.9.68: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.9.67: Improves control sizing and accessibility for style, scan, individual and combined actions.",
+      "version": "0.9.82",
+      "versionCode": 982,
+      "description": "v0.9.82: Hand over to Dexicon: PandaPools re-checks before OK, says exactly which pools Dexicon keeps, and gives Dexicon custody of your pools. v0.9.76: A pool transaction the node refused no longer keeps the pool reserve or your coins locked forever. v0.9.75: Brings standalone recovery into parity with Pandamonium: existing-wallet recovery, pinned archive proofs, bounded withdrawal and collection, and durable confirmation tracking. Keeps signing-state and uncertain-outcome guards. v0.9.74: Adds password-encrypted pool + native node backups with verified export after creation or migration. Persists reserve input claims before broadcast and checks exact unspent inputs before signing. Missing proof or signing-state evidence remains a recovery stop; node restore uses the native restore UI. v0.9.68: works with the official Minima Core (org.minima.core) as well as PandaBear, BlackBear and Pandamonium; on the official core, enable it once in its Apps screen. v0.9.67: Improves control sizing and accessibility for style, scan, individual and combined actions.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandapools-appicon.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-pandapools/releases/download/v0.9.76/pandapools-0.9.76.apk",
-      "sha256": "abe9de520b82b5e1060914cea71c4a049f3db6f414292d1e9337af2caf2ef1af",
+      "file": "https://github.com/eurobuddha/minima-core-android-pandapools/releases/download/v0.9.82/pandapools-0.9.82.apk",
+      "sha256": "85e5752ab44b4994a71d0ded5e273246ae14c823940ba667b60d92ef84590481",
       "repo": "https://github.com/eurobuddha/minima-core-android-pandapools"
     },
     {
@@ -516,14 +516,14 @@
     {
       "name": "Dexicon",
       "packageId": "com.eurobuddha.dexicon",
-      "version": "0.1.58",
-      "versionCode": 158,
-      "description": "v0.1.58: Auto-cross no longer freezes for good. A cross that never reached the network releases itself; a REVIEW button on the market maker checks a stuck cross's coins on your node and lets you release it. A transaction the node refused no longer locks its coins. Auto-cross re-checks before every signature. v0.1.57: Auto-cross now waits for settlement with a durable pending receipt, rechecks cancelled orders and maker settings before posting, and persists input claims across restart. Failed/unconfirmed activity shows quoted proceeds instead of asserting receipt. Unknown broadcast outcomes stay paused instead of retrying. Decentralised MINIMA/MxUSD exchange that supersedes PandaDEX. Your node is your account: signed orders travel over a fleet of Parlons relays and every trade settles on-chain from your own wallet, no custodian. One-click takes, a market-making ladder that can track MEXC, and AtomiX entry/exit for Ethereum USDT holders. Wide two-column layout on folding phones and tablets. EXPERIMENTAL and it moves real funds — test small.",
+      "version": "0.2.41",
+      "versionCode": 241,
+      "description": "v0.2.41: Dexicon is now the Minima trading portal. One app, three rooms: MxUSD (the full AtomiX: swap Ethereum USDT for MxUSD or MINIMA, market, OTC, ETH wallet), Pools (the full PandaPools: swap, pools, my LP, wallet, create and manage pools) and Exchange (the fast book). Standalone AtomiX 0.1.97 and PandaPools 0.9.82 hand over to it; one trading app per phone. v0.1.58: Auto-cross no longer freezes for good. A cross that never reached the network releases itself; a REVIEW button on the market maker checks a stuck cross's coins on your node and lets you release it. A transaction the node refused no longer locks its coins. Auto-cross re-checks before every signature. v0.1.57: Auto-cross now waits for settlement with a durable pending receipt, rechecks cancelled orders and maker settings before posting, and persists input claims across restart. Failed/unconfirmed activity shows quoted proceeds instead of asserting receipt. Unknown broadcast outcomes stay paused instead of retrying. Decentralised MINIMA/MxUSD exchange that supersedes PandaDEX. Your node is your account: signed orders travel over a fleet of Parlons relays and every trade settles on-chain from your own wallet, no custodian. One-click takes, a market-making ladder that can track MEXC, and AtomiX entry/exit for Ethereum USDT holders. Wide two-column layout on folding phones and tablets. EXPERIMENTAL and it moves real funds — test small.",
       "category": "Finance",
       "source": "PandaApps",
       "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/dexicon.png",
-      "file": "https://github.com/eurobuddha/minima-core-android-dexicon/releases/download/v0.1.58/dexicon-0.1.58.apk",
-      "sha256": "99bb6e7bac380a4f6d3ca6f8bd91f02b691afe69a41a90a8338a3b17f44036a2",
+      "file": "https://github.com/eurobuddha/minima-core-android-dexicon/releases/download/v0.2.41/dexicon-0.2.41.apk",
+      "sha256": "5993cd8105c7f1230e8225724dacf09e7511f2385078693cefcadd5efa1ee349",
       "repo": "https://github.com/eurobuddha/minima-core-android-dexicon"
     },
     {
