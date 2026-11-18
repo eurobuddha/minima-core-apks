@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-11-18 · **minimaCore Desktop 0.18.64** (Mac, Windows and Linux) — six-word Mail addresses, guided word entry, contact links and signed on-chain discovery interoperable with standalone Mail and Pandamonium. The Mac installer is Developer ID signed, notarized and stapled.
 - 2026-11-18 · **Minima Core Pandamonium 2.2.45** (code 315) — built-in Minima Mail 0.5.19 with six-word addresses, automatic node identity setup and optional signed address beacons.
 - 2026-11-18 · **Minima Mail 0.5.19** (code 519) — six public address words, contact links, automatic setup through the node and opt-in decentralized discovery. Signed with the Minima Family key.
 - 2026-11-17 · **minimaCore Desktop 0.18.59** (code 1859), Mac/Windows/Linux — PandaPools pool upkeep is automatic (engine pandapools-mds 0.6.44, parity with Dexicon 0.3.62 / PandaPools 0.10.20): own pools tracked trackall:true and re-asserted at every pairing; a saved pool whose reserves the node cannot see recovers itself silently (re-track → verify/import from the node, then the eurobuddha.com:9001 MegaMMR proof → keep-fresh recreates the reserves young); a restored block-mode owner key is confirmed from the chain tip; a reserve re-check never pauses a confirmed key; the automatic pass retries a busy restore. 0.18.58 was never released (its CI gate failed on a stale parity manifest).
