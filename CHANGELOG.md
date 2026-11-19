@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-11-19 · **minimaMail 0.5.24 and Pandamonium 2.2.49** — six-word recipient entry collapses before lookup. Both Android apps show readable senders and verified address beacon blocks. Family-signed updates.
 - 2026-11-18 · **minimaCore Desktop 0.18.64** (Mac, Windows and Linux) — six-word Mail addresses, guided word entry, contact links and signed on-chain discovery interoperable with standalone Mail and Pandamonium. The Mac installer is Developer ID signed, notarized and stapled.
 - 2026-11-18 · **Minima Core Pandamonium 2.2.45** (code 315) — built-in Minima Mail 0.5.19 with six-word addresses, automatic node identity setup and optional signed address beacons.
 - 2026-11-18 · **Minima Mail 0.5.19** (code 519) — six public address words, contact links, automatic setup through the node and opt-in decentralized discovery. Signed with the Minima Family key.
