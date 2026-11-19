@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-11-19 · **minimaMail 0.5.26 and Pandamonium 2.2.51** — open full threads ready to reply, copy saved contacts’ six-word addresses, and choose Minima or MxUSD when sending funds.
 - 2026-11-19 · **minimaMail 0.5.25 and Pandamonium 2.2.50** — long-press a sent or received message or a payment note to select and copy text. Both Android updates are signed with the Minima Family key.
 - 2026-11-19 · **minimaCore Desktop 0.18.68** (Mac, Windows and Linux) — compact six-word Mail recipients, pre-send lookup, readable senders and on-chain beacon confirmation.
 - 2026-11-19 · **minimaMail 0.5.24 and Pandamonium 2.2.49** — six-word recipient entry collapses before lookup. Both Android apps show readable senders and verified address beacon blocks. Family-signed updates.
