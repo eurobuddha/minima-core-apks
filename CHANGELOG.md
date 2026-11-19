@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-11-19 · **minimaMail 0.5.27 and Pandamonium 2.2.52** — Send funds shows exactly Minima and MxUSD with fixed names and spendable balances.
 - 2026-11-19 · **minimaCore Desktop 0.18.69** (Mac, Windows and Linux) — one-tap Mail conversations, six-word contact addresses, and MxUSD payments.
 - 2026-11-19 · **minimaMail 0.5.26 and Pandamonium 2.2.51** — open full threads ready to reply, copy saved contacts’ six-word addresses, and choose Minima or MxUSD when sending funds.
 - 2026-11-19 · **minimaMail 0.5.25 and Pandamonium 2.2.50** — long-press a sent or received message or a payment note to select and copy text. Both Android updates are signed with the Minima Family key.
