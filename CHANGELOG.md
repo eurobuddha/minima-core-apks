@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-11-20 · **Dexicon 0.3.63** (code 363) — the standalone app's header and tab bar clear the status and navigation bars: a screen swapped in after the window's first inset pass (the node gate replaced by the main screen) never received insets, so on a Galaxy S10+ (Android 12, 3-button navigation) the header sat under the status bar and the tab bar under the navigation bar. Host mode (Pandamonium) unchanged. Unit tests 1338/1338. Family-signed (cert SHA-256 eca1383c9d27683a281fbe6355356267877dc2dd14d963d7cc289ca0700e517f). APK SHA-256 7a4c26189010ade65d1b077b035da03f547c10352b38a66311cc2f963aa74755, source commit d0a5e418d097c4b7e44e7e9f9369e3cec9838b67.
 - 2026-11-19 · **minimaMail 0.5.27 and Pandamonium 2.2.52** — Send funds shows exactly Minima and MxUSD with fixed names and spendable balances.
 - 2026-11-19 · **minimaCore Desktop 0.18.69** (Mac, Windows and Linux) — one-tap Mail conversations, six-word contact addresses, and MxUSD payments.
 - 2026-11-19 · **minimaMail 0.5.26 and Pandamonium 2.2.51** — open full threads ready to reply, copy saved contacts’ six-word addresses, and choose Minima or MxUSD when sending funds.
