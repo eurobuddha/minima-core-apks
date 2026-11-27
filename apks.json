@@ -356,6 +356,45 @@
       "repo": "https://github.com/eurobuddha/minimall-core"
     },
     {
+      "name": "Pandamonium Desktop (Mac)",
+      "packageId": "com.eurobuddha.pandamonium.desktop.mac",
+      "version": "0.20.01",
+      "versionCode": 2001,
+      "description": "Run a full Minima node with integrated wallets and chat. The Node tab shows live incoming classic P2P and Keets connections separately. Signed and notarized for Apple Silicon Macs.",
+      "category": "Desktop",
+      "source": "Mac",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandamonium-desktop.png",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/pandamonium-v0.20.01/PandamoniumDesktop-0.20.01-arm64.dmg",
+      "sha256": "5613249f1ff44350544fcc0b85ce1a060d9ec1ffd5e5ba19e27e16e32272a96b",
+      "repo": "https://github.com/eurobuddha/minimacore-desktop"
+    },
+    {
+      "name": "Pandamonium Desktop (Windows)",
+      "packageId": "com.eurobuddha.pandamonium.desktop.win",
+      "version": "0.20.01",
+      "versionCode": 2001,
+      "description": "Run a full Minima node with integrated wallets and chat. The Node tab shows live incoming classic P2P and Keets connections separately. Unsigned installer for 64-bit Windows.",
+      "category": "Desktop",
+      "source": "Windows",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandamonium-desktop.png",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/pandamonium-v0.20.01/PandamoniumDesktop-0.20.01-x64.exe",
+      "sha256": "ce6bcd37b9c3074c2f7cb63e87a680adc28cf248d9ded395cd93a3a24f5a969a",
+      "repo": "https://github.com/eurobuddha/minimacore-desktop"
+    },
+    {
+      "name": "Pandamonium Desktop (Linux)",
+      "packageId": "com.eurobuddha.pandamonium.desktop.linux",
+      "version": "0.20.01",
+      "versionCode": 2001,
+      "description": "Run a full Minima node with integrated wallets and chat. The Node tab shows live incoming classic P2P and Keets connections separately. AppImage for 64-bit x86 Linux.",
+      "category": "Desktop",
+      "source": "Linux",
+      "icon": "https://raw.githubusercontent.com/eurobuddha/minima-core-apks/main/icons/pandamonium-desktop.png",
+      "file": "https://github.com/eurobuddha/minimacore-desktop/releases/download/pandamonium-v0.20.01/PandamoniumDesktop-0.20.01-x64.AppImage",
+      "sha256": "e28e0019bdba5b75f78a393eff1aeda29041ccf5b2f17d05acabf3e2e69c024c",
+      "repo": "https://github.com/eurobuddha/minimacore-desktop"
+    },
+    {
       "name": "minimaCore Desktop (Mac)",
       "packageId": "com.eurobuddha.minimacore.mac",
       "version": "0.18.286",
